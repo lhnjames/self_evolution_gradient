@@ -1,0 +1,16 @@
+seed: 20260903
+episodes: 50
+max_steps: 50
+history_window: 3
+repeat_limit: 2
+batch_size: 4
+max_length: 1536
+length_penalty: 1.0
+data_root: /data/user/agent_self_evolution_gradient/alfworld_data
+alfworld_config: /data/user/agent_self_evolution_gradient/references/SEED/agent_system/environments/env_package/alfworld/configs/config_tw.yaml
+decision_files:
+  valid_seen: /data/user/agent_self_evolution_gradient/data/alfworld_expert_large/valid_seen.jsonl
+  valid_unseen: /data/user/agent_self_evolution_gradient/data/alfworld_expert_large/valid_unseen.jsonl
+model_path: /data/user/agent_self_evolution_gradient/model
+skill_path: /data/user/agent_self_evolution_gradient/references/SkillRL/memory_data/alfworld/claude_style_skills.json
+checkpoint_dir: /data/user/agent_self_evolution_gradient/outputs/logic_repair_head_large_3b

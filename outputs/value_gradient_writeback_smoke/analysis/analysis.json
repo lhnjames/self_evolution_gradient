@@ -1,0 +1,2630 @@
+{
+  "valid_seen": {
+    "metadata": {
+      "split": "valid_seen",
+      "dtype": "float32",
+      "writeback_scope": "in_memory_only_and_exactly_restored_after_each_condition",
+      "sample_size_requested_across_all_shards": 1,
+      "selected_source_indices_all_shards": [
+        41
+      ],
+      "controls_per_relationship_bucket": 1,
+      "relationship_buckets": [
+        "same_task_same_verb",
+        "same_task_different_verb",
+        "different_task_same_verb",
+        "different_task_different_verb"
+      ],
+      "objectives": [
+        "value_expectation",
+        "value_optimal_set",
+        "expert_nll_control"
+      ],
+      "parameter_groups": [
+        "last_attention"
+      ],
+      "parameter_step_l2_norm": 0.01,
+      "target_source_kl": 0.0001,
+      "calibration_steps": 3,
+      "calibration_tolerance": 0.25
+    },
+    "source_count": 1,
+    "validation": {
+      "maximum_baseline_repeat_score_error": 0.0,
+      "maximum_restore_parameter_error": 0.0,
+      "source_kl_calibration_hit_rate": 1.0
+    },
+    "actual_parameter_delta_norms": {
+      "value_expectation": {
+        "last_attention": {
+          "mean": 0.006710877830754658,
+          "min": 0.006710877830754658,
+          "max": 0.006710877830754658
+        }
+      },
+      "value_optimal_set": {
+        "last_attention": {
+          "mean": 0.010000001267474383,
+          "min": 0.010000001267474383,
+          "max": 0.010000001267474383
+        }
+      },
+      "expert_nll_control": {
+        "last_attention": {
+          "mean": 0.005822088975955848,
+          "min": 0.005822088975955848,
+          "max": 0.005822088975955848
+        }
+      }
+    },
+    "summaries": {
+      "value_expectation": {
+        "last_attention": {
+          "source": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.000583043665909555,
+              "median_source_mean": 0.000583043665909555,
+              "ci95": [
+                0.000583043665909555,
+                0.000583043665909555
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0008794530172133302,
+              "median_source_mean": 0.0008794530172133302,
+              "ci95": [
+                0.0008794530172133302,
+                0.0008794530172133302
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.004110440018937178,
+              "median_source_mean": -0.004110440018937178,
+              "ci95": [
+                -0.004110440018937178,
+                -0.004110440018937178
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00010018498339435082,
+              "median_source_mean": 0.00010018498339435082,
+              "ci95": [
+                0.00010018498339435082,
+                0.00010018498339435082
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00639152568150783,
+              "median_source_mean": 0.00639152568150783,
+              "ci95": [
+                0.00639152568150783,
+                0.00639152568150783
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00017280264121644073,
+              "median_source_mean": 0.00017280264121644073,
+              "ci95": [
+                0.00017280264121644073,
+                0.00017280264121644073
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00011362697696923416,
+              "median_source_mean": 0.00011362697696923416,
+              "ci95": [
+                0.00011362697696923416,
+                0.00011362697696923416
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0023949281417723345,
+              "median_source_mean": -0.0023949281417723345,
+              "ci95": [
+                -0.0023949281417723345,
+                -0.0023949281417723345
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 2.875974696765569e-05,
+              "median_source_mean": 2.875974696765569e-05,
+              "ci95": [
+                2.875974696765569e-05,
+                2.875974696765569e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.002882113977259536,
+              "median_source_mean": 0.002882113977259536,
+              "ci95": [
+                0.002882113977259536,
+                0.002882113977259536
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00019768639717276937,
+              "median_source_mean": 0.00019768639717276937,
+              "ci95": [
+                0.00019768639717276937,
+                0.00019768639717276937
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0009204142984763353,
+              "median_source_mean": 0.0009204142984763353,
+              "ci95": [
+                0.0009204142984763353,
+                0.0009204142984763353
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0009204142984763353,
+              "median_source_mean": 0.0009204142984763353,
+              "ci95": [
+                0.0009204142984763353,
+                0.0009204142984763353
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 6.103465415504646e-06,
+              "median_source_mean": 6.103465415504646e-06,
+              "ci95": [
+                6.103465415504646e-06,
+                6.103465415504646e-06
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0013755354814480865,
+              "median_source_mean": 0.0013755354814480865,
+              "ci95": [
+                0.0013755354814480865,
+                0.0013755354814480865
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.000352059597646337,
+              "median_source_mean": 0.000352059597646337,
+              "ci95": [
+                0.000352059597646337,
+                0.000352059597646337
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00026468392576851213,
+              "median_source_mean": 0.00026468392576851213,
+              "ci95": [
+                0.00026468392576851213,
+                0.00026468392576851213
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0036834550441058322,
+              "median_source_mean": -0.0036834550441058322,
+              "ci95": [
+                -0.0036834550441058322,
+                -0.0036834550441058322
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 4.483579309614877e-05,
+              "median_source_mean": 4.483579309614877e-05,
+              "ci95": [
+                4.483579309614877e-05,
+                4.483579309614877e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.004471957748537442,
+              "median_source_mean": 0.004471957748537442,
+              "ci95": [
+                0.004471957748537442,
+                0.004471957748537442
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 8.212949832608896e-05,
+              "median_source_mean": 8.212949832608896e-05,
+              "ci95": [
+                8.212949832608896e-05,
+                8.212949832608896e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.00017103842827473348,
+              "median_source_mean": -0.00017103842827473348,
+              "ci95": [
+                -0.00017103842827473348,
+                -0.00017103842827473348
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.00017103842827473348,
+              "median_source_mean": -0.00017103842827473348,
+              "ci95": [
+                -0.00017103842827473348,
+                -0.00017103842827473348
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 7.519837036155851e-06,
+              "median_source_mean": 7.519837036155851e-06,
+              "ci95": [
+                7.519837036155851e-06,
+                7.519837036155851e-06
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0014782611843626916,
+              "median_source_mean": 0.0014782611843626916,
+              "ci95": [
+                0.0014782611843626916,
+                0.0014782611843626916
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          }
+        }
+      },
+      "value_optimal_set": {
+        "last_attention": {
+          "source": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.000684401464613682,
+              "median_source_mean": 0.000684401464613682,
+              "ci95": [
+                0.000684401464613682,
+                0.000684401464613682
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0017314273276533773,
+              "median_source_mean": 0.0017314273276533773,
+              "ci95": [
+                0.0017314273276533773,
+                0.0017314273276533773
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0025795139217630325,
+              "median_source_mean": -0.0025795139217630325,
+              "ci95": [
+                -0.0025795139217630325,
+                -0.0025795139217630325
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 9.299091354789214e-05,
+              "median_source_mean": 9.299091354789214e-05,
+              "ci95": [
+                9.299091354789214e-05,
+                9.299091354789214e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00569707330723051,
+              "median_source_mean": 0.00569707330723051,
+              "ci95": [
+                0.00569707330723051,
+                0.00569707330723051
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00014245943345536638,
+              "median_source_mean": 0.00014245943345536638,
+              "ci95": [
+                0.00014245943345536638,
+                0.00014245943345536638
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0001168774508572305,
+              "median_source_mean": 0.0001168774508572305,
+              "ci95": [
+                0.0001168774508572305,
+                0.0001168774508572305
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.002142409485899499,
+              "median_source_mean": -0.002142409485899499,
+              "ci95": [
+                -0.002142409485899499,
+                -0.002142409485899499
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 2.3031451523920663e-05,
+              "median_source_mean": 2.3031451523920663e-05,
+              "ci95": [
+                2.3031451523920663e-05,
+                2.3031451523920663e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0025270433432726573,
+              "median_source_mean": 0.0025270433432726573,
+              "ci95": [
+                0.0025270433432726573,
+                0.0025270433432726573
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0001449818070317077,
+              "median_source_mean": 0.0001449818070317077,
+              "ci95": [
+                0.0001449818070317077,
+                0.0001449818070317077
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0006640316978890892,
+              "median_source_mean": 0.0006640316978890892,
+              "ci95": [
+                0.0006640316978890892,
+                0.0006640316978890892
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0006640316978890892,
+              "median_source_mean": 0.0006640316978890892,
+              "ci95": [
+                0.0006640316978890892,
+                0.0006640316978890892
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 3.2122077042815753e-06,
+              "median_source_mean": 3.2122077042815753e-06,
+              "ci95": [
+                3.2122077042815753e-06,
+                3.2122077042815753e-06
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0010529297105514358,
+              "median_source_mean": 0.0010529297105514358,
+              "ci95": [
+                0.0010529297105514358,
+                0.0010529297105514358
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0002568258148199498,
+              "median_source_mean": 0.0002568258148199498,
+              "ci95": [
+                0.0002568258148199498,
+                0.0002568258148199498
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00026131652993638746,
+              "median_source_mean": 0.00026131652993638746,
+              "ci95": [
+                0.00026131652993638746,
+                0.00026131652993638746
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.002494323659454456,
+              "median_source_mean": -0.002494323659454456,
+              "ci95": [
+                -0.002494323659454456,
+                -0.002494323659454456
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 3.588179478360106e-05,
+              "median_source_mean": 3.588179478360106e-05,
+              "ci95": [
+                3.588179478360106e-05,
+                3.588179478360106e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0033493235908344356,
+              "median_source_mean": 0.0033493235908344356,
+              "ci95": [
+                0.0033493235908344356,
+                0.0033493235908344356
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 6.64181589647983e-05,
+              "median_source_mean": 6.64181589647983e-05,
+              "ci95": [
+                6.64181589647983e-05,
+                6.64181589647983e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00010740200023247326,
+              "median_source_mean": 0.00010740200023247326,
+              "ci95": [
+                0.00010740200023247326,
+                0.00010740200023247326
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00010740200023247326,
+              "median_source_mean": 0.00010740200023247326,
+              "ci95": [
+                0.00010740200023247326,
+                0.00010740200023247326
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 1.006947094201558e-05,
+              "median_source_mean": 1.006947094201558e-05,
+              "ci95": [
+                1.006947094201558e-05,
+                1.006947094201558e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0013655139167064456,
+              "median_source_mean": 0.0013655139167064456,
+              "ci95": [
+                0.0013655139167064456,
+                0.0013655139167064456
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          }
+        }
+      },
+      "expert_nll_control": {
+        "last_attention": {
+          "source": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0003136191670406463,
+              "median_source_mean": -0.0003136191670406463,
+              "ci95": [
+                -0.0003136191670406463,
+                -0.0003136191670406463
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.00025894434095015406,
+              "median_source_mean": -0.00025894434095015406,
+              "ci95": [
+                -0.00025894434095015406,
+                -0.00025894434095015406
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.005807768156945614,
+              "median_source_mean": 0.005807768156945614,
+              "ci95": [
+                0.005807768156945614,
+                0.005807768156945614
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 9.951894788934028e-05,
+              "median_source_mean": 9.951894788934028e-05,
+              "ci95": [
+                9.951894788934028e-05,
+                9.951894788934028e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00595759154248425,
+              "median_source_mean": 0.00595759154248425,
+              "ci95": [
+                0.00595759154248425,
+                0.00595759154248425
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.00019471369365231528,
+              "median_source_mean": -0.00019471369365231528,
+              "ci95": [
+                -0.00019471369365231528,
+                -0.00019471369365231528
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.00011916518805857052,
+              "median_source_mean": -0.00011916518805857052,
+              "ci95": [
+                -0.00011916518805857052,
+                -0.00011916518805857052
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.004699781867989805,
+              "median_source_mean": 0.004699781867989805,
+              "ci95": [
+                0.004699781867989805,
+                0.004699781867989805
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 6.172144367441875e-05,
+              "median_source_mean": 6.172144367441875e-05,
+              "ci95": [
+                6.172144367441875e-05,
+                6.172144367441875e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.004699781867989753,
+              "median_source_mean": 0.004699781867989753,
+              "ci95": [
+                0.004699781867989753,
+                0.004699781867989753
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0002570991486307017,
+              "median_source_mean": -0.0002570991486307017,
+              "ci95": [
+                -0.0002570991486307017,
+                -0.0002570991486307017
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0012588672378626153,
+              "median_source_mean": -0.0012588672378626153,
+              "ci95": [
+                -0.0012588672378626153,
+                -0.0012588672378626153
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0012588672378626153,
+              "median_source_mean": -0.0012588672378626153,
+              "ci95": [
+                -0.0012588672378626153,
+                -0.0012588672378626153
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 8.466158327900896e-06,
+              "median_source_mean": 8.466158327900896e-06,
+              "ci95": [
+                8.466158327900896e-06,
+                8.466158327900896e-06
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0016581149897162066,
+              "median_source_mean": 0.0016581149897162066,
+              "ci95": [
+                0.0016581149897162066,
+                0.0016581149897162066
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0003792005504765217,
+              "median_source_mean": -0.0003792005504765217,
+              "ci95": [
+                -0.0003792005504765217,
+                -0.0003792005504765217
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0002726121883295761,
+              "median_source_mean": -0.0002726121883295761,
+              "ci95": [
+                -0.0002726121883295761,
+                -0.0002726121883295761
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.005789773182756974,
+              "median_source_mean": 0.005789773182756974,
+              "ci95": [
+                0.005789773182756974,
+                0.005789773182756974
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 7.41298433865748e-05,
+              "median_source_mean": 7.41298433865748e-05,
+              "ci95": [
+                7.41298433865748e-05,
+                7.41298433865748e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.005789773182756975,
+              "median_source_mean": 0.005789773182756975,
+              "ci95": [
+                0.005789773182756975,
+                0.005789773182756975
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -8.173310692127789e-05,
+              "median_source_mean": -8.173310692127789e-05,
+              "ci95": [
+                -8.173310692127789e-05,
+                -8.173310692127789e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 8.151929044354633e-05,
+              "median_source_mean": 8.151929044354633e-05,
+              "ci95": [
+                8.151929044354633e-05,
+                8.151929044354633e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 8.151929044354633e-05,
+              "median_source_mean": 8.151929044354633e-05,
+              "ci95": [
+                8.151929044354633e-05,
+                8.151929044354633e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 3.4991708776645478e-06,
+              "median_source_mean": 3.4991708776645478e-06,
+              "ci95": [
+                3.4991708776645478e-06,
+                3.4991708776645478e-06
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.001111769447886839,
+              "median_source_mean": 0.001111769447886839,
+              "ci95": [
+                0.001111769447886839,
+                0.001111769447886839
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          }
+        }
+      }
+    },
+    "expected_value_delta_vs_expert_nll_control": {
+      "value_expectation": {
+        "last_attention": {
+          "source": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0008966628329502013,
+            "median_source_mean": 0.0008966628329502013,
+            "ci95": [
+              0.0008966628329502013,
+              0.0008966628329502013
+            ],
+            "bootstrap_probability_positive": 1.0,
+            "source_positive_rate": 1.0
+          },
+          "same_task_same_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.000367516334868756,
+            "median_source_mean": 0.000367516334868756,
+            "ci95": [
+              0.000367516334868756,
+              0.000367516334868756
+            ],
+            "bootstrap_probability_positive": 1.0,
+            "source_positive_rate": 1.0
+          },
+          "same_task_different_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0004547855458034711,
+            "median_source_mean": 0.0004547855458034711,
+            "ci95": [
+              0.0004547855458034711,
+              0.0004547855458034711
+            ],
+            "bootstrap_probability_positive": 1.0,
+            "source_positive_rate": 1.0
+          },
+          "different_task_same_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0007312601481228587,
+            "median_source_mean": 0.0007312601481228587,
+            "ci95": [
+              0.0007312601481228587,
+              0.0007312601481228587
+            ],
+            "bootstrap_probability_positive": 1.0,
+            "source_positive_rate": 1.0
+          },
+          "different_task_different_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.00016386260524736684,
+            "median_source_mean": 0.00016386260524736684,
+            "ci95": [
+              0.00016386260524736684,
+              0.00016386260524736684
+            ],
+            "bootstrap_probability_positive": 1.0,
+            "source_positive_rate": 1.0
+          }
+        }
+      },
+      "value_optimal_set": {
+        "last_attention": {
+          "source": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0009980206316543283,
+            "median_source_mean": 0.0009980206316543283,
+            "ci95": [
+              0.0009980206316543283,
+              0.0009980206316543283
+            ],
+            "bootstrap_probability_positive": 1.0,
+            "source_positive_rate": 1.0
+          },
+          "same_task_same_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.00033717312710768166,
+            "median_source_mean": 0.00033717312710768166,
+            "ci95": [
+              0.00033717312710768166,
+              0.00033717312710768166
+            ],
+            "bootstrap_probability_positive": 1.0,
+            "source_positive_rate": 1.0
+          },
+          "same_task_different_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0004020809556624094,
+            "median_source_mean": 0.0004020809556624094,
+            "ci95": [
+              0.0004020809556624094,
+              0.0004020809556624094
+            ],
+            "bootstrap_probability_positive": 1.0,
+            "source_positive_rate": 1.0
+          },
+          "different_task_same_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0006360263652964715,
+            "median_source_mean": 0.0006360263652964715,
+            "ci95": [
+              0.0006360263652964715,
+              0.0006360263652964715
+            ],
+            "bootstrap_probability_positive": 1.0,
+            "source_positive_rate": 1.0
+          },
+          "different_task_different_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0001481512658860762,
+            "median_source_mean": 0.0001481512658860762,
+            "ci95": [
+              0.0001481512658860762,
+              0.0001481512658860762
+            ],
+            "bootstrap_probability_positive": 1.0,
+            "source_positive_rate": 1.0
+          }
+        }
+      }
+    }
+  },
+  "valid_unseen": {
+    "metadata": {
+      "split": "valid_unseen",
+      "dtype": "float32",
+      "writeback_scope": "in_memory_only_and_exactly_restored_after_each_condition",
+      "sample_size_requested_across_all_shards": 1,
+      "selected_source_indices_all_shards": [
+        61
+      ],
+      "controls_per_relationship_bucket": 1,
+      "relationship_buckets": [
+        "same_task_same_verb",
+        "same_task_different_verb",
+        "different_task_same_verb",
+        "different_task_different_verb"
+      ],
+      "objectives": [
+        "value_expectation",
+        "value_optimal_set",
+        "expert_nll_control"
+      ],
+      "parameter_groups": [
+        "last_attention"
+      ],
+      "parameter_step_l2_norm": 0.01,
+      "target_source_kl": 0.0001,
+      "calibration_steps": 3,
+      "calibration_tolerance": 0.25
+    },
+    "source_count": 1,
+    "validation": {
+      "maximum_baseline_repeat_score_error": 0.0,
+      "maximum_restore_parameter_error": 0.0,
+      "source_kl_calibration_hit_rate": 1.0
+    },
+    "actual_parameter_delta_norms": {
+      "value_expectation": {
+        "last_attention": {
+          "mean": 0.004370239112278833,
+          "min": 0.004370239112278833,
+          "max": 0.004370239112278833
+        }
+      },
+      "value_optimal_set": {
+        "last_attention": {
+          "mean": 0.004352020829640173,
+          "min": 0.004352020829640173,
+          "max": 0.004352020829640173
+        }
+      },
+      "expert_nll_control": {
+        "last_attention": {
+          "mean": 0.004352020829640173,
+          "min": 0.004352020829640173,
+          "max": 0.004352020829640173
+        }
+      }
+    },
+    "summaries": {
+      "value_expectation": {
+        "last_attention": {
+          "source": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0007635735490842954,
+              "median_source_mean": 0.0007635735490842954,
+              "ci95": [
+                0.0007635735490842954,
+                0.0007635735490842954
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.006659545091483032,
+              "median_source_mean": 0.006659545091483032,
+              "ci95": [
+                0.006659545091483032,
+                0.006659545091483032
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.006659545091483032,
+              "median_source_mean": 0.006659545091483032,
+              "ci95": [
+                0.006659545091483032,
+                0.006659545091483032
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 9.99381967769818e-05,
+              "median_source_mean": 9.99381967769818e-05,
+              "ci95": [
+                9.99381967769818e-05,
+                9.99381967769818e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.006659545091482999,
+              "median_source_mean": 0.006659545091482999,
+              "ci95": [
+                0.006659545091482999,
+                0.006659545091482999
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0002868301235612325,
+              "median_source_mean": 0.0002868301235612325,
+              "ci95": [
+                0.0002868301235612325,
+                0.0002868301235612325
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0038754157179674564,
+              "median_source_mean": 0.0038754157179674564,
+              "ci95": [
+                0.0038754157179674564,
+                0.0038754157179674564
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0038754157179674564,
+              "median_source_mean": 0.0038754157179674564,
+              "ci95": [
+                0.0038754157179674564,
+                0.0038754157179674564
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 4.248397633317672e-05,
+              "median_source_mean": 4.248397633317672e-05,
+              "ci95": [
+                4.248397633317672e-05,
+                4.248397633317672e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0038754157179674478,
+              "median_source_mean": 0.0038754157179674478,
+              "ci95": [
+                0.0038754157179674478,
+                0.0038754157179674478
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.00021995094246773927,
+              "median_source_mean": -0.00021995094246773927,
+              "ci95": [
+                -0.00021995094246773927,
+                -0.00021995094246773927
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0011477805612566394,
+              "median_source_mean": -0.0011477805612566394,
+              "ci95": [
+                -0.0011477805612566394,
+                -0.0011477805612566394
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0008540421887672789,
+              "median_source_mean": -0.0008540421887672789,
+              "ci95": [
+                -0.0008540421887672789,
+                -0.0008540421887672789
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 7.167200605218143e-06,
+              "median_source_mean": 7.167200605218143e-06,
+              "ci95": [
+                7.167200605218143e-06,
+                7.167200605218143e-06
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.001500980427846876,
+              "median_source_mean": 0.001500980427846876,
+              "ci95": [
+                0.001500980427846876,
+                0.001500980427846876
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -8.666593505823883e-05,
+              "median_source_mean": -8.666593505823883e-05,
+              "ci95": [
+                -8.666593505823883e-05,
+                -8.666593505823883e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0002774452296666237,
+              "median_source_mean": -0.0002774452296666237,
+              "ci95": [
+                -0.0002774452296666237,
+                -0.0002774452296666237
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0015821419753291877,
+              "median_source_mean": 0.0015821419753291877,
+              "ci95": [
+                0.0015821419753291877,
+                0.0015821419753291877
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 2.450110735286344e-05,
+              "median_source_mean": 2.450110735286344e-05,
+              "ci95": [
+                2.450110735286344e-05,
+                2.450110735286344e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0027750162775408123,
+              "median_source_mean": 0.0027750162775408123,
+              "ci95": [
+                0.0027750162775408123,
+                0.0027750162775408123
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -1.641406126340339e-05,
+              "median_source_mean": -1.641406126340339e-05,
+              "ci95": [
+                -1.641406126340339e-05,
+                -1.641406126340339e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.00014660850435585515,
+              "median_source_mean": -0.00014660850435585515,
+              "ci95": [
+                -0.00014660850435585515,
+                -0.00014660850435585515
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -3.410186027839532e-05,
+              "median_source_mean": -3.410186027839532e-05,
+              "ci95": [
+                -3.410186027839532e-05,
+                -3.410186027839532e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 1.2213396367046582e-06,
+              "median_source_mean": 1.2213396367046582e-06,
+              "ci95": [
+                1.2213396367046582e-06,
+                1.2213396367046582e-06
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0004944331604033686,
+              "median_source_mean": 0.0004944331604033686,
+              "ci95": [
+                0.0004944331604033686,
+                0.0004944331604033686
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          }
+        }
+      },
+      "value_optimal_set": {
+        "last_attention": {
+          "source": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.000752313134021243,
+              "median_source_mean": 0.000752313134021243,
+              "ci95": [
+                0.000752313134021243,
+                0.000752313134021243
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.006706302030139888,
+              "median_source_mean": 0.006706302030139888,
+              "ci95": [
+                0.006706302030139888,
+                0.006706302030139888
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.006706302030139888,
+              "median_source_mean": 0.006706302030139888,
+              "ci95": [
+                0.006706302030139888,
+                0.006706302030139888
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00010012858833009178,
+              "median_source_mean": 0.00010012858833009178,
+              "ci95": [
+                0.00010012858833009178,
+                0.00010012858833009178
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.006706302030139915,
+              "median_source_mean": 0.006706302030139915,
+              "ci95": [
+                0.006706302030139915,
+                0.006706302030139915
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00029283997474505163,
+              "median_source_mean": 0.00029283997474505163,
+              "ci95": [
+                0.00029283997474505163,
+                0.00029283997474505163
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.003920135582269557,
+              "median_source_mean": 0.003920135582269557,
+              "ci95": [
+                0.003920135582269557,
+                0.003920135582269557
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.003920135582269557,
+              "median_source_mean": 0.003920135582269557,
+              "ci95": [
+                0.003920135582269557,
+                0.003920135582269557
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 4.295873080391952e-05,
+              "median_source_mean": 4.295873080391952e-05,
+              "ci95": [
+                4.295873080391952e-05,
+                4.295873080391952e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.003920135582269576,
+              "median_source_mean": 0.003920135582269576,
+              "ci95": [
+                0.003920135582269576,
+                0.003920135582269576
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.00019176977158930075,
+              "median_source_mean": -0.00019176977158930075,
+              "ci95": [
+                -0.00019176977158930075,
+                -0.00019176977158930075
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0009087543210338778,
+              "median_source_mean": -0.0009087543210338778,
+              "ci95": [
+                -0.0009087543210338778,
+                -0.0009087543210338778
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0007126719987128882,
+              "median_source_mean": -0.0007126719987128882,
+              "ci95": [
+                -0.0007126719987128882,
+                -0.0007126719987128882
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 5.509710777556198e-06,
+              "median_source_mean": 5.509710777556198e-06,
+              "ci95": [
+                5.509710777556198e-06,
+                5.509710777556198e-06
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0013388752091583855,
+              "median_source_mean": 0.0013388752091583855,
+              "ci95": [
+                0.0013388752091583855,
+                0.0013388752091583855
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -8.447657615873183e-05,
+              "median_source_mean": -8.447657615873183e-05,
+              "ci95": [
+                -8.447657615873183e-05,
+                -8.447657615873183e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0002640566059286427,
+              "median_source_mean": -0.0002640566059286427,
+              "ci95": [
+                -0.0002640566059286427,
+                -0.0002640566059286427
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0016015906294826465,
+              "median_source_mean": 0.0016015906294826465,
+              "ci95": [
+                0.0016015906294826465,
+                0.0016015906294826465
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 2.3124720229089477e-05,
+              "median_source_mean": 2.3124720229089477e-05,
+              "ci95": [
+                2.3124720229089477e-05,
+                2.3124720229089477e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0027016284718120306,
+              "median_source_mean": 0.0027016284718120306,
+              "ci95": [
+                0.0027016284718120306,
+                0.0027016284718120306
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -1.0573207206210355e-05,
+              "median_source_mean": -1.0573207206210355e-05,
+              "ci95": [
+                -1.0573207206210355e-05,
+                -1.0573207206210355e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -8.968618684666169e-05,
+              "median_source_mean": -8.968618684666169e-05,
+              "ci95": [
+                -8.968618684666169e-05,
+                -8.968618684666169e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -5.565659644151538e-05,
+              "median_source_mean": -5.565659644151538e-05,
+              "ci95": [
+                -5.565659644151538e-05,
+                -5.565659644151538e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 7.317121665074639e-07,
+              "median_source_mean": 7.317121665074639e-07,
+              "ci95": [
+                7.317121665074639e-07,
+                7.317121665074639e-07
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00037991346747057837,
+              "median_source_mean": 0.00037991346747057837,
+              "ci95": [
+                0.00037991346747057837,
+                0.00037991346747057837
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          }
+        }
+      },
+      "expert_nll_control": {
+        "last_attention": {
+          "source": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.000752313134021243,
+              "median_source_mean": 0.000752313134021243,
+              "ci95": [
+                0.000752313134021243,
+                0.000752313134021243
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.006706302030139888,
+              "median_source_mean": 0.006706302030139888,
+              "ci95": [
+                0.006706302030139888,
+                0.006706302030139888
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.006706302030139888,
+              "median_source_mean": 0.006706302030139888,
+              "ci95": [
+                0.006706302030139888,
+                0.006706302030139888
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00010012858833009178,
+              "median_source_mean": 0.00010012858833009178,
+              "ci95": [
+                0.00010012858833009178,
+                0.00010012858833009178
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.006706302030139915,
+              "median_source_mean": 0.006706302030139915,
+              "ci95": [
+                0.006706302030139915,
+                0.006706302030139915
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00029283997474505163,
+              "median_source_mean": 0.00029283997474505163,
+              "ci95": [
+                0.00029283997474505163,
+                0.00029283997474505163
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.003920135582269557,
+              "median_source_mean": 0.003920135582269557,
+              "ci95": [
+                0.003920135582269557,
+                0.003920135582269557
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.003920135582269557,
+              "median_source_mean": 0.003920135582269557,
+              "ci95": [
+                0.003920135582269557,
+                0.003920135582269557
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 4.295873080391952e-05,
+              "median_source_mean": 4.295873080391952e-05,
+              "ci95": [
+                4.295873080391952e-05,
+                4.295873080391952e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.003920135582269576,
+              "median_source_mean": 0.003920135582269576,
+              "ci95": [
+                0.003920135582269576,
+                0.003920135582269576
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "same_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.00019176977158930075,
+              "median_source_mean": -0.00019176977158930075,
+              "ci95": [
+                -0.00019176977158930075,
+                -0.00019176977158930075
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0009087543210338778,
+              "median_source_mean": -0.0009087543210338778,
+              "ci95": [
+                -0.0009087543210338778,
+                -0.0009087543210338778
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0007126719987128882,
+              "median_source_mean": -0.0007126719987128882,
+              "ci95": [
+                -0.0007126719987128882,
+                -0.0007126719987128882
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 5.509710777556198e-06,
+              "median_source_mean": 5.509710777556198e-06,
+              "ci95": [
+                5.509710777556198e-06,
+                5.509710777556198e-06
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0013388752091583855,
+              "median_source_mean": 0.0013388752091583855,
+              "ci95": [
+                0.0013388752091583855,
+                0.0013388752091583855
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_same_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -8.447657615873183e-05,
+              "median_source_mean": -8.447657615873183e-05,
+              "ci95": [
+                -8.447657615873183e-05,
+                -8.447657615873183e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -0.0002640566059286427,
+              "median_source_mean": -0.0002640566059286427,
+              "ci95": [
+                -0.0002640566059286427,
+                -0.0002640566059286427
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0016015906294826465,
+              "median_source_mean": 0.0016015906294826465,
+              "ci95": [
+                0.0016015906294826465,
+                0.0016015906294826465
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 2.3124720229089477e-05,
+              "median_source_mean": 2.3124720229089477e-05,
+              "ci95": [
+                2.3124720229089477e-05,
+                2.3124720229089477e-05
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0027016284718120306,
+              "median_source_mean": 0.0027016284718120306,
+              "ci95": [
+                0.0027016284718120306,
+                0.0027016284718120306
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          },
+          "different_task_different_verb": {
+            "expected_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -1.0573207206210355e-05,
+              "median_source_mean": -1.0573207206210355e-05,
+              "ci95": [
+                -1.0573207206210355e-05,
+                -1.0573207206210355e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "optimal_mass_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -8.968618684666169e-05,
+              "median_source_mean": -8.968618684666169e-05,
+              "ci95": [
+                -8.968618684666169e-05,
+                -8.968618684666169e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "expert_probability_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": -5.565659644151538e-05,
+              "median_source_mean": -5.565659644151538e-05,
+              "ci95": [
+                -5.565659644151538e-05,
+                -5.565659644151538e-05
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            },
+            "kl_baseline_to_updated": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 7.317121665074639e-07,
+              "median_source_mean": 7.317121665074639e-07,
+              "ci95": [
+                7.317121665074639e-07,
+                7.317121665074639e-07
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "total_variation": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.00037991346747057837,
+              "median_source_mean": 0.00037991346747057837,
+              "ci95": [
+                0.00037991346747057837,
+                0.00037991346747057837
+              ],
+              "bootstrap_probability_positive": 1.0,
+              "source_positive_rate": 1.0
+            },
+            "top_value_delta": {
+              "observations": 1,
+              "sources": 1,
+              "mean": 0.0,
+              "median_source_mean": 0.0,
+              "ci95": [
+                0.0,
+                0.0
+              ],
+              "bootstrap_probability_positive": 0.0,
+              "source_positive_rate": 0.0
+            }
+          }
+        }
+      }
+    },
+    "expected_value_delta_vs_expert_nll_control": {
+      "value_expectation": {
+        "last_attention": {
+          "source": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 1.126041506305242e-05,
+            "median_source_mean": 1.126041506305242e-05,
+            "ci95": [
+              1.126041506305242e-05,
+              1.126041506305242e-05
+            ],
+            "bootstrap_probability_positive": 1.0,
+            "source_positive_rate": 1.0
+          },
+          "same_task_same_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": -6.009851183819137e-06,
+            "median_source_mean": -6.009851183819137e-06,
+            "ci95": [
+              -6.009851183819137e-06,
+              -6.009851183819137e-06
+            ],
+            "bootstrap_probability_positive": 0.0,
+            "source_positive_rate": 0.0
+          },
+          "same_task_different_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": -2.8181170878438522e-05,
+            "median_source_mean": -2.8181170878438522e-05,
+            "ci95": [
+              -2.8181170878438522e-05,
+              -2.8181170878438522e-05
+            ],
+            "bootstrap_probability_positive": 0.0,
+            "source_positive_rate": 0.0
+          },
+          "different_task_same_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": -2.189358899506999e-06,
+            "median_source_mean": -2.189358899506999e-06,
+            "ci95": [
+              -2.189358899506999e-06,
+              -2.189358899506999e-06
+            ],
+            "bootstrap_probability_positive": 0.0,
+            "source_positive_rate": 0.0
+          },
+          "different_task_different_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": -5.8408540571930345e-06,
+            "median_source_mean": -5.8408540571930345e-06,
+            "ci95": [
+              -5.8408540571930345e-06,
+              -5.8408540571930345e-06
+            ],
+            "bootstrap_probability_positive": 0.0,
+            "source_positive_rate": 0.0
+          }
+        }
+      },
+      "value_optimal_set": {
+        "last_attention": {
+          "source": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0,
+            "median_source_mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_probability_positive": 0.0,
+            "source_positive_rate": 0.0
+          },
+          "same_task_same_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0,
+            "median_source_mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_probability_positive": 0.0,
+            "source_positive_rate": 0.0
+          },
+          "same_task_different_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0,
+            "median_source_mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_probability_positive": 0.0,
+            "source_positive_rate": 0.0
+          },
+          "different_task_same_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0,
+            "median_source_mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_probability_positive": 0.0,
+            "source_positive_rate": 0.0
+          },
+          "different_task_different_verb": {
+            "observations": 1,
+            "sources": 1,
+            "mean": 0.0,
+            "median_source_mean": 0.0,
+            "ci95": [
+              0.0,
+              0.0
+            ],
+            "bootstrap_probability_positive": 0.0,
+            "source_positive_rate": 0.0
+          }
+        }
+      }
+    }
+  },
+  "bootstrap_samples": 100,
+  "bootstrap_unit": "source_global_decision_index"
+}

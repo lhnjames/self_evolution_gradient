@@ -1,0 +1,173 @@
+{
+  "experiment": "output_gradient_geometry_transfer_aggregate_v1",
+  "run_count": 4,
+  "directed_pair_count": 1224,
+  "correlations": {
+    "mean_hidden_cosine": {
+      "runs": 4,
+      "per_run": [
+        {
+          "pearson": 0.03902433041062086,
+          "spearman": 0.028344974993211168
+        },
+        {
+          "pearson": 0.0971223298683274,
+          "spearman": 0.20738597310039306
+        },
+        {
+          "pearson": 0.046274136558563446,
+          "spearman": 0.11007037557205926
+        },
+        {
+          "pearson": 0.022140427648855585,
+          "spearman": 0.054909960274534465
+        }
+      ],
+      "pearson": {
+        "mean": 0.051140306121591816,
+        "sample_std": 0.03227907440289972,
+        "minimum": 0.022140427648855585,
+        "maximum": 0.0971223298683274
+      },
+      "spearman": {
+        "mean": 0.1001778209850495,
+        "sample_std": 0.0791635174661438,
+        "minimum": 0.028344974993211168,
+        "maximum": 0.20738597310039306
+      }
+    },
+    "mean_delta_cosine": {
+      "runs": 4,
+      "per_run": [
+        {
+          "pearson": 0.4253254105519099,
+          "spearman": 0.4582916476036728
+        },
+        {
+          "pearson": 0.586042001485883,
+          "spearman": 0.6441946107554596
+        },
+        {
+          "pearson": 0.4533268949165859,
+          "spearman": 0.4718924442869309
+        },
+        {
+          "pearson": 0.47950572121637536,
+          "spearman": 0.47387765634207174
+        }
+      ],
+      "pearson": {
+        "mean": 0.4860500070426885,
+        "sample_std": 0.07023651784242936,
+        "minimum": 0.4253254105519099,
+        "maximum": 0.586042001485883
+      },
+      "spearman": {
+        "mean": 0.5120640897470338,
+        "sample_std": 0.08835895523598228,
+        "minimum": 0.4582916476036728,
+        "maximum": 0.6441946107554596
+      }
+    },
+    "mean_factor_product": {
+      "runs": 4,
+      "per_run": [
+        {
+          "pearson": 0.4207934733441246,
+          "spearman": 0.4581467355000697
+        },
+        {
+          "pearson": 0.5826918258358936,
+          "spearman": 0.6418148692159428
+        },
+        {
+          "pearson": 0.44549119821965905,
+          "spearman": 0.4702112963566914
+        },
+        {
+          "pearson": 0.4711259441137222,
+          "spearman": 0.4721437369521386
+        }
+      ],
+      "pearson": {
+        "mean": 0.4800256103783499,
+        "sample_std": 0.07146240861876059,
+        "minimum": 0.4207934733441246,
+        "maximum": 0.5826918258358936
+      },
+      "spearman": {
+        "mean": 0.5105791595062106,
+        "sample_std": 0.08770940024183119,
+        "minimum": 0.4581467355000697,
+        "maximum": 0.6418148692159428
+      }
+    },
+    "full_multitoken_gradient_cosine": {
+      "runs": 4,
+      "per_run": [
+        {
+          "pearson": 0.4291328349278007,
+          "spearman": 0.46578958639060025
+        },
+        {
+          "pearson": 0.6004334365447083,
+          "spearman": 0.6533250840398315
+        },
+        {
+          "pearson": 0.43643626992359774,
+          "spearman": 0.45918013062783875
+        },
+        {
+          "pearson": 0.4674743610386165,
+          "spearman": 0.4584430460717647
+        }
+      ],
+      "pearson": {
+        "mean": 0.4833692256086808,
+        "sample_std": 0.07979340951315558,
+        "minimum": 0.4291328349278007,
+        "maximum": 0.6004334365447083
+      },
+      "spearman": {
+        "mean": 0.5091844617825088,
+        "sample_std": 0.09615050458797032,
+        "minimum": 0.4584430460717647,
+        "maximum": 0.6533250840398315
+      }
+    }
+  },
+  "full_gradient_cosine_quartiles": [
+    {
+      "quartile": 1,
+      "lower": -0.3182345475049772,
+      "upper": -0.016506291317993745,
+      "count": 306,
+      "mean_expected_value_delta": 0.0433819060067951,
+      "positive_transfer_rate": 0.7875816993464052
+    },
+    {
+      "quartile": 2,
+      "lower": -0.016506291317993745,
+      "upper": 0.34792484271631324,
+      "count": 306,
+      "mean_expected_value_delta": 0.14976979168408583,
+      "positive_transfer_rate": 0.8725490196078431
+    },
+    {
+      "quartile": 3,
+      "lower": 0.34792484271631324,
+      "upper": 0.7394057515583954,
+      "count": 306,
+      "mean_expected_value_delta": 0.21160218915143614,
+      "positive_transfer_rate": 0.9869281045751634
+    },
+    {
+      "quartile": 4,
+      "lower": 0.7394057515583954,
+      "upper": 0.9436467155493793,
+      "count": 306,
+      "mean_expected_value_delta": 0.24645464291626515,
+      "positive_transfer_rate": 1.0
+    }
+  ]
+}

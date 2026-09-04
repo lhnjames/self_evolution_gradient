@@ -1,0 +1,13 @@
+{
+  "split": "valid_seen",
+  "expert_type": "planner",
+  "gamma": 0.95,
+  "max_steps": 50,
+  "seed": 20260902,
+  "shard_index": 13,
+  "num_shards": 32,
+  "states": 14,
+  "candidate_actions": 414,
+  "successful_candidates": 390,
+  "wall_seconds": 1317.775599278044
+}

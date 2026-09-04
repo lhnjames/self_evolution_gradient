@@ -1,0 +1,70 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.24s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.57s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:05<00:00,  2.67s/it]
+cached source 65
+cached source 189
+cached source 242
+cached source 12
+cached source 407
+cached source 424
+cached source 264
+cached source 285
+cached source 159
+cached source 109
+cached source 51
+cached source 432
+cached transfer_validation 130
+cached transfer_validation 389
+cached transfer_validation 146
+cached same_skill_holdout 304
+cached same_skill_holdout 88
+cached same_skill_holdout 226
+cached harm_validation 363
+cached harm_validation 214
+cached harm_validation 329
+cached protection_test 205
+cached protection_test 222
+cached protection_test 295
+cached protection_test 312
+cached protection_test 84
+cached protection_test 252
+cached protection_test 399
+cached protection_test 56
+cached protection_test 323
+cached heldout_feedback 238
+candidate search rank=1/6
+candidate search rank=2/6
+candidate search rank=3/6
+candidate search rank=4/6
+candidate search rank=5/6
+candidate search rank=6/6
+evaluating 1115 unique directions/doses
+evaluated panel 1/30
+evaluated panel 2/30
+evaluated panel 3/30
+evaluated panel 4/30
+evaluated panel 5/30
+evaluated panel 6/30
+evaluated panel 7/30
+evaluated panel 8/30
+evaluated panel 9/30
+evaluated panel 10/30
+evaluated panel 11/30
+evaluated panel 12/30
+evaluated panel 13/30
+evaluated panel 14/30
+evaluated panel 15/30
+evaluated panel 16/30
+evaluated panel 17/30
+evaluated panel 18/30
+evaluated panel 19/30
+evaluated panel 20/30
+evaluated panel 21/30
+evaluated panel 22/30
+evaluated panel 23/30
+evaluated panel 24/30
+evaluated panel 25/30
+evaluated panel 26/30
+evaluated panel 27/30
+evaluated panel 28/30
+evaluated panel 29/30
+evaluated panel 30/30
+wrote outputs/output_gradient_self_evolution/repair_space_seed_20260938.json and outputs/output_gradient_self_evolution/repair_space_seed_20260938.npz

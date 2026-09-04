@@ -1,0 +1,80 @@
+{
+  "format": "output_gradient_atom_bank_v1",
+  "base_model_anchor": "model",
+  "sample_seed": 20260904,
+  "skill": "close",
+  "atoms": [
+    {
+      "position": 0,
+      "source_index": 21,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_21.pt",
+      "gradient_l2_norm_fp32": 0.41891292633575855
+    },
+    {
+      "position": 1,
+      "source_index": 226,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_226.pt",
+      "gradient_l2_norm_fp32": 5.339174330525112
+    },
+    {
+      "position": 2,
+      "source_index": 130,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_130.pt",
+      "gradient_l2_norm_fp32": 0.39996672730344596
+    },
+    {
+      "position": 3,
+      "source_index": 421,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_421.pt",
+      "gradient_l2_norm_fp32": 8.624756740512037
+    },
+    {
+      "position": 4,
+      "source_index": 189,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_189.pt",
+      "gradient_l2_norm_fp32": 1.075094469488277
+    },
+    {
+      "position": 5,
+      "source_index": 162,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_162.pt",
+      "gradient_l2_norm_fp32": 0.8971097339927395
+    },
+    {
+      "position": 6,
+      "source_index": 88,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_88.pt",
+      "gradient_l2_norm_fp32": 0.36112328986677045
+    },
+    {
+      "position": 7,
+      "source_index": 238,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_238.pt",
+      "gradient_l2_norm_fp32": 4.169327890584297
+    },
+    {
+      "position": 8,
+      "source_index": 65,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_65.pt",
+      "gradient_l2_norm_fp32": 4.809438350822912
+    },
+    {
+      "position": 9,
+      "source_index": 273,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_273.pt",
+      "gradient_l2_norm_fp32": 2.956562766049015
+    },
+    {
+      "position": 10,
+      "source_index": 407,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_407.pt",
+      "gradient_l2_norm_fp32": 7.121543715213389
+    },
+    {
+      "position": 11,
+      "source_index": 432,
+      "path": "outputs/output_gradient_self_evolution/gradient_atoms/close_source_432.pt",
+      "gradient_l2_norm_fp32": 7.1038644079379205
+    }
+  ]
+}

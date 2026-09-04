@@ -1,0 +1,167 @@
+{
+  "experiment": "repair_space_local_slice_v1",
+  "status": "complete",
+  "sample_seed": 20260921,
+  "center": {
+    "relative_target_gain": 0.3665178482140865,
+    "protection_top_harm": 0.0,
+    "protection_negative_0.01": 0.0,
+    "protection_mean_downside": 0.00040019045470125286,
+    "protection_worst_delta": -0.004802285456415034
+  },
+  "candidate_count": 541,
+  "feasible_count": 112,
+  "safety_count": 112,
+  "feasible_fraction": 0.20702402957486138,
+  "feasible_component_count": 1,
+  "safety_component_count": 1,
+  "largest_radius_with_any_feasible_degrees": 30.0,
+  "largest_radius_fully_feasible_degrees": 2.0,
+  "radial_profile": [
+    {
+      "radius_degrees": 0.0,
+      "count": 1,
+      "safety_fraction": 1.0,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 1.0,
+      "mean_target_gain": 0.3665178482140865,
+      "maximum_target_gain": 0.3665178482140865
+    },
+    {
+      "radius_degrees": 2.0,
+      "count": 36,
+      "safety_fraction": 1.0,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 1.0,
+      "mean_target_gain": 0.36641156428313654,
+      "maximum_target_gain": 0.36821199098752694
+    },
+    {
+      "radius_degrees": 4.0,
+      "count": 36,
+      "safety_fraction": 0.7222222222222222,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 0.7222222222222222,
+      "mean_target_gain": 0.36609619546627925,
+      "maximum_target_gain": 0.3697244975259393
+    },
+    {
+      "radius_degrees": 6.0,
+      "count": 36,
+      "safety_fraction": 0.3611111111111111,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 0.3611111111111111,
+      "mean_target_gain": 0.365573139597986,
+      "maximum_target_gain": 0.37106183678550086
+    },
+    {
+      "radius_degrees": 8.0,
+      "count": 36,
+      "safety_fraction": 0.25,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 0.25,
+      "mean_target_gain": 0.3648263237471457,
+      "maximum_target_gain": 0.3722616826170801
+    },
+    {
+      "radius_degrees": 10.0,
+      "count": 36,
+      "safety_fraction": 0.1388888888888889,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 0.1388888888888889,
+      "mean_target_gain": 0.36382627042926596,
+      "maximum_target_gain": 0.37334286323341737
+    },
+    {
+      "radius_degrees": 12.0,
+      "count": 36,
+      "safety_fraction": 0.08333333333333333,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 0.08333333333333333,
+      "mean_target_gain": 0.3625385511229445,
+      "maximum_target_gain": 0.3743022990073188
+    },
+    {
+      "radius_degrees": 14.0,
+      "count": 36,
+      "safety_fraction": 0.08333333333333333,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 0.08333333333333333,
+      "mean_target_gain": 0.3609165422935935,
+      "maximum_target_gain": 0.3751503753610445
+    },
+    {
+      "radius_degrees": 16.0,
+      "count": 36,
+      "safety_fraction": 0.05555555555555555,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 0.05555555555555555,
+      "mean_target_gain": 0.3589186714745615,
+      "maximum_target_gain": 0.37589672066143154
+    },
+    {
+      "radius_degrees": 18.0,
+      "count": 36,
+      "safety_fraction": 0.05555555555555555,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 0.05555555555555555,
+      "mean_target_gain": 0.35651932782614293,
+      "maximum_target_gain": 0.376550031392653
+    },
+    {
+      "radius_degrees": 20.0,
+      "count": 36,
+      "safety_fraction": 0.05555555555555555,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 0.05555555555555555,
+      "mean_target_gain": 0.35369865129906813,
+      "maximum_target_gain": 0.3771179903985344
+    },
+    {
+      "radius_degrees": 22.0,
+      "count": 36,
+      "safety_fraction": 0.05555555555555555,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 0.05555555555555555,
+      "mean_target_gain": 0.3504347354604332,
+      "maximum_target_gain": 0.37760733232755495
+    },
+    {
+      "radius_degrees": 24.0,
+      "count": 36,
+      "safety_fraction": 0.05555555555555555,
+      "strong_gain_fraction": 1.0,
+      "feasible_fraction": 0.05555555555555555,
+      "mean_target_gain": 0.34670163060913084,
+      "maximum_target_gain": 0.3780238304805041
+    },
+    {
+      "radius_degrees": 26.0,
+      "count": 36,
+      "safety_fraction": 0.05555555555555555,
+      "strong_gain_fraction": 0.8888888888888888,
+      "feasible_fraction": 0.05555555555555555,
+      "mean_target_gain": 0.34247016207640324,
+      "maximum_target_gain": 0.3783724201521006
+    },
+    {
+      "radius_degrees": 28.0,
+      "count": 36,
+      "safety_fraction": 0.05555555555555555,
+      "strong_gain_fraction": 0.8055555555555556,
+      "feasible_fraction": 0.05555555555555555,
+      "mean_target_gain": 0.3377093299343964,
+      "maximum_target_gain": 0.37865719725153835
+    },
+    {
+      "radius_degrees": 30.0,
+      "count": 36,
+      "safety_fraction": 0.05555555555555555,
+      "strong_gain_fraction": 0.75,
+      "feasible_fraction": 0.05555555555555555,
+      "mean_target_gain": 0.3323869703130521,
+      "maximum_target_gain": 0.37888148689390366
+    }
+  ],
+  "gate": "target relative gain>=30%, protection top-harm<=2%, protection DeltaV<-0.01<=2%"
+}

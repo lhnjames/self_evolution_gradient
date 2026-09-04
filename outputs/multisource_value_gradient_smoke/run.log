@@ -1,0 +1,5 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.32it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.77it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.69it/s]
+[1/1] valid_seen/last_mlp/open single=1/2
+[1/1] valid_seen/last_mlp/open single=2/2
+[1/1] valid_seen/last_mlp/open complete
+{"output": "/data/user/agent_self_evolution_gradient/outputs/multisource_value_gradient_smoke/smoke.json", "verbs": 1}

@@ -1,0 +1,198 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 100.28it/s]
+[1/16] global=372 evolved_skill=-0.244 mismatched_skill=-0.478 reformatted_skill=-0.331 anti_skill=-0.392 length_matched_placebo=-0.282
+[2/16] global=99 evolved_skill=+0.370 mismatched_skill=-0.844 reformatted_skill=-0.250 anti_skill=-0.920 length_matched_placebo=+0.185
+[3/16] global=320 evolved_skill=+0.137 mismatched_skill=-0.192 reformatted_skill=-0.174 anti_skill=-0.308 length_matched_placebo=+0.382
+[4/16] global=334 evolved_skill=-0.812 mismatched_skill=-0.874 reformatted_skill=-0.712 anti_skill=-0.835 length_matched_placebo=-0.782
+[5/16] global=263 evolved_skill=+0.749 mismatched_skill=-0.193 reformatted_skill=+0.408 anti_skill=+0.384 length_matched_placebo=-0.893
+[6/16] global=79 evolved_skill=-0.908 mismatched_skill=-0.943 reformatted_skill=-0.846 anti_skill=-0.933 length_matched_placebo=-0.958
+[7/16] global=281 evolved_skill=+0.761 mismatched_skill=+0.517 reformatted_skill=+0.765 anti_skill=+0.837 length_matched_placebo=+0.592
+[8/16] global=186 evolved_skill=+0.486 mismatched_skill=+0.237 reformatted_skill=+0.360 anti_skill=+0.461 length_matched_placebo=+0.382
+[9/16] global=105 evolved_skill=+0.750 mismatched_skill=-0.457 reformatted_skill=+0.729 anti_skill=+0.629 length_matched_placebo=-0.788
+[10/16] global=55 evolved_skill=-0.993 mismatched_skill=-0.993 reformatted_skill=-0.989 anti_skill=-0.971 length_matched_placebo=-0.985
+[11/16] global=277 evolved_skill=+0.324 mismatched_skill=+0.041 reformatted_skill=+0.274 anti_skill=+0.047 length_matched_placebo=-0.091
+[12/16] global=299 evolved_skill=-0.690 mismatched_skill=-0.123 reformatted_skill=-0.458 anti_skill=-0.451 length_matched_placebo=-0.582
+[13/16] global=80 evolved_skill=+0.895 mismatched_skill=+0.082 reformatted_skill=+0.169 anti_skill=-0.983 length_matched_placebo=-0.990
+[14/16] global=423 evolved_skill=-0.849 mismatched_skill=-0.906 reformatted_skill=-0.410 anti_skill=-0.969 length_matched_placebo=+0.356
+[15/16] global=153 evolved_skill=-0.919 mismatched_skill=-0.477 reformatted_skill=-0.724 anti_skill=-0.923 length_matched_placebo=+0.286
+[16/16] global=362 evolved_skill=+0.924 mismatched_skill=+0.938 reformatted_skill=+0.747 anti_skill=+0.619 length_matched_placebo=-0.935
+{
+  "sample_size_requested": 64,
+  "shard_index": 3,
+  "num_shards": 4,
+  "parameter_subspace": "all_qwen_rmsnorm_scale_parameters",
+  "parameter_count": 149504,
+  "parameter_names": [
+    "model.layers.0.input_layernorm.weight",
+    "model.layers.0.post_attention_layernorm.weight",
+    "model.layers.1.input_layernorm.weight",
+    "model.layers.1.post_attention_layernorm.weight",
+    "model.layers.2.input_layernorm.weight",
+    "model.layers.2.post_attention_layernorm.weight",
+    "model.layers.3.input_layernorm.weight",
+    "model.layers.3.post_attention_layernorm.weight",
+    "model.layers.4.input_layernorm.weight",
+    "model.layers.4.post_attention_layernorm.weight",
+    "model.layers.5.input_layernorm.weight",
+    "model.layers.5.post_attention_layernorm.weight",
+    "model.layers.6.input_layernorm.weight",
+    "model.layers.6.post_attention_layernorm.weight",
+    "model.layers.7.input_layernorm.weight",
+    "model.layers.7.post_attention_layernorm.weight",
+    "model.layers.8.input_layernorm.weight",
+    "model.layers.8.post_attention_layernorm.weight",
+    "model.layers.9.input_layernorm.weight",
+    "model.layers.9.post_attention_layernorm.weight",
+    "model.layers.10.input_layernorm.weight",
+    "model.layers.10.post_attention_layernorm.weight",
+    "model.layers.11.input_layernorm.weight",
+    "model.layers.11.post_attention_layernorm.weight",
+    "model.layers.12.input_layernorm.weight",
+    "model.layers.12.post_attention_layernorm.weight",
+    "model.layers.13.input_layernorm.weight",
+    "model.layers.13.post_attention_layernorm.weight",
+    "model.layers.14.input_layernorm.weight",
+    "model.layers.14.post_attention_layernorm.weight",
+    "model.layers.15.input_layernorm.weight",
+    "model.layers.15.post_attention_layernorm.weight",
+    "model.layers.16.input_layernorm.weight",
+    "model.layers.16.post_attention_layernorm.weight",
+    "model.layers.17.input_layernorm.weight",
+    "model.layers.17.post_attention_layernorm.weight",
+    "model.layers.18.input_layernorm.weight",
+    "model.layers.18.post_attention_layernorm.weight",
+    "model.layers.19.input_layernorm.weight",
+    "model.layers.19.post_attention_layernorm.weight",
+    "model.layers.20.input_layernorm.weight",
+    "model.layers.20.post_attention_layernorm.weight",
+    "model.layers.21.input_layernorm.weight",
+    "model.layers.21.post_attention_layernorm.weight",
+    "model.layers.22.input_layernorm.weight",
+    "model.layers.22.post_attention_layernorm.weight",
+    "model.layers.23.input_layernorm.weight",
+    "model.layers.23.post_attention_layernorm.weight",
+    "model.layers.24.input_layernorm.weight",
+    "model.layers.24.post_attention_layernorm.weight",
+    "model.layers.25.input_layernorm.weight",
+    "model.layers.25.post_attention_layernorm.weight",
+    "model.layers.26.input_layernorm.weight",
+    "model.layers.26.post_attention_layernorm.weight",
+    "model.layers.27.input_layernorm.weight",
+    "model.layers.27.post_attention_layernorm.weight",
+    "model.layers.28.input_layernorm.weight",
+    "model.layers.28.post_attention_layernorm.weight",
+    "model.layers.29.input_layernorm.weight",
+    "model.layers.29.post_attention_layernorm.weight",
+    "model.layers.30.input_layernorm.weight",
+    "model.layers.30.post_attention_layernorm.weight",
+    "model.layers.31.input_layernorm.weight",
+    "model.layers.31.post_attention_layernorm.weight",
+    "model.layers.32.input_layernorm.weight",
+    "model.layers.32.post_attention_layernorm.weight",
+    "model.layers.33.input_layernorm.weight",
+    "model.layers.33.post_attention_layernorm.weight",
+    "model.layers.34.input_layernorm.weight",
+    "model.layers.34.post_attention_layernorm.weight",
+    "model.layers.35.input_layernorm.weight",
+    "model.layers.35.post_attention_layernorm.weight",
+    "model.norm.weight"
+  ]
+}
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 104.53it/s]
+[1/16] global=43 evolved_skill=-0.050 mismatched_skill=-0.266 reformatted_skill=+0.164 anti_skill=-0.057 length_matched_placebo=-0.590
+[2/16] global=233 evolved_skill=+0.451 mismatched_skill=+0.666 reformatted_skill=-0.654 anti_skill=+0.486 length_matched_placebo=+0.221
+[3/16] global=77 evolved_skill=-0.920 mismatched_skill=-0.896 reformatted_skill=-0.903 anti_skill=-0.906 length_matched_placebo=-0.855
+[4/16] global=16 evolved_skill=+0.771 mismatched_skill=+0.773 reformatted_skill=+0.697 anti_skill=+0.666 length_matched_placebo=+0.304
+[5/16] global=14 evolved_skill=-0.258 mismatched_skill=-0.052 reformatted_skill=-0.181 anti_skill=+0.195 length_matched_placebo=+0.221
+[6/16] global=4 evolved_skill=+0.691 mismatched_skill=-0.996 reformatted_skill=-0.992 anti_skill=-0.985 length_matched_placebo=+0.860
+[7/16] global=95 evolved_skill=+0.795 mismatched_skill=+0.821 reformatted_skill=+0.816 anti_skill=+0.787 length_matched_placebo=+0.771
+[8/16] global=202 evolved_skill=+0.355 mismatched_skill=+0.498 reformatted_skill=+0.305 anti_skill=+0.535 length_matched_placebo=+0.386
+[9/16] global=127 evolved_skill=-0.220 mismatched_skill=-0.044 reformatted_skill=+0.021 anti_skill=-0.739 length_matched_placebo=-0.565
+[10/16] global=3 evolved_skill=-0.948 mismatched_skill=-0.964 reformatted_skill=-0.975 anti_skill=-0.932 length_matched_placebo=-0.909
+[11/16] global=355 evolved_skill=-0.343 mismatched_skill=+0.071 reformatted_skill=-0.452 anti_skill=+0.428 length_matched_placebo=-0.561
+[12/16] global=64 evolved_skill=-0.960 mismatched_skill=+0.994 reformatted_skill=+0.923 anti_skill=-0.868 length_matched_placebo=-1.000
+[13/16] global=8 evolved_skill=+0.139 mismatched_skill=+0.159 reformatted_skill=+0.008 anti_skill=+0.251 length_matched_placebo=+0.238
+[14/16] global=430 evolved_skill=+0.232 mismatched_skill=-0.812 reformatted_skill=+0.866 anti_skill=-0.832 length_matched_placebo=-0.893
+[15/16] global=257 evolved_skill=+0.993 mismatched_skill=+0.967 reformatted_skill=+0.990 anti_skill=+0.677 length_matched_placebo=+0.989
+[16/16] global=151 evolved_skill=+0.749 mismatched_skill=-0.820 reformatted_skill=+0.398 anti_skill=-0.919 length_matched_placebo=-0.992
+{
+  "sample_size_requested": 64,
+  "shard_index": 3,
+  "num_shards": 4,
+  "parameter_subspace": "all_qwen_rmsnorm_scale_parameters",
+  "parameter_count": 149504,
+  "parameter_names": [
+    "model.layers.0.input_layernorm.weight",
+    "model.layers.0.post_attention_layernorm.weight",
+    "model.layers.1.input_layernorm.weight",
+    "model.layers.1.post_attention_layernorm.weight",
+    "model.layers.2.input_layernorm.weight",
+    "model.layers.2.post_attention_layernorm.weight",
+    "model.layers.3.input_layernorm.weight",
+    "model.layers.3.post_attention_layernorm.weight",
+    "model.layers.4.input_layernorm.weight",
+    "model.layers.4.post_attention_layernorm.weight",
+    "model.layers.5.input_layernorm.weight",
+    "model.layers.5.post_attention_layernorm.weight",
+    "model.layers.6.input_layernorm.weight",
+    "model.layers.6.post_attention_layernorm.weight",
+    "model.layers.7.input_layernorm.weight",
+    "model.layers.7.post_attention_layernorm.weight",
+    "model.layers.8.input_layernorm.weight",
+    "model.layers.8.post_attention_layernorm.weight",
+    "model.layers.9.input_layernorm.weight",
+    "model.layers.9.post_attention_layernorm.weight",
+    "model.layers.10.input_layernorm.weight",
+    "model.layers.10.post_attention_layernorm.weight",
+    "model.layers.11.input_layernorm.weight",
+    "model.layers.11.post_attention_layernorm.weight",
+    "model.layers.12.input_layernorm.weight",
+    "model.layers.12.post_attention_layernorm.weight",
+    "model.layers.13.input_layernorm.weight",
+    "model.layers.13.post_attention_layernorm.weight",
+    "model.layers.14.input_layernorm.weight",
+    "model.layers.14.post_attention_layernorm.weight",
+    "model.layers.15.input_layernorm.weight",
+    "model.layers.15.post_attention_layernorm.weight",
+    "model.layers.16.input_layernorm.weight",
+    "model.layers.16.post_attention_layernorm.weight",
+    "model.layers.17.input_layernorm.weight",
+    "model.layers.17.post_attention_layernorm.weight",
+    "model.layers.18.input_layernorm.weight",
+    "model.layers.18.post_attention_layernorm.weight",
+    "model.layers.19.input_layernorm.weight",
+    "model.layers.19.post_attention_layernorm.weight",
+    "model.layers.20.input_layernorm.weight",
+    "model.layers.20.post_attention_layernorm.weight",
+    "model.layers.21.input_layernorm.weight",
+    "model.layers.21.post_attention_layernorm.weight",
+    "model.layers.22.input_layernorm.weight",
+    "model.layers.22.post_attention_layernorm.weight",
+    "model.layers.23.input_layernorm.weight",
+    "model.layers.23.post_attention_layernorm.weight",
+    "model.layers.24.input_layernorm.weight",
+    "model.layers.24.post_attention_layernorm.weight",
+    "model.layers.25.input_layernorm.weight",
+    "model.layers.25.post_attention_layernorm.weight",
+    "model.layers.26.input_layernorm.weight",
+    "model.layers.26.post_attention_layernorm.weight",
+    "model.layers.27.input_layernorm.weight",
+    "model.layers.27.post_attention_layernorm.weight",
+    "model.layers.28.input_layernorm.weight",
+    "model.layers.28.post_attention_layernorm.weight",
+    "model.layers.29.input_layernorm.weight",
+    "model.layers.29.post_attention_layernorm.weight",
+    "model.layers.30.input_layernorm.weight",
+    "model.layers.30.post_attention_layernorm.weight",
+    "model.layers.31.input_layernorm.weight",
+    "model.layers.31.post_attention_layernorm.weight",
+    "model.layers.32.input_layernorm.weight",
+    "model.layers.32.post_attention_layernorm.weight",
+    "model.layers.33.input_layernorm.weight",
+    "model.layers.33.post_attention_layernorm.weight",
+    "model.layers.34.input_layernorm.weight",
+    "model.layers.34.post_attention_layernorm.weight",
+    "model.layers.35.input_layernorm.weight",
+    "model.layers.35.post_attention_layernorm.weight",
+    "model.norm.weight"
+  ]
+}

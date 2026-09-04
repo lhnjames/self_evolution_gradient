@@ -1,0 +1,32 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:03<00:03,  3.91s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.07s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.20s/it]
+cached source 21
+cached source 285
+cached source 273
+cached source 36
+cached source 88
+cached source 159
+cached source 238
+cached source 192
+cached source 421
+cached source 380
+cached source 134
+cached source 65
+cached same_skill_holdout 226
+cached same_skill_holdout 403
+cached same_skill_holdout 109
+cached unrelated_protection 96
+cached unrelated_protection 399
+cached unrelated_protection 220
+source 21 complete norm=0.418913
+source 285 complete norm=6.02066
+source 273 complete norm=2.95656
+source 36 complete norm=1.16038
+source 88 complete norm=0.361123
+source 159 complete norm=3.45806
+source 238 complete norm=4.16933
+source 192 complete norm=1.05265
+source 421 complete norm=8.62476
+source 380 complete norm=4.42645
+source 134 complete norm=4.99056
+source 65 complete norm=4.80944
+wrote outputs/output_gradient_self_evolution/h6_close_seed_20260955.json

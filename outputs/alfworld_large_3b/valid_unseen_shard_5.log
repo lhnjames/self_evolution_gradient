@@ -1,0 +1,388 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 105.93it/s]
+[1/176] go: plain=0 skill=0 dp=+0.0135
+[2/176] take: plain=1 skill=1 dp=-0.0685
+[3/176] go: plain=1 skill=1 dp=-0.1569
+[4/176] open: plain=1 skill=1 dp=-0.2171
+[5/176] move: plain=1 skill=1 dp=+0.0206
+[6/176] go: plain=0 skill=0 dp=+0.0293
+[7/176] go: plain=0 skill=0 dp=+0.0040
+[8/176] go: plain=0 skill=0 dp=-0.0224
+[9/176] go: plain=0 skill=0 dp=+0.0019
+[10/176] take: plain=1 skill=1 dp=+0.0538
+[11/176] go: plain=0 skill=1 dp=+0.0284
+[12/176] go: plain=0 skill=0 dp=+0.0052
+[13/176] go: plain=0 skill=0 dp=+0.0167
+[14/176] go: plain=0 skill=0 dp=+0.0068
+[15/176] go: plain=0 skill=0 dp=+0.0025
+[16/176] close: plain=0 skill=0 dp=-0.0044
+[17/176] examine: plain=0 skill=0 dp=+0.0519
+[18/176] open: plain=0 skill=0 dp=-0.0138
+[19/176] go: plain=0 skill=0 dp=+0.0002
+[20/176] go: plain=0 skill=0 dp=-0.0197
+[21/176] move: plain=0 skill=0 dp=+0.0014
+[22/176] go: plain=0 skill=0 dp=-0.0034
+[23/176] go: plain=1 skill=0 dp=-0.0350
+[24/176] go: plain=1 skill=0 dp=-0.1199
+[25/176] take: plain=1 skill=1 dp=+0.0676
+[26/176] go: plain=0 skill=0 dp=+0.1295
+[27/176] cool: plain=1 skill=1 dp=-0.0983
+[28/176] go: plain=1 skill=1 dp=-0.2059
+[29/176] move: plain=1 skill=1 dp=-0.2448
+[30/176] go: plain=0 skill=0 dp=+0.0470
+[31/176] go: plain=0 skill=0 dp=+0.0307
+[32/176] go: plain=0 skill=0 dp=+0.0347
+[33/176] go: plain=0 skill=0 dp=+0.0266
+[34/176] go: plain=0 skill=0 dp=+0.0083
+[35/176] go: plain=0 skill=0 dp=+0.0101
+[36/176] go: plain=0 skill=1 dp=+0.2066
+[37/176] go: plain=0 skill=0 dp=+0.0075
+[38/176] take: plain=1 skill=1 dp=-0.1572
+[39/176] go: plain=0 skill=0 dp=+0.0405
+[40/176] use: plain=0 skill=0 dp=+0.1726
+[41/176] go: plain=0 skill=0 dp=+0.0174
+[42/176] go: plain=0 skill=0 dp=+0.0169
+[43/176] go: plain=0 skill=0 dp=-0.0138
+[44/176] examine: plain=0 skill=0 dp=+0.0069
+[45/176] go: plain=0 skill=0 dp=+0.0098
+[46/176] go: plain=0 skill=0 dp=-0.1331
+[47/176] go: plain=0 skill=0 dp=-0.0200
+[48/176] go: plain=0 skill=0 dp=-0.0127
+[49/176] go: plain=0 skill=0 dp=-0.0419
+[50/176] go: plain=0 skill=0 dp=-0.0457
+[51/176] go: plain=0 skill=0 dp=-0.0393
+[52/176] go: plain=0 skill=0 dp=-0.0347
+[53/176] go: plain=0 skill=0 dp=-0.0571
+[54/176] go: plain=0 skill=0 dp=-0.0177
+[55/176] go: plain=0 skill=0 dp=-0.0601
+[56/176] go: plain=0 skill=1 dp=-0.0046
+[57/176] open: plain=1 skill=1 dp=-0.1873
+[58/176] close: plain=0 skill=0 dp=+0.0214
+[59/176] go: plain=0 skill=0 dp=+0.0104
+[60/176] take: plain=1 skill=1 dp=-0.3950
+[61/176] go: plain=0 skill=1 dp=-0.0357
+[62/176] open: plain=1 skill=1 dp=-0.0296
+[63/176] move: plain=1 skill=1 dp=-0.2047
+[64/176] go: plain=0 skill=0 dp=+0.1158
+[65/176] take: plain=1 skill=1 dp=-0.0426
+[66/176] go: plain=1 skill=1 dp=-0.0111
+[67/176] move: plain=1 skill=1 dp=-0.0655
+[68/176] go: plain=0 skill=0 dp=+0.0086
+[69/176] go: plain=0 skill=0 dp=-0.0119
+[70/176] go: plain=0 skill=0 dp=-0.0343
+[71/176] go: plain=0 skill=0 dp=-0.0173
+[72/176] go: plain=0 skill=0 dp=-0.0132
+[73/176] go: plain=0 skill=0 dp=-0.0087
+[74/176] go: plain=0 skill=0 dp=+0.0111
+[75/176] go: plain=0 skill=0 dp=+0.0072
+[76/176] go: plain=0 skill=0 dp=-0.0035
+[77/176] go: plain=0 skill=0 dp=+0.0343
+[78/176] open: plain=1 skill=1 dp=-0.2053
+[79/176] close: plain=0 skill=0 dp=-0.0088
+[80/176] go: plain=0 skill=0 dp=+0.0060
+[81/176] go: plain=0 skill=0 dp=-0.0038
+[82/176] open: plain=1 skill=1 dp=-0.2204
+[83/176] take: plain=1 skill=1 dp=+0.0054
+[84/176] go: plain=0 skill=0 dp=+0.0808
+[85/176] heat: plain=0 skill=0 dp=+0.0623
+[86/176] go: plain=1 skill=1 dp=-0.1462
+[87/176] move: plain=1 skill=1 dp=-0.2426
+[88/176] go: plain=0 skill=0 dp=+0.0112
+[89/176] go: plain=0 skill=0 dp=-0.0155
+[90/176] go: plain=0 skill=0 dp=-0.0498
+[91/176] go: plain=0 skill=0 dp=-0.0420
+[92/176] go: plain=0 skill=0 dp=-0.0060
+[93/176] go: plain=0 skill=0 dp=-0.0004
+[94/176] go: plain=0 skill=0 dp=+0.0030
+[95/176] go: plain=0 skill=0 dp=+0.0090
+[96/176] go: plain=0 skill=0 dp=+0.0279
+[97/176] go: plain=0 skill=0 dp=+0.0625
+[98/176] open: plain=1 skill=1 dp=-0.1246
+[99/176] close: plain=0 skill=0 dp=+0.0005
+[100/176] go: plain=0 skill=0 dp=+0.0304
+[101/176] go: plain=0 skill=0 dp=+0.0090
+[102/176] open: plain=1 skill=0 dp=-0.2524
+[103/176] take: plain=0 skill=0 dp=-0.0661
+[104/176] go: plain=0 skill=0 dp=+0.1364
+[105/176] heat: plain=0 skill=0 dp=+0.0081
+[106/176] go: plain=1 skill=1 dp=-0.1357
+[107/176] move: plain=1 skill=1 dp=-0.1390
+[108/176] go: plain=0 skill=0 dp=+0.0017
+[109/176] go: plain=0 skill=0 dp=-0.0018
+[110/176] go: plain=1 skill=0 dp=-0.0588
+[111/176] go: plain=0 skill=0 dp=-0.0298
+[112/176] go: plain=0 skill=0 dp=-0.0307
+[113/176] go: plain=0 skill=0 dp=-0.0594
+[114/176] go: plain=0 skill=0 dp=+0.0019
+[115/176] go: plain=0 skill=0 dp=+0.0009
+[116/176] go: plain=0 skill=0 dp=-0.0128
+[117/176] go: plain=0 skill=0 dp=-0.0249
+[118/176] open: plain=1 skill=1 dp=+0.0261
+[119/176] close: plain=0 skill=0 dp=+0.0008
+[120/176] go: plain=0 skill=0 dp=-0.0102
+[121/176] go: plain=0 skill=1 dp=+0.1099
+[122/176] open: plain=1 skill=1 dp=+0.0161
+[123/176] close: plain=0 skill=0 dp=+0.0291
+[124/176] go: plain=0 skill=0 dp=+0.0002
+[125/176] open: plain=1 skill=0 dp=+0.0124
+[126/176] close: plain=0 skill=0 dp=+0.0381
+[127/176] go: plain=0 skill=0 dp=-0.0310
+[128/176] open: plain=1 skill=1 dp=-0.0338
+[129/176] close: plain=0 skill=0 dp=+0.0270
+[130/176] go: plain=0 skill=0 dp=-0.0117
+[131/176] open: plain=1 skill=0 dp=-0.1346
+[132/176] close: plain=0 skill=0 dp=+0.0231
+[133/176] go: plain=1 skill=0 dp=-0.0991
+[134/176] take: plain=1 skill=1 dp=+0.0481
+[135/176] go: plain=0 skill=1 dp=+0.1453
+[136/176] cool: plain=1 skill=1 dp=-0.0313
+[137/176] go: plain=1 skill=0 dp=-0.2520
+[138/176] move: plain=1 skill=1 dp=-0.1946
+[139/176] go: plain=0 skill=0 dp=+0.1342
+[140/176] take: plain=1 skill=1 dp=+0.0349
+[141/176] go: plain=1 skill=1 dp=+0.1493
+[142/176] move: plain=1 skill=1 dp=-0.0428
+[143/176] go: plain=0 skill=0 dp=+0.0361
+[144/176] go: plain=0 skill=0 dp=+0.0092
+[145/176] open: plain=1 skill=1 dp=-0.1318
+[146/176] close: plain=0 skill=0 dp=+0.0093
+[147/176] go: plain=0 skill=0 dp=-0.0002
+[148/176] take: plain=1 skill=1 dp=-0.0905
+[149/176] go: plain=0 skill=0 dp=+0.1091
+[150/176] clean: plain=1 skill=1 dp=-0.1907
+[151/176] go: plain=1 skill=0 dp=+0.0199
+[152/176] open: plain=1 skill=1 dp=+0.0204
+[153/176] move: plain=1 skill=1 dp=-0.1320
+[154/176] go: plain=0 skill=0 dp=-0.0424
+[155/176] go: plain=0 skill=0 dp=-0.0129
+[156/176] go: plain=0 skill=0 dp=+0.0397
+[157/176] go: plain=0 skill=0 dp=+0.0175
+[158/176] go: plain=0 skill=0 dp=+0.0288
+[159/176] go: plain=0 skill=0 dp=+0.0499
+[160/176] go: plain=0 skill=1 dp=+0.1870
+[161/176] take: plain=0 skill=1 dp=+0.2718
+[162/176] use: plain=0 skill=1 dp=+0.3929
+[163/176] go: plain=0 skill=0 dp=-0.0066
+[164/176] open: plain=1 skill=1 dp=-0.0157
+[165/176] close: plain=0 skill=0 dp=+0.0223
+[166/176] go: plain=0 skill=0 dp=-0.0103
+[167/176] go: plain=0 skill=0 dp=+0.0409
+[168/176] open: plain=1 skill=1 dp=-0.0145
+[169/176] close: plain=0 skill=0 dp=+0.0389
+[170/176] go: plain=1 skill=1 dp=-0.0352
+[171/176] go: plain=0 skill=0 dp=+0.0368
+[172/176] go: plain=0 skill=0 dp=+0.0211
+[173/176] take: plain=1 skill=1 dp=-0.0913
+[174/176] go: plain=0 skill=0 dp=+0.1323
+[175/176] cool: plain=1 skill=1 dp=-0.0017
+[176/176] go: plain=1 skill=0 dp=-0.2291
+{
+  "seed": 410,
+  "collection": {
+    "loaded_from": "data/alfworld_expert_large/valid_unseen.jsonl",
+    "decisions": 578
+  },
+  "evaluated_decisions": 176,
+  "model_path": "/data/hanning/agent_self_evolution_gradient/model_cache/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "conditions": {
+    "plain": {
+      "count": 176,
+      "top1_accuracy": 0.3068181818181818,
+      "mean_expert_probability": 0.1704982998542784,
+      "mean_nll": 2.508845003731283,
+      "mean_reciprocal_rank": 0.45048821763732416,
+      "mean_entropy": 2.3765012352642687,
+      "mean_kl_from_plain": 0.0,
+      "ece": 0.09796318881721659,
+      "mean_confidence": 0.3180367959747938,
+      "skill_selected_rate": 0.0,
+      "mean_rho": 0.0
+    },
+    "evolved_skill": {
+      "count": 176,
+      "top1_accuracy": 0.30113636363636365,
+      "mean_expert_probability": 0.1556236815575341,
+      "mean_nll": 2.3898174899939266,
+      "mean_reciprocal_rank": 0.45605013630854324,
+      "mean_entropy": 2.578699850561944,
+      "mean_kl_from_plain": 0.19325731434615923,
+      "ece": 0.0562912323512137,
+      "mean_confidence": 0.2535949854434214,
+      "skill_selected_rate": 1.0,
+      "mean_rho": 1.0
+    },
+    "mismatched_skill": {
+      "count": 176,
+      "top1_accuracy": 0.25,
+      "mean_expert_probability": 0.14021664884057827,
+      "mean_nll": 2.548595823507408,
+      "mean_reciprocal_rank": 0.40314542521862756,
+      "mean_entropy": 2.5539571470157667,
+      "mean_kl_from_plain": 0.1615498571217441,
+      "ece": 0.07130044554783539,
+      "mean_confidence": 0.2618680125610395,
+      "skill_selected_rate": 1.0,
+      "mean_rho": 1.0
+    },
+    "trust_region_skill": {
+      "count": 176,
+      "top1_accuracy": 0.30113636363636365,
+      "mean_expert_probability": 0.15953576008376497,
+      "mean_nll": 2.4166797422274704,
+      "mean_reciprocal_rank": 0.45169319250298196,
+      "mean_entropy": 2.5149727856571022,
+      "mean_kl_from_plain": 0.047883631008021024,
+      "ece": 0.09993256827477705,
+      "mean_confidence": 0.27517667577855964,
+      "skill_selected_rate": 1.0,
+      "mean_rho": 0.6502104462177324
+    },
+    "confidence_gated_skill": {
+      "count": 176,
+      "top1_accuracy": 0.2897727272727273,
+      "mean_expert_probability": 0.17321014621649572,
+      "mean_nll": 2.488066687010782,
+      "mean_reciprocal_rank": 0.44267468223442774,
+      "mean_entropy": 2.3620546218007803,
+      "mean_kl_from_plain": 0.0442179453516887,
+      "ece": 0.14157950014553286,
+      "mean_confidence": 0.3347366464070298,
+      "skill_selected_rate": 0.2897727272727273,
+      "mean_rho": 0.2897727272727273
+    },
+    "oracle_gated_skill_upper_bound": {
+      "count": 176,
+      "top1_accuracy": 0.3352272727272727,
+      "mean_expert_probability": 0.19330180770802227,
+      "mean_nll": 2.1849323672539183,
+      "mean_reciprocal_rank": 0.5039126273528525,
+      "mean_entropy": 2.4823845596137373,
+      "mean_kl_from_plain": 0.10881196788977832,
+      "ece": 0.10264199862087316,
+      "mean_confidence": 0.2839496165344661,
+      "skill_selected_rate": 0.5,
+      "mean_rho": 0.5
+    }
+  },
+  "skill_effect": {
+    "mean_expert_probability_delta": -0.014874618296744302,
+    "positive_shift_rate": 0.5,
+    "harmful_shift_rate": 0.5,
+    "unchanged_shift_rate": 0.0
+  },
+  "by_action_verb": {
+    "clean": {
+      "count": 1,
+      "plain_accuracy": 1.0,
+      "evolved_skill_accuracy": 1.0,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": -0.1906587779521942
+    },
+    "close": {
+      "count": 12,
+      "plain_accuracy": 0.0,
+      "evolved_skill_accuracy": 0.0,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": 0.016447883875419695
+    },
+    "cool": {
+      "count": 3,
+      "plain_accuracy": 1.0,
+      "evolved_skill_accuracy": 1.0,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": -0.043782313664754234
+    },
+    "examine": {
+      "count": 2,
+      "plain_accuracy": 0.0,
+      "evolved_skill_accuracy": 0.0,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": 0.02941611036658287
+    },
+    "go": {
+      "count": 114,
+      "plain_accuracy": 0.12280701754385964,
+      "evolved_skill_accuracy": 0.12280701754385964,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": -7.360522929382951e-05
+    },
+    "heat": {
+      "count": 2,
+      "plain_accuracy": 0.0,
+      "evolved_skill_accuracy": 0.0,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": 0.03515055030584335
+    },
+    "move": {
+      "count": 10,
+      "plain_accuracy": 0.9,
+      "evolved_skill_accuracy": 0.9,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": -0.1244061104953289
+    },
+    "open": {
+      "count": 17,
+      "plain_accuracy": 0.9411764705882353,
+      "evolved_skill_accuracy": 0.7647058823529411,
+      "accuracy_delta": -0.17647058823529416,
+      "expert_probability_delta": -0.08857598462525536
+    },
+    "take": {
+      "count": 13,
+      "plain_accuracy": 0.8461538461538461,
+      "evolved_skill_accuracy": 0.9230769230769231,
+      "accuracy_delta": 0.07692307692307698,
+      "expert_probability_delta": -0.033053791866852686
+    },
+    "use": {
+      "count": 2,
+      "plain_accuracy": 0.0,
+      "evolved_skill_accuracy": 0.5,
+      "accuracy_delta": 0.5,
+      "expert_probability_delta": 0.2827540524303913
+    }
+  },
+  "by_task_type": {
+    "look_at_obj_in_light": {
+      "count": 20,
+      "plain_accuracy": 0.05,
+      "evolved_skill_accuracy": 0.25,
+      "accuracy_delta": 0.2,
+      "expert_probability_delta": 0.0679952671052888
+    },
+    "pick_and_place_simple": {
+      "count": 31,
+      "plain_accuracy": 0.3225806451612903,
+      "evolved_skill_accuracy": 0.3870967741935484,
+      "accuracy_delta": 0.06451612903225806,
+      "expert_probability_delta": -0.031556368835510745
+    },
+    "pick_clean_then_place_in_recep": {
+      "count": 11,
+      "plain_accuracy": 0.5454545454545454,
+      "evolved_skill_accuracy": 0.45454545454545453,
+      "accuracy_delta": -0.09090909090909088,
+      "expert_probability_delta": -0.03102234886451201
+    },
+    "pick_cool_then_place_in_recep": {
+      "count": 53,
+      "plain_accuracy": 0.4339622641509434,
+      "evolved_skill_accuracy": 0.32075471698113206,
+      "accuracy_delta": -0.11320754716981135,
+      "expert_probability_delta": -0.02184920967117233
+    },
+    "pick_heat_then_place_in_recep": {
+      "count": 40,
+      "plain_accuracy": 0.225,
+      "evolved_skill_accuracy": 0.2,
+      "accuracy_delta": -0.024999999999999994,
+      "expert_probability_delta": -0.03084741763304919
+    },
+    "pick_two_obj_and_place": {
+      "count": 21,
+      "plain_accuracy": 0.23809523809523808,
+      "evolved_skill_accuracy": 0.2857142857142857,
+      "accuracy_delta": 0.047619047619047616,
+      "expert_probability_delta": -0.012687622525152705
+    }
+  }
+}

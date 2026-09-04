@@ -1,0 +1,38 @@
+Initializing AlfredTWEnv...
+  0%|          | 0/494 [00:00<?, ?it/s] 21%|██▏       | 105/494 [00:00<00:00, 1049.04it/s]100%|██████████| 494/494 [00:00<00:00, 3083.79it/s]
+Overall we have 140 games in split=train
+Training with 140 games
+{
+  "split": "valid_seen",
+  "expert_type": "handcoded",
+  "gamma": 0.95,
+  "max_steps": 50,
+  "seed": 20260902,
+  "shard_index": 28,
+  "num_shards": 32,
+  "states": 13,
+  "candidate_actions": 353,
+  "successful_candidates": 328,
+  "wall_seconds": 0.0009799310937523842
+}
+Initializing AlfredTWEnv...
+  0%|          | 0/341 [00:00<?, ?it/s] 15%|█▍        | 50/341 [00:00<00:00, 499.92it/s]100%|██████████| 341/341 [00:00<00:00, 1956.89it/s]
+Overall we have 134 games in split=train
+Training with 134 games
+[1/4 shard=28] game=1/4 index=28 actions=30 wins=30 elapsed=65.0s
+[2/4 shard=28] game=2/4 index=92 actions=30 wins=28 elapsed=155.8s
+[3/4 shard=28] game=3/4 index=252 actions=29 wins=29 elapsed=231.5s
+[4/4 shard=28] game=4/4 index=348 actions=28 wins=28 elapsed=310.0s
+{
+  "split": "valid_unseen",
+  "expert_type": "handcoded",
+  "gamma": 0.95,
+  "max_steps": 50,
+  "seed": 20260902,
+  "shard_index": 28,
+  "num_shards": 32,
+  "states": 16,
+  "candidate_actions": 450,
+  "successful_candidates": 442,
+  "wall_seconds": 310.0216969801113
+}

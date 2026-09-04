@@ -1,0 +1,61 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.74s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.60s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.77s/it]
+cached source 165
+cached source 285
+cached source 264
+cached source 33
+cached source 304
+cached source 21
+cached source 146
+cached source 192
+cached source 424
+cached source 380
+cached source 238
+cached source 65
+cached transfer_validation 432
+cached transfer_validation 407
+cached transfer_validation 134
+cached same_skill_holdout 88
+cached same_skill_holdout 113
+cached same_skill_holdout 226
+cached harm_validation 314
+cached harm_validation 296
+cached harm_validation 397
+cached protection_test 216
+cached protection_test 439
+cached protection_test 325
+cached protection_test 323
+cached protection_test 218
+cached protection_test 98
+cached protection_test 252
+cached protection_test 58
+cached protection_test 355
+cached heldout_feedback_auxiliary 383
+cached heldout_feedback_auxiliary 168
+cached heldout_feedback_auxiliary 267
+cached heldout_feedback_auxiliary 109
+cached heldout_feedback_auxiliary 421
+cached heldout_feedback_auxiliary 18
+cached heldout_feedback_auxiliary 198
+cached heldout_feedback_auxiliary 60
+cached heldout_feedback_auxiliary 130
+cached heldout_feedback_auxiliary 204
+cached heldout_feedback_auxiliary 321
+source 1/18 complete
+source 2/18 complete
+source 3/18 complete
+source 4/18 complete
+source 5/18 complete
+source 6/18 complete
+source 7/18 complete
+source 8/18 complete
+source 9/18 complete
+source 10/18 complete
+source 11/18 complete
+source 12/18 complete
+source 13/18 complete
+source 14/18 complete
+source 15/18 complete
+source 16/18 complete
+source 17/18 complete
+source 18/18 complete
+wrote outputs/output_gradient_self_evolution/scope_topology_seed_20260955.json and outputs/output_gradient_self_evolution/scope_topology_seed_20260955.npz

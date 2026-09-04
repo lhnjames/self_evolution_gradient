@@ -1,0 +1,1508 @@
+{
+  "policy": "evolved_skill",
+  "split": "valid_seen",
+  "episodes": 5,
+  "success_rate": 0.4,
+  "mean_steps": 36.0,
+  "by_task_type": {
+    "pick_and_place_simple": {
+      "episodes": 3,
+      "success_rate": 0.6666666666666666
+    },
+    "pick_clean_then_place_in_recep": {
+      "episodes": 1,
+      "success_rate": 0.0
+    },
+    "pick_cool_then_place_in_recep": {
+      "episodes": 1,
+      "success_rate": 0.0
+    }
+  },
+  "trajectories": [
+    {
+      "episode_id": "pick_clean_then_place_in_recep-Spatula-None-DiningTable-4",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Spatula-None-DiningTable-4/trial_T20190909_002804_564168/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "goal": "clean some spatula and put it in diningtable.",
+      "won": false,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a diningtable 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: clean some spatula and put it in diningtable.",
+          "action": "go to countertop 1",
+          "selected_index": 3,
+          "confidence": 0.12910479307174683,
+          "alpha": 1.0
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see a potato 1.",
+          "action": "take potato 1 from countertop 1",
+          "selected_index": 25,
+          "confidence": 0.17930474877357483,
+          "alpha": 1.0
+        },
+        {
+          "step": 2,
+          "observation": "You pick up the potato 1 from the countertop 1.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.12121198326349258,
+          "alpha": 1.0
+        },
+        {
+          "step": 3,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "clean potato 1 with sinkbasin 1",
+          "selected_index": 0,
+          "confidence": 0.2928638160228729,
+          "alpha": 1.0
+        },
+        {
+          "step": 4,
+          "observation": "You clean the potato 1 using the sinkbasin 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.23324036598205566,
+          "alpha": 1.0
+        },
+        {
+          "step": 5,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "examine diningtable 1",
+          "selected_index": 0,
+          "confidence": 0.13200803101062775,
+          "alpha": 1.0
+        },
+        {
+          "step": 6,
+          "observation": "On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.12042763829231262,
+          "alpha": 1.0
+        },
+        {
+          "step": 7,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.2696544826030731,
+          "alpha": 1.0
+        },
+        {
+          "step": 8,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.18669213354587555,
+          "alpha": 1.0
+        },
+        {
+          "step": 9,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 10,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 11,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 12,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 13,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 14,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 15,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 16,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 17,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 18,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 19,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 20,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 21,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 22,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 23,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 24,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 25,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 26,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 27,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 28,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 29,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 30,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 31,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 32,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 33,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 34,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 35,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 36,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 37,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 38,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 39,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 40,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 41,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 42,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 43,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 44,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 45,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 46,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 47,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        },
+        {
+          "step": 48,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.1716631054878235,
+          "alpha": 1.0
+        },
+        {
+          "step": 49,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.25117096304893494,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "episode_id": "pick_and_place_simple-Watch-None-SideTable-222",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051813_197569/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "goal": "put some watch on sidetable.",
+      "won": false,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a armchair 1, a coffeetable 1, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a sidetable 3, a sidetable 2, a sidetable 1, a sofa 2, a sofa 1, and a tvstand 1.\n\nYour task is to: put some watch on sidetable.",
+          "action": "go to sidetable 1",
+          "selected_index": 10,
+          "confidence": 0.2397245615720749,
+          "alpha": 1.0
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at sidetable 1. On the sidetable 1, you see a newspaper 1.",
+          "action": "take newspaper 1 from sidetable 1",
+          "selected_index": 19,
+          "confidence": 0.42358818650245667,
+          "alpha": 1.0
+        },
+        {
+          "step": 2,
+          "observation": "You pick up the newspaper 1 from the sidetable 1.",
+          "action": "move newspaper 1 to sidetable 1",
+          "selected_index": 20,
+          "confidence": 0.1635407954454422,
+          "alpha": 1.0
+        },
+        {
+          "step": 3,
+          "observation": "You move the newspaper 1 to the sidetable 1.",
+          "action": "examine sidetable 1",
+          "selected_index": 0,
+          "confidence": 0.2543520927429199,
+          "alpha": 1.0
+        },
+        {
+          "step": 4,
+          "observation": "On the sidetable 1, you see a newspaper 1.",
+          "action": "go to coffeetable 1",
+          "selected_index": 2,
+          "confidence": 0.18734584748744965,
+          "alpha": 1.0
+        },
+        {
+          "step": 5,
+          "observation": "You arrive at coffeetable 1. On the coffeetable 1, you see a laptop 1, a watch 2, and a watch 1.",
+          "action": "take watch 2 from coffeetable 1",
+          "selected_index": 21,
+          "confidence": 0.21329696476459503,
+          "alpha": 1.0
+        },
+        {
+          "step": 6,
+          "observation": "You pick up the watch 2 from the coffeetable 1.",
+          "action": "move watch 2 to coffeetable 1",
+          "selected_index": 20,
+          "confidence": 0.26680833101272583,
+          "alpha": 1.0
+        },
+        {
+          "step": 7,
+          "observation": "You move the watch 2 to the coffeetable 1.",
+          "action": "go to sidetable 1",
+          "selected_index": 10,
+          "confidence": 0.34197860956192017,
+          "alpha": 1.0
+        },
+        {
+          "step": 8,
+          "observation": "You arrive at sidetable 1. On the sidetable 1, you see a newspaper 1.",
+          "action": "take newspaper 1 from sidetable 1",
+          "selected_index": 19,
+          "confidence": 0.35978227853775024,
+          "alpha": 1.0
+        },
+        {
+          "step": 9,
+          "observation": "You pick up the newspaper 1 from the sidetable 1.",
+          "action": "move newspaper 1 to sidetable 1",
+          "selected_index": 20,
+          "confidence": 0.20371979475021362,
+          "alpha": 1.0
+        },
+        {
+          "step": 10,
+          "observation": "You move the newspaper 1 to the sidetable 1.",
+          "action": "examine sidetable 1",
+          "selected_index": 0,
+          "confidence": 0.2543520927429199,
+          "alpha": 1.0
+        },
+        {
+          "step": 11,
+          "observation": "On the sidetable 1, you see a newspaper 1.",
+          "action": "go to coffeetable 1",
+          "selected_index": 2,
+          "confidence": 0.18734584748744965,
+          "alpha": 1.0
+        },
+        {
+          "step": 12,
+          "observation": "You arrive at coffeetable 1. On the coffeetable 1, you see a laptop 1, a watch 2, and a watch 1.",
+          "action": "take watch 2 from coffeetable 1",
+          "selected_index": 21,
+          "confidence": 0.21329696476459503,
+          "alpha": 1.0
+        },
+        {
+          "step": 13,
+          "observation": "You pick up the watch 2 from the coffeetable 1.",
+          "action": "move watch 2 to coffeetable 1",
+          "selected_index": 20,
+          "confidence": 0.26680833101272583,
+          "alpha": 1.0
+        },
+        {
+          "step": 14,
+          "observation": "You move the watch 2 to the coffeetable 1.",
+          "action": "go to sidetable 1",
+          "selected_index": 10,
+          "confidence": 0.34197860956192017,
+          "alpha": 1.0
+        },
+        {
+          "step": 15,
+          "observation": "You arrive at sidetable 1. On the sidetable 1, you see a newspaper 1.",
+          "action": "take newspaper 1 from sidetable 1",
+          "selected_index": 19,
+          "confidence": 0.35978227853775024,
+          "alpha": 1.0
+        },
+        {
+          "step": 16,
+          "observation": "You pick up the newspaper 1 from the sidetable 1.",
+          "action": "move newspaper 1 to sidetable 1",
+          "selected_index": 20,
+          "confidence": 0.20371979475021362,
+          "alpha": 1.0
+        },
+        {
+          "step": 17,
+          "observation": "You move the newspaper 1 to the sidetable 1.",
+          "action": "examine sidetable 1",
+          "selected_index": 0,
+          "confidence": 0.2543520927429199,
+          "alpha": 1.0
+        },
+        {
+          "step": 18,
+          "observation": "On the sidetable 1, you see a newspaper 1.",
+          "action": "go to coffeetable 1",
+          "selected_index": 2,
+          "confidence": 0.18734584748744965,
+          "alpha": 1.0
+        },
+        {
+          "step": 19,
+          "observation": "You arrive at coffeetable 1. On the coffeetable 1, you see a laptop 1, a watch 2, and a watch 1.",
+          "action": "take watch 2 from coffeetable 1",
+          "selected_index": 21,
+          "confidence": 0.21329696476459503,
+          "alpha": 1.0
+        },
+        {
+          "step": 20,
+          "observation": "You pick up the watch 2 from the coffeetable 1.",
+          "action": "move watch 2 to coffeetable 1",
+          "selected_index": 20,
+          "confidence": 0.26680833101272583,
+          "alpha": 1.0
+        },
+        {
+          "step": 21,
+          "observation": "You move the watch 2 to the coffeetable 1.",
+          "action": "go to sidetable 1",
+          "selected_index": 10,
+          "confidence": 0.34197860956192017,
+          "alpha": 1.0
+        },
+        {
+          "step": 22,
+          "observation": "You arrive at sidetable 1. On the sidetable 1, you see a newspaper 1.",
+          "action": "take newspaper 1 from sidetable 1",
+          "selected_index": 19,
+          "confidence": 0.35978227853775024,
+          "alpha": 1.0
+        },
+        {
+          "step": 23,
+          "observation": "You pick up the newspaper 1 from the sidetable 1.",
+          "action": "move newspaper 1 to sidetable 1",
+          "selected_index": 20,
+          "confidence": 0.20371979475021362,
+          "alpha": 1.0
+        },
+        {
+          "step": 24,
+          "observation": "You move the newspaper 1 to the sidetable 1.",
+          "action": "examine sidetable 1",
+          "selected_index": 0,
+          "confidence": 0.2543520927429199,
+          "alpha": 1.0
+        },
+        {
+          "step": 25,
+          "observation": "On the sidetable 1, you see a newspaper 1.",
+          "action": "go to coffeetable 1",
+          "selected_index": 2,
+          "confidence": 0.18734584748744965,
+          "alpha": 1.0
+        },
+        {
+          "step": 26,
+          "observation": "You arrive at coffeetable 1. On the coffeetable 1, you see a laptop 1, a watch 2, and a watch 1.",
+          "action": "take watch 2 from coffeetable 1",
+          "selected_index": 21,
+          "confidence": 0.21329696476459503,
+          "alpha": 1.0
+        },
+        {
+          "step": 27,
+          "observation": "You pick up the watch 2 from the coffeetable 1.",
+          "action": "move watch 2 to coffeetable 1",
+          "selected_index": 20,
+          "confidence": 0.26680833101272583,
+          "alpha": 1.0
+        },
+        {
+          "step": 28,
+          "observation": "You move the watch 2 to the coffeetable 1.",
+          "action": "go to sidetable 1",
+          "selected_index": 10,
+          "confidence": 0.34197860956192017,
+          "alpha": 1.0
+        },
+        {
+          "step": 29,
+          "observation": "You arrive at sidetable 1. On the sidetable 1, you see a newspaper 1.",
+          "action": "take newspaper 1 from sidetable 1",
+          "selected_index": 19,
+          "confidence": 0.35978227853775024,
+          "alpha": 1.0
+        },
+        {
+          "step": 30,
+          "observation": "You pick up the newspaper 1 from the sidetable 1.",
+          "action": "move newspaper 1 to sidetable 1",
+          "selected_index": 20,
+          "confidence": 0.20371979475021362,
+          "alpha": 1.0
+        },
+        {
+          "step": 31,
+          "observation": "You move the newspaper 1 to the sidetable 1.",
+          "action": "examine sidetable 1",
+          "selected_index": 0,
+          "confidence": 0.2543520927429199,
+          "alpha": 1.0
+        },
+        {
+          "step": 32,
+          "observation": "On the sidetable 1, you see a newspaper 1.",
+          "action": "go to coffeetable 1",
+          "selected_index": 2,
+          "confidence": 0.18734584748744965,
+          "alpha": 1.0
+        },
+        {
+          "step": 33,
+          "observation": "You arrive at coffeetable 1. On the coffeetable 1, you see a laptop 1, a watch 2, and a watch 1.",
+          "action": "take watch 2 from coffeetable 1",
+          "selected_index": 21,
+          "confidence": 0.21329696476459503,
+          "alpha": 1.0
+        },
+        {
+          "step": 34,
+          "observation": "You pick up the watch 2 from the coffeetable 1.",
+          "action": "move watch 2 to coffeetable 1",
+          "selected_index": 20,
+          "confidence": 0.26680833101272583,
+          "alpha": 1.0
+        },
+        {
+          "step": 35,
+          "observation": "You move the watch 2 to the coffeetable 1.",
+          "action": "go to sidetable 1",
+          "selected_index": 10,
+          "confidence": 0.34197860956192017,
+          "alpha": 1.0
+        },
+        {
+          "step": 36,
+          "observation": "You arrive at sidetable 1. On the sidetable 1, you see a newspaper 1.",
+          "action": "take newspaper 1 from sidetable 1",
+          "selected_index": 19,
+          "confidence": 0.35978227853775024,
+          "alpha": 1.0
+        },
+        {
+          "step": 37,
+          "observation": "You pick up the newspaper 1 from the sidetable 1.",
+          "action": "move newspaper 1 to sidetable 1",
+          "selected_index": 20,
+          "confidence": 0.20371979475021362,
+          "alpha": 1.0
+        },
+        {
+          "step": 38,
+          "observation": "You move the newspaper 1 to the sidetable 1.",
+          "action": "examine sidetable 1",
+          "selected_index": 0,
+          "confidence": 0.2543520927429199,
+          "alpha": 1.0
+        },
+        {
+          "step": 39,
+          "observation": "On the sidetable 1, you see a newspaper 1.",
+          "action": "go to coffeetable 1",
+          "selected_index": 2,
+          "confidence": 0.18734584748744965,
+          "alpha": 1.0
+        },
+        {
+          "step": 40,
+          "observation": "You arrive at coffeetable 1. On the coffeetable 1, you see a laptop 1, a watch 2, and a watch 1.",
+          "action": "take watch 2 from coffeetable 1",
+          "selected_index": 21,
+          "confidence": 0.21329696476459503,
+          "alpha": 1.0
+        },
+        {
+          "step": 41,
+          "observation": "You pick up the watch 2 from the coffeetable 1.",
+          "action": "move watch 2 to coffeetable 1",
+          "selected_index": 20,
+          "confidence": 0.26680833101272583,
+          "alpha": 1.0
+        },
+        {
+          "step": 42,
+          "observation": "You move the watch 2 to the coffeetable 1.",
+          "action": "go to sidetable 1",
+          "selected_index": 10,
+          "confidence": 0.34197860956192017,
+          "alpha": 1.0
+        },
+        {
+          "step": 43,
+          "observation": "You arrive at sidetable 1. On the sidetable 1, you see a newspaper 1.",
+          "action": "take newspaper 1 from sidetable 1",
+          "selected_index": 19,
+          "confidence": 0.35978227853775024,
+          "alpha": 1.0
+        },
+        {
+          "step": 44,
+          "observation": "You pick up the newspaper 1 from the sidetable 1.",
+          "action": "move newspaper 1 to sidetable 1",
+          "selected_index": 20,
+          "confidence": 0.20371979475021362,
+          "alpha": 1.0
+        },
+        {
+          "step": 45,
+          "observation": "You move the newspaper 1 to the sidetable 1.",
+          "action": "examine sidetable 1",
+          "selected_index": 0,
+          "confidence": 0.2543520927429199,
+          "alpha": 1.0
+        },
+        {
+          "step": 46,
+          "observation": "On the sidetable 1, you see a newspaper 1.",
+          "action": "go to coffeetable 1",
+          "selected_index": 2,
+          "confidence": 0.18734584748744965,
+          "alpha": 1.0
+        },
+        {
+          "step": 47,
+          "observation": "You arrive at coffeetable 1. On the coffeetable 1, you see a laptop 1, a watch 2, and a watch 1.",
+          "action": "take watch 2 from coffeetable 1",
+          "selected_index": 21,
+          "confidence": 0.21329696476459503,
+          "alpha": 1.0
+        },
+        {
+          "step": 48,
+          "observation": "You pick up the watch 2 from the coffeetable 1.",
+          "action": "move watch 2 to coffeetable 1",
+          "selected_index": 20,
+          "confidence": 0.26680833101272583,
+          "alpha": 1.0
+        },
+        {
+          "step": 49,
+          "observation": "You move the watch 2 to the coffeetable 1.",
+          "action": "go to sidetable 1",
+          "selected_index": 10,
+          "confidence": 0.34197860956192017,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "episode_id": "pick_and_place_simple-Candle-None-Toilet-429",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_seen/pick_and_place_simple-Candle-None-Toilet-429/trial_T20190908_052232_887934/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "goal": "put some candle on toilet.",
+      "won": true,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bathtubbasin 1, a garbagecan 1, a handtowelholder 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some candle on toilet.",
+          "action": "go to toilet 1",
+          "selected_index": 7,
+          "confidence": 0.36730366945266724,
+          "alpha": 1.0
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at toilet 1. On the toilet 1, you see a soapbottle 2.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.28549402952194214,
+          "alpha": 1.0
+        },
+        {
+          "step": 2,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.19398967921733856,
+          "alpha": 1.0
+        },
+        {
+          "step": 3,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "go to shelf 1",
+          "selected_index": 4,
+          "confidence": 0.1505248248577118,
+          "alpha": 1.0
+        },
+        {
+          "step": 4,
+          "observation": "You arrive at shelf 1. On the shelf 1, you see a candle 1, a soapbar 2, and a soapbar 1.",
+          "action": "take candle 1 from shelf 1",
+          "selected_index": 13,
+          "confidence": 0.562828540802002,
+          "alpha": 1.0
+        },
+        {
+          "step": 5,
+          "observation": "You pick up the candle 1 from the shelf 1.",
+          "action": "go to toilet 1",
+          "selected_index": 8,
+          "confidence": 0.25971704721450806,
+          "alpha": 1.0
+        },
+        {
+          "step": 6,
+          "observation": "You arrive at toilet 1. On the toilet 1, you see a soapbottle 2.",
+          "action": "move candle 1 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.7261989116668701,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "episode_id": "pick_and_place_simple-TissueBox-None-Toilet-426",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_seen/pick_and_place_simple-TissueBox-None-Toilet-426/trial_T20190910_155319_795672/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "goal": "put some tissuebox on toilet.",
+      "won": true,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bathtubbasin 1, a countertop 1, a drawer 8, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, a towelholder 2, and a towelholder 1.\n\nYour task is to: put some tissuebox on toilet.",
+          "action": "go to toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3405539095401764,
+          "alpha": 1.0
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at toilet 1. On the toilet 1, you see a spraybottle 1, and a toiletpaper 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.19033178687095642,
+          "alpha": 1.0
+        },
+        {
+          "step": 2,
+          "observation": "You pick up the spraybottle 1 from the toilet 1.",
+          "action": "move spraybottle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.19668230414390564,
+          "alpha": 1.0
+        },
+        {
+          "step": 3,
+          "observation": "You move the spraybottle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.2672673165798187,
+          "alpha": 1.0
+        },
+        {
+          "step": 4,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.1933673769235611,
+          "alpha": 1.0
+        },
+        {
+          "step": 5,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "go to drawer 1",
+          "selected_index": 3,
+          "confidence": 0.10243675112724304,
+          "alpha": 1.0
+        },
+        {
+          "step": 6,
+          "observation": "You arrive at drawer 1. The drawer 1 is closed.",
+          "action": "open drawer 1",
+          "selected_index": 20,
+          "confidence": 0.3853060007095337,
+          "alpha": 1.0
+        },
+        {
+          "step": 7,
+          "observation": "You open the drawer 1. The drawer 1 is open. In it, you see a candle 1, and a soapbar 1.",
+          "action": "take soapbar 1 from drawer 1",
+          "selected_index": 22,
+          "confidence": 0.18794630467891693,
+          "alpha": 1.0
+        },
+        {
+          "step": 8,
+          "observation": "You pick up the soapbar 1 from the drawer 1.",
+          "action": "go to toilet 1",
+          "selected_index": 15,
+          "confidence": 0.26965147256851196,
+          "alpha": 1.0
+        },
+        {
+          "step": 9,
+          "observation": "You arrive at toilet 1. On the toilet 1, you see a spraybottle 1, and a toiletpaper 1.",
+          "action": "move soapbar 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.27558642625808716,
+          "alpha": 1.0
+        },
+        {
+          "step": 10,
+          "observation": "You move the soapbar 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 22,
+          "confidence": 0.15003961324691772,
+          "alpha": 1.0
+        },
+        {
+          "step": 11,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.26061320304870605,
+          "alpha": 1.0
+        },
+        {
+          "step": 12,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "go to drawer 1",
+          "selected_index": 3,
+          "confidence": 0.12689495086669922,
+          "alpha": 1.0
+        },
+        {
+          "step": 13,
+          "observation": "You arrive at drawer 1. The drawer 1 is open. In it, you see a candle 1.",
+          "action": "take candle 1 from drawer 1",
+          "selected_index": 21,
+          "confidence": 0.21705502271652222,
+          "alpha": 1.0
+        },
+        {
+          "step": 14,
+          "observation": "You pick up the candle 1 from the drawer 1.",
+          "action": "go to toilet 1",
+          "selected_index": 15,
+          "confidence": 0.18245826661586761,
+          "alpha": 1.0
+        },
+        {
+          "step": 15,
+          "observation": "You arrive at toilet 1. On the toilet 1, you see a soapbar 1, a spraybottle 1, and a toiletpaper 1.",
+          "action": "move candle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.35417014360427856,
+          "alpha": 1.0
+        },
+        {
+          "step": 16,
+          "observation": "You move the candle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 23,
+          "confidence": 0.1632751226425171,
+          "alpha": 1.0
+        },
+        {
+          "step": 17,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.3202778697013855,
+          "alpha": 1.0
+        },
+        {
+          "step": 18,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "go to drawer 1",
+          "selected_index": 3,
+          "confidence": 0.10465868562459946,
+          "alpha": 1.0
+        },
+        {
+          "step": 19,
+          "observation": "You arrive at drawer 1. The drawer 1 is open. In it, you see nothing.",
+          "action": "go to countertop 1",
+          "selected_index": 3,
+          "confidence": 0.14995378255844116,
+          "alpha": 1.0
+        },
+        {
+          "step": 20,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see a candle 3, a candle 2, a cloth 2, a soapbar 2, a soapbottle 1, and a tissuebox 3.",
+          "action": "take tissuebox 3 from countertop 1",
+          "selected_index": 25,
+          "confidence": 0.3881731927394867,
+          "alpha": 1.0
+        },
+        {
+          "step": 21,
+          "observation": "You pick up the tissuebox 3 from the countertop 1.",
+          "action": "go to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.465300977230072,
+          "alpha": 1.0
+        },
+        {
+          "step": 22,
+          "observation": "You arrive at toilet 1. On the toilet 1, you see a candle 1, a soapbar 1, a spraybottle 1, and a toiletpaper 1.",
+          "action": "move tissuebox 3 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.6538134813308716,
+          "alpha": 1.0
+        }
+      ]
+    },
+    {
+      "episode_id": "pick_cool_then_place_in_recep-Cup-None-Microwave-17",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Cup-None-Microwave-17/trial_T20190906_192817_654400/game.tw-pddl",
+      "task_type": "pick_cool_then_place_in_recep",
+      "goal": "put a cool cup in microwave.",
+      "won": false,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 20, a cabinet 19, a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a diningtable 2, a diningtable 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: put a cool cup in microwave.",
+          "action": "go to fridge 1",
+          "selected_index": 31,
+          "confidence": 0.14115655422210693,
+          "alpha": 1.0
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at fridge 1. The fridge 1 is closed.",
+          "action": "open fridge 1",
+          "selected_index": 43,
+          "confidence": 0.35501542687416077,
+          "alpha": 1.0
+        },
+        {
+          "step": 2,
+          "observation": "You open the fridge 1. The fridge 1 is open. In it, you see a bowl 2, a bread 2, a potato 1, a tomato 2, a tomato 1, and a winebottle 1.",
+          "action": "take tomato 1 from fridge 1",
+          "selected_index": 47,
+          "confidence": 0.11187925189733505,
+          "alpha": 1.0
+        },
+        {
+          "step": 3,
+          "observation": "You pick up the tomato 1 from the fridge 1.",
+          "action": "cool tomato 1 with fridge 1",
+          "selected_index": 1,
+          "confidence": 0.2987436354160309,
+          "alpha": 1.0
+        },
+        {
+          "step": 4,
+          "observation": "You cool the tomato 1 using the fridge 1.",
+          "action": "go to microwave 1",
+          "selected_index": 36,
+          "confidence": 0.233705535531044,
+          "alpha": 1.0
+        },
+        {
+          "step": 5,
+          "observation": "You arrive at microwave 1. The microwave 1 is closed.",
+          "action": "open microwave 1",
+          "selected_index": 45,
+          "confidence": 0.2998935580253601,
+          "alpha": 1.0
+        },
+        {
+          "step": 6,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "move tomato 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.6656011343002319,
+          "alpha": 1.0
+        },
+        {
+          "step": 7,
+          "observation": "You move the tomato 1 to the microwave 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.29931890964508057,
+          "alpha": 1.0
+        },
+        {
+          "step": 8,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.2956058084964752,
+          "alpha": 1.0
+        },
+        {
+          "step": 9,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.16868910193443298,
+          "alpha": 1.0
+        },
+        {
+          "step": 10,
+          "observation": "You close the microwave 1.",
+          "action": "go to fridge 1",
+          "selected_index": 32,
+          "confidence": 0.18522700667381287,
+          "alpha": 1.0
+        },
+        {
+          "step": 11,
+          "observation": "You arrive at fridge 1. The fridge 1 is open. In it, you see a bowl 2, a bread 2, a potato 1, a tomato 2, and a winebottle 1.",
+          "action": "go to microwave 1",
+          "selected_index": 34,
+          "confidence": 0.0822015181183815,
+          "alpha": 1.0
+        },
+        {
+          "step": 12,
+          "observation": "You arrive at microwave 1. The microwave 1 is closed.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.36452263593673706,
+          "alpha": 1.0
+        },
+        {
+          "step": 13,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1, and a tomato 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.3536283075809479,
+          "alpha": 1.0
+        },
+        {
+          "step": 14,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4201982617378235,
+          "alpha": 1.0
+        },
+        {
+          "step": 15,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.21593539416790009,
+          "alpha": 1.0
+        },
+        {
+          "step": 16,
+          "observation": "You close the microwave 1.",
+          "action": "go to fridge 1",
+          "selected_index": 32,
+          "confidence": 0.18522700667381287,
+          "alpha": 1.0
+        },
+        {
+          "step": 17,
+          "observation": "You arrive at fridge 1. The fridge 1 is open. In it, you see a bowl 2, a bread 2, a potato 1, a tomato 2, and a winebottle 1.",
+          "action": "go to microwave 1",
+          "selected_index": 34,
+          "confidence": 0.0822015181183815,
+          "alpha": 1.0
+        },
+        {
+          "step": 18,
+          "observation": "You arrive at microwave 1. The microwave 1 is closed.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.36452263593673706,
+          "alpha": 1.0
+        },
+        {
+          "step": 19,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1, and a tomato 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.3536283075809479,
+          "alpha": 1.0
+        },
+        {
+          "step": 20,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4201982617378235,
+          "alpha": 1.0
+        },
+        {
+          "step": 21,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.21593539416790009,
+          "alpha": 1.0
+        },
+        {
+          "step": 22,
+          "observation": "You close the microwave 1.",
+          "action": "go to fridge 1",
+          "selected_index": 32,
+          "confidence": 0.18522700667381287,
+          "alpha": 1.0
+        },
+        {
+          "step": 23,
+          "observation": "You arrive at fridge 1. The fridge 1 is open. In it, you see a bowl 2, a bread 2, a potato 1, a tomato 2, and a winebottle 1.",
+          "action": "go to microwave 1",
+          "selected_index": 34,
+          "confidence": 0.0822015181183815,
+          "alpha": 1.0
+        },
+        {
+          "step": 24,
+          "observation": "You arrive at microwave 1. The microwave 1 is closed.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.36452263593673706,
+          "alpha": 1.0
+        },
+        {
+          "step": 25,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1, and a tomato 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.3536283075809479,
+          "alpha": 1.0
+        },
+        {
+          "step": 26,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4201982617378235,
+          "alpha": 1.0
+        },
+        {
+          "step": 27,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.21593539416790009,
+          "alpha": 1.0
+        },
+        {
+          "step": 28,
+          "observation": "You close the microwave 1.",
+          "action": "go to fridge 1",
+          "selected_index": 32,
+          "confidence": 0.18522700667381287,
+          "alpha": 1.0
+        },
+        {
+          "step": 29,
+          "observation": "You arrive at fridge 1. The fridge 1 is open. In it, you see a bowl 2, a bread 2, a potato 1, a tomato 2, and a winebottle 1.",
+          "action": "go to microwave 1",
+          "selected_index": 34,
+          "confidence": 0.0822015181183815,
+          "alpha": 1.0
+        },
+        {
+          "step": 30,
+          "observation": "You arrive at microwave 1. The microwave 1 is closed.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.36452263593673706,
+          "alpha": 1.0
+        },
+        {
+          "step": 31,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1, and a tomato 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.3536283075809479,
+          "alpha": 1.0
+        },
+        {
+          "step": 32,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4201982617378235,
+          "alpha": 1.0
+        },
+        {
+          "step": 33,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.21593539416790009,
+          "alpha": 1.0
+        },
+        {
+          "step": 34,
+          "observation": "You close the microwave 1.",
+          "action": "go to fridge 1",
+          "selected_index": 32,
+          "confidence": 0.18522700667381287,
+          "alpha": 1.0
+        },
+        {
+          "step": 35,
+          "observation": "You arrive at fridge 1. The fridge 1 is open. In it, you see a bowl 2, a bread 2, a potato 1, a tomato 2, and a winebottle 1.",
+          "action": "go to microwave 1",
+          "selected_index": 34,
+          "confidence": 0.0822015181183815,
+          "alpha": 1.0
+        },
+        {
+          "step": 36,
+          "observation": "You arrive at microwave 1. The microwave 1 is closed.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.36452263593673706,
+          "alpha": 1.0
+        },
+        {
+          "step": 37,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1, and a tomato 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.3536283075809479,
+          "alpha": 1.0
+        },
+        {
+          "step": 38,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4201982617378235,
+          "alpha": 1.0
+        },
+        {
+          "step": 39,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.21593539416790009,
+          "alpha": 1.0
+        },
+        {
+          "step": 40,
+          "observation": "You close the microwave 1.",
+          "action": "go to fridge 1",
+          "selected_index": 32,
+          "confidence": 0.18522700667381287,
+          "alpha": 1.0
+        },
+        {
+          "step": 41,
+          "observation": "You arrive at fridge 1. The fridge 1 is open. In it, you see a bowl 2, a bread 2, a potato 1, a tomato 2, and a winebottle 1.",
+          "action": "go to microwave 1",
+          "selected_index": 34,
+          "confidence": 0.0822015181183815,
+          "alpha": 1.0
+        },
+        {
+          "step": 42,
+          "observation": "You arrive at microwave 1. The microwave 1 is closed.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.36452263593673706,
+          "alpha": 1.0
+        },
+        {
+          "step": 43,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1, and a tomato 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.3536283075809479,
+          "alpha": 1.0
+        },
+        {
+          "step": 44,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4201982617378235,
+          "alpha": 1.0
+        },
+        {
+          "step": 45,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.21593539416790009,
+          "alpha": 1.0
+        },
+        {
+          "step": 46,
+          "observation": "You close the microwave 1.",
+          "action": "go to fridge 1",
+          "selected_index": 32,
+          "confidence": 0.18522700667381287,
+          "alpha": 1.0
+        },
+        {
+          "step": 47,
+          "observation": "You arrive at fridge 1. The fridge 1 is open. In it, you see a bowl 2, a bread 2, a potato 1, a tomato 2, and a winebottle 1.",
+          "action": "go to microwave 1",
+          "selected_index": 34,
+          "confidence": 0.0822015181183815,
+          "alpha": 1.0
+        },
+        {
+          "step": 48,
+          "observation": "You arrive at microwave 1. The microwave 1 is closed.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.36452263593673706,
+          "alpha": 1.0
+        },
+        {
+          "step": 49,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1, and a tomato 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.3536283075809479,
+          "alpha": 1.0
+        }
+      ]
+    }
+  ]
+}

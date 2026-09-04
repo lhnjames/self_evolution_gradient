@@ -1,0 +1,269 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 104.59it/s]
+[1/111] global=111 correct=0 p_gold=0.0240
+[2/111] global=112 correct=1 p_gold=0.2671
+[3/111] global=113 correct=0 p_gold=0.0050
+[4/111] global=114 correct=0 p_gold=0.0242
+[5/111] global=115 correct=1 p_gold=0.1961
+[6/111] global=116 correct=0 p_gold=0.0030
+[7/111] global=117 correct=0 p_gold=0.0537
+[8/111] global=118 correct=0 p_gold=0.0229
+[9/111] global=119 correct=0 p_gold=0.0206
+[10/111] global=120 correct=0 p_gold=0.0475
+[11/111] global=121 correct=0 p_gold=0.0660
+[12/111] global=122 correct=1 p_gold=0.4905
+[13/111] global=123 correct=0 p_gold=0.1159
+[14/111] global=124 correct=1 p_gold=0.3658
+[15/111] global=125 correct=1 p_gold=0.7053
+[16/111] global=126 correct=1 p_gold=0.5516
+[17/111] global=127 correct=0 p_gold=0.0400
+[18/111] global=128 correct=1 p_gold=0.0771
+[19/111] global=129 correct=1 p_gold=0.1606
+[20/111] global=130 correct=0 p_gold=0.0149
+[21/111] global=131 correct=0 p_gold=0.0362
+[22/111] global=132 correct=0 p_gold=0.0504
+[23/111] global=133 correct=1 p_gold=0.1664
+[24/111] global=134 correct=0 p_gold=0.0088
+[25/111] global=135 correct=0 p_gold=0.0589
+[26/111] global=136 correct=1 p_gold=0.3142
+[27/111] global=137 correct=0 p_gold=0.0261
+[28/111] global=138 correct=1 p_gold=0.5214
+[29/111] global=139 correct=1 p_gold=0.5900
+[30/111] global=140 correct=1 p_gold=0.3113
+[31/111] global=141 correct=1 p_gold=0.3503
+[32/111] global=142 correct=0 p_gold=0.0481
+[33/111] global=143 correct=0 p_gold=0.0229
+[34/111] global=144 correct=0 p_gold=0.0100
+[35/111] global=145 correct=1 p_gold=0.1858
+[36/111] global=146 correct=0 p_gold=0.0085
+[37/111] global=147 correct=0 p_gold=0.0547
+[38/111] global=148 correct=1 p_gold=0.2418
+[39/111] global=149 correct=0 p_gold=0.0209
+[40/111] global=150 correct=0 p_gold=0.0306
+[41/111] global=151 correct=1 p_gold=0.5036
+[42/111] global=152 correct=0 p_gold=0.0598
+[43/111] global=153 correct=1 p_gold=0.6961
+[44/111] global=154 correct=1 p_gold=0.2160
+[45/111] global=155 correct=1 p_gold=0.6536
+[46/111] global=156 correct=1 p_gold=0.1467
+[47/111] global=157 correct=0 p_gold=0.0174
+[48/111] global=158 correct=1 p_gold=0.2548
+[49/111] global=159 correct=0 p_gold=0.0165
+[50/111] global=160 correct=0 p_gold=0.0179
+[51/111] global=161 correct=1 p_gold=0.2063
+[52/111] global=162 correct=0 p_gold=0.0148
+[53/111] global=163 correct=0 p_gold=0.0133
+[54/111] global=164 correct=1 p_gold=0.1991
+[55/111] global=165 correct=0 p_gold=0.0117
+[56/111] global=166 correct=0 p_gold=0.0165
+[57/111] global=167 correct=1 p_gold=0.2601
+[58/111] global=168 correct=0 p_gold=0.0102
+[59/111] global=169 correct=0 p_gold=0.0103
+[60/111] global=170 correct=1 p_gold=0.1451
+[61/111] global=171 correct=0 p_gold=0.0138
+[62/111] global=172 correct=0 p_gold=0.0144
+[63/111] global=173 correct=1 p_gold=0.2287
+[64/111] global=174 correct=0 p_gold=0.0173
+[65/111] global=175 correct=0 p_gold=0.0798
+[66/111] global=176 correct=1 p_gold=0.2639
+[67/111] global=177 correct=1 p_gold=0.4399
+[68/111] global=178 correct=1 p_gold=0.6138
+[69/111] global=179 correct=1 p_gold=0.2732
+[70/111] global=180 correct=1 p_gold=0.6183
+[71/111] global=181 correct=0 p_gold=0.0144
+[72/111] global=182 correct=1 p_gold=0.7456
+[73/111] global=183 correct=0 p_gold=0.0255
+[74/111] global=184 correct=0 p_gold=0.0032
+[75/111] global=185 correct=1 p_gold=0.3829
+[76/111] global=186 correct=0 p_gold=0.0160
+[77/111] global=187 correct=0 p_gold=0.0317
+[78/111] global=188 correct=0 p_gold=0.3317
+[79/111] global=189 correct=0 p_gold=0.0147
+[80/111] global=190 correct=0 p_gold=0.0126
+[81/111] global=191 correct=1 p_gold=0.3216
+[82/111] global=192 correct=0 p_gold=0.0089
+[83/111] global=193 correct=0 p_gold=0.0095
+[84/111] global=194 correct=1 p_gold=0.3095
+[85/111] global=195 correct=0 p_gold=0.0117
+[86/111] global=196 correct=0 p_gold=0.0116
+[87/111] global=197 correct=0 p_gold=0.2654
+[88/111] global=198 correct=0 p_gold=0.0083
+[89/111] global=199 correct=1 p_gold=0.3263
+[90/111] global=200 correct=0 p_gold=0.1451
+[91/111] global=201 correct=0 p_gold=0.0735
+[92/111] global=202 correct=1 p_gold=0.6727
+[93/111] global=203 correct=0 p_gold=0.0211
+[94/111] global=204 correct=1 p_gold=0.5682
+[95/111] global=205 correct=1 p_gold=0.6250
+[96/111] global=206 correct=1 p_gold=0.5893
+[97/111] global=207 correct=0 p_gold=0.0066
+[98/111] global=208 correct=0 p_gold=0.0198
+[99/111] global=209 correct=0 p_gold=0.0331
+[100/111] global=210 correct=0 p_gold=0.0214
+[101/111] global=211 correct=0 p_gold=0.0256
+[102/111] global=212 correct=1 p_gold=0.6927
+[103/111] global=213 correct=0 p_gold=0.0060
+[104/111] global=214 correct=1 p_gold=0.4539
+[105/111] global=215 correct=1 p_gold=0.7759
+[106/111] global=216 correct=1 p_gold=0.5945
+[107/111] global=217 correct=0 p_gold=0.1233
+[108/111] global=218 correct=1 p_gold=0.4595
+[109/111] global=219 correct=0 p_gold=0.1811
+[110/111] global=220 correct=1 p_gold=0.5614
+[111/111] global=221 correct=1 p_gold=0.6593
+{
+  "decision_file": "alfworld_expert_large/valid_seen.jsonl",
+  "model_path": "seed_model",
+  "tokenizer_path": "model",
+  "condition_name": "seed_checkpoint_same_plain_prompt",
+  "prompt_mode": "existing_plain_prompt",
+  "decision_offset": 111,
+  "evaluated_decisions": 111,
+  "top1_accuracy": 0.43243243243243246,
+  "mean_expert_probability": 0.2027231353263765,
+  "mean_nll": 2.5744844451472195
+}
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 103.61it/s]
+[1/132] global=132 correct=1 p_gold=0.1321
+[2/132] global=133 correct=1 p_gold=0.4549
+[3/132] global=134 correct=0 p_gold=0.0302
+[4/132] global=135 correct=1 p_gold=0.4181
+[5/132] global=136 correct=1 p_gold=0.6756
+[6/132] global=137 correct=1 p_gold=0.5837
+[7/132] global=138 correct=0 p_gold=0.0319
+[8/132] global=139 correct=1 p_gold=0.8157
+[9/132] global=140 correct=1 p_gold=0.8469
+[10/132] global=141 correct=1 p_gold=0.8633
+[11/132] global=142 correct=0 p_gold=0.0632
+[12/132] global=143 correct=0 p_gold=0.0687
+[13/132] global=144 correct=1 p_gold=0.1889
+[14/132] global=145 correct=0 p_gold=0.0350
+[15/132] global=146 correct=0 p_gold=0.0651
+[16/132] global=147 correct=1 p_gold=0.5381
+[17/132] global=148 correct=0 p_gold=0.0914
+[18/132] global=149 correct=1 p_gold=0.5755
+[19/132] global=150 correct=1 p_gold=0.4024
+[20/132] global=151 correct=1 p_gold=0.4281
+[21/132] global=152 correct=1 p_gold=0.3480
+[22/132] global=153 correct=0 p_gold=0.0892
+[23/132] global=154 correct=0 p_gold=0.0175
+[24/132] global=155 correct=0 p_gold=0.0135
+[25/132] global=156 correct=0 p_gold=0.0055
+[26/132] global=157 correct=0 p_gold=0.0073
+[27/132] global=158 correct=0 p_gold=0.0257
+[28/132] global=159 correct=1 p_gold=0.5458
+[29/132] global=160 correct=0 p_gold=0.2352
+[30/132] global=161 correct=0 p_gold=0.1019
+[31/132] global=162 correct=0 p_gold=0.0144
+[32/132] global=163 correct=1 p_gold=0.2411
+[33/132] global=164 correct=0 p_gold=0.0138
+[34/132] global=165 correct=0 p_gold=0.0435
+[35/132] global=166 correct=0 p_gold=0.0229
+[36/132] global=167 correct=1 p_gold=0.1937
+[37/132] global=168 correct=0 p_gold=0.0081
+[38/132] global=169 correct=1 p_gold=0.1919
+[39/132] global=170 correct=0 p_gold=0.0388
+[40/132] global=171 correct=0 p_gold=0.0253
+[41/132] global=172 correct=1 p_gold=0.3909
+[42/132] global=173 correct=0 p_gold=0.0597
+[43/132] global=174 correct=1 p_gold=0.6615
+[44/132] global=175 correct=1 p_gold=0.2758
+[45/132] global=176 correct=1 p_gold=0.6021
+[46/132] global=177 correct=0 p_gold=0.0492
+[47/132] global=178 correct=0 p_gold=0.0229
+[48/132] global=179 correct=1 p_gold=0.6568
+[49/132] global=180 correct=0 p_gold=0.0003
+[50/132] global=181 correct=0 p_gold=0.0008
+[51/132] global=182 correct=0 p_gold=0.2474
+[52/132] global=183 correct=0 p_gold=0.0423
+[53/132] global=184 correct=0 p_gold=0.0208
+[54/132] global=185 correct=0 p_gold=0.0130
+[55/132] global=186 correct=0 p_gold=0.0019
+[56/132] global=187 correct=0 p_gold=0.0019
+[57/132] global=188 correct=0 p_gold=0.0107
+[58/132] global=189 correct=0 p_gold=0.0069
+[59/132] global=190 correct=0 p_gold=0.0938
+[60/132] global=191 correct=0 p_gold=0.0033
+[61/132] global=192 correct=0 p_gold=0.0155
+[62/132] global=193 correct=0 p_gold=0.0058
+[63/132] global=194 correct=0 p_gold=0.0188
+[64/132] global=195 correct=1 p_gold=0.5017
+[65/132] global=196 correct=0 p_gold=0.0042
+[66/132] global=197 correct=0 p_gold=0.0136
+[67/132] global=198 correct=0 p_gold=0.0187
+[68/132] global=199 correct=0 p_gold=0.0136
+[69/132] global=200 correct=0 p_gold=0.0074
+[70/132] global=201 correct=1 p_gold=0.5847
+[71/132] global=202 correct=0 p_gold=0.0068
+[72/132] global=203 correct=0 p_gold=0.0088
+[73/132] global=204 correct=0 p_gold=0.0137
+[74/132] global=205 correct=1 p_gold=0.4690
+[75/132] global=206 correct=0 p_gold=0.0098
+[76/132] global=207 correct=1 p_gold=0.5291
+[77/132] global=208 correct=0 p_gold=0.0073
+[78/132] global=209 correct=0 p_gold=0.1783
+[79/132] global=210 correct=0 p_gold=0.0629
+[80/132] global=211 correct=0 p_gold=0.1887
+[81/132] global=212 correct=0 p_gold=0.0131
+[82/132] global=213 correct=0 p_gold=0.0541
+[83/132] global=214 correct=0 p_gold=0.0332
+[84/132] global=215 correct=1 p_gold=0.5684
+[85/132] global=216 correct=0 p_gold=0.0033
+[86/132] global=217 correct=1 p_gold=0.4959
+[87/132] global=218 correct=1 p_gold=0.6509
+[88/132] global=219 correct=1 p_gold=0.6396
+[89/132] global=220 correct=0 p_gold=0.0153
+[90/132] global=221 correct=0 p_gold=0.0630
+[91/132] global=222 correct=0 p_gold=0.0387
+[92/132] global=223 correct=0 p_gold=0.0415
+[93/132] global=224 correct=0 p_gold=0.0314
+[94/132] global=225 correct=0 p_gold=0.0770
+[95/132] global=226 correct=0 p_gold=0.0140
+[96/132] global=227 correct=0 p_gold=0.0151
+[97/132] global=228 correct=1 p_gold=0.7128
+[98/132] global=229 correct=1 p_gold=0.2251
+[99/132] global=230 correct=1 p_gold=0.6241
+[100/132] global=231 correct=1 p_gold=0.5139
+[101/132] global=232 correct=1 p_gold=0.5458
+[102/132] global=233 correct=0 p_gold=0.0449
+[103/132] global=234 correct=1 p_gold=0.2234
+[104/132] global=235 correct=0 p_gold=0.0264
+[105/132] global=236 correct=0 p_gold=0.0471
+[106/132] global=237 correct=0 p_gold=0.0325
+[107/132] global=238 correct=1 p_gold=0.2080
+[108/132] global=239 correct=0 p_gold=0.0107
+[109/132] global=240 correct=1 p_gold=0.1244
+[110/132] global=241 correct=0 p_gold=0.0273
+[111/132] global=242 correct=0 p_gold=0.0316
+[112/132] global=243 correct=1 p_gold=0.2718
+[113/132] global=244 correct=0 p_gold=0.0530
+[114/132] global=245 correct=1 p_gold=0.5877
+[115/132] global=246 correct=1 p_gold=0.3314
+[116/132] global=247 correct=1 p_gold=0.6224
+[117/132] global=248 correct=0 p_gold=0.0615
+[118/132] global=249 correct=1 p_gold=0.1017
+[119/132] global=250 correct=1 p_gold=0.2369
+[120/132] global=251 correct=0 p_gold=0.0135
+[121/132] global=252 correct=1 p_gold=0.0971
+[122/132] global=253 correct=0 p_gold=0.0828
+[123/132] global=254 correct=1 p_gold=0.2681
+[124/132] global=255 correct=0 p_gold=0.0059
+[125/132] global=256 correct=0 p_gold=0.0636
+[126/132] global=257 correct=1 p_gold=0.4968
+[127/132] global=258 correct=1 p_gold=0.2661
+[128/132] global=259 correct=1 p_gold=0.2577
+[129/132] global=260 correct=1 p_gold=0.6226
+[130/132] global=261 correct=1 p_gold=0.5153
+[131/132] global=262 correct=0 p_gold=0.0109
+[132/132] global=263 correct=0 p_gold=0.0522
+{
+  "decision_file": "alfworld_expert_large/valid_unseen.jsonl",
+  "model_path": "seed_model",
+  "tokenizer_path": "model",
+  "condition_name": "seed_checkpoint_same_plain_prompt",
+  "prompt_mode": "existing_plain_prompt",
+  "decision_offset": 132,
+  "evaluated_decisions": 132,
+  "top1_accuracy": 0.3939393939393939,
+  "mean_expert_probability": 0.2006386219112425,
+  "mean_nll": 2.69199320813422
+}

@@ -1,0 +1,13 @@
+{
+  "decision_file": "/data/user/agent_self_evolution_gradient/data/alfworld_expert_large/valid_seen.jsonl",
+  "model_path": "/data/user/agent_self_evolution_gradient/model",
+  "parameter_delta": "/data/user/agent_self_evolution_gradient/outputs/conflict_aware_accumulation_300x_v1/deltas/valid_seen_last_four_blocks_project.pt",
+  "tokenizer_path": "/data/user/agent_self_evolution_gradient/model",
+  "condition_name": "project300_last4",
+  "prompt_mode": "existing_plain_prompt",
+  "decision_offset": 0,
+  "evaluated_decisions": 444,
+  "top1_accuracy": 0.34684684684684686,
+  "mean_expert_probability": 0.24972714779852623,
+  "mean_nll": 2.6976188198891284
+}

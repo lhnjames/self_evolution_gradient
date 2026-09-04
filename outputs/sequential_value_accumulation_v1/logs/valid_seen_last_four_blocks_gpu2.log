@@ -1,0 +1,67 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.02s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.45s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.69s/it]
+[1/5] valid_seen/last_four_blocks/go step=1/12 drift=0.000500107 learned_dV=+0.000136707 future_dV=-2.02355e-05 heldout_dV=+8.49635e-05
+[1/5] valid_seen/last_four_blocks/go step=2/12 drift=0.00086843 learned_dV=+0.000536735 future_dV=-1.70578e-05 heldout_dV=+0.000297707
+[1/5] valid_seen/last_four_blocks/go step=3/12 drift=0.00101457 learned_dV=+0.000839481 future_dV=+4.98011e-05 heldout_dV=+0.000797747
+[1/5] valid_seen/last_four_blocks/go step=4/12 drift=0.00124302 learned_dV=+0.000725709 future_dV=-0.000131603 heldout_dV=+0.000781982
+[1/5] valid_seen/last_four_blocks/go step=5/12 drift=0.00143007 learned_dV=+0.000685504 future_dV=-0.000123459 heldout_dV=+0.000841886
+[1/5] valid_seen/last_four_blocks/go step=6/12 drift=0.00132887 learned_dV=+0.000326331 future_dV=+0.000134735 heldout_dV=+0.000295598
+[1/5] valid_seen/last_four_blocks/go step=7/12 drift=0.00143848 learned_dV=+0.000516962 future_dV=+0.000886996 heldout_dV=+0.000963718
+[1/5] valid_seen/last_four_blocks/go step=8/12 drift=0.00156893 learned_dV=+0.000880078 future_dV=+0.000964543 heldout_dV=+0.00156722
+[1/5] valid_seen/last_four_blocks/go step=9/12 drift=0.00181274 learned_dV=+0.000978369 future_dV=+0.00158387 heldout_dV=+0.00190837
+[1/5] valid_seen/last_four_blocks/go step=10/12 drift=0.00207637 learned_dV=+0.00178463 future_dV=+0.000463893 heldout_dV=+0.0024647
+[1/5] valid_seen/last_four_blocks/go step=11/12 drift=0.00228829 learned_dV=+0.00169131 future_dV=+0.000685909 heldout_dV=+0.00263485
+[1/5] valid_seen/last_four_blocks/go step=12/12 drift=0.00252804 learned_dV=+0.00160865 future_dV=+nan heldout_dV=+0.00270225
+[1/5] valid_seen/last_four_blocks/go complete
+[2/5] valid_seen/last_four_blocks/open step=1/12 drift=0.000500087 learned_dV=+0.000318325 future_dV=-3.44111e-05 heldout_dV=+1.02821e-05
+[2/5] valid_seen/last_four_blocks/open step=2/12 drift=0.000733747 learned_dV=+0.000281476 future_dV=-9.45394e-05 heldout_dV=+0.000151297
+[2/5] valid_seen/last_four_blocks/open step=3/12 drift=0.0010827 learned_dV=+0.000371178 future_dV=-0.00037862 heldout_dV=+0.000257892
+[2/5] valid_seen/last_four_blocks/open step=4/12 drift=0.00113925 learned_dV=+0.000405725 future_dV=-5.71399e-05 heldout_dV=+0.000283575
+[2/5] valid_seen/last_four_blocks/open step=5/12 drift=0.00136415 learned_dV=+0.000417468 future_dV=-0.000410728 heldout_dV=+0.000321133
+[2/5] valid_seen/last_four_blocks/open step=6/12 drift=0.00159346 learned_dV=+0.000923481 future_dV=-0.00143429 heldout_dV=+0.000386921
+[2/5] valid_seen/last_four_blocks/open step=7/12 drift=0.00139457 learned_dV=-0.000103493 future_dV=+0.000522605 heldout_dV=+0.000343264
+[2/5] valid_seen/last_four_blocks/open step=8/12 drift=0.00165358 learned_dV=-0.0004177 future_dV=+0.000718776 heldout_dV=+0.000414312
+[2/5] valid_seen/last_four_blocks/open step=9/12 drift=0.00196302 learned_dV=-0.000733838 future_dV=+0.000914793 heldout_dV=+0.00046444
+[2/5] valid_seen/last_four_blocks/open step=10/12 drift=0.00234307 learned_dV=-0.000646985 future_dV=-0.000117804 heldout_dV=+0.000497739
+[2/5] valid_seen/last_four_blocks/open step=11/12 drift=0.00220097 learned_dV=-0.000269215 future_dV=+0.00106226 heldout_dV=+0.000503824
+[2/5] valid_seen/last_four_blocks/open step=12/12 drift=0.00243677 learned_dV=-0.000310901 future_dV=+nan heldout_dV=+0.000531352
+[2/5] valid_seen/last_four_blocks/open complete
+[3/5] valid_seen/last_four_blocks/close step=1/12 drift=0.000500095 learned_dV=+0.00463131 future_dV=+0.00144018 heldout_dV=+0.00216411
+[3/5] valid_seen/last_four_blocks/close step=2/12 drift=0.000710968 learned_dV=+0.0027159 future_dV=+0.00160927 heldout_dV=+0.00221391
+[3/5] valid_seen/last_four_blocks/close step=3/12 drift=0.000845968 learned_dV=+0.00179557 future_dV=+0.00168776 heldout_dV=+0.00204929
+[3/5] valid_seen/last_four_blocks/close step=4/12 drift=0.00119045 learned_dV=+0.00332648 future_dV=+0.00339721 heldout_dV=+0.00404713
+[3/5] valid_seen/last_four_blocks/close step=5/12 drift=0.00149548 learned_dV=+0.00386933 future_dV=+0.00494346 heldout_dV=+0.0057426
+[3/5] valid_seen/last_four_blocks/close step=6/12 drift=0.00162037 learned_dV=+0.00337655 future_dV=+0.00599879 heldout_dV=+0.00579848
+[3/5] valid_seen/last_four_blocks/close step=7/12 drift=0.00184231 learned_dV=+0.00333153 future_dV=+0.00816935 heldout_dV=+0.00643824
+[3/5] valid_seen/last_four_blocks/close step=8/12 drift=0.00221693 learned_dV=+0.0063867 future_dV=+0.00830459 heldout_dV=+0.00830879
+[3/5] valid_seen/last_four_blocks/close step=9/12 drift=0.00231413 learned_dV=+0.00552677 future_dV=+0.0105167 heldout_dV=+0.00791281
+[3/5] valid_seen/last_four_blocks/close step=10/12 drift=0.00265328 learned_dV=+0.00732024 future_dV=+0.0134003 heldout_dV=+0.00994209
+[3/5] valid_seen/last_four_blocks/close step=11/12 drift=0.00299698 learned_dV=+0.00961638 future_dV=+0.0130844 heldout_dV=+0.0118651
+[3/5] valid_seen/last_four_blocks/close step=12/12 drift=0.00333763 learned_dV=+0.0113529 future_dV=+nan heldout_dV=+0.0136452
+[3/5] valid_seen/last_four_blocks/close complete
+[4/5] valid_seen/last_four_blocks/take step=1/12 drift=0.000500089 learned_dV=+0.000850242 future_dV=+6.9615e-05 heldout_dV=-0.000221632
+[4/5] valid_seen/last_four_blocks/take step=2/12 drift=0.000838945 learned_dV=+0.00081446 future_dV=-3.90061e-05 heldout_dV=-0.000559023
+[4/5] valid_seen/last_four_blocks/take step=3/12 drift=0.001232 learned_dV=+0.00134626 future_dV=-0.000307135 heldout_dV=-0.000961873
+[4/5] valid_seen/last_four_blocks/take step=4/12 drift=0.00167615 learned_dV=+0.00187016 future_dV=-0.000731069 heldout_dV=-0.00131905
+[4/5] valid_seen/last_four_blocks/take step=5/12 drift=0.00212952 learned_dV=+0.00255124 future_dV=-0.00155091 heldout_dV=-0.00169531
+[4/5] valid_seen/last_four_blocks/take step=6/12 drift=0.00258435 learned_dV=+0.00318459 future_dV=-0.00283914 heldout_dV=-0.00208371
+[4/5] valid_seen/last_four_blocks/take step=7/12 drift=0.00219585 learned_dV=+0.0013432 future_dV=-0.00125798 heldout_dV=-0.00166182
+[4/5] valid_seen/last_four_blocks/take step=8/12 drift=0.00263028 learned_dV=+0.00183846 future_dV=-0.00285756 heldout_dV=-0.00204584
+[4/5] valid_seen/last_four_blocks/take step=9/12 drift=0.00242689 learned_dV=+0.00104134 future_dV=-0.00113963 heldout_dV=-0.00148335
+[4/5] valid_seen/last_four_blocks/take step=10/12 drift=0.00232176 learned_dV=+0.000744685 future_dV=+0.00121978 heldout_dV=-0.0011988
+[4/5] valid_seen/last_four_blocks/take step=11/12 drift=0.00237872 learned_dV=+0.0011192 future_dV=+0.00240536 heldout_dV=-0.0010949
+[4/5] valid_seen/last_four_blocks/take step=12/12 drift=0.002748 learned_dV=+0.0012559 future_dV=+nan heldout_dV=-0.00144153
+[4/5] valid_seen/last_four_blocks/take complete
+[5/5] valid_seen/last_four_blocks/move step=1/12 drift=0.000500087 learned_dV=+0.00126438 future_dV=+0.000982724 heldout_dV=+0.000644953
+[5/5] valid_seen/last_four_blocks/move step=2/12 drift=0.000959771 learned_dV=+0.00211294 future_dV=+0.00202628 heldout_dV=+0.00126598
+[5/5] valid_seen/last_four_blocks/move step=3/12 drift=0.00137294 learned_dV=+0.00515385 future_dV=+0.00226139 heldout_dV=+0.00174026
+[5/5] valid_seen/last_four_blocks/move step=4/12 drift=0.00182822 learned_dV=+0.00591555 future_dV=+0.00304361 heldout_dV=+0.00238037
+[5/5] valid_seen/last_four_blocks/move step=5/12 drift=0.00225652 learned_dV=+0.00629679 future_dV=+0.00395654 heldout_dV=+0.00295107
+[5/5] valid_seen/last_four_blocks/move step=6/12 drift=0.00265518 learned_dV=+0.00683622 future_dV=+0.00485136 heldout_dV=+0.00344678
+[5/5] valid_seen/last_four_blocks/move step=7/12 drift=0.00307864 learned_dV=+0.00793307 future_dV=+0.00520248 heldout_dV=+0.00404571
+[5/5] valid_seen/last_four_blocks/move step=8/12 drift=0.0035172 learned_dV=+0.00852178 future_dV=+0.00616353 heldout_dV=+0.00463895
+[5/5] valid_seen/last_four_blocks/move step=9/12 drift=0.00395401 learned_dV=+0.00920038 future_dV=+0.00715165 heldout_dV=+0.00518683
+[5/5] valid_seen/last_four_blocks/move step=10/12 drift=0.00438482 learned_dV=+0.0100531 future_dV=+0.00750514 heldout_dV=+0.0057034
+[5/5] valid_seen/last_four_blocks/move step=11/12 drift=0.00484042 learned_dV=+0.0108863 future_dV=+0.0077671 heldout_dV=+0.00627887
+[5/5] valid_seen/last_four_blocks/move step=12/12 drift=0.00529855 learned_dV=+0.0116383 future_dV=+nan heldout_dV=+0.00683842
+[5/5] valid_seen/last_four_blocks/move complete
+{"output": "/data/user/agent_self_evolution_gradient/outputs/sequential_value_accumulation_v1/valid_seen_last_four_blocks.json", "verbs": 5}

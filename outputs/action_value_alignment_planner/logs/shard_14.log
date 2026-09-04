@@ -1,0 +1,44 @@
+Initializing AlfredTWEnv...
+  0%|          | 0/494 [00:00<?, ?it/s]  7%|▋         | 35/494 [00:00<00:01, 349.03it/s]100%|██████████| 494/494 [00:00<00:00, 2807.95it/s]
+Overall we have 140 games in split=train
+Training with 140 games
+[1/14 shard=14] game=1/14 index=270 actions=18 wins=18 elapsed=23.9s
+[2/14 shard=14] game=2/14 index=398 actions=17 wins=17 elapsed=35.6s
+[3/14 shard=14] game=3/14 index=46 actions=21 wins=21 elapsed=71.7s
+[4/14 shard=14] game=4/14 index=206 actions=20 wins=20 elapsed=91.1s
+[5/14 shard=14] game=5/14 index=174 actions=26 wins=26 elapsed=173.3s
+[6/14 shard=14] game=6/14 index=14 actions=26 wins=26 elapsed=252.4s
+[7/14 shard=14] game=7/14 index=78 actions=46 wins=43 elapsed=463.3s
+[8/14 shard=14] game=8/14 index=142 actions=33 wins=33 elapsed=568.5s
+[9/14 shard=14] game=9/14 index=430 actions=40 wins=39 elapsed=703.5s
+[10/14 shard=14] game=10/14 index=238 actions=42 wins=40 elapsed=877.4s
+[11/14 shard=14] game=11/14 index=302 actions=39 wins=39 elapsed=1028.6s
+[12/14 shard=14] game=12/14 index=366 actions=31 wins=30 elapsed=1147.8s
+[13/14 shard=14] game=13/14 index=110 actions=24 wins=24 elapsed=1213.1s
+[14/14 shard=14] game=14/14 index=334 actions=18 wins=0 elapsed=1253.2s
+{
+  "split": "valid_seen",
+  "expert_type": "planner",
+  "gamma": 0.95,
+  "max_steps": 50,
+  "seed": 20260902,
+  "shard_index": 14,
+  "num_shards": 32,
+  "states": 14,
+  "candidate_actions": 401,
+  "successful_candidates": 376,
+  "wall_seconds": 1253.1649151288439
+}
+Initializing AlfredTWEnv...
+  0%|          | 0/341 [00:00<?, ?it/s] 13%|█▎        | 43/341 [00:00<00:00, 429.69it/s]100%|██████████| 341/341 [00:00<00:00, 1939.26it/s]
+Overall we have 134 games in split=train
+Training with 134 games
+[1/17 shard=14] game=1/17 index=398 actions=23 wins=23 elapsed=46.2s
+[2/17 shard=14] game=2/17 index=206 actions=24 wins=22 elapsed=101.6s
+[3/17 shard=14] game=3/17 index=366 actions=24 wins=24 elapsed=128.4s
+[4/17 shard=14] game=4/17 index=46 actions=30 wins=30 elapsed=215.3s
+[5/17 shard=14] game=5/17 index=270 actions=30 wins=28 elapsed=339.6s
+[6/17 shard=14] game=6/17 index=430 actions=28 wins=28 elapsed=416.6s
+[7/17 shard=14] game=7/17 index=142 actions=28 wins=28 elapsed=490.2s
+[8/17 shard=14] game=8/17 index=334 actions=31 wins=29 elapsed=613.1s
+Terminated

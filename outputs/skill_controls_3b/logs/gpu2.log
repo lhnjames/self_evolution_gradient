@@ -1,0 +1,329 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 101.48it/s]
+[1/111] global=222 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[2/111] global=223 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[3/111] global=224 reformatted_skill=0 anti_skill=1 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[4/111] global=225 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[5/111] global=226 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[6/111] global=227 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[7/111] global=228 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[8/111] global=229 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[9/111] global=230 reformatted_skill=1 anti_skill=0 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[10/111] global=231 reformatted_skill=0 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=0
+[11/111] global=232 reformatted_skill=0 anti_skill=1 task_only_skill=0 general_only_skill=1 length_matched_placebo=1
+[12/111] global=233 reformatted_skill=0 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=1
+[13/111] global=234 reformatted_skill=0 anti_skill=0 task_only_skill=1 general_only_skill=1 length_matched_placebo=0
+[14/111] global=235 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[15/111] global=236 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[16/111] global=237 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[17/111] global=238 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[18/111] global=239 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[19/111] global=240 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[20/111] global=241 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[21/111] global=242 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[22/111] global=243 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[23/111] global=244 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[24/111] global=245 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[25/111] global=246 reformatted_skill=0 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=0
+[26/111] global=247 reformatted_skill=1 anti_skill=1 task_only_skill=0 general_only_skill=1 length_matched_placebo=1
+[27/111] global=248 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[28/111] global=249 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[29/111] global=250 reformatted_skill=0 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=1
+[30/111] global=251 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[31/111] global=252 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[32/111] global=253 reformatted_skill=0 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=1
+[33/111] global=254 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[34/111] global=255 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[35/111] global=256 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=0
+[36/111] global=257 reformatted_skill=0 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=0
+[37/111] global=258 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[38/111] global=259 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[39/111] global=260 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[40/111] global=261 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[41/111] global=262 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[42/111] global=263 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=0
+[43/111] global=264 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[44/111] global=265 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[45/111] global=266 reformatted_skill=0 anti_skill=1 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[46/111] global=267 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[47/111] global=268 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[48/111] global=269 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[49/111] global=270 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[50/111] global=271 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[51/111] global=272 reformatted_skill=0 anti_skill=1 task_only_skill=0 general_only_skill=1 length_matched_placebo=0
+[52/111] global=273 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[53/111] global=274 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[54/111] global=275 reformatted_skill=0 anti_skill=1 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[55/111] global=276 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[56/111] global=277 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=0 length_matched_placebo=0
+[57/111] global=278 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[58/111] global=279 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=1
+[59/111] global=280 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[60/111] global=281 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[61/111] global=282 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[62/111] global=283 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[63/111] global=284 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[64/111] global=285 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[65/111] global=286 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[66/111] global=287 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[67/111] global=288 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[68/111] global=289 reformatted_skill=0 anti_skill=1 task_only_skill=0 general_only_skill=1 length_matched_placebo=1
+[69/111] global=290 reformatted_skill=0 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=1
+[70/111] global=291 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[71/111] global=292 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[72/111] global=293 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[73/111] global=294 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[74/111] global=295 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[75/111] global=296 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[76/111] global=297 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[77/111] global=298 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[78/111] global=299 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[79/111] global=300 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[80/111] global=301 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[81/111] global=302 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[82/111] global=303 reformatted_skill=0 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[83/111] global=304 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[84/111] global=305 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[85/111] global=306 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[86/111] global=307 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[87/111] global=308 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=0 length_matched_placebo=0
+[88/111] global=309 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=0 length_matched_placebo=1
+[89/111] global=310 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[90/111] global=311 reformatted_skill=0 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[91/111] global=312 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[92/111] global=313 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[93/111] global=314 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[94/111] global=315 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[95/111] global=316 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[96/111] global=317 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[97/111] global=318 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[98/111] global=319 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[99/111] global=320 reformatted_skill=0 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=0
+[100/111] global=321 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[101/111] global=322 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[102/111] global=323 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[103/111] global=324 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[104/111] global=325 reformatted_skill=0 anti_skill=1 task_only_skill=0 general_only_skill=1 length_matched_placebo=1
+[105/111] global=326 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[106/111] global=327 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[107/111] global=328 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[108/111] global=329 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[109/111] global=330 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[110/111] global=331 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[111/111] global=332 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+{
+  "decision_file": "alfworld_expert_large/valid_seen.jsonl",
+  "decision_offset": 222,
+  "evaluated_decisions": 111,
+  "conditions": {
+    "reformatted_skill": {
+      "count": 111,
+      "top1_accuracy": 0.3153153153153153,
+      "mean_expert_probability": 0.1590746643885903,
+      "mean_nll": 2.3636542664786555,
+      "mean_entropy": 2.4655887071076816
+    },
+    "anti_skill": {
+      "count": 111,
+      "top1_accuracy": 0.38738738738738737,
+      "mean_expert_probability": 0.14005356401137942,
+      "mean_nll": 2.3234123301402363,
+      "mean_entropy": 2.621215222118137
+    },
+    "task_only_skill": {
+      "count": 111,
+      "top1_accuracy": 0.40540540540540543,
+      "mean_expert_probability": 0.18791918591638138,
+      "mean_nll": 2.1983262676278708,
+      "mean_entropy": 2.425290243045704
+    },
+    "general_only_skill": {
+      "count": 111,
+      "top1_accuracy": 0.35135135135135137,
+      "mean_expert_probability": 0.15590953049963122,
+      "mean_nll": 2.433585423378307,
+      "mean_entropy": 2.478314877630354
+    },
+    "length_matched_placebo": {
+      "count": 111,
+      "top1_accuracy": 0.36936936936936937,
+      "mean_expert_probability": 0.1731931506121229,
+      "mean_nll": 2.5008605222922933,
+      "mean_entropy": 2.2905016444824837
+    }
+  }
+}
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 103.82it/s]
+[1/132] global=264 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[2/132] global=265 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[3/132] global=266 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[4/132] global=267 reformatted_skill=1 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[5/132] global=268 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[6/132] global=269 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[7/132] global=270 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[8/132] global=271 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[9/132] global=272 reformatted_skill=0 anti_skill=1 task_only_skill=0 general_only_skill=1 length_matched_placebo=1
+[10/132] global=273 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[11/132] global=274 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[12/132] global=275 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[13/132] global=276 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=1 length_matched_placebo=0
+[14/132] global=277 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[15/132] global=278 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[16/132] global=279 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[17/132] global=280 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[18/132] global=281 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[19/132] global=282 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=1 length_matched_placebo=0
+[20/132] global=283 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[21/132] global=284 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[22/132] global=285 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[23/132] global=286 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[24/132] global=287 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[25/132] global=288 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[26/132] global=289 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[27/132] global=290 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[28/132] global=291 reformatted_skill=1 anti_skill=1 task_only_skill=0 general_only_skill=1 length_matched_placebo=1
+[29/132] global=292 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[30/132] global=293 reformatted_skill=1 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=0
+[31/132] global=294 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[32/132] global=295 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[33/132] global=296 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[34/132] global=297 reformatted_skill=1 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=0
+[35/132] global=298 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[36/132] global=299 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[37/132] global=300 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[38/132] global=301 reformatted_skill=0 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=1
+[39/132] global=302 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[40/132] global=303 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[41/132] global=304 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[42/132] global=305 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[43/132] global=306 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[44/132] global=307 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[45/132] global=308 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[46/132] global=309 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[47/132] global=310 reformatted_skill=0 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=0
+[48/132] global=311 reformatted_skill=1 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=0
+[49/132] global=312 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[50/132] global=313 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[51/132] global=314 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[52/132] global=315 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[53/132] global=316 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[54/132] global=317 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[55/132] global=318 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[56/132] global=319 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[57/132] global=320 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[58/132] global=321 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=0 length_matched_placebo=0
+[59/132] global=322 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[60/132] global=323 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[61/132] global=324 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[62/132] global=325 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[63/132] global=326 reformatted_skill=0 anti_skill=1 task_only_skill=0 general_only_skill=1 length_matched_placebo=1
+[64/132] global=327 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[65/132] global=328 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[66/132] global=329 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[67/132] global=330 reformatted_skill=0 anti_skill=1 task_only_skill=0 general_only_skill=1 length_matched_placebo=1
+[68/132] global=331 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[69/132] global=332 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[70/132] global=333 reformatted_skill=1 anti_skill=1 task_only_skill=0 general_only_skill=1 length_matched_placebo=1
+[71/132] global=334 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[72/132] global=335 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[73/132] global=336 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[74/132] global=337 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[75/132] global=338 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[76/132] global=339 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=1 length_matched_placebo=1
+[77/132] global=340 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[78/132] global=341 reformatted_skill=1 anti_skill=0 task_only_skill=0 general_only_skill=1 length_matched_placebo=0
+[79/132] global=342 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[80/132] global=343 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[81/132] global=344 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=0 length_matched_placebo=0
+[82/132] global=345 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[83/132] global=346 reformatted_skill=0 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[84/132] global=347 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[85/132] global=348 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[86/132] global=349 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[87/132] global=350 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[88/132] global=351 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[89/132] global=352 reformatted_skill=0 anti_skill=1 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[90/132] global=353 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[91/132] global=354 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[92/132] global=355 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[93/132] global=356 reformatted_skill=1 anti_skill=1 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[94/132] global=357 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[95/132] global=358 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=0 length_matched_placebo=1
+[96/132] global=359 reformatted_skill=0 anti_skill=1 task_only_skill=1 general_only_skill=0 length_matched_placebo=1
+[97/132] global=360 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[98/132] global=361 reformatted_skill=1 anti_skill=0 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[99/132] global=362 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[100/132] global=363 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[101/132] global=364 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[102/132] global=365 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[103/132] global=366 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[104/132] global=367 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[105/132] global=368 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[106/132] global=369 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[107/132] global=370 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[108/132] global=371 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[109/132] global=372 reformatted_skill=1 anti_skill=1 task_only_skill=1 general_only_skill=1 length_matched_placebo=1
+[110/132] global=373 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[111/132] global=374 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[112/132] global=375 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[113/132] global=376 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[114/132] global=377 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[115/132] global=378 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[116/132] global=379 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[117/132] global=380 reformatted_skill=1 anti_skill=0 task_only_skill=0 general_only_skill=1 length_matched_placebo=0
+[118/132] global=381 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[119/132] global=382 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[120/132] global=383 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[121/132] global=384 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[122/132] global=385 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[123/132] global=386 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[124/132] global=387 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[125/132] global=388 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[126/132] global=389 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[127/132] global=390 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[128/132] global=391 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[129/132] global=392 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[130/132] global=393 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+[131/132] global=394 reformatted_skill=1 anti_skill=0 task_only_skill=1 general_only_skill=0 length_matched_placebo=1
+[132/132] global=395 reformatted_skill=0 anti_skill=0 task_only_skill=0 general_only_skill=0 length_matched_placebo=0
+{
+  "decision_file": "alfworld_expert_large/valid_unseen.jsonl",
+  "decision_offset": 264,
+  "evaluated_decisions": 132,
+  "conditions": {
+    "reformatted_skill": {
+      "count": 132,
+      "top1_accuracy": 0.30303030303030304,
+      "mean_expert_probability": 0.15351442646968996,
+      "mean_nll": 2.5498961332254972,
+      "mean_entropy": 2.485806278884411
+    },
+    "anti_skill": {
+      "count": 132,
+      "top1_accuracy": 0.29545454545454547,
+      "mean_expert_probability": 0.13486189658358466,
+      "mean_nll": 2.5229380582861554,
+      "mean_entropy": 2.5797062078208635
+    },
+    "task_only_skill": {
+      "count": 132,
+      "top1_accuracy": 0.2878787878787879,
+      "mean_expert_probability": 0.15697397156547982,
+      "mean_nll": 2.5239850303658544,
+      "mean_entropy": 2.5023007785732094
+    },
+    "general_only_skill": {
+      "count": 132,
+      "top1_accuracy": 0.29545454545454547,
+      "mean_expert_probability": 0.16472459753100394,
+      "mean_nll": 2.4442608719521717,
+      "mean_entropy": 2.4494279988787393
+    },
+    "length_matched_placebo": {
+      "count": 132,
+      "top1_accuracy": 0.2878787878787879,
+      "mean_expert_probability": 0.16399700041140683,
+      "mean_nll": 2.5975208696439243,
+      "mean_entropy": 2.3839545624725744
+    }
+  }
+}

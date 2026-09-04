@@ -1,0 +1,36 @@
+experiment:
+  seed: 31
+  device: cuda:0
+
+model:
+  cache_root: /data/hanning/agent_self_evolution_gradient/model_cache
+  path: null
+  batch_size: 40
+
+benchmark:
+  train_tasks: 80
+  eval_tasks: 40
+
+head:
+  rank: 32
+  base_temperature: 2.5
+
+fusion:
+  skill_weight: 1.0
+  verifier_weight: 3.0
+  residual_clip: 2.0
+  max_kl: 0.35
+  require_positive_skill_gain: true
+
+first_order:
+  steps: 70
+  learning_rate: 0.02
+  anchor_weight: 0.05
+
+zero_order:
+  steps: 55
+  directions: 8
+  sigma: 0.05
+  learning_rate: 0.035
+  two_sided: true
+  anchor_weight: 0.05

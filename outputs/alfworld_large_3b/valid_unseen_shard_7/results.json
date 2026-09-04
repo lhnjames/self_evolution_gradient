@@ -1,0 +1,197 @@
+{
+  "seed": 410,
+  "collection": {
+    "loaded_from": "data/alfworld_expert_large/valid_unseen.jsonl",
+    "decisions": 578
+  },
+  "evaluated_decisions": 175,
+  "model_path": "/data/hanning/agent_self_evolution_gradient/model_cache/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+  "conditions": {
+    "plain": {
+      "count": 175,
+      "top1_accuracy": 0.36,
+      "mean_expert_probability": 0.19917587206965046,
+      "mean_nll": 2.45856243652359,
+      "mean_reciprocal_rank": 0.48453918820380604,
+      "mean_entropy": 2.1752479636669158,
+      "mean_kl_from_plain": 0.0,
+      "ece": 0.06138784689562661,
+      "mean_confidence": 0.362609093274389,
+      "skill_selected_rate": 0.0,
+      "mean_rho": 0.0
+    },
+    "evolved_skill": {
+      "count": 175,
+      "top1_accuracy": 0.32,
+      "mean_expert_probability": 0.16977649442851545,
+      "mean_nll": 2.3192727900307712,
+      "mean_reciprocal_rank": 0.47066686628031196,
+      "mean_entropy": 2.4281417506081717,
+      "mean_kl_from_plain": 0.18814107482986792,
+      "ece": 0.07973289063998631,
+      "mean_confidence": 0.27621553199631826,
+      "skill_selected_rate": 1.0,
+      "mean_rho": 1.0
+    },
+    "mismatched_skill": {
+      "count": 175,
+      "top1_accuracy": 0.2742857142857143,
+      "mean_expert_probability": 0.15237945549456136,
+      "mean_nll": 2.477050392610911,
+      "mean_reciprocal_rank": 0.43195643920677135,
+      "mean_entropy": 2.405513824054173,
+      "mean_kl_from_plain": 0.19204005252569914,
+      "ece": 0.17959615698882508,
+      "mean_confidence": 0.2921623350041253,
+      "skill_selected_rate": 1.0,
+      "mean_rho": 1.0
+    },
+    "trust_region_skill": {
+      "count": 175,
+      "top1_accuracy": 0.33714285714285713,
+      "mean_expert_probability": 0.18106959941131728,
+      "mean_nll": 2.3530433072267294,
+      "mean_reciprocal_rank": 0.48085127745123357,
+      "mean_entropy": 2.3368820462908064,
+      "mean_kl_from_plain": 0.047890482406531064,
+      "ece": 0.10407272726297377,
+      "mean_confidence": 0.3124655288883618,
+      "skill_selected_rate": 1.0,
+      "mean_rho": 0.6620954231119581
+    },
+    "confidence_gated_skill": {
+      "count": 175,
+      "top1_accuracy": 0.34285714285714286,
+      "mean_expert_probability": 0.20282448648209017,
+      "mean_nll": 2.4121232242540005,
+      "mean_reciprocal_rank": 0.48063268092171274,
+      "mean_entropy": 2.1593694760118214,
+      "mean_kl_from_plain": 0.03436714126595429,
+      "ece": 0.08246305614709853,
+      "mean_confidence": 0.37198262465851645,
+      "skill_selected_rate": 0.22285714285714286,
+      "mean_rho": 0.22285714285714286
+    },
+    "oracle_gated_skill_upper_bound": {
+      "count": 175,
+      "top1_accuracy": 0.4057142857142857,
+      "mean_expert_probability": 0.2183781370307718,
+      "mean_nll": 2.1279031651936693,
+      "mean_reciprocal_rank": 0.5336610578963521,
+      "mean_entropy": 2.2829068524496896,
+      "mean_kl_from_plain": 0.096493326404265,
+      "ece": 0.09152270900351663,
+      "mean_confidence": 0.32769126896347317,
+      "skill_selected_rate": 0.46285714285714286,
+      "mean_rho": 0.46285714285714286
+    }
+  },
+  "skill_effect": {
+    "mean_expert_probability_delta": -0.029399377641135028,
+    "positive_shift_rate": 0.46285714285714286,
+    "harmful_shift_rate": 0.5371428571428571,
+    "unchanged_shift_rate": 0.0
+  },
+  "by_action_verb": {
+    "clean": {
+      "count": 6,
+      "plain_accuracy": 1.0,
+      "evolved_skill_accuracy": 1.0,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": -0.09058134257793427
+    },
+    "close": {
+      "count": 14,
+      "plain_accuracy": 0.0,
+      "evolved_skill_accuracy": 0.0,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": 0.02623823966964015
+    },
+    "cool": {
+      "count": 2,
+      "plain_accuracy": 1.0,
+      "evolved_skill_accuracy": 1.0,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": 0.07221171259880066
+    },
+    "go": {
+      "count": 111,
+      "plain_accuracy": 0.17117117117117117,
+      "evolved_skill_accuracy": 0.15315315315315314,
+      "accuracy_delta": -0.01801801801801803,
+      "expert_probability_delta": -0.003149908763851534
+    },
+    "heat": {
+      "count": 1,
+      "plain_accuracy": 0.0,
+      "evolved_skill_accuracy": 0.0,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": -0.0633571445941925
+    },
+    "move": {
+      "count": 11,
+      "plain_accuracy": 1.0,
+      "evolved_skill_accuracy": 1.0,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": -0.18080527538603003
+    },
+    "open": {
+      "count": 15,
+      "plain_accuracy": 0.8,
+      "evolved_skill_accuracy": 0.4666666666666667,
+      "accuracy_delta": -0.33333333333333337,
+      "expert_probability_delta": -0.09633198579152426
+    },
+    "take": {
+      "count": 13,
+      "plain_accuracy": 1.0,
+      "evolved_skill_accuracy": 0.9230769230769231,
+      "accuracy_delta": -0.07692307692307687,
+      "expert_probability_delta": -0.13160722530805147
+    },
+    "use": {
+      "count": 2,
+      "plain_accuracy": 0.0,
+      "evolved_skill_accuracy": 0.5,
+      "accuracy_delta": 0.5,
+      "expert_probability_delta": 0.2222834751009941
+    }
+  },
+  "by_task_type": {
+    "look_at_obj_in_light": {
+      "count": 38,
+      "plain_accuracy": 0.13157894736842105,
+      "evolved_skill_accuracy": 0.10526315789473684,
+      "accuracy_delta": -0.02631578947368421,
+      "expert_probability_delta": -0.004599324470434926
+    },
+    "pick_and_place_simple": {
+      "count": 11,
+      "plain_accuracy": 0.6363636363636364,
+      "evolved_skill_accuracy": 0.6363636363636364,
+      "accuracy_delta": 0.0,
+      "expert_probability_delta": -0.05794495140964335
+    },
+    "pick_clean_then_place_in_recep": {
+      "count": 74,
+      "plain_accuracy": 0.3918918918918919,
+      "evolved_skill_accuracy": 0.3783783783783784,
+      "accuracy_delta": -0.013513513513513487,
+      "expert_probability_delta": -0.04569807496374926
+    },
+    "pick_cool_then_place_in_recep": {
+      "count": 42,
+      "plain_accuracy": 0.40476190476190477,
+      "evolved_skill_accuracy": 0.3333333333333333,
+      "accuracy_delta": -0.07142857142857145,
+      "expert_probability_delta": -0.011964657332836873
+    },
+    "pick_heat_then_place_in_recep": {
+      "count": 10,
+      "plain_accuracy": 0.5,
+      "evolved_skill_accuracy": 0.3,
+      "accuracy_delta": -0.2,
+      "expert_probability_delta": -0.044854913651943204
+    }
+  }
+}

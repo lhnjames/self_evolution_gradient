@@ -1,0 +1,12 @@
+{
+  "decision_file": "alfworld_expert_large/valid_seen.jsonl",
+  "model_path": "seed_model",
+  "tokenizer_path": "model",
+  "condition_name": "seed_checkpoint_same_plain_prompt",
+  "prompt_mode": "existing_plain_prompt",
+  "decision_offset": 111,
+  "evaluated_decisions": 111,
+  "top1_accuracy": 0.43243243243243246,
+  "mean_expert_probability": 0.2027231353263765,
+  "mean_nll": 2.5744844451472195
+}

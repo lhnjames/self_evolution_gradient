@@ -1,0 +1,111 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Encoding 120 tasks with frozen model /data/hanning/agent_self_evolution_gradient/model_cache/hub/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/7ae557604adf67be50417f59c2c2f167def9a775
+base                     strict=0.050 tool=0.200 choice=0.225 answer_nll=1.448
+base + online repair     strict=1.000 tool=1.000 choice=1.000 answer_nll=1.459
+ZO step 01: loss=2.7194 probe=2.7268 |g|=2.8262
+ZO step 02: loss=2.7302 probe=2.7364 |g|=3.0271
+ZO step 03: loss=2.7105 probe=2.7179 |g|=1.9006
+ZO step 04: loss=2.6877 probe=2.6944 |g|=2.1700
+ZO step 05: loss=2.6759 probe=2.6852 |g|=3.6185
+ZO step 06: loss=2.6597 probe=2.6708 |g|=2.6969
+ZO step 07: loss=2.6293 probe=2.6571 |g|=1.5373
+ZO step 08: loss=2.6385 probe=2.6461 |g|=1.7960
+ZO step 09: loss=2.6460 probe=2.6505 |g|=3.0201
+ZO step 10: loss=2.6217 probe=2.6465 |g|=2.0312
+ZO step 11: loss=2.6128 probe=2.6201 |g|=2.5022
+ZO step 12: loss=2.5877 probe=2.6045 |g|=2.2124
+ZO step 13: loss=2.5575 probe=2.5924 |g|=2.6545
+ZO step 14: loss=2.5415 probe=2.5545 |g|=1.8187
+ZO step 15: loss=2.5212 probe=2.5390 |g|=3.5176
+ZO step 16: loss=2.4872 probe=2.5002 |g|=4.1271
+ZO step 17: loss=2.4302 probe=2.4499 |g|=4.0132
+ZO step 18: loss=2.3802 probe=2.3966 |g|=5.1375
+ZO step 19: loss=2.3205 probe=2.3488 |g|=4.4100
+ZO step 20: loss=2.2645 probe=2.2934 |g|=3.3526
+ZO step 21: loss=2.2349 probe=2.2594 |g|=2.2349
+ZO step 22: loss=2.2128 probe=2.2334 |g|=3.3257
+ZO step 23: loss=2.1884 probe=2.2016 |g|=3.3102
+ZO step 24: loss=2.1528 probe=2.1611 |g|=4.1239
+ZO step 25: loss=2.1187 probe=2.1193 |g|=3.6544
+ZO step 26: loss=2.0720 probe=2.0854 |g|=3.0845
+ZO step 27: loss=2.0370 probe=2.0461 |g|=3.6667
+ZO step 28: loss=1.9885 probe=2.0113 |g|=4.7580
+ZO step 29: loss=1.9306 probe=1.9561 |g|=2.4442
+ZO step 30: loss=1.8968 probe=1.9206 |g|=5.0625
+ZO step 31: loss=1.8609 probe=1.8841 |g|=2.9326
+ZO step 32: loss=1.8378 probe=1.8641 |g|=1.4421
+ZO step 33: loss=1.8250 probe=1.8370 |g|=1.4528
+ZO step 34: loss=1.8184 probe=1.8286 |g|=2.3187
+ZO step 35: loss=1.8096 probe=1.8212 |g|=1.8784
+ZO step 36: loss=1.8008 probe=1.8182 |g|=1.7139
+ZO step 37: loss=1.7938 probe=1.8068 |g|=2.1951
+ZO step 38: loss=1.7867 probe=1.8079 |g|=2.6023
+ZO step 39: loss=1.7820 probe=1.7930 |g|=2.0038
+ZO step 40: loss=1.7725 probe=1.7849 |g|=1.8271
+ZO step 41: loss=1.7635 probe=1.7833 |g|=2.3654
+ZO step 42: loss=1.7542 probe=1.7654 |g|=1.1089
+ZO step 43: loss=1.7442 probe=1.7629 |g|=0.9221
+ZO step 44: loss=1.7349 probe=1.7753 |g|=0.9673
+ZO step 45: loss=1.7418 probe=1.7553 |g|=1.1807
+ZO internalized          strict=0.075 tool=0.400 choice=0.300 answer_nll=1.457
+FO step 01: loss=2.7194 |g|=1.1988
+FO step 02: loss=2.6177 |g|=0.5982
+FO step 03: loss=2.6189 |g|=0.9013
+FO step 04: loss=2.5931 |g|=0.7915
+FO step 05: loss=2.5772 |g|=0.6858
+FO step 06: loss=2.5402 |g|=0.4910
+FO step 07: loss=2.5089 |g|=0.5593
+FO step 08: loss=2.5083 |g|=0.8378
+FO step 09: loss=2.4957 |g|=0.7633
+FO step 10: loss=2.4564 |g|=0.5353
+FO step 11: loss=2.4133 |g|=0.4680
+FO step 12: loss=2.3993 |g|=0.6518
+FO step 13: loss=2.3852 |g|=0.6299
+FO step 14: loss=2.3706 |g|=0.5556
+FO step 15: loss=2.3566 |g|=0.5237
+FO step 16: loss=2.3358 |g|=0.4846
+FO step 17: loss=2.3070 |g|=0.3953
+FO step 18: loss=2.2758 |g|=0.3479
+FO step 19: loss=2.2544 |g|=0.4402
+FO step 20: loss=2.2344 |g|=0.5111
+FO step 21: loss=2.2106 |g|=0.4727
+FO step 22: loss=2.1843 |g|=0.3539
+FO step 23: loss=2.1640 |g|=0.2579
+FO step 24: loss=2.1439 |g|=0.2686
+FO step 25: loss=2.1294 |g|=0.3242
+FO step 26: loss=2.1123 |g|=0.3415
+FO step 27: loss=2.0872 |g|=0.3360
+FO step 28: loss=2.0669 |g|=0.2993
+FO step 29: loss=2.0520 |g|=0.2454
+FO step 30: loss=2.0319 |g|=0.2070
+FO step 31: loss=2.0119 |g|=0.2191
+FO step 32: loss=1.9971 |g|=0.2513
+FO step 33: loss=1.9815 |g|=0.2675
+FO step 34: loss=1.9593 |g|=0.2494
+FO step 35: loss=1.9421 |g|=0.2001
+FO step 36: loss=1.9256 |g|=0.1488
+FO step 37: loss=1.9108 |g|=0.1606
+FO step 38: loss=1.8968 |g|=0.1998
+FO step 39: loss=1.8822 |g|=0.2097
+FO step 40: loss=1.8670 |g|=0.1859
+FO step 41: loss=1.8542 |g|=0.1556
+FO step 42: loss=1.8384 |g|=0.1440
+FO step 43: loss=1.8253 |g|=0.1444
+FO step 44: loss=1.8124 |g|=0.1450
+FO step 45: loss=1.8001 |g|=0.1497
+FO step 46: loss=1.7881 |g|=0.1525
+FO step 47: loss=1.7761 |g|=0.1418
+FO step 48: loss=1.7640 |g|=0.1205
+FO step 49: loss=1.7522 |g|=0.1078
+FO step 50: loss=1.7408 |g|=0.1170
+FO step 51: loss=1.7298 |g|=0.1306
+FO step 52: loss=1.7188 |g|=0.1295
+FO step 53: loss=1.7080 |g|=0.1145
+FO step 54: loss=1.6976 |g|=0.1000
+FO step 55: loss=1.6878 |g|=0.0976
+FO step 56: loss=1.6784 |g|=0.1029
+FO step 57: loss=1.6691 |g|=0.1062
+FO step 58: loss=1.6598 |g|=0.1039
+FO step 59: loss=1.6504 |g|=0.0968
+FO step 60: loss=1.6410 |g|=0.0881
+FO repair distilled      strict=0.100 tool=0.575 choice=0.200 answer_nll=1.578

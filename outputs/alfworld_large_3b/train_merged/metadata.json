@@ -1,0 +1,8 @@
+{
+  "shards": [
+    "outputs/alfworld_large_3b/train_shard_0",
+    "outputs/alfworld_large_3b/train_shard_1",
+    "outputs/alfworld_large_3b/train_shard_2"
+  ],
+  "decisions": 598
+}

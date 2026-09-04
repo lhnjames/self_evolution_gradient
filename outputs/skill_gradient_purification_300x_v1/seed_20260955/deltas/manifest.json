@@ -1,0 +1,30 @@
+{
+  "format": "skill_conditioned_parameter_delta_bank_v1",
+  "base_model": "/data/user/agent_self_evolution_gradient/model",
+  "split": "valid_seen",
+  "parameter_group": "last_four_blocks",
+  "verbs": [
+    "go",
+    "open",
+    "close"
+  ],
+  "aggregates": [
+    "mean12",
+    "purified12"
+  ],
+  "sample_seed": 20260955,
+  "source_count_per_skill": 12,
+  "parameter_delta_l2_norm_per_skill": 0.18,
+  "routes": {
+    "mean12": {
+      "go": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260955/deltas/mean12/go.pt",
+      "open": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260955/deltas/mean12/open.pt",
+      "close": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260955/deltas/mean12/close.pt"
+    },
+    "purified12": {
+      "go": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260955/deltas/purified12/go.pt",
+      "open": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260955/deltas/purified12/open.pt",
+      "close": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260955/deltas/purified12/close.pt"
+    }
+  }
+}

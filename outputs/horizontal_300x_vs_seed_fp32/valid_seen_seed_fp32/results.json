@@ -1,0 +1,13 @@
+{
+  "decision_file": "/data/user/agent_self_evolution_gradient/data/alfworld_expert_large/valid_seen.jsonl",
+  "model_path": "/data/user/agent_self_evolution_gradient/seed_model",
+  "parameter_delta": null,
+  "tokenizer_path": "/data/user/agent_self_evolution_gradient/model",
+  "condition_name": "seed_fp32",
+  "prompt_mode": "existing_plain_prompt",
+  "decision_offset": 0,
+  "evaluated_decisions": 444,
+  "top1_accuracy": 0.44594594594594594,
+  "mean_expert_probability": 0.20891109991020015,
+  "mean_nll": 2.481176458183242
+}

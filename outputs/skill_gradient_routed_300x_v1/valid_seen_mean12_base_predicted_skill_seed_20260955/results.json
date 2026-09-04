@@ -1,0 +1,19 @@
+{
+  "decision_file": "/data/user/agent_self_evolution_gradient/data/alfworld_expert_large/valid_seen.jsonl",
+  "base_model": "/data/user/agent_self_evolution_gradient/model",
+  "delta_manifest": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260955/deltas/manifest.json",
+  "aggregate": "mean12",
+  "route_mode": "base_predicted_skill",
+  "condition_name": "mean12_base_predicted_skill_seed_20260955",
+  "evaluated_decisions": 444,
+  "edited_decisions": 256,
+  "route_counts": {
+    "close": 0,
+    "go": 195,
+    "open": 61,
+    "base": 188
+  },
+  "top1_accuracy": 0.23648648648648649,
+  "mean_expert_probability": 0.157536255445559,
+  "mean_nll": 3.2518211573861047
+}

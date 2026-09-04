@@ -1,0 +1,44 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.41s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.43s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.58s/it]
+cached source 165
+cached source 285
+cached source 264
+cached source 33
+cached source 304
+cached source 21
+cached source 146
+cached source 192
+cached source 424
+cached source 380
+cached source 238
+cached source 65
+cached transfer_validation 432
+cached transfer_validation 407
+cached transfer_validation 134
+cached same_skill_holdout 88
+cached same_skill_holdout 113
+cached same_skill_holdout 226
+cached harm_validation 314
+cached harm_validation 296
+cached harm_validation 397
+cached protection_test 216
+cached protection_test 439
+cached protection_test 325
+cached protection_test 323
+cached protection_test 218
+cached protection_test 98
+cached protection_test 252
+cached protection_test 58
+cached protection_test 355
+tomography K=1/12 complete
+tomography K=2/12 complete
+tomography K=3/12 complete
+tomography K=4/12 complete
+tomography K=5/12 complete
+tomography K=6/12 complete
+tomography K=7/12 complete
+tomography K=8/12 complete
+tomography K=9/12 complete
+tomography K=10/12 complete
+tomography K=11/12 complete
+tomography K=12/12 complete
+wrote outputs/output_gradient_self_evolution/scope_tomography_seed_20260955.json and outputs/output_gradient_self_evolution/scope_tomography_seed_20260955.npz

@@ -1,0 +1,38 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.83s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.85s/it]
+cached source 165
+cached source 285
+cached source 264
+cached source 33
+cached source 304
+cached source 21
+cached source 146
+cached source 192
+cached source 424
+cached source 380
+cached source 238
+cached source 65
+cached transfer_validation 432
+cached transfer_validation 407
+cached transfer_validation 134
+cached final_holdout 88
+cached final_holdout 113
+cached final_holdout 226
+source position 1/18 complete
+source position 2/18 complete
+source position 3/18 complete
+source position 4/18 complete
+source position 5/18 complete
+source position 6/18 complete
+source position 7/18 complete
+source position 8/18 complete
+source position 9/18 complete
+source position 10/18 complete
+source position 11/18 complete
+source position 12/18 complete
+source position 13/18 complete
+source position 14/18 complete
+source position 15/18 complete
+source position 16/18 complete
+source position 17/18 complete
+source position 18/18 complete
+wrote outputs/output_gradient_self_evolution/geometry_close_seed_20260955.json

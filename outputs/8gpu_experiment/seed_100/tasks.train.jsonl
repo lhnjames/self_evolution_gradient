@@ -1,0 +1,80 @@
+{"task_id": "train-0000", "split": "train", "operation": "add", "a": 8, "b": 9, "question": "Add 8 and 9.", "options": [-1, 17, 16, 9], "answer_index": 1}
+{"task_id": "train-0001", "split": "train", "operation": "subtract", "a": 21, "b": 3, "question": "Subtract 3 from 21.", "options": [19, 63, 18, 17], "answer_index": 2}
+{"task_id": "train-0002", "split": "train", "operation": "multiply", "a": 28, "b": 5, "question": "Multiply 28 by 5.", "options": [28, 33, 140, 5], "answer_index": 2}
+{"task_id": "train-0003", "split": "train", "operation": "maximum", "a": 18, "b": 10, "question": "Return the larger of 18 and 10.", "options": [28, 19, 18, 17], "answer_index": 2}
+{"task_id": "train-0004", "split": "train", "operation": "minimum", "a": 8, "b": 11, "question": "Return the smaller of 8 and 11.", "options": [8, 11, 88, 19], "answer_index": 0}
+{"task_id": "train-0005", "split": "train", "operation": "add", "a": 8, "b": 11, "question": "Add 8 and 11.", "options": [19, 20, 11, 8], "answer_index": 0}
+{"task_id": "train-0006", "split": "train", "operation": "subtract", "a": 21, "b": 7, "question": "Subtract 7 from 21.", "options": [147, 14, 21, 13], "answer_index": 1}
+{"task_id": "train-0007", "split": "train", "operation": "multiply", "a": 26, "b": 13, "question": "Multiply 26 by 13.", "options": [13, 39, 338, 336], "answer_index": 2}
+{"task_id": "train-0008", "split": "train", "operation": "maximum", "a": 28, "b": 6, "question": "Return the larger of 28 and 6.", "options": [22, 28, 168, 6], "answer_index": 1}
+{"task_id": "train-0009", "split": "train", "operation": "minimum", "a": 24, "b": 13, "question": "Return the smaller of 24 and 13.", "options": [37, 11, 24, 13], "answer_index": 3}
+{"task_id": "train-0010", "split": "train", "operation": "add", "a": 19, "b": 5, "question": "Add 19 and 5.", "options": [5, 25, 19, 24], "answer_index": 3}
+{"task_id": "train-0011", "split": "train", "operation": "subtract", "a": 23, "b": 12, "question": "Subtract 12 from 23.", "options": [276, 23, 11, 13], "answer_index": 2}
+{"task_id": "train-0012", "split": "train", "operation": "multiply", "a": 28, "b": 2, "question": "Multiply 28 by 2.", "options": [30, 28, 56, 2], "answer_index": 2}
+{"task_id": "train-0013", "split": "train", "operation": "maximum", "a": 7, "b": 6, "question": "Return the larger of 7 and 6.", "options": [7, 1, 8, 42], "answer_index": 0}
+{"task_id": "train-0014", "split": "train", "operation": "minimum", "a": 26, "b": 9, "question": "Return the smaller of 26 and 9.", "options": [35, 9, 10, 26], "answer_index": 1}
+{"task_id": "train-0015", "split": "train", "operation": "add", "a": 23, "b": 6, "question": "Add 23 and 6.", "options": [30, 28, 138, 29], "answer_index": 3}
+{"task_id": "train-0016", "split": "train", "operation": "subtract", "a": 6, "b": 4, "question": "Subtract 4 from 6.", "options": [24, 2, 3, 4], "answer_index": 1}
+{"task_id": "train-0017", "split": "train", "operation": "multiply", "a": 24, "b": 3, "question": "Multiply 24 by 3.", "options": [72, 71, 3, 73], "answer_index": 0}
+{"task_id": "train-0018", "split": "train", "operation": "maximum", "a": 5, "b": 13, "question": "Return the larger of 5 and 13.", "options": [65, 14, 13, 5], "answer_index": 2}
+{"task_id": "train-0019", "split": "train", "operation": "minimum", "a": 25, "b": 13, "question": "Return the smaller of 25 and 13.", "options": [13, 14, 12, 15], "answer_index": 0}
+{"task_id": "train-0020", "split": "train", "operation": "add", "a": 10, "b": 5, "question": "Add 10 and 5.", "options": [17, 15, 5, 14], "answer_index": 1}
+{"task_id": "train-0021", "split": "train", "operation": "subtract", "a": 24, "b": 6, "question": "Subtract 6 from 24.", "options": [18, 6, 24, 17], "answer_index": 0}
+{"task_id": "train-0022", "split": "train", "operation": "multiply", "a": 6, "b": 3, "question": "Multiply 6 by 3.", "options": [3, 19, 18, 6], "answer_index": 2}
+{"task_id": "train-0023", "split": "train", "operation": "maximum", "a": 13, "b": 12, "question": "Return the larger of 13 and 12.", "options": [13, 156, 15, 12], "answer_index": 0}
+{"task_id": "train-0024", "split": "train", "operation": "minimum", "a": 26, "b": 13, "question": "Return the smaller of 26 and 13.", "options": [15, 14, 13, 338], "answer_index": 2}
+{"task_id": "train-0025", "split": "train", "operation": "add", "a": 11, "b": 2, "question": "Add 11 and 2.", "options": [2, 13, 11, 12], "answer_index": 1}
+{"task_id": "train-0026", "split": "train", "operation": "subtract", "a": 27, "b": 9, "question": "Subtract 9 from 27.", "options": [36, 19, 243, 18], "answer_index": 3}
+{"task_id": "train-0027", "split": "train", "operation": "multiply", "a": 4, "b": 11, "question": "Multiply 4 by 11.", "options": [-7, 11, 4, 44], "answer_index": 3}
+{"task_id": "train-0028", "split": "train", "operation": "maximum", "a": 18, "b": 13, "question": "Return the larger of 18 and 13.", "options": [13, 17, 234, 18], "answer_index": 3}
+{"task_id": "train-0029", "split": "train", "operation": "minimum", "a": 7, "b": 6, "question": "Return the smaller of 7 and 6.", "options": [13, 6, 5, 8], "answer_index": 1}
+{"task_id": "train-0030", "split": "train", "operation": "add", "a": 10, "b": 13, "question": "Add 10 and 13.", "options": [130, 23, 13, 24], "answer_index": 1}
+{"task_id": "train-0031", "split": "train", "operation": "subtract", "a": 25, "b": 3, "question": "Subtract 3 from 25.", "options": [23, 22, 21, 25], "answer_index": 1}
+{"task_id": "train-0032", "split": "train", "operation": "multiply", "a": 21, "b": 9, "question": "Multiply 21 by 9.", "options": [9, 189, 190, 12], "answer_index": 1}
+{"task_id": "train-0033", "split": "train", "operation": "maximum", "a": 10, "b": 8, "question": "Return the larger of 10 and 8.", "options": [10, 9, 8, 18], "answer_index": 0}
+{"task_id": "train-0034", "split": "train", "operation": "minimum", "a": 12, "b": 7, "question": "Return the smaller of 12 and 7.", "options": [6, 12, 8, 7], "answer_index": 3}
+{"task_id": "train-0035", "split": "train", "operation": "add", "a": 6, "b": 13, "question": "Add 6 and 13.", "options": [18, 20, 19, 6], "answer_index": 2}
+{"task_id": "train-0036", "split": "train", "operation": "subtract", "a": 16, "b": 2, "question": "Subtract 2 from 16.", "options": [13, 15, 32, 14], "answer_index": 3}
+{"task_id": "train-0037", "split": "train", "operation": "multiply", "a": 5, "b": 12, "question": "Multiply 5 by 12.", "options": [60, -7, 17, 61], "answer_index": 0}
+{"task_id": "train-0038", "split": "train", "operation": "maximum", "a": 9, "b": 4, "question": "Return the larger of 9 and 4.", "options": [4, 13, 9, 8], "answer_index": 2}
+{"task_id": "train-0039", "split": "train", "operation": "minimum", "a": 27, "b": 3, "question": "Return the smaller of 27 and 3.", "options": [81, 27, 30, 3], "answer_index": 3}
+{"task_id": "train-0040", "split": "train", "operation": "add", "a": 19, "b": 5, "question": "Add 19 and 5.", "options": [24, 95, 23, 25], "answer_index": 0}
+{"task_id": "train-0041", "split": "train", "operation": "subtract", "a": 26, "b": 13, "question": "Subtract 13 from 26.", "options": [13, 11, 12, 15], "answer_index": 0}
+{"task_id": "train-0042", "split": "train", "operation": "multiply", "a": 5, "b": 2, "question": "Multiply 5 by 2.", "options": [10, 2, 11, 3], "answer_index": 0}
+{"task_id": "train-0043", "split": "train", "operation": "maximum", "a": 27, "b": 12, "question": "Return the larger of 27 and 12.", "options": [324, 15, 27, 28], "answer_index": 2}
+{"task_id": "train-0044", "split": "train", "operation": "minimum", "a": 28, "b": 9, "question": "Return the smaller of 28 and 9.", "options": [252, 9, 28, 10], "answer_index": 1}
+{"task_id": "train-0045", "split": "train", "operation": "add", "a": 16, "b": 7, "question": "Add 16 and 7.", "options": [16, 23, 22, 9], "answer_index": 1}
+{"task_id": "train-0046", "split": "train", "operation": "subtract", "a": 13, "b": 8, "question": "Subtract 8 from 13.", "options": [4, 5, 104, 6], "answer_index": 1}
+{"task_id": "train-0047", "split": "train", "operation": "multiply", "a": 19, "b": 4, "question": "Multiply 19 by 4.", "options": [77, 75, 76, 23], "answer_index": 2}
+{"task_id": "train-0048", "split": "train", "operation": "maximum", "a": 8, "b": 5, "question": "Return the larger of 8 and 5.", "options": [8, 40, 13, 7], "answer_index": 0}
+{"task_id": "train-0049", "split": "train", "operation": "minimum", "a": 22, "b": 13, "question": "Return the smaller of 22 and 13.", "options": [9, 286, 12, 13], "answer_index": 3}
+{"task_id": "train-0050", "split": "train", "operation": "add", "a": 4, "b": 10, "question": "Add 4 and 10.", "options": [40, 10, -6, 14], "answer_index": 3}
+{"task_id": "train-0051", "split": "train", "operation": "subtract", "a": 25, "b": 8, "question": "Subtract 8 from 25.", "options": [17, 33, 16, 8], "answer_index": 0}
+{"task_id": "train-0052", "split": "train", "operation": "multiply", "a": 15, "b": 8, "question": "Multiply 15 by 8.", "options": [7, 119, 121, 120], "answer_index": 3}
+{"task_id": "train-0053", "split": "train", "operation": "maximum", "a": 24, "b": 7, "question": "Return the larger of 24 and 7.", "options": [24, 17, 168, 31], "answer_index": 0}
+{"task_id": "train-0054", "split": "train", "operation": "minimum", "a": 23, "b": 11, "question": "Return the smaller of 23 and 11.", "options": [9, 23, 11, 12], "answer_index": 2}
+{"task_id": "train-0055", "split": "train", "operation": "add", "a": 12, "b": 2, "question": "Add 12 and 2.", "options": [12, 14, 24, 13], "answer_index": 1}
+{"task_id": "train-0056", "split": "train", "operation": "subtract", "a": 24, "b": 7, "question": "Subtract 7 from 24.", "options": [17, 31, 7, 16], "answer_index": 0}
+{"task_id": "train-0057", "split": "train", "operation": "multiply", "a": 14, "b": 6, "question": "Multiply 14 by 6.", "options": [85, 83, 84, 6], "answer_index": 2}
+{"task_id": "train-0058", "split": "train", "operation": "maximum", "a": 9, "b": 8, "question": "Return the larger of 9 and 8.", "options": [10, 9, 17, 72], "answer_index": 1}
+{"task_id": "train-0059", "split": "train", "operation": "minimum", "a": 26, "b": 6, "question": "Return the smaller of 26 and 6.", "options": [5, 32, 6, 20], "answer_index": 2}
+{"task_id": "train-0060", "split": "train", "operation": "add", "a": 23, "b": 8, "question": "Add 23 and 8.", "options": [184, 15, 23, 31], "answer_index": 3}
+{"task_id": "train-0061", "split": "train", "operation": "subtract", "a": 27, "b": 4, "question": "Subtract 4 from 27.", "options": [31, 4, 23, 108], "answer_index": 2}
+{"task_id": "train-0062", "split": "train", "operation": "multiply", "a": 27, "b": 4, "question": "Multiply 27 by 4.", "options": [23, 4, 108, 27], "answer_index": 2}
+{"task_id": "train-0063", "split": "train", "operation": "maximum", "a": 21, "b": 13, "question": "Return the larger of 21 and 13.", "options": [8, 273, 34, 21], "answer_index": 3}
+{"task_id": "train-0064", "split": "train", "operation": "minimum", "a": 14, "b": 9, "question": "Return the smaller of 14 and 9.", "options": [23, 126, 5, 9], "answer_index": 3}
+{"task_id": "train-0065", "split": "train", "operation": "add", "a": 6, "b": 2, "question": "Add 6 and 2.", "options": [7, 6, 12, 8], "answer_index": 3}
+{"task_id": "train-0066", "split": "train", "operation": "subtract", "a": 25, "b": 10, "question": "Subtract 10 from 25.", "options": [25, 15, 250, 10], "answer_index": 1}
+{"task_id": "train-0067", "split": "train", "operation": "multiply", "a": 13, "b": 2, "question": "Multiply 13 by 2.", "options": [11, 27, 2, 26], "answer_index": 3}
+{"task_id": "train-0068", "split": "train", "operation": "maximum", "a": 5, "b": 13, "question": "Return the larger of 5 and 13.", "options": [5, 18, -8, 13], "answer_index": 3}
+{"task_id": "train-0069", "split": "train", "operation": "minimum", "a": 19, "b": 11, "question": "Return the smaller of 19 and 11.", "options": [10, 11, 30, 19], "answer_index": 1}
+{"task_id": "train-0070", "split": "train", "operation": "add", "a": 7, "b": 6, "question": "Add 7 and 6.", "options": [12, 13, 14, 7], "answer_index": 1}
+{"task_id": "train-0071", "split": "train", "operation": "subtract", "a": 13, "b": 5, "question": "Subtract 5 from 13.", "options": [13, 5, 7, 8], "answer_index": 3}
+{"task_id": "train-0072", "split": "train", "operation": "multiply", "a": 23, "b": 12, "question": "Multiply 23 by 12.", "options": [23, 12, 276, 275], "answer_index": 2}
+{"task_id": "train-0073", "split": "train", "operation": "maximum", "a": 16, "b": 2, "question": "Return the larger of 16 and 2.", "options": [2, 16, 18, 14], "answer_index": 1}
+{"task_id": "train-0074", "split": "train", "operation": "minimum", "a": 6, "b": 10, "question": "Return the smaller of 6 and 10.", "options": [16, 60, -4, 6], "answer_index": 3}
+{"task_id": "train-0075", "split": "train", "operation": "add", "a": 21, "b": 12, "question": "Add 21 and 12.", "options": [12, 9, 33, 21], "answer_index": 2}
+{"task_id": "train-0076", "split": "train", "operation": "subtract", "a": 15, "b": 10, "question": "Subtract 10 from 15.", "options": [6, 4, 150, 5], "answer_index": 3}
+{"task_id": "train-0077", "split": "train", "operation": "multiply", "a": 26, "b": 13, "question": "Multiply 26 by 13.", "options": [336, 26, 338, 340], "answer_index": 2}
+{"task_id": "train-0078", "split": "train", "operation": "maximum", "a": 18, "b": 9, "question": "Return the larger of 18 and 9.", "options": [19, 9, 27, 18], "answer_index": 3}
+{"task_id": "train-0079", "split": "train", "operation": "minimum", "a": 16, "b": 5, "question": "Return the smaller of 16 and 5.", "options": [16, 6, 5, 80], "answer_index": 2}

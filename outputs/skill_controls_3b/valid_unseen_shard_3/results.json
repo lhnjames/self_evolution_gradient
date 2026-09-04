@@ -1,0 +1,42 @@
+{
+  "decision_file": "alfworld_expert_large/valid_unseen.jsonl",
+  "decision_offset": 396,
+  "evaluated_decisions": 131,
+  "conditions": {
+    "reformatted_skill": {
+      "count": 131,
+      "top1_accuracy": 0.3893129770992366,
+      "mean_expert_probability": 0.15845586855021368,
+      "mean_nll": 2.3492932933665913,
+      "mean_entropy": 2.5243810196869245
+    },
+    "anti_skill": {
+      "count": 131,
+      "top1_accuracy": 0.31297709923664124,
+      "mean_expert_probability": 0.13187845244662452,
+      "mean_nll": 2.4005711182259977,
+      "mean_entropy": 2.6433924027071654
+    },
+    "task_only_skill": {
+      "count": 131,
+      "top1_accuracy": 0.366412213740458,
+      "mean_expert_probability": 0.1856364054136149,
+      "mean_nll": 2.2451755800866593,
+      "mean_entropy": 2.454971934092864
+    },
+    "general_only_skill": {
+      "count": 131,
+      "top1_accuracy": 0.33587786259541985,
+      "mean_expert_probability": 0.15008544711438754,
+      "mean_nll": 2.4094176985411564,
+      "mean_entropy": 2.538103230581939
+    },
+    "length_matched_placebo": {
+      "count": 131,
+      "top1_accuracy": 0.33587786259541985,
+      "mean_expert_probability": 0.15561390646825765,
+      "mean_nll": 2.480776805380892,
+      "mean_entropy": 2.471870975639984
+    }
+  }
+}

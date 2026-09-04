@@ -1,0 +1,2082 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 108.39it/s]
+Initializing AlfredTWEnv...
+  0%|          | 0/341 [00:00<?, ?it/s] 83%|████████▎ | 283/341 [00:00<00:00, 1504.22it/s]100%|██████████| 341/341 [00:00<00:00, 1689.90it/s]
+Overall we have 134 games in split=eval_out_of_distribution
+Evaluating with 134 games
+[1/5] won=False steps=50
+[2/5] won=False steps=50
+[3/5] won=False steps=50
+[4/5] won=False steps=50
+[5/5] won=False steps=50
+{
+  "policy": "plain",
+  "split": "valid_unseen",
+  "episodes": 5,
+  "success_rate": 0.0,
+  "mean_steps": 50.0,
+  "by_task_type": {
+    "look_at_obj_in_light": {
+      "episodes": 1,
+      "success_rate": 0.0
+    },
+    "pick_and_place_simple": {
+      "episodes": 2,
+      "success_rate": 0.0
+    },
+    "pick_cool_then_place_in_recep": {
+      "episodes": 1,
+      "success_rate": 0.0
+    },
+    "pick_two_obj_and_place": {
+      "episodes": 1,
+      "success_rate": 0.0
+    }
+  },
+  "trajectories": [
+    {
+      "episode_id": "pick_two_obj_and_place-PepperShaker-None-Drawer-10",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_unseen/pick_two_obj_and_place-PepperShaker-None-Drawer-10/trial_T20190912_221141_608117/game.tw-pddl",
+      "task_type": "pick_two_obj_and_place",
+      "goal": "find two peppershaker and put them in drawer.",
+      "won": false,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: find two peppershaker and put them in drawer.",
+          "action": "go to cabinet 1",
+          "selected_index": 0,
+          "confidence": 0.14836162328720093,
+          "alpha": 0.0
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, a glassbottle 1, and a peppershaker 2.",
+          "action": "take peppershaker 2 from cabinet 1",
+          "selected_index": 30,
+          "confidence": 0.12708793580532074,
+          "alpha": 0.0
+        },
+        {
+          "step": 2,
+          "observation": "You pick up the peppershaker 2 from the cabinet 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.1849210262298584,
+          "alpha": 0.0
+        },
+        {
+          "step": 3,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is closed.",
+          "action": "open cabinet 2",
+          "selected_index": 29,
+          "confidence": 0.4208252727985382,
+          "alpha": 0.0
+        },
+        {
+          "step": 4,
+          "observation": "You open the cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.13838468492031097,
+          "alpha": 0.0
+        },
+        {
+          "step": 5,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.10247795283794403,
+          "alpha": 0.0
+        },
+        {
+          "step": 6,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, and a glassbottle 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.15614423155784607,
+          "alpha": 0.0
+        },
+        {
+          "step": 7,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "examine cabinet 2",
+          "selected_index": 1,
+          "confidence": 0.0887170135974884,
+          "alpha": 0.0
+        },
+        {
+          "step": 8,
+          "observation": "The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.11895894259214401,
+          "alpha": 0.0
+        },
+        {
+          "step": 9,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.09222567081451416,
+          "alpha": 0.0
+        },
+        {
+          "step": 10,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, and a glassbottle 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.1993490308523178,
+          "alpha": 0.0
+        },
+        {
+          "step": 11,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "examine cabinet 2",
+          "selected_index": 1,
+          "confidence": 0.0887170135974884,
+          "alpha": 0.0
+        },
+        {
+          "step": 12,
+          "observation": "The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.11895894259214401,
+          "alpha": 0.0
+        },
+        {
+          "step": 13,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.09222567081451416,
+          "alpha": 0.0
+        },
+        {
+          "step": 14,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, and a glassbottle 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.1993490308523178,
+          "alpha": 0.0
+        },
+        {
+          "step": 15,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "examine cabinet 2",
+          "selected_index": 1,
+          "confidence": 0.0887170135974884,
+          "alpha": 0.0
+        },
+        {
+          "step": 16,
+          "observation": "The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.11895894259214401,
+          "alpha": 0.0
+        },
+        {
+          "step": 17,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.09222567081451416,
+          "alpha": 0.0
+        },
+        {
+          "step": 18,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, and a glassbottle 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.1993490308523178,
+          "alpha": 0.0
+        },
+        {
+          "step": 19,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "examine cabinet 2",
+          "selected_index": 1,
+          "confidence": 0.0887170135974884,
+          "alpha": 0.0
+        },
+        {
+          "step": 20,
+          "observation": "The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.11895894259214401,
+          "alpha": 0.0
+        },
+        {
+          "step": 21,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.09222567081451416,
+          "alpha": 0.0
+        },
+        {
+          "step": 22,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, and a glassbottle 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.1993490308523178,
+          "alpha": 0.0
+        },
+        {
+          "step": 23,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "examine cabinet 2",
+          "selected_index": 1,
+          "confidence": 0.0887170135974884,
+          "alpha": 0.0
+        },
+        {
+          "step": 24,
+          "observation": "The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.11895894259214401,
+          "alpha": 0.0
+        },
+        {
+          "step": 25,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.09222567081451416,
+          "alpha": 0.0
+        },
+        {
+          "step": 26,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, and a glassbottle 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.1993490308523178,
+          "alpha": 0.0
+        },
+        {
+          "step": 27,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "examine cabinet 2",
+          "selected_index": 1,
+          "confidence": 0.0887170135974884,
+          "alpha": 0.0
+        },
+        {
+          "step": 28,
+          "observation": "The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.11895894259214401,
+          "alpha": 0.0
+        },
+        {
+          "step": 29,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.09222567081451416,
+          "alpha": 0.0
+        },
+        {
+          "step": 30,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, and a glassbottle 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.1993490308523178,
+          "alpha": 0.0
+        },
+        {
+          "step": 31,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "examine cabinet 2",
+          "selected_index": 1,
+          "confidence": 0.0887170135974884,
+          "alpha": 0.0
+        },
+        {
+          "step": 32,
+          "observation": "The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.11895894259214401,
+          "alpha": 0.0
+        },
+        {
+          "step": 33,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.09222567081451416,
+          "alpha": 0.0
+        },
+        {
+          "step": 34,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, and a glassbottle 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.1993490308523178,
+          "alpha": 0.0
+        },
+        {
+          "step": 35,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "examine cabinet 2",
+          "selected_index": 1,
+          "confidence": 0.0887170135974884,
+          "alpha": 0.0
+        },
+        {
+          "step": 36,
+          "observation": "The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.11895894259214401,
+          "alpha": 0.0
+        },
+        {
+          "step": 37,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.09222567081451416,
+          "alpha": 0.0
+        },
+        {
+          "step": 38,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, and a glassbottle 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.1993490308523178,
+          "alpha": 0.0
+        },
+        {
+          "step": 39,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "examine cabinet 2",
+          "selected_index": 1,
+          "confidence": 0.0887170135974884,
+          "alpha": 0.0
+        },
+        {
+          "step": 40,
+          "observation": "The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.11895894259214401,
+          "alpha": 0.0
+        },
+        {
+          "step": 41,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.09222567081451416,
+          "alpha": 0.0
+        },
+        {
+          "step": 42,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, and a glassbottle 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.1993490308523178,
+          "alpha": 0.0
+        },
+        {
+          "step": 43,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "examine cabinet 2",
+          "selected_index": 1,
+          "confidence": 0.0887170135974884,
+          "alpha": 0.0
+        },
+        {
+          "step": 44,
+          "observation": "The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.11895894259214401,
+          "alpha": 0.0
+        },
+        {
+          "step": 45,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.09222567081451416,
+          "alpha": 0.0
+        },
+        {
+          "step": 46,
+          "observation": "You arrive at cabinet 1. On the cabinet 1, you see a dishsponge 1, and a glassbottle 1.",
+          "action": "go to cabinet 2",
+          "selected_index": 2,
+          "confidence": 0.1993490308523178,
+          "alpha": 0.0
+        },
+        {
+          "step": 47,
+          "observation": "You arrive at cabinet 2. The cabinet 2 is open. In it, you see nothing.",
+          "action": "examine cabinet 2",
+          "selected_index": 1,
+          "confidence": 0.0887170135974884,
+          "alpha": 0.0
+        },
+        {
+          "step": 48,
+          "observation": "The cabinet 2 is open. In it, you see nothing.",
+          "action": "go to cabinet 3",
+          "selected_index": 4,
+          "confidence": 0.11895894259214401,
+          "alpha": 0.0
+        },
+        {
+          "step": 49,
+          "observation": "You arrive at cabinet 3. On the cabinet 3, you see a plate 1.",
+          "action": "go to cabinet 1",
+          "selected_index": 2,
+          "confidence": 0.09222567081451416,
+          "alpha": 0.0
+        }
+      ]
+    },
+    {
+      "episode_id": "pick_cool_then_place_in_recep-Pan-None-CounterTop-10",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_unseen/pick_cool_then_place_in_recep-Pan-None-CounterTop-10/trial_T20190908_114656_768805/game.tw-pddl",
+      "task_type": "pick_cool_then_place_in_recep",
+      "goal": "cool some pan and put it in countertop.",
+      "won": false,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: cool some pan and put it in countertop.",
+          "action": "go to countertop 1",
+          "selected_index": 7,
+          "confidence": 0.1290724128484726,
+          "alpha": 0.0
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see a mug 1.",
+          "action": "take mug 1 from countertop 1",
+          "selected_index": 29,
+          "confidence": 0.13781686127185822,
+          "alpha": 0.0
+        },
+        {
+          "step": 2,
+          "observation": "You pick up the mug 1 from the countertop 1.",
+          "action": "go to stoveburner 1",
+          "selected_index": 21,
+          "confidence": 0.10494453459978104,
+          "alpha": 0.0
+        },
+        {
+          "step": 3,
+          "observation": "You arrive at stoveburner 1. On the stoveburner 1, you see a pot 1.",
+          "action": "examine stoveburner 1",
+          "selected_index": 1,
+          "confidence": 0.22399760782718658,
+          "alpha": 0.0
+        },
+        {
+          "step": 4,
+          "observation": "On the stoveburner 1, you see a pot 1.",
+          "action": "examine stoveburner 1",
+          "selected_index": 1,
+          "confidence": 0.15179969370365143,
+          "alpha": 0.0
+        },
+        {
+          "step": 5,
+          "observation": "On the stoveburner 1, you see a pot 1.",
+          "action": "go to stoveburner 2",
+          "selected_index": 23,
+          "confidence": 0.19317539036273956,
+          "alpha": 0.0
+        },
+        {
+          "step": 6,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to stoveburner 1",
+          "selected_index": 23,
+          "confidence": 0.22452466189861298,
+          "alpha": 0.0
+        },
+        {
+          "step": 7,
+          "observation": "You arrive at stoveburner 1. On the stoveburner 1, you see a pot 1.",
+          "action": "go to stoveburner 2",
+          "selected_index": 23,
+          "confidence": 0.3354060649871826,
+          "alpha": 0.0
+        },
+        {
+          "step": 8,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "examine stoveburner 2",
+          "selected_index": 1,
+          "confidence": 0.22716055810451508,
+          "alpha": 0.0
+        },
+        {
+          "step": 9,
+          "observation": "On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.21375037729740143,
+          "alpha": 0.0
+        },
+        {
+          "step": 10,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.19451120495796204,
+          "alpha": 0.0
+        },
+        {
+          "step": 11,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.3711498975753784,
+          "alpha": 0.0
+        },
+        {
+          "step": 12,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 13,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 14,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 15,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 16,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 17,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 18,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 19,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 20,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 21,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 22,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 23,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 24,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 25,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 26,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 27,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 28,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 29,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 30,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 31,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 32,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 33,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 34,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 35,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 36,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 37,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 38,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 39,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 40,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 41,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 42,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 43,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 44,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 45,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 46,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 47,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        },
+        {
+          "step": 48,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see nothing.",
+          "action": "go to stoveburner 2",
+          "selected_index": 22,
+          "confidence": 0.20355674624443054,
+          "alpha": 0.0
+        },
+        {
+          "step": 49,
+          "observation": "You arrive at stoveburner 2. On the stoveburner 2, you see a pan 1.",
+          "action": "go to countertop 1",
+          "selected_index": 10,
+          "confidence": 0.2949223816394806,
+          "alpha": 0.0
+        }
+      ]
+    },
+    {
+      "episode_id": "look_at_obj_in_light-AlarmClock-None-DeskLamp-308",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_unseen/look_at_obj_in_light-AlarmClock-None-DeskLamp-308/trial_T20190908_222933_607649/game.tw-pddl",
+      "task_type": "look_at_obj_in_light",
+      "goal": "examine the alarmclock with the desklamp.",
+      "won": false,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a desk 2, a desk 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a laundryhamper 1, a safe 1, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, and a shelf 1.\n\nYour task is to: examine the alarmclock with the desklamp.",
+          "action": "go to desk 2",
+          "selected_index": 2,
+          "confidence": 0.5288402438163757,
+          "alpha": 0.0
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a keychain 2, and a mug 1.",
+          "action": "take alarmclock 1 from desk 2",
+          "selected_index": 21,
+          "confidence": 0.42989349365234375,
+          "alpha": 0.0
+        },
+        {
+          "step": 2,
+          "observation": "You pick up the alarmclock 1 from the desk 2.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.8803098201751709,
+          "alpha": 0.0
+        },
+        {
+          "step": 3,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.3702452480792999,
+          "alpha": 0.0
+        },
+        {
+          "step": 4,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.3861681818962097,
+          "alpha": 0.0
+        },
+        {
+          "step": 5,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 6,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 7,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 8,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 9,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 10,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 11,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 12,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 13,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 14,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 15,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 16,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 17,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 18,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 19,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 20,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 21,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 22,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 23,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 24,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 25,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 26,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 27,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 28,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 29,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 30,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 31,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 32,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 33,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 34,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 35,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 36,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 37,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 38,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 39,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 40,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 41,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 42,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 43,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 44,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 45,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 46,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 47,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        },
+        {
+          "step": 48,
+          "observation": "On the desk 2, you see a keychain 2, and a mug 1.",
+          "action": "examine alarmclock 1",
+          "selected_index": 0,
+          "confidence": 0.671474039554596,
+          "alpha": 0.0
+        },
+        {
+          "step": 49,
+          "observation": "There's nothing special about alarmclock 1.",
+          "action": "examine desk 2",
+          "selected_index": 1,
+          "confidence": 0.39841073751449585,
+          "alpha": 0.0
+        }
+      ]
+    },
+    {
+      "episode_id": "pick_and_place_simple-Vase-None-Safe-219",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-Vase-None-Safe-219/trial_T20190908_205221_748352/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "goal": "put some vase on safe.",
+      "won": false,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a armchair 1, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a dresser 1, a garbagecan 1, a safe 1, a shelf 12, a shelf 11, a shelf 10, a shelf 9, a shelf 8, a shelf 7, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, a shelf 1, a sidetable 1, and a sofa 1.\n\nYour task is to: put some vase on safe.",
+          "action": "go to safe 1",
+          "selected_index": 12,
+          "confidence": 0.28714519739151,
+          "alpha": 0.0
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at safe 1. The safe 1 is closed.",
+          "action": "open safe 1",
+          "selected_index": 30,
+          "confidence": 0.492768794298172,
+          "alpha": 0.0
+        },
+        {
+          "step": 2,
+          "observation": "You open the safe 1. The safe 1 is open. In it, you see a watch 2, and a watch 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.2964181900024414,
+          "alpha": 0.0
+        },
+        {
+          "step": 3,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.7563850283622742,
+          "alpha": 0.0
+        },
+        {
+          "step": 4,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.25087782740592957,
+          "alpha": 0.0
+        },
+        {
+          "step": 5,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        },
+        {
+          "step": 6,
+          "observation": "You move the watch 2 to the safe 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.36010053753852844,
+          "alpha": 0.0
+        },
+        {
+          "step": 7,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.24938443303108215,
+          "alpha": 0.0
+        },
+        {
+          "step": 8,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.22572846710681915,
+          "alpha": 0.0
+        },
+        {
+          "step": 9,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        },
+        {
+          "step": 10,
+          "observation": "You move the watch 2 to the safe 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.36010053753852844,
+          "alpha": 0.0
+        },
+        {
+          "step": 11,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.24938443303108215,
+          "alpha": 0.0
+        },
+        {
+          "step": 12,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.22572846710681915,
+          "alpha": 0.0
+        },
+        {
+          "step": 13,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        },
+        {
+          "step": 14,
+          "observation": "You move the watch 2 to the safe 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.36010053753852844,
+          "alpha": 0.0
+        },
+        {
+          "step": 15,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.24938443303108215,
+          "alpha": 0.0
+        },
+        {
+          "step": 16,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.22572846710681915,
+          "alpha": 0.0
+        },
+        {
+          "step": 17,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        },
+        {
+          "step": 18,
+          "observation": "You move the watch 2 to the safe 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.36010053753852844,
+          "alpha": 0.0
+        },
+        {
+          "step": 19,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.24938443303108215,
+          "alpha": 0.0
+        },
+        {
+          "step": 20,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.22572846710681915,
+          "alpha": 0.0
+        },
+        {
+          "step": 21,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        },
+        {
+          "step": 22,
+          "observation": "You move the watch 2 to the safe 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.36010053753852844,
+          "alpha": 0.0
+        },
+        {
+          "step": 23,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.24938443303108215,
+          "alpha": 0.0
+        },
+        {
+          "step": 24,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.22572846710681915,
+          "alpha": 0.0
+        },
+        {
+          "step": 25,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        },
+        {
+          "step": 26,
+          "observation": "You move the watch 2 to the safe 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.36010053753852844,
+          "alpha": 0.0
+        },
+        {
+          "step": 27,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.24938443303108215,
+          "alpha": 0.0
+        },
+        {
+          "step": 28,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.22572846710681915,
+          "alpha": 0.0
+        },
+        {
+          "step": 29,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        },
+        {
+          "step": 30,
+          "observation": "You move the watch 2 to the safe 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.36010053753852844,
+          "alpha": 0.0
+        },
+        {
+          "step": 31,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.24938443303108215,
+          "alpha": 0.0
+        },
+        {
+          "step": 32,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.22572846710681915,
+          "alpha": 0.0
+        },
+        {
+          "step": 33,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        },
+        {
+          "step": 34,
+          "observation": "You move the watch 2 to the safe 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.36010053753852844,
+          "alpha": 0.0
+        },
+        {
+          "step": 35,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.24938443303108215,
+          "alpha": 0.0
+        },
+        {
+          "step": 36,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.22572846710681915,
+          "alpha": 0.0
+        },
+        {
+          "step": 37,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        },
+        {
+          "step": 38,
+          "observation": "You move the watch 2 to the safe 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.36010053753852844,
+          "alpha": 0.0
+        },
+        {
+          "step": 39,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.24938443303108215,
+          "alpha": 0.0
+        },
+        {
+          "step": 40,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.22572846710681915,
+          "alpha": 0.0
+        },
+        {
+          "step": 41,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        },
+        {
+          "step": 42,
+          "observation": "You move the watch 2 to the safe 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.36010053753852844,
+          "alpha": 0.0
+        },
+        {
+          "step": 43,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.24938443303108215,
+          "alpha": 0.0
+        },
+        {
+          "step": 44,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.22572846710681915,
+          "alpha": 0.0
+        },
+        {
+          "step": 45,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        },
+        {
+          "step": 46,
+          "observation": "You move the watch 2 to the safe 1.",
+          "action": "take watch 1 from safe 1",
+          "selected_index": 31,
+          "confidence": 0.36010053753852844,
+          "alpha": 0.0
+        },
+        {
+          "step": 47,
+          "observation": "You pick up the watch 1 from the safe 1.",
+          "action": "move watch 1 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.24938443303108215,
+          "alpha": 0.0
+        },
+        {
+          "step": 48,
+          "observation": "You move the watch 1 to the safe 1.",
+          "action": "take watch 2 from safe 1",
+          "selected_index": 32,
+          "confidence": 0.22572846710681915,
+          "alpha": 0.0
+        },
+        {
+          "step": 49,
+          "observation": "You pick up the watch 2 from the safe 1.",
+          "action": "move watch 2 to safe 1",
+          "selected_index": 32,
+          "confidence": 0.30386486649513245,
+          "alpha": 0.0
+        }
+      ]
+    },
+    {
+      "episode_id": "pick_and_place_simple-Mug-None-Desk-308",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_unseen/pick_and_place_simple-Mug-None-Desk-308/trial_T20190909_203041_433487/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "goal": "put some mug on desk.",
+      "won": false,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bed 1, a desk 2, a desk 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a laundryhamper 1, a safe 1, a shelf 6, a shelf 5, a shelf 4, a shelf 3, a shelf 2, and a shelf 1.\n\nYour task is to: put some mug on desk.",
+          "action": "go to desk 2",
+          "selected_index": 2,
+          "confidence": 0.7982649803161621,
+          "alpha": 0.0
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at desk 2. On the desk 2, you see a alarmclock 1, a bowl 1, a cd 1, and a pencil 2.",
+          "action": "take pencil 2 from desk 2",
+          "selected_index": 24,
+          "confidence": 0.37319666147232056,
+          "alpha": 0.0
+        },
+        {
+          "step": 2,
+          "observation": "You pick up the pencil 2 from the desk 2.",
+          "action": "go to desk 1",
+          "selected_index": 3,
+          "confidence": 0.4032508432865143,
+          "alpha": 0.0
+        },
+        {
+          "step": 3,
+          "observation": "You arrive at desk 1. On the desk 1, you see a desklamp 1, a keychain 2, and a pencil 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.5590921640396118,
+          "alpha": 0.0
+        },
+        {
+          "step": 4,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.40584057569503784,
+          "alpha": 0.0
+        },
+        {
+          "step": 5,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.570174515247345,
+          "alpha": 0.0
+        },
+        {
+          "step": 6,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 7,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 8,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 9,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 10,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 11,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 12,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 13,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 14,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 15,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 16,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 17,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 18,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 19,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 20,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 21,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 22,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 23,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 24,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 25,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 26,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 27,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 28,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 29,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 30,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 31,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 32,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 33,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 34,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 35,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 36,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 37,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 38,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 39,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 40,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 41,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 42,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 43,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 44,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 45,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 46,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 47,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        },
+        {
+          "step": 48,
+          "observation": "You move the pencil 2 to the desk 1.",
+          "action": "take pencil 2 from desk 1",
+          "selected_index": 23,
+          "confidence": 0.4511456787586212,
+          "alpha": 0.0
+        },
+        {
+          "step": 49,
+          "observation": "You pick up the pencil 2 from the desk 1.",
+          "action": "move pencil 2 to desk 1",
+          "selected_index": 22,
+          "confidence": 0.35806334018707275,
+          "alpha": 0.0
+        }
+      ]
+    }
+  ]
+}

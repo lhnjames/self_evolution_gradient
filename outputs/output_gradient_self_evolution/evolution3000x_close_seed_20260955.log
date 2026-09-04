@@ -1,0 +1,43 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.61s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.38s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.56s/it]
+cached source 165
+cached source 285
+cached source 264
+cached source 33
+cached source 304
+cached source 21
+cached source 146
+cached source 192
+cached source 424
+cached source 380
+cached source 238
+cached source 65
+cached transfer_validation 432
+cached transfer_validation 407
+cached transfer_validation 134
+cached same_skill_holdout 88
+cached same_skill_holdout 113
+cached same_skill_holdout 226
+cached harm_validation 314
+cached harm_validation 296
+cached harm_validation 397
+cached protection_test 216
+cached protection_test 439
+cached protection_test 325
+strategy mean12 complete
+strategy cosine_purified complete
+strategy transfer_weighted complete
+strategy transfer_harm_weighted complete
+strategy protection_nullspace_transfer_harm complete
+sequential K=1 complete
+sequential K=2 complete
+sequential K=3 complete
+sequential K=4 complete
+sequential K=5 complete
+sequential K=6 complete
+sequential K=7 complete
+sequential K=8 complete
+sequential K=9 complete
+sequential K=10 complete
+sequential K=11 complete
+sequential K=12 complete
+wrote outputs/output_gradient_self_evolution/evolution3000x_close_seed_20260955.json

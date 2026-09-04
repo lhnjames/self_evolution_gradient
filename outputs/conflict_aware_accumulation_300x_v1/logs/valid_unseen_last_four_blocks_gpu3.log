@@ -1,0 +1,14 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.84s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.49s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.70s/it]
+[1/3] valid_unseen/last_four_blocks/direct round=1 accepted=5/5 drift=0.00988593 same=+0.00271449 control=+0.00280985
+[1/3] valid_unseen/last_four_blocks/direct round=4 accepted=20/20 drift=0.0302245 same=+0.00717955 control=-0.00362508
+[1/3] valid_unseen/last_four_blocks/direct round=8 accepted=40/40 drift=0.0627811 same=+0.0171925 control=-0.00545289
+[1/3] valid_unseen/last_four_blocks/direct round=12 accepted=60/60 drift=0.0860543 same=+0.039369 control=+0.00948287
+[2/3] valid_unseen/last_four_blocks/positive_filter round=1 accepted=3/5 drift=0.0137619 same=+0.0116945 control=+0.0159386
+[2/3] valid_unseen/last_four_blocks/positive_filter round=4 accepted=10/20 drift=0.039746 same=+0.0301976 control=+0.0363663
+[2/3] valid_unseen/last_four_blocks/positive_filter round=8 accepted=22/40 drift=0.0768131 same=+0.0464401 control=+0.0548502
+[2/3] valid_unseen/last_four_blocks/positive_filter round=12 accepted=36/60 drift=0.109775 same=+0.0575729 control=+0.0688495
+[3/3] valid_unseen/last_four_blocks/project round=1 accepted=5/5 drift=0.016715 same=+0.00692905 control=+0.00988249
+[3/3] valid_unseen/last_four_blocks/project round=4 accepted=20/20 drift=0.0366198 same=+0.0124166 control=+0.00583026
+[3/3] valid_unseen/last_four_blocks/project round=8 accepted=40/40 drift=0.0693841 same=+0.0228285 control=+0.00507719
+[3/3] valid_unseen/last_four_blocks/project round=12 accepted=60/60 drift=0.0977787 same=+0.0440167 control=+0.0177455
+{"output": "/data/user/agent_self_evolution_gradient/outputs/conflict_aware_accumulation_300x_v1/valid_unseen_last_four_blocks.json", "strategies": 3}

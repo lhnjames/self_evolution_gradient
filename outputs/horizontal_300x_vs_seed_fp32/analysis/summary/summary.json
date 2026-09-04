@@ -1,0 +1,113 @@
+{
+  "required_relative_improvement": 0.3,
+  "splits": {
+    "valid_seen": {
+      "seed_fp32": {
+        "states": 444,
+        "base_expected_value": 0.5954424736046026,
+        "comparison_expected_value": 0.6249602917978847,
+        "absolute_expected_value_gain": 0.029517818193282155,
+        "relative_expected_value_gain": 0.04957291342451856,
+        "expected_value_gain_ci95": [
+          0.023159351803778132,
+          0.03589132542488221
+        ],
+        "base_top_value_optimal_rate": 0.3130630630630631,
+        "comparison_top_value_optimal_rate": 0.4346846846846847,
+        "relative_top_value_optimal_rate_gain": 0.38848920863309344,
+        "meets_30pct_expected_value_gain": false,
+        "meets_30pct_top_rate_gain": true
+      },
+      "direct300_last4": {
+        "states": 444,
+        "base_expected_value": 0.5954424736046026,
+        "comparison_expected_value": 0.622245861472626,
+        "absolute_expected_value_gain": 0.026803387868023297,
+        "relative_expected_value_gain": 0.04501423572585435,
+        "expected_value_gain_ci95": [
+          0.010417569277312733,
+          0.04163668000981487
+        ],
+        "base_top_value_optimal_rate": 0.3130630630630631,
+        "comparison_top_value_optimal_rate": 0.4391891891891892,
+        "relative_top_value_optimal_rate_gain": 0.40287769784172656,
+        "meets_30pct_expected_value_gain": false,
+        "meets_30pct_top_rate_gain": true,
+        "expected_value_minus_seed": -0.0027144303252587543,
+        "top_value_optimal_rate_minus_seed": 0.004504504504504514
+      },
+      "project300_last4": {
+        "states": 444,
+        "base_expected_value": 0.5954424736046026,
+        "comparison_expected_value": 0.6216671411797261,
+        "absolute_expected_value_gain": 0.02622466757512353,
+        "relative_expected_value_gain": 0.04404231934676826,
+        "expected_value_gain_ci95": [
+          0.005335996181767808,
+          0.04517122018069269
+        ],
+        "base_top_value_optimal_rate": 0.3130630630630631,
+        "comparison_top_value_optimal_rate": 0.44144144144144143,
+        "relative_top_value_optimal_rate_gain": 0.410071942446043,
+        "meets_30pct_expected_value_gain": false,
+        "meets_30pct_top_rate_gain": true,
+        "expected_value_minus_seed": -0.0032931506181586023,
+        "top_value_optimal_rate_minus_seed": 0.006756756756756743
+      }
+    },
+    "valid_unseen": {
+      "seed_fp32": {
+        "states": 527,
+        "base_expected_value": 0.569995599316029,
+        "comparison_expected_value": 0.5964087159525979,
+        "absolute_expected_value_gain": 0.026413116636568888,
+        "relative_expected_value_gain": 0.04633915887818015,
+        "expected_value_gain_ci95": [
+          0.017717630276090544,
+          0.034421858955143395
+        ],
+        "base_top_value_optimal_rate": 0.3187855787476281,
+        "comparison_top_value_optimal_rate": 0.3795066413662239,
+        "relative_top_value_optimal_rate_gain": 0.1904761904761905,
+        "meets_30pct_expected_value_gain": false,
+        "meets_30pct_top_rate_gain": false
+      },
+      "direct300_last4": {
+        "states": 527,
+        "base_expected_value": 0.569995599316029,
+        "comparison_expected_value": 0.5763738800218574,
+        "absolute_expected_value_gain": 0.006378280705828294,
+        "relative_expected_value_gain": 0.011190052543356716,
+        "expected_value_gain_ci95": [
+          -0.000332771496116304,
+          0.01299293507918926
+        ],
+        "base_top_value_optimal_rate": 0.3187855787476281,
+        "comparison_top_value_optimal_rate": 0.33396584440227706,
+        "relative_top_value_optimal_rate_gain": 0.04761904761904767,
+        "meets_30pct_expected_value_gain": false,
+        "meets_30pct_top_rate_gain": false,
+        "expected_value_minus_seed": -0.020034835930740513,
+        "top_value_optimal_rate_minus_seed": -0.04554079696394686
+      },
+      "project300_last4": {
+        "states": 527,
+        "base_expected_value": 0.569995599316029,
+        "comparison_expected_value": 0.5697447293829033,
+        "absolute_expected_value_gain": -0.0002508699331256896,
+        "relative_expected_value_gain": -0.0004401260876867343,
+        "expected_value_gain_ci95": [
+          -0.008970326883737363,
+          0.008031317396111827
+        ],
+        "base_top_value_optimal_rate": 0.3187855787476281,
+        "comparison_top_value_optimal_rate": 0.32827324478178366,
+        "relative_top_value_optimal_rate_gain": 0.029761904761904684,
+        "meets_30pct_expected_value_gain": false,
+        "meets_30pct_top_rate_gain": false,
+        "expected_value_minus_seed": -0.026663986569694598,
+        "top_value_optimal_rate_minus_seed": -0.05123339658444026
+      }
+    }
+  }
+}

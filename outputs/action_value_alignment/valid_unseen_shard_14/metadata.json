@@ -1,0 +1,13 @@
+{
+  "split": "valid_unseen",
+  "expert_type": "handcoded",
+  "gamma": 0.95,
+  "max_steps": 50,
+  "seed": 20260902,
+  "shard_index": 14,
+  "num_shards": 32,
+  "states": 17,
+  "candidate_actions": 475,
+  "successful_candidates": 437,
+  "wall_seconds": 498.4670312390663
+}

@@ -1,0 +1,67 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.04s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.39s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.64s/it]
+[1/5] valid_unseen/last_mlp/go step=1/12 drift=0.00104168 learned_dV=+0.000134673 future_dV=+0.000568987 heldout_dV=+3.3243e-05
+[1/5] valid_unseen/last_mlp/go step=2/12 drift=0.00149251 learned_dV=+0.000206911 future_dV=+0.00130568 heldout_dV=+0.000108216
+[1/5] valid_unseen/last_mlp/go step=3/12 drift=0.00220728 learned_dV=+0.00672218 future_dV=+0.000919397 heldout_dV=+0.000112622
+[1/5] valid_unseen/last_mlp/go step=4/12 drift=0.00276162 learned_dV=+0.00830923 future_dV=+0.000956271 heldout_dV=+0.000260793
+[1/5] valid_unseen/last_mlp/go step=5/12 drift=0.00312789 learned_dV=+0.00689556 future_dV=+0.001138 heldout_dV=+0.000336959
+[1/5] valid_unseen/last_mlp/go step=6/12 drift=0.00279915 learned_dV=+0.00450836 future_dV=+0.0010851 heldout_dV=+0.000286953
+[1/5] valid_unseen/last_mlp/go step=7/12 drift=0.00323016 learned_dV=+0.00464897 future_dV=+0.00133282 heldout_dV=+0.000428912
+[1/5] valid_unseen/last_mlp/go step=8/12 drift=0.00368869 learned_dV=+0.00434233 future_dV=+0.00148409 heldout_dV=+0.000466252
+[1/5] valid_unseen/last_mlp/go step=9/12 drift=0.00428887 learned_dV=+0.00517218 future_dV=+0.00209113 heldout_dV=+0.000567299
+[1/5] valid_unseen/last_mlp/go step=10/12 drift=0.00439949 learned_dV=+0.00455804 future_dV=+0.00295225 heldout_dV=+0.000642606
+[1/5] valid_unseen/last_mlp/go step=11/12 drift=0.00506913 learned_dV=+0.00546192 future_dV=+0.00304264 heldout_dV=+0.000751383
+[1/5] valid_unseen/last_mlp/go step=12/12 drift=0.00547178 learned_dV=+0.00608015 future_dV=+nan heldout_dV=+0.000782905
+[1/5] valid_unseen/last_mlp/go complete
+[2/5] valid_unseen/last_mlp/open step=1/12 drift=0.00104168 learned_dV=+0.00125509 future_dV=-0.000192345 heldout_dV=+1.85312e-05
+[2/5] valid_unseen/last_mlp/open step=2/12 drift=0.000543512 learned_dV=+0.000196795 future_dV=+3.41752e-05 heldout_dV=+3.66791e-05
+[2/5] valid_unseen/last_mlp/open step=3/12 drift=0.00128551 learned_dV=+0.000231431 future_dV=+3.81338e-06 heldout_dV=+0.000117287
+[2/5] valid_unseen/last_mlp/open step=4/12 drift=0.00106664 learned_dV=+0.000277084 future_dV=+0.000128496 heldout_dV=+0.000102814
+[2/5] valid_unseen/last_mlp/open step=5/12 drift=0.00158964 learned_dV=+0.000165057 future_dV=+0.000222074 heldout_dV=+0.000214372
+[2/5] valid_unseen/last_mlp/open step=6/12 drift=0.00206194 learned_dV=+5.27053e-05 future_dV=+0.000173814 heldout_dV=+0.000230616
+[2/5] valid_unseen/last_mlp/open step=7/12 drift=0.00297564 learned_dV=+0.000103307 future_dV=+3.32489e-05 heldout_dV=+0.000311571
+[2/5] valid_unseen/last_mlp/open step=8/12 drift=0.00246464 learned_dV=+9.56143e-05 future_dV=+0.000444356 heldout_dV=+0.000306886
+[2/5] valid_unseen/last_mlp/open step=9/12 drift=0.00338363 learned_dV=+0.000158133 future_dV=+0.000420964 heldout_dV=+0.000405973
+[2/5] valid_unseen/last_mlp/open step=10/12 drift=0.00432015 learned_dV=+0.000255133 future_dV=+1.52089e-05 heldout_dV=+0.000502488
+[2/5] valid_unseen/last_mlp/open step=11/12 drift=0.0052468 learned_dV=+0.000505371 future_dV=-0.00237352 heldout_dV=+0.000610152
+[2/5] valid_unseen/last_mlp/open step=12/12 drift=0.00479847 learned_dV=+0.000405138 future_dV=+nan heldout_dV=+0.000606012
+[2/5] valid_unseen/last_mlp/open complete
+[3/5] valid_unseen/last_mlp/close step=1/12 drift=0.00104168 learned_dV=+0.00653529 future_dV=+0.00195857 heldout_dV=+0.00348735
+[3/5] valid_unseen/last_mlp/close step=2/12 drift=0.00115408 learned_dV=+0.00222374 future_dV=+0.00122776 heldout_dV=+0.00194641
+[3/5] valid_unseen/last_mlp/close step=3/12 drift=0.00181055 learned_dV=+0.00467479 future_dV=+0.00296309 heldout_dV=+0.00477526
+[3/5] valid_unseen/last_mlp/close step=4/12 drift=0.00264335 learned_dV=+0.00867156 future_dV=+0.00407077 heldout_dV=+0.00784555
+[3/5] valid_unseen/last_mlp/close step=5/12 drift=0.00349375 learned_dV=+0.00990125 future_dV=+0.00611329 heldout_dV=+0.010965
+[3/5] valid_unseen/last_mlp/close step=6/12 drift=0.00438243 learned_dV=+0.0114828 future_dV=+0.00803274 heldout_dV=+0.014075
+[3/5] valid_unseen/last_mlp/close step=7/12 drift=0.0046122 learned_dV=+0.0101447 future_dV=+0.0096979 heldout_dV=+0.0141854
+[3/5] valid_unseen/last_mlp/close step=8/12 drift=0.00550017 learned_dV=+0.0125178 future_dV=+0.0110435 heldout_dV=+0.0170704
+[3/5] valid_unseen/last_mlp/close step=9/12 drift=0.00634809 learned_dV=+0.0135433 future_dV=+0.0150222 heldout_dV=+0.0198647
+[3/5] valid_unseen/last_mlp/close step=10/12 drift=0.00729366 learned_dV=+0.01677 future_dV=+0.0122767 heldout_dV=+0.0230174
+[3/5] valid_unseen/last_mlp/close step=11/12 drift=0.00821137 learned_dV=+0.0190674 future_dV=+0.00732525 heldout_dV=+0.0261906
+[3/5] valid_unseen/last_mlp/close step=12/12 drift=0.00908349 learned_dV=+0.0199537 future_dV=+nan heldout_dV=+0.0289823
+[3/5] valid_unseen/last_mlp/close complete
+[4/5] valid_unseen/last_mlp/take step=1/12 drift=0.00104168 learned_dV=+0.000665517 future_dV=-5.45711e-05 heldout_dV=-0.000414716
+[4/5] valid_unseen/last_mlp/take step=2/12 drift=0.00101379 learned_dV=+0.000635971 future_dV=+9.45896e-05 heldout_dV=-8.08684e-05
+[4/5] valid_unseen/last_mlp/take step=3/12 drift=0.00164802 learned_dV=+0.000497268 future_dV=+8.49748e-05 heldout_dV=-0.00042
+[4/5] valid_unseen/last_mlp/take step=4/12 drift=0.00242745 learned_dV=+0.000762408 future_dV=-1.32918e-05 heldout_dV=-0.000704176
+[4/5] valid_unseen/last_mlp/take step=5/12 drift=0.00331397 learned_dV=+0.00118616 future_dV=-0.000448299 heldout_dV=-0.00114348
+[4/5] valid_unseen/last_mlp/take step=6/12 drift=0.00425653 learned_dV=+0.00150814 future_dV=-0.00107472 heldout_dV=-0.00156953
+[4/5] valid_unseen/last_mlp/take step=7/12 drift=0.00382496 learned_dV=+0.000756032 future_dV=-5.91424e-05 heldout_dV=-0.00123809
+[4/5] valid_unseen/last_mlp/take step=8/12 drift=0.00360745 learned_dV=+0.000654773 future_dV=+0.00029395 heldout_dV=-0.000744625
+[4/5] valid_unseen/last_mlp/take step=9/12 drift=0.00400832 learned_dV=+0.000630757 future_dV=+0.000282129 heldout_dV=-0.000908502
+[4/5] valid_unseen/last_mlp/take step=10/12 drift=0.00388053 learned_dV=+0.000611622 future_dV=+0.000934188 heldout_dV=-0.000720847
+[4/5] valid_unseen/last_mlp/take step=11/12 drift=0.00454527 learned_dV=+0.000760074 future_dV=-0.000178299 heldout_dV=-0.0010875
+[4/5] valid_unseen/last_mlp/take step=12/12 drift=0.00462276 learned_dV=+0.000845739 future_dV=+nan heldout_dV=-0.000967719
+[4/5] valid_unseen/last_mlp/take complete
+[5/5] valid_unseen/last_mlp/move step=1/12 drift=0.00104168 learned_dV=+0.000949919 future_dV=+0.000752401 heldout_dV=+0.000433464
+[5/5] valid_unseen/last_mlp/move step=2/12 drift=0.00207093 learned_dV=+0.00193905 future_dV=+0.00145642 heldout_dV=+0.000864393
+[5/5] valid_unseen/last_mlp/move step=3/12 drift=0.00294161 learned_dV=+0.00234138 future_dV=+0.00211228 heldout_dV=+0.00121693
+[5/5] valid_unseen/last_mlp/move step=4/12 drift=0.0038735 learned_dV=+0.00307592 future_dV=+0.00288206 heldout_dV=+0.00161208
+[5/5] valid_unseen/last_mlp/move step=5/12 drift=0.00467252 learned_dV=+0.00303447 future_dV=+0.00393124 heldout_dV=+0.00197009
+[5/5] valid_unseen/last_mlp/move step=6/12 drift=0.00564965 learned_dV=+0.00375568 future_dV=+0.00488392 heldout_dV=+0.00235497
+[5/5] valid_unseen/last_mlp/move step=7/12 drift=0.00662246 learned_dV=+0.00475629 future_dV=+0.00551929 heldout_dV=+0.00279097
+[5/5] valid_unseen/last_mlp/move step=8/12 drift=0.0076026 learned_dV=+0.00549589 future_dV=+0.00644553 heldout_dV=+0.00315045
+[5/5] valid_unseen/last_mlp/move step=9/12 drift=0.00847765 learned_dV=+0.00637915 future_dV=+0.0067555 heldout_dV=+0.00352507
+[5/5] valid_unseen/last_mlp/move step=10/12 drift=0.00946977 learned_dV=+0.00721802 future_dV=+0.00714909 heldout_dV=+0.0038769
+[5/5] valid_unseen/last_mlp/move step=11/12 drift=0.0103894 learned_dV=+0.00788875 future_dV=+0.00796063 heldout_dV=+0.00425989
+[5/5] valid_unseen/last_mlp/move step=12/12 drift=0.0113426 learned_dV=+0.00858863 future_dV=+nan heldout_dV=+0.00465173
+[5/5] valid_unseen/last_mlp/move complete
+{"output": "/data/user/agent_self_evolution_gradient/outputs/sequential_value_accumulation_v1/valid_unseen_last_mlp.json", "verbs": 5}

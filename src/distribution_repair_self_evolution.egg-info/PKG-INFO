@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: distribution-repair-self-evolution
+Version: 0.1.0
+Summary: Minimal probability-distribution repair and zeroth-order self-evolution prototype
+Requires-Python: >=3.10
+Requires-Dist: torch>=2.6
+Requires-Dist: transformers<5,>=4.55
+Requires-Dist: pyyaml>=6
+Requires-Dist: numpy>=1.26

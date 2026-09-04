@@ -1,0 +1,297 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 103.05it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 51.19it/s]
+[1/111] split=valid_seen global=1 nodes=60 score_error=(1.09e-07,1.57e-07)
+[2/111] split=valid_seen global=5 nodes=40 score_error=(3.81e-07,1.87e-07)
+[3/111] split=valid_seen global=9 nodes=52 score_error=(2.26e-07,1.55e-07)
+[4/111] split=valid_seen global=13 nodes=40 score_error=(1.53e-07,1.19e-07)
+[5/111] split=valid_seen global=17 nodes=40 score_error=(3.48e-07,2.38e-07)
+[6/111] split=valid_seen global=21 nodes=40 score_error=(2.34e-07,2.24e-07)
+[7/111] split=valid_seen global=25 nodes=58 score_error=(5.96e-07,7.39e-07)
+[8/111] split=valid_seen global=29 nodes=35 score_error=(2.86e-07,1.19e-07)
+[9/111] split=valid_seen global=33 nodes=29 score_error=(1.69e-07,2.07e-07)
+[10/111] split=valid_seen global=37 nodes=29 score_error=(2.13e-07,2.14e-07)
+[11/111] split=valid_seen global=41 nodes=29 score_error=(3.77e-07,9.54e-08)
+[12/111] split=valid_seen global=45 nodes=32 score_error=(1.47e-07,4.25e-07)
+[13/111] split=valid_seen global=49 nodes=29 score_error=(1.59e-07,1.2e-07)
+[14/111] split=valid_seen global=53 nodes=47 score_error=(5.72e-07,5.96e-07)
+[15/111] split=valid_seen global=57 nodes=42 score_error=(1.59e-07,1.01e-07)
+[16/111] split=valid_seen global=61 nodes=35 score_error=(3.77e-07,3.58e-07)
+[17/111] split=valid_seen global=65 nodes=55 score_error=(4.99e-07,3.58e-07)
+[18/111] split=valid_seen global=69 nodes=55 score_error=(4.77e-07,6.26e-07)
+[19/111] split=valid_seen global=73 nodes=37 score_error=(1.98e-07,1.47e-07)
+[20/111] split=valid_seen global=77 nodes=58 score_error=(2.98e-07,2.24e-07)
+[21/111] split=valid_seen global=81 nodes=56 score_error=(7.39e-07,4.53e-07)
+[22/111] split=valid_seen global=85 nodes=37 score_error=(3.58e-07,1.26e-07)
+[23/111] split=valid_seen global=89 nodes=41 score_error=(2.04e-07,2.2e-07)
+[24/111] split=valid_seen global=93 nodes=50 score_error=(3.98e-07,6.44e-07)
+[25/111] split=valid_seen global=97 nodes=55 score_error=(3.38e-07,3.87e-07)
+[26/111] split=valid_seen global=101 nodes=38 score_error=(1.67e-07,8.86e-08)
+[27/111] split=valid_seen global=105 nodes=51 score_error=(1.91e-07,1.95e-07)
+[28/111] split=valid_seen global=109 nodes=54 score_error=(1.79e-07,2.07e-07)
+[29/111] split=valid_seen global=113 nodes=64 score_error=(1.49e-07,1.68e-07)
+[30/111] split=valid_seen global=117 nodes=41 score_error=(3.68e-07,1.79e-07)
+[31/111] split=valid_seen global=121 nodes=56 score_error=(1.91e-07,1.79e-07)
+[32/111] split=valid_seen global=125 nodes=50 score_error=(4.16e-07,3.87e-07)
+[33/111] split=valid_seen global=129 nodes=40 score_error=(4.29e-07,2.15e-07)
+[34/111] split=valid_seen global=133 nodes=40 score_error=(5.25e-07,2.15e-07)
+[35/111] split=valid_seen global=137 nodes=47 score_error=(5.72e-07,3.46e-07)
+[36/111] split=valid_seen global=141 nodes=56 score_error=(4.57e-07,3.81e-07)
+[37/111] split=valid_seen global=145 nodes=39 score_error=(3.07e-07,2.15e-07)
+[38/111] split=valid_seen global=149 nodes=47 score_error=(2.86e-07,1.16e-07)
+[39/111] split=valid_seen global=153 nodes=48 score_error=(3.36e-07,3.33e-07)
+[40/111] split=valid_seen global=157 nodes=68 score_error=(4.5e-07,1.77e-07)
+[41/111] split=valid_seen global=161 nodes=40 score_error=(4.23e-07,2.38e-07)
+[42/111] split=valid_seen global=165 nodes=50 score_error=(2.9e-07,3.06e-07)
+[43/111] split=valid_seen global=169 nodes=40 score_error=(1.92e-07,2.8e-07)
+[44/111] split=valid_seen global=173 nodes=40 score_error=(3.97e-07,2.04e-07)
+[45/111] split=valid_seen global=177 nodes=47 score_error=(3.75e-07,4.98e-07)
+[46/111] split=valid_seen global=181 nodes=14 score_error=(3.8e-07,2.62e-07)
+[47/111] split=valid_seen global=185 nodes=22 score_error=(4.77e-07,3.38e-07)
+[48/111] split=valid_seen global=189 nodes=29 score_error=(5.72e-07,4.77e-07)
+[49/111] split=valid_seen global=193 nodes=22 score_error=(5.96e-07,2.14e-07)
+[50/111] split=valid_seen global=197 nodes=22 score_error=(5.25e-07,2.92e-07)
+[51/111] split=valid_seen global=201 nodes=37 score_error=(1.19e-07,9.22e-08)
+[52/111] split=valid_seen global=205 nodes=68 score_error=(2.75e-07,5.01e-07)
+[53/111] split=valid_seen global=209 nodes=42 score_error=(3e-07,1.73e-07)
+[54/111] split=valid_seen global=213 nodes=53 score_error=(3.77e-07,5.06e-07)
+[55/111] split=valid_seen global=217 nodes=34 score_error=(9.54e-08,1.19e-07)
+[56/111] split=valid_seen global=221 nodes=61 score_error=(3.14e-07,3.47e-07)
+[57/111] split=valid_seen global=225 nodes=39 score_error=(4.09e-07,1.91e-07)
+[58/111] split=valid_seen global=229 nodes=39 score_error=(4.53e-07,2.62e-07)
+[59/111] split=valid_seen global=233 nodes=48 score_error=(1.76e-07,4.47e-07)
+[60/111] split=valid_seen global=237 nodes=36 score_error=(3.34e-07,4.53e-07)
+[61/111] split=valid_seen global=241 nodes=36 score_error=(4.17e-07,2.62e-07)
+[62/111] split=valid_seen global=245 nodes=65 score_error=(6.44e-07,5.29e-07)
+[63/111] split=valid_seen global=249 nodes=46 score_error=(3.81e-07,4.95e-07)
+[64/111] split=valid_seen global=253 nodes=53 score_error=(6.68e-07,2.77e-07)
+[65/111] split=valid_seen global=257 nodes=36 score_error=(4.77e-07,5.01e-07)
+[66/111] split=valid_seen global=261 nodes=25 score_error=(3.81e-07,1.91e-07)
+[67/111] split=valid_seen global=265 nodes=30 score_error=(3.17e-07,1.99e-07)
+[68/111] split=valid_seen global=269 nodes=30 score_error=(4.77e-07,1.39e-07)
+[69/111] split=valid_seen global=273 nodes=38 score_error=(2.78e-07,2.19e-07)
+[70/111] split=valid_seen global=277 nodes=43 score_error=(3.34e-07,3.81e-07)
+[71/111] split=valid_seen global=281 nodes=47 score_error=(2.98e-07,1.55e-07)
+[72/111] split=valid_seen global=285 nodes=65 score_error=(3.8e-07,2.14e-07)
+[73/111] split=valid_seen global=289 nodes=49 score_error=(6.2e-07,6.44e-07)
+[74/111] split=valid_seen global=293 nodes=22 score_error=(2.62e-07,1.71e-07)
+[75/111] split=valid_seen global=297 nodes=32 score_error=(3.81e-07,1.65e-07)
+[76/111] split=valid_seen global=301 nodes=36 score_error=(2.72e-07,1.83e-07)
+[77/111] split=valid_seen global=305 nodes=36 score_error=(4.81e-07,2.57e-07)
+[78/111] split=valid_seen global=309 nodes=45 score_error=(4.53e-07,4.53e-07)
+[79/111] split=valid_seen global=313 nodes=39 score_error=(3.34e-07,5.48e-07)
+[80/111] split=valid_seen global=317 nodes=30 score_error=(4.77e-07,3.1e-07)
+[81/111] split=valid_seen global=321 nodes=34 score_error=(2.38e-07,8.89e-08)
+[82/111] split=valid_seen global=325 nodes=31 score_error=(3.18e-07,9.54e-08)
+[83/111] split=valid_seen global=329 nodes=59 score_error=(1.91e-07,2.78e-07)
+[84/111] split=valid_seen global=333 nodes=49 score_error=(2.95e-07,2.53e-07)
+[85/111] split=valid_seen global=337 nodes=47 score_error=(2.77e-07,1.97e-07)
+[86/111] split=valid_seen global=341 nodes=50 score_error=(3.82e-07,2.46e-07)
+[87/111] split=valid_seen global=345 nodes=44 score_error=(3.18e-07,2.58e-07)
+[88/111] split=valid_seen global=349 nodes=40 score_error=(3.24e-07,2.89e-07)
+[89/111] split=valid_seen global=353 nodes=49 score_error=(2.75e-07,1.5e-07)
+[90/111] split=valid_seen global=357 nodes=40 score_error=(2.74e-07,1.59e-07)
+[91/111] split=valid_seen global=361 nodes=63 score_error=(3.58e-07,4.57e-07)
+[92/111] split=valid_seen global=365 nodes=36 score_error=(2.01e-07,1.21e-07)
+[93/111] split=valid_seen global=369 nodes=49 score_error=(3.44e-07,9.83e-08)
+[94/111] split=valid_seen global=373 nodes=49 score_error=(4.44e-07,8.16e-08)
+[95/111] split=valid_seen global=377 nodes=39 score_error=(2.25e-07,1.59e-07)
+[96/111] split=valid_seen global=381 nodes=39 score_error=(4.89e-07,1.94e-07)
+[97/111] split=valid_seen global=385 nodes=41 score_error=(3.34e-07,3.34e-07)
+[98/111] split=valid_seen global=389 nodes=65 score_error=(2.86e-07,2.38e-07)
+[99/111] split=valid_seen global=393 nodes=48 score_error=(6.68e-07,4.37e-07)
+[100/111] split=valid_seen global=397 nodes=49 score_error=(3.58e-07,2.93e-07)
+[101/111] split=valid_seen global=401 nodes=53 score_error=(5.6e-07,1.41e-07)
+[102/111] split=valid_seen global=405 nodes=38 score_error=(2.32e-07,1.65e-07)
+[103/111] split=valid_seen global=409 nodes=90 score_error=(1.94e-07,1.95e-07)
+[104/111] split=valid_seen global=413 nodes=48 score_error=(3.09e-07,5.66e-07)
+[105/111] split=valid_seen global=417 nodes=29 score_error=(3.21e-07,2.43e-07)
+[106/111] split=valid_seen global=421 nodes=46 score_error=(3.58e-07,1.19e-07)
+[107/111] split=valid_seen global=425 nodes=34 score_error=(1.57e-07,8.12e-08)
+[108/111] split=valid_seen global=429 nodes=32 score_error=(4.05e-07,3.57e-07)
+[109/111] split=valid_seen global=433 nodes=36 score_error=(3.17e-07,2.85e-07)
+[110/111] split=valid_seen global=437 nodes=45 score_error=(5.04e-07,4.77e-07)
+[111/111] split=valid_seen global=441 nodes=53 score_error=(5.16e-07,5.69e-07)
+{
+  "decision_file": "/data/user/agent_self_evolution_gradient/data/alfworld_expert_large/valid_seen.jsonl",
+  "value_trace": "/data/user/agent_self_evolution_gradient/outputs/action_value_alignment/analysis/trace.jsonl",
+  "base_model": "/data/user/agent_self_evolution_gradient/model",
+  "seed_model": "/data/user/agent_self_evolution_gradient/seed_model",
+  "tokenizer_path": "/data/user/agent_self_evolution_gradient/model",
+  "output_dir": "/data/user/agent_self_evolution_gradient/outputs/token_value_alignment/valid_seen_shard_1",
+  "device": "cuda:0",
+  "split": "valid_seen",
+  "shard_index": 1,
+  "num_shards": 4,
+  "batch_size": 4,
+  "max_length": 1536,
+  "history_window": 3,
+  "top_k_movers": 12,
+  "max_decisions": -1,
+  "resume": true,
+  "selected_decisions": 111,
+  "previously_completed": 0,
+  "newly_completed": 111,
+  "trace_rows": 111,
+  "tokenizer_class": "Qwen2TokenizerFast",
+  "vocabulary_size": 151665,
+  "dtype": "torch.bfloat16"
+}
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 103.02it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 27.27it/s]
+[1/132] split=valid_unseen global=1 nodes=53 score_error=(2.86e-07,4.04e-07)
+[2/132] split=valid_unseen global=5 nodes=62 score_error=(1.81e-07,1.43e-07)
+[3/132] split=valid_unseen global=9 nodes=45 score_error=(2.82e-07,3.41e-07)
+[4/132] split=valid_unseen global=13 nodes=52 score_error=(3.96e-07,2.38e-07)
+[5/132] split=valid_unseen global=17 nodes=43 score_error=(2.44e-07,1.07e-07)
+[6/132] split=valid_unseen global=21 nodes=33 score_error=(1.91e-07,3.34e-07)
+[7/132] split=valid_unseen global=25 nodes=49 score_error=(5.72e-07,2.49e-07)
+[8/132] split=valid_unseen global=29 nodes=20 score_error=(3.81e-07,2.86e-07)
+[9/132] split=valid_unseen global=33 nodes=30 score_error=(2.86e-07,4.52e-07)
+[10/132] split=valid_unseen global=37 nodes=44 score_error=(4.29e-07,4.29e-07)
+[11/132] split=valid_unseen global=41 nodes=42 score_error=(2.09e-07,2.38e-07)
+[12/132] split=valid_unseen global=45 nodes=52 score_error=(5.32e-07,2.09e-07)
+[13/132] split=valid_unseen global=49 nodes=28 score_error=(1.98e-07,2.64e-07)
+[14/132] split=valid_unseen global=53 nodes=38 score_error=(4.3e-07,1.67e-07)
+[15/132] split=valid_unseen global=57 nodes=40 score_error=(3.1e-07,1.51e-07)
+[16/132] split=valid_unseen global=61 nodes=31 score_error=(4.29e-07,3.81e-07)
+[17/132] split=valid_unseen global=65 nodes=32 score_error=(4.29e-07,4.79e-07)
+[18/132] split=valid_unseen global=69 nodes=47 score_error=(2.62e-07,2.77e-07)
+[19/132] split=valid_unseen global=73 nodes=68 score_error=(2.97e-07,1.54e-07)
+[20/132] split=valid_unseen global=77 nodes=37 score_error=(2.86e-07,3.81e-07)
+[21/132] split=valid_unseen global=81 nodes=37 score_error=(4.77e-07,2.62e-07)
+[22/132] split=valid_unseen global=85 nodes=46 score_error=(4.56e-07,4.17e-07)
+[23/132] split=valid_unseen global=89 nodes=47 score_error=(1.61e-07,2.07e-07)
+[24/132] split=valid_unseen global=93 nodes=68 score_error=(3.81e-07,2.33e-07)
+[25/132] split=valid_unseen global=97 nodes=37 score_error=(2.58e-07,1.19e-07)
+[26/132] split=valid_unseen global=101 nodes=37 score_error=(2.72e-07,1.95e-07)
+[27/132] split=valid_unseen global=105 nodes=46 score_error=(3.38e-07,2.72e-07)
+[28/132] split=valid_unseen global=109 nodes=38 score_error=(2.12e-07,2.03e-07)
+[29/132] split=valid_unseen global=113 nodes=66 score_error=(2.86e-07,1.65e-07)
+[30/132] split=valid_unseen global=117 nodes=37 score_error=(2.86e-07,4.53e-07)
+[31/132] split=valid_unseen global=121 nodes=37 score_error=(2.58e-07,1.87e-07)
+[32/132] split=valid_unseen global=125 nodes=39 score_error=(1.41e-07,2.04e-07)
+[33/132] split=valid_unseen global=129 nodes=39 score_error=(2.23e-07,1.75e-07)
+[34/132] split=valid_unseen global=133 nodes=59 score_error=(2.98e-07,3.34e-07)
+[35/132] split=valid_unseen global=137 nodes=51 score_error=(5.72e-07,3.07e-07)
+[36/132] split=valid_unseen global=141 nodes=37 score_error=(5.96e-07,4.79e-07)
+[37/132] split=valid_unseen global=145 nodes=50 score_error=(4.53e-07,1.25e-07)
+[38/132] split=valid_unseen global=149 nodes=54 score_error=(4.63e-07,4.29e-07)
+[39/132] split=valid_unseen global=153 nodes=20 score_error=(2.38e-07,2.89e-07)
+[40/132] split=valid_unseen global=157 nodes=30 score_error=(4.97e-07,3.58e-07)
+[41/132] split=valid_unseen global=161 nodes=39 score_error=(9.54e-07,4.29e-07)
+[42/132] split=valid_unseen global=165 nodes=37 score_error=(2.5e-07,2.4e-07)
+[43/132] split=valid_unseen global=169 nodes=37 score_error=(1.82e-07,2.52e-07)
+[44/132] split=valid_unseen global=173 nodes=47 score_error=(3.41e-07,3.1e-07)
+[45/132] split=valid_unseen global=177 nodes=20 score_error=(4.53e-07,3.81e-07)
+[46/132] split=valid_unseen global=181 nodes=32 score_error=(7.63e-07,8.11e-07)
+[47/132] split=valid_unseen global=185 nodes=30 score_error=(3.1e-07,3.12e-07)
+[48/132] split=valid_unseen global=189 nodes=23 score_error=(6.68e-07,3.19e-07)
+[49/132] split=valid_unseen global=193 nodes=21 score_error=(2.98e-07,2.67e-07)
+[50/132] split=valid_unseen global=197 nodes=26 score_error=(3.81e-07,4e-07)
+[51/132] split=valid_unseen global=201 nodes=26 score_error=(4.17e-07,5.48e-07)
+[52/132] split=valid_unseen global=205 nodes=26 score_error=(3.81e-07,4.06e-07)
+[53/132] split=valid_unseen global=209 nodes=51 score_error=(4.77e-07,4.77e-07)
+[54/132] split=valid_unseen global=213 nodes=34 score_error=(4.77e-07,1.62e-07)
+[55/132] split=valid_unseen global=217 nodes=46 score_error=(3.58e-07,5.25e-07)
+[56/132] split=valid_unseen global=221 nodes=34 score_error=(1.13e-07,2.13e-07)
+[57/132] split=valid_unseen global=225 nodes=47 score_error=(3.81e-07,1.66e-07)
+[58/132] split=valid_unseen global=229 nodes=45 score_error=(3.81e-07,3.3e-07)
+[59/132] split=valid_unseen global=233 nodes=33 score_error=(2.14e-07,7.68e-08)
+[60/132] split=valid_unseen global=237 nodes=54 score_error=(4.05e-07,1.67e-07)
+[61/132] split=valid_unseen global=241 nodes=49 score_error=(3.1e-07,1.37e-07)
+[62/132] split=valid_unseen global=245 nodes=46 score_error=(3.58e-07,5.25e-07)
+[63/132] split=valid_unseen global=249 nodes=73 score_error=(3.27e-07,1.39e-07)
+[64/132] split=valid_unseen global=253 nodes=52 score_error=(3.53e-07,1.35e-07)
+[65/132] split=valid_unseen global=257 nodes=54 score_error=(2.62e-07,5.01e-07)
+[66/132] split=valid_unseen global=261 nodes=44 score_error=(3.1e-07,5.68e-07)
+[67/132] split=valid_unseen global=265 nodes=47 score_error=(2.38e-07,1.43e-07)
+[68/132] split=valid_unseen global=269 nodes=52 score_error=(4.53e-07,2.39e-07)
+[69/132] split=valid_unseen global=273 nodes=50 score_error=(2.67e-07,1.67e-07)
+[70/132] split=valid_unseen global=277 nodes=94 score_error=(3.8e-07,2.37e-07)
+[71/132] split=valid_unseen global=281 nodes=39 score_error=(3.81e-07,3.34e-07)
+[72/132] split=valid_unseen global=285 nodes=39 score_error=(2.15e-07,2.5e-07)
+[73/132] split=valid_unseen global=289 nodes=89 score_error=(3.1e-07,2.16e-07)
+[74/132] split=valid_unseen global=293 nodes=45 score_error=(3.34e-07,2.62e-07)
+[75/132] split=valid_unseen global=297 nodes=33 score_error=(5.72e-07,1.67e-07)
+[76/132] split=valid_unseen global=301 nodes=39 score_error=(3.24e-07,9.54e-08)
+[77/132] split=valid_unseen global=305 nodes=39 score_error=(2.98e-07,3.34e-07)
+[78/132] split=valid_unseen global=309 nodes=85 score_error=(3.39e-07,1.7e-07)
+[79/132] split=valid_unseen global=313 nodes=57 score_error=(3.74e-07,3.81e-07)
+[80/132] split=valid_unseen global=317 nodes=34 score_error=(1.13e-07,2.13e-07)
+[81/132] split=valid_unseen global=321 nodes=47 score_error=(4.53e-07,2.85e-07)
+[82/132] split=valid_unseen global=325 nodes=43 score_error=(2.67e-07,1.15e-07)
+[83/132] split=valid_unseen global=329 nodes=54 score_error=(2.62e-07,2.85e-07)
+[84/132] split=valid_unseen global=333 nodes=39 score_error=(2.78e-07,2.15e-07)
+[85/132] split=valid_unseen global=337 nodes=54 score_error=(2.1e-07,1.91e-07)
+[86/132] split=valid_unseen global=341 nodes=39 score_error=(1.47e-07,1.78e-07)
+[87/132] split=valid_unseen global=345 nodes=54 score_error=(5.72e-07,3.93e-07)
+[88/132] split=valid_unseen global=349 nodes=70 score_error=(3.55e-07,2.61e-07)
+[89/132] split=valid_unseen global=353 nodes=58 score_error=(3.25e-07,2.52e-07)
+[90/132] split=valid_unseen global=357 nodes=69 score_error=(4.53e-07,3.81e-07)
+[91/132] split=valid_unseen global=361 nodes=44 score_error=(4.17e-07,6.5e-07)
+[92/132] split=valid_unseen global=365 nodes=32 score_error=(3.76e-07,2.99e-07)
+[93/132] split=valid_unseen global=369 nodes=58 score_error=(5.96e-07,7.87e-07)
+[94/132] split=valid_unseen global=373 nodes=20 score_error=(3.58e-07,3.34e-07)
+[95/132] split=valid_unseen global=377 nodes=36 score_error=(4.7e-07,4.53e-07)
+[96/132] split=valid_unseen global=381 nodes=34 score_error=(2.4e-07,3.35e-07)
+[97/132] split=valid_unseen global=385 nodes=32 score_error=(3.34e-07,3.58e-07)
+[98/132] split=valid_unseen global=389 nodes=26 score_error=(2.7e-07,2.14e-07)
+[99/132] split=valid_unseen global=393 nodes=33 score_error=(3.58e-07,3.34e-07)
+[100/132] split=valid_unseen global=397 nodes=54 score_error=(3.58e-07,4.53e-07)
+[101/132] split=valid_unseen global=401 nodes=77 score_error=(2.38e-07,4.05e-07)
+[102/132] split=valid_unseen global=405 nodes=37 score_error=(2.59e-07,1.51e-07)
+[103/132] split=valid_unseen global=409 nodes=46 score_error=(3.58e-07,2.74e-07)
+[104/132] split=valid_unseen global=413 nodes=47 score_error=(2.82e-07,3.34e-07)
+[105/132] split=valid_unseen global=417 nodes=34 score_error=(2.46e-07,2.38e-07)
+[106/132] split=valid_unseen global=421 nodes=54 score_error=(3.58e-07,4.77e-07)
+[107/132] split=valid_unseen global=425 nodes=34 score_error=(1.67e-07,1.19e-07)
+[108/132] split=valid_unseen global=429 nodes=47 score_error=(2.86e-07,1.28e-07)
+[109/132] split=valid_unseen global=433 nodes=45 score_error=(2.13e-07,3.1e-07)
+[110/132] split=valid_unseen global=437 nodes=33 score_error=(3.34e-07,2.61e-07)
+[111/132] split=valid_unseen global=441 nodes=49 score_error=(3.97e-07,4.76e-07)
+[112/132] split=valid_unseen global=445 nodes=20 score_error=(3.81e-07,2.86e-07)
+[113/132] split=valid_unseen global=449 nodes=23 score_error=(5.72e-07,4.14e-07)
+[114/132] split=valid_unseen global=453 nodes=31 score_error=(3.1e-07,3.57e-07)
+[115/132] split=valid_unseen global=457 nodes=41 score_error=(1.62e-07,1.29e-07)
+[116/132] split=valid_unseen global=461 nodes=65 score_error=(2.86e-07,1.85e-07)
+[117/132] split=valid_unseen global=465 nodes=44 score_error=(2.15e-07,3.73e-07)
+[118/132] split=valid_unseen global=469 nodes=47 score_error=(2.26e-07,1.7e-07)
+[119/132] split=valid_unseen global=473 nodes=36 score_error=(1.81e-07,2.27e-07)
+[120/132] split=valid_unseen global=477 nodes=44 score_error=(3.24e-07,1.45e-07)
+[121/132] split=valid_unseen global=481 nodes=88 score_error=(1.55e-07,1.34e-07)
+[122/132] split=valid_unseen global=485 nodes=39 score_error=(2.87e-07,1.4e-07)
+[123/132] split=valid_unseen global=489 nodes=39 score_error=(1.91e-07,1.67e-07)
+[124/132] split=valid_unseen global=493 nodes=51 score_error=(1.55e-07,2.31e-07)
+[125/132] split=valid_unseen global=497 nodes=33 score_error=(1.67e-07,1.65e-07)
+[126/132] split=valid_unseen global=501 nodes=39 score_error=(1.9e-07,1.42e-07)
+[127/132] split=valid_unseen global=505 nodes=39 score_error=(3.1e-07,1.91e-07)
+[128/132] split=valid_unseen global=509 nodes=101 score_error=(2.15e-07,4.53e-07)
+[129/132] split=valid_unseen global=513 nodes=47 score_error=(5.76e-07,4.58e-07)
+[130/132] split=valid_unseen global=517 nodes=47 score_error=(4.29e-07,2.04e-07)
+[131/132] split=valid_unseen global=521 nodes=43 score_error=(1.45e-07,3.06e-07)
+[132/132] split=valid_unseen global=525 nodes=54 score_error=(2.16e-07,3.64e-07)
+{
+  "decision_file": "/data/user/agent_self_evolution_gradient/data/alfworld_expert_large/valid_unseen.jsonl",
+  "value_trace": "/data/user/agent_self_evolution_gradient/outputs/action_value_alignment/analysis/trace.jsonl",
+  "base_model": "/data/user/agent_self_evolution_gradient/model",
+  "seed_model": "/data/user/agent_self_evolution_gradient/seed_model",
+  "tokenizer_path": "/data/user/agent_self_evolution_gradient/model",
+  "output_dir": "/data/user/agent_self_evolution_gradient/outputs/token_value_alignment/valid_unseen_shard_1",
+  "device": "cuda:0",
+  "split": "valid_unseen",
+  "shard_index": 1,
+  "num_shards": 4,
+  "batch_size": 4,
+  "max_length": 1536,
+  "history_window": 3,
+  "top_k_movers": 12,
+  "max_decisions": -1,
+  "resume": true,
+  "selected_decisions": 132,
+  "previously_completed": 0,
+  "newly_completed": 132,
+  "trace_rows": 132,
+  "tokenizer_class": "Qwen2TokenizerFast",
+  "vocabulary_size": 151665,
+  "dtype": "torch.bfloat16"
+}

@@ -1,0 +1,5 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.15it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.56it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.48it/s]
+[1/1] split=valid_seen source=41 objective=value_expectation group=last_attention step=0.006711 source_dV=0.000583044 source_KL=0.000100185
+[1/1] split=valid_seen source=41 objective=value_optimal_set group=last_attention step=0.01 source_dV=0.000684401 source_KL=9.29909e-05
+[1/1] split=valid_seen source=41 objective=expert_nll_control group=last_attention step=0.005822 source_dV=-0.000313619 source_KL=9.95189e-05
+{"split": "valid_seen", "sources": 1, "output": "/data/user/agent_self_evolution_gradient/outputs/value_gradient_writeback_smoke/valid_seen.json"}

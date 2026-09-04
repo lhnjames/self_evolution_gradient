@@ -1,0 +1,30 @@
+name: Lint taxonomy
+
+on:
+  pull_request:
+    paths:
+      - "tasks/**/task.md"
+      - "tasks-extra/**/task.md"
+      - "taxonomy.yaml"
+      - ".github/scripts/lint_taxonomy.py"
+      - ".github/workflows/lint-taxonomy.yml"
+  push:
+    branches: [main]
+    paths:
+      - "tasks/**/task.md"
+      - "tasks-extra/**/task.md"
+      - "taxonomy.yaml"
+      - ".github/scripts/lint_taxonomy.py"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install PyYAML (task.md frontmatter parsing)
+        run: python3 -m pip install pyyaml
+      - name: Validate every task's taxonomy metadata (task.md frontmatter)
+        run: python3 .github/scripts/lint_taxonomy.py

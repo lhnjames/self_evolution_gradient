@@ -1,0 +1,805 @@
+{
+  "comparison": "Qwen2.5-3B-Instruct_vs_Seed-AlfWorld-3B",
+  "prompt_mode": "existing_plain_prompt_for_both_models",
+  "bootstrap_samples": 10000,
+  "splits": {
+    "valid_seen": {
+      "states": 444,
+      "episodes": 33,
+      "base": {
+        "top1": 0.41216216216216217,
+        "mean_gold_probability": 0.22908317220180463,
+        "nll": 2.3499255259778473
+      },
+      "seed_checkpoint": {
+        "top1": 0.44594594594594594,
+        "mean_gold_probability": 0.20838269943976445,
+        "nll": 2.4816321761974334,
+        "mean_kl_from_base": 0.3517191899402779,
+        "mean_delta_l2": 8.368123543206915,
+        "mean_verified_cosine": 0.017539421629766034,
+        "positive_verified_cosine_rate": 0.5630630630630631,
+        "mean_cosine_with_prompt_skill": 0.09049474811116283
+      },
+      "transitions": {
+        "rescued": 27,
+        "harmed": 12,
+        "rescue_rate_all": 0.060810810810810814,
+        "harm_rate_all": 0.02702702702702703,
+        "repair_rate_among_base_errors": 0.10344827586206896
+      },
+      "bootstrap": {
+        "top1_delta": {
+          "observed": 0.033783783783783786,
+          "ci95": [
+            0.006550218340611353,
+            0.06353041852437795
+          ],
+          "probability_positive": 0.9904
+        },
+        "gold_logp_gain": {
+          "observed": -0.1317066502195868,
+          "ci95": [
+            -0.2994895428287019,
+            0.08001649459905505
+          ],
+          "probability_positive": 0.1022
+        },
+        "verified_cosine": {
+          "observed": 0.017539421629766024,
+          "ci95": [
+            -0.01075301398246636,
+            0.05706223719740571
+          ],
+          "probability_positive": 0.8402
+        }
+      },
+      "base_error_repair_distance": {
+        "gap": {
+          "count": 261,
+          "mean": 2.019364190667765,
+          "p10": 0.40889599919319153,
+          "p25": 1.0000001810258254,
+          "median": 1.7291630749259639,
+          "p75": 2.5040883123874664,
+          "p90": 4.249905596196186
+        },
+        "minimal_l2": {
+          "count": 261,
+          "mean": 1.427906112906461,
+          "p10": 0.2891331338295548,
+          "p25": 0.7071069091911363,
+          "median": 1.2227029360575312,
+          "p75": 1.7706578263791553,
+          "p90": 3.00513706647298
+        }
+      },
+      "seed_vs_minimal_repair_on_base_errors": {
+        "cosine": {
+          "count": 261,
+          "mean": 0.08232956368273738,
+          "p10": -0.054187187905198025,
+          "p25": 0.0018983714071505993,
+          "median": 0.055937949917447,
+          "p75": 0.13302813964023186,
+          "p90": 0.2321401360550881
+        },
+        "norm_ratio": {
+          "count": 261,
+          "mean": 13.97609243274436,
+          "p10": 2.5809342011911784,
+          "p25": 4.352113882759256,
+          "median": 6.653754628028086,
+          "p75": 10.943319849755857,
+          "p90": 28.168833688699756
+        },
+        "projection_in_minimal_units": {
+          "count": 261,
+          "mean": 0.5587337264897266,
+          "p10": -0.5072193509137163,
+          "p25": 0.012588248171203827,
+          "median": 0.41272897255968555,
+          "p75": 0.9067352631618975,
+          "p90": 1.6666661368475177
+        }
+      },
+      "base_error_outcome_groups": {
+        "rescued": {
+          "states": 27,
+          "minimal_l2": {
+            "count": 27,
+            "mean": 0.6493447440008824,
+            "p10": 0.16174092352104444,
+            "p25": 0.2237708752452821,
+            "median": 0.4502997546463311,
+            "p75": 1.0163609543443743,
+            "p90": 1.375192295962065
+          },
+          "checkpoint_cosine_with_minimal_repair": {
+            "count": 27,
+            "mean": 0.18110945287815952,
+            "p10": 0.03177973338904223,
+            "p25": 0.06671789824458058,
+            "median": 0.14868343416557667,
+            "p75": 0.20739432004661584,
+            "p90": 0.39328837883933
+          },
+          "checkpoint_norm_ratio_to_minimal": {
+            "count": 27,
+            "mean": 44.43973093494021,
+            "p10": 6.8257919951024615,
+            "p25": 8.669316650957828,
+            "median": 19.579176138956743,
+            "p75": 51.743587019686004,
+            "p90": 78.17950840661669
+          },
+          "checkpoint_projection_in_minimal_units": {
+            "count": 27,
+            "mean": 3.7399651602364536,
+            "p10": 1.1231604694946276,
+            "p25": 1.2164540812424591,
+            "median": 2.0884917185899,
+            "p75": 4.0237520094024575,
+            "p90": 9.6190518823247
+          }
+        },
+        "unresolved": {
+          "states": 234,
+          "minimal_l2": {
+            "count": 234,
+            "mean": 1.5177401170109508,
+            "p10": 0.43786271810310434,
+            "p25": 0.869570169817498,
+            "median": 1.2779229427293828,
+            "p75": 1.931815487378918,
+            "p90": 3.0869941637045133
+          },
+          "checkpoint_cosine_with_minimal_repair": {
+            "count": 234,
+            "mean": 0.07093188416018868,
+            "p10": -0.056889669687855283,
+            "p25": -0.0076500860920760624,
+            "median": 0.04885349786234422,
+            "p75": 0.12430195268211487,
+            "p90": 0.19938292556707854
+          },
+          "checkpoint_norm_ratio_to_minimal": {
+            "count": 234,
+            "mean": 10.461057220952531,
+            "p10": 2.4813676898917616,
+            "p25": 3.90389386625388,
+            "median": 6.323753387006446,
+            "p75": 10.087232560631566,
+            "p90": 24.569269441477722
+          },
+          "checkpoint_projection_in_minimal_units": {
+            "count": 234,
+            "mean": 0.19166856105741192,
+            "p10": -0.5953696083202574,
+            "p25": -0.031626947724425106,
+            "median": 0.36668790371246274,
+            "p75": 0.7630978813658267,
+            "p90": 1.0048435068040649
+          }
+        },
+        "distance_quartiles": [
+          {
+            "quartile": 1,
+            "lower": 0.030872756195048177,
+            "upper": 0.7071069091911363,
+            "states": 65,
+            "rescue_rate": 0.26153846153846155,
+            "mean_checkpoint_cosine_with_minimal_repair": 0.04914855536706085,
+            "mean_checkpoint_projection_in_minimal_units": 1.0255501374419067
+          },
+          {
+            "quartile": 2,
+            "lower": 0.7071069091911363,
+            "upper": 1.2227029360575312,
+            "states": 65,
+            "rescue_rate": 0.1076923076923077,
+            "mean_checkpoint_cosine_with_minimal_repair": 0.08517008584795711,
+            "mean_checkpoint_projection_in_minimal_units": 0.6255712607223943
+          },
+          {
+            "quartile": 3,
+            "lower": 1.2227029360575312,
+            "upper": 1.7706578263791553,
+            "states": 65,
+            "rescue_rate": 0.03076923076923077,
+            "mean_checkpoint_cosine_with_minimal_repair": 0.043039670344077394,
+            "mean_checkpoint_projection_in_minimal_units": 0.202281266205182
+          },
+          {
+            "quartile": 4,
+            "lower": 1.7706578263791553,
+            "upper": 4.841003993287437,
+            "states": 66,
+            "rescue_rate": 0.015151515151515152,
+            "mean_checkpoint_cosine_with_minimal_repair": 0.15090493742201908,
+            "mean_checkpoint_projection_in_minimal_units": 0.38421711257276076
+          }
+        ]
+      },
+      "by_task_type": {
+        "look_at_obj_in_light": {
+          "states": 52,
+          "episodes": 3,
+          "base_top1": 0.07692307692307693,
+          "checkpoint_top1": 0.21153846153846154,
+          "top1_delta": 0.1346153846153846,
+          "rescue_rate": 0.1346153846153846,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.1983042046172863,
+          "mean_kl": 0.5207159382324206
+        },
+        "pick_and_place_simple": {
+          "states": 85,
+          "episodes": 10,
+          "base_top1": 0.5294117647058824,
+          "checkpoint_top1": 0.5647058823529412,
+          "top1_delta": 0.03529411764705882,
+          "rescue_rate": 0.058823529411764705,
+          "harm_rate": 0.023529411764705882,
+          "mean_verified_cosine": -0.021793345944691928,
+          "mean_kl": 0.31814436285927566
+        },
+        "pick_clean_then_place_in_recep": {
+          "states": 80,
+          "episodes": 6,
+          "base_top1": 0.5,
+          "checkpoint_top1": 0.5125,
+          "top1_delta": 0.0125,
+          "rescue_rate": 0.025,
+          "harm_rate": 0.0125,
+          "mean_verified_cosine": -0.014498112582939222,
+          "mean_kl": 0.25557601269083846
+        },
+        "pick_cool_then_place_in_recep": {
+          "states": 92,
+          "episodes": 7,
+          "base_top1": 0.4673913043478261,
+          "checkpoint_top1": 0.4673913043478261,
+          "top1_delta": 0.0,
+          "rescue_rate": 0.021739130434782608,
+          "harm_rate": 0.021739130434782608,
+          "mean_verified_cosine": -0.01013982515339992,
+          "mean_kl": 0.36315341120133976
+        },
+        "pick_heat_then_place_in_recep": {
+          "states": 111,
+          "episodes": 6,
+          "base_top1": 0.35135135135135137,
+          "checkpoint_top1": 0.40540540540540543,
+          "top1_delta": 0.05405405405405406,
+          "rescue_rate": 0.09009009009009009,
+          "harm_rate": 0.036036036036036036,
+          "mean_verified_cosine": 0.012432537652124001,
+          "mean_kl": 0.3673580932722184
+        },
+        "pick_two_obj_and_place": {
+          "states": 24,
+          "episodes": 1,
+          "base_top1": 0.5,
+          "checkpoint_top1": 0.4166666666666667,
+          "top1_delta": -0.08333333333333333,
+          "rescue_rate": 0.041666666666666664,
+          "harm_rate": 0.125,
+          "mean_verified_cosine": 0.0017008420907589233,
+          "mean_kl": 0.30878656263968834
+        }
+      },
+      "by_action_verb": {
+        "clean": {
+          "states": 6,
+          "episodes": 6,
+          "base_top1": 1.0,
+          "checkpoint_top1": 1.0,
+          "top1_delta": 0.0,
+          "rescue_rate": 0.0,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.03827957307113448,
+          "mean_kl": 0.16282784376022208
+        },
+        "close": {
+          "states": 56,
+          "episodes": 18,
+          "base_top1": 0.0,
+          "checkpoint_top1": 0.0,
+          "top1_delta": 0.0,
+          "rescue_rate": 0.0,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": -0.0002812479132041694,
+          "mean_kl": 0.4563647201036794
+        },
+        "cool": {
+          "states": 7,
+          "episodes": 7,
+          "base_top1": 1.0,
+          "checkpoint_top1": 1.0,
+          "top1_delta": 0.0,
+          "rescue_rate": 0.0,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.030741191155346254,
+          "mean_kl": 0.2508317258268235
+        },
+        "examine": {
+          "states": 1,
+          "episodes": 1,
+          "base_top1": 0.0,
+          "checkpoint_top1": 0.0,
+          "top1_delta": 0.0,
+          "rescue_rate": 0.0,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": -0.19938683191702605,
+          "mean_kl": 0.19563955917502063
+        },
+        "go": {
+          "states": 238,
+          "episodes": 33,
+          "base_top1": 0.22268907563025211,
+          "checkpoint_top1": 0.24369747899159663,
+          "top1_delta": 0.02100840336134454,
+          "rescue_rate": 0.06722689075630252,
+          "harm_rate": 0.046218487394957986,
+          "mean_verified_cosine": 0.024811834853740066,
+          "mean_kl": 0.35597368781451805
+        },
+        "heat": {
+          "states": 6,
+          "episodes": 6,
+          "base_top1": 0.3333333333333333,
+          "checkpoint_top1": 1.0,
+          "top1_delta": 0.6666666666666666,
+          "rescue_rate": 0.6666666666666666,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.054183940564815826,
+          "mean_kl": 0.28616759113674894
+        },
+        "move": {
+          "states": 31,
+          "episodes": 30,
+          "base_top1": 0.967741935483871,
+          "checkpoint_top1": 1.0,
+          "top1_delta": 0.03225806451612903,
+          "rescue_rate": 0.03225806451612903,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": -0.006283934616369139,
+          "mean_kl": 0.1876555860572571
+        },
+        "open": {
+          "states": 62,
+          "episodes": 21,
+          "base_top1": 0.8870967741935484,
+          "checkpoint_top1": 0.9516129032258065,
+          "top1_delta": 0.06451612903225806,
+          "rescue_rate": 0.08064516129032258,
+          "harm_rate": 0.016129032258064516,
+          "mean_verified_cosine": -0.024984452257272954,
+          "mean_kl": 0.4613931343405697
+        },
+        "take": {
+          "states": 34,
+          "episodes": 33,
+          "base_top1": 0.8823529411764706,
+          "checkpoint_top1": 0.9117647058823529,
+          "top1_delta": 0.029411764705882353,
+          "rescue_rate": 0.029411764705882353,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.08129685699855692,
+          "mean_kl": 0.17288146476180258
+        },
+        "use": {
+          "states": 3,
+          "episodes": 3,
+          "base_top1": 0.0,
+          "checkpoint_top1": 0.0,
+          "top1_delta": 0.0,
+          "rescue_rate": 0.0,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.10239955956224951,
+          "mean_kl": 0.3126855865619551
+        }
+      }
+    },
+    "valid_unseen": {
+      "states": 527,
+      "episodes": 34,
+      "base": {
+        "top1": 0.31688804554079697,
+        "mean_gold_probability": 0.17699650125325123,
+        "nll": 2.578668459106171
+      },
+      "seed_checkpoint": {
+        "top1": 0.3586337760910816,
+        "mean_gold_probability": 0.17494082034589167,
+        "nll": 2.78680667721803,
+        "mean_kl_from_base": 0.3268291835895147,
+        "mean_delta_l2": 7.975106250429575,
+        "mean_verified_cosine": 0.02148083362855788,
+        "positive_verified_cosine_rate": 0.5540796963946869,
+        "mean_cosine_with_prompt_skill": 0.13666159208742543
+      },
+      "transitions": {
+        "rescued": 32,
+        "harmed": 10,
+        "rescue_rate_all": 0.06072106261859583,
+        "harm_rate_all": 0.018975332068311195,
+        "repair_rate_among_base_errors": 0.08888888888888889
+      },
+      "bootstrap": {
+        "top1_delta": {
+          "observed": 0.04174573055028463,
+          "ci95": [
+            0.012750455373406194,
+            0.07058879658733722
+          ],
+          "probability_positive": 0.9967
+        },
+        "gold_logp_gain": {
+          "observed": -0.20813821811185923,
+          "ci95": [
+            -0.3179165477779164,
+            -0.06735505972700441
+          ],
+          "probability_positive": 0.0022
+        },
+        "verified_cosine": {
+          "observed": 0.02148083362855788,
+          "ci95": [
+            -0.004086381086522753,
+            0.059333944867334495
+          ],
+          "probability_positive": 0.9325
+        }
+      },
+      "base_error_repair_distance": {
+        "gap": {
+          "count": 360,
+          "mean": 1.9682752797301586,
+          "p10": 0.33868319559842347,
+          "p25": 0.9334922377020121,
+          "median": 1.6984669698867947,
+          "p75": 2.730692947038321,
+          "p90": 3.863358557596804
+        },
+        "minimal_l2": {
+          "count": 360,
+          "mean": 1.391780797539044,
+          "p10": 0.23948518428157511,
+          "p25": 0.6600786914640973,
+          "median": 1.2009975120283203,
+          "p75": 1.9308915001890745,
+          "p90": 2.731807034231779
+        }
+      },
+      "seed_vs_minimal_repair_on_base_errors": {
+        "cosine": {
+          "count": 360,
+          "mean": 0.07471657022132702,
+          "p10": -0.08366925182541632,
+          "p25": -0.02302343698261026,
+          "median": 0.045672828364616294,
+          "p75": 0.12046373123447783,
+          "p90": 0.24902764901458058
+        },
+        "norm_ratio": {
+          "count": 360,
+          "mean": 16.803612508593616,
+          "p10": 2.523028185412516,
+          "p25": 3.7807274028321873,
+          "median": 6.698135448635487,
+          "p75": 12.510730514535728,
+          "p90": 32.803079286399104
+        },
+        "projection_in_minimal_units": {
+          "count": 360,
+          "mean": 1.7907932788185397,
+          "p10": -0.6704867805836243,
+          "p25": -0.1788645202741701,
+          "median": 0.2718874265280806,
+          "p75": 0.8135032436116225,
+          "p90": 2.034910550093209
+        }
+      },
+      "base_error_outcome_groups": {
+        "rescued": {
+          "states": 32,
+          "minimal_l2": {
+            "count": 32,
+            "mean": 0.41028211958038907,
+            "p10": 0.0900103701669314,
+            "p25": 0.13947309458900004,
+            "median": 0.27724570476911026,
+            "p75": 0.6646912138361254,
+            "p90": 0.8960488071195446
+          },
+          "checkpoint_cosine_with_minimal_repair": {
+            "count": 32,
+            "mean": 0.21307337432628376,
+            "p10": 0.034389363164341366,
+            "p25": 0.08088958556721582,
+            "median": 0.1723526395651911,
+            "p75": 0.29702130467724247,
+            "p90": 0.5106269547147719
+          },
+          "checkpoint_norm_ratio_to_minimal": {
+            "count": 32,
+            "mean": 62.408983213649606,
+            "p10": 7.538511389293619,
+            "p25": 11.43950242027769,
+            "median": 28.7274777711117,
+            "p75": 53.071241648362566,
+            "p90": 106.02113165162973
+          },
+          "checkpoint_projection_in_minimal_units": {
+            "count": 32,
+            "mean": 18.901000023278783,
+            "p10": 1.4218303437558844,
+            "p25": 2.119311780713468,
+            "median": 4.464034166264003,
+            "p75": 6.064978416539526,
+            "p90": 9.644912792166675
+          }
+        },
+        "unresolved": {
+          "states": 328,
+          "minimal_l2": {
+            "count": 328,
+            "mean": 1.487536766120376,
+            "p10": 0.3862961950810519,
+            "p25": 0.7943990452155099,
+            "median": 1.3221799061382,
+            "p75": 2.0126370133510303,
+            "p90": 2.8157652481757705
+          },
+          "checkpoint_cosine_with_minimal_repair": {
+            "count": 328,
+            "mean": 0.061218345430599536,
+            "p10": -0.08912704906378319,
+            "p25": -0.028290616903439522,
+            "median": 0.036765690357655936,
+            "p75": 0.10856894738433945,
+            "p90": 0.20974071865004534
+          },
+          "checkpoint_norm_ratio_to_minimal": {
+            "count": 328,
+            "mean": 12.354308049563764,
+            "p10": 2.4579157673518783,
+            "p25": 3.5634425888434014,
+            "median": 6.139784843792137,
+            "p75": 10.342238998158368,
+            "p90": 21.18469711412696
+          },
+          "checkpoint_projection_in_minimal_units": {
+            "count": 328,
+            "mean": 0.12150481594436995,
+            "p10": -0.7628244522541963,
+            "p25": -0.2600022787563193,
+            "median": 0.20167980460937926,
+            "p75": 0.6417749289470582,
+            "p90": 1.135093231499579
+          }
+        },
+        "distance_quartiles": [
+          {
+            "quartile": 1,
+            "lower": 0.010258500780703096,
+            "upper": 0.6600786914640973,
+            "states": 90,
+            "rescue_rate": 0.26666666666666666,
+            "mean_checkpoint_cosine_with_minimal_repair": 0.03943378202720582,
+            "mean_checkpoint_projection_in_minimal_units": 6.090738043327956
+          },
+          {
+            "quartile": 2,
+            "lower": 0.6600786914640973,
+            "upper": 1.2009975120283203,
+            "states": 90,
+            "rescue_rate": 0.08888888888888889,
+            "mean_checkpoint_cosine_with_minimal_repair": 0.039710042377033905,
+            "mean_checkpoint_projection_in_minimal_units": 0.31000511322638347
+          },
+          {
+            "quartile": 3,
+            "lower": 1.2009975120283203,
+            "upper": 1.9308915001890745,
+            "states": 90,
+            "rescue_rate": 0.0,
+            "mean_checkpoint_cosine_with_minimal_repair": 0.06529411315554151,
+            "mean_checkpoint_projection_in_minimal_units": 0.3177885364779788
+          },
+          {
+            "quartile": 4,
+            "lower": 1.9308915001890745,
+            "upper": 5.379515026134821,
+            "states": 90,
+            "rescue_rate": 0.0,
+            "mean_checkpoint_cosine_with_minimal_repair": 0.15442834332552685,
+            "mean_checkpoint_projection_in_minimal_units": 0.44464142224183983
+          }
+        ]
+      },
+      "by_task_type": {
+        "look_at_obj_in_light": {
+          "states": 93,
+          "episodes": 6,
+          "base_top1": 0.07526881720430108,
+          "checkpoint_top1": 0.15053763440860216,
+          "top1_delta": 0.07526881720430108,
+          "rescue_rate": 0.07526881720430108,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.1342930389640802,
+          "mean_kl": 0.45633637133124383
+        },
+        "pick_and_place_simple": {
+          "states": 42,
+          "episodes": 5,
+          "base_top1": 0.40476190476190477,
+          "checkpoint_top1": 0.47619047619047616,
+          "top1_delta": 0.07142857142857142,
+          "rescue_rate": 0.07142857142857142,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": -0.01118322144216171,
+          "mean_kl": 0.2670574068097058
+        },
+        "pick_clean_then_place_in_recep": {
+          "states": 184,
+          "episodes": 11,
+          "base_top1": 0.3532608695652174,
+          "checkpoint_top1": 0.3858695652173913,
+          "top1_delta": 0.03260869565217391,
+          "rescue_rate": 0.04891304347826087,
+          "harm_rate": 0.016304347826086956,
+          "mean_verified_cosine": -0.005580048322592783,
+          "mean_kl": 0.28025574839366624
+        },
+        "pick_cool_then_place_in_recep": {
+          "states": 119,
+          "episodes": 7,
+          "base_top1": 0.4369747899159664,
+          "checkpoint_top1": 0.3949579831932773,
+          "top1_delta": -0.04201680672268908,
+          "rescue_rate": 0.01680672268907563,
+          "harm_rate": 0.058823529411764705,
+          "mean_verified_cosine": -0.01468679226898114,
+          "mean_kl": 0.3041680835354249
+        },
+        "pick_heat_then_place_in_recep": {
+          "states": 68,
+          "episodes": 4,
+          "base_top1": 0.3088235294117647,
+          "checkpoint_top1": 0.4264705882352941,
+          "top1_delta": 0.11764705882352941,
+          "rescue_rate": 0.11764705882352941,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.007260251676948481,
+          "mean_kl": 0.32656219281453774
+        },
+        "pick_two_obj_and_place": {
+          "states": 21,
+          "episodes": 1,
+          "base_top1": 0.23809523809523808,
+          "checkpoint_top1": 0.38095238095238093,
+          "top1_delta": 0.14285714285714285,
+          "rescue_rate": 0.14285714285714285,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.07531438364260314,
+          "mean_kl": 0.4101903512058187
+        }
+      },
+      "by_action_verb": {
+        "clean": {
+          "states": 11,
+          "episodes": 11,
+          "base_top1": 1.0,
+          "checkpoint_top1": 1.0,
+          "top1_delta": 0.0,
+          "rescue_rate": 0.0,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.033948262920403,
+          "mean_kl": 0.1779769112556787
+        },
+        "close": {
+          "states": 48,
+          "episodes": 18,
+          "base_top1": 0.0,
+          "checkpoint_top1": 0.0,
+          "top1_delta": 0.0,
+          "rescue_rate": 0.0,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": -0.03665230632820514,
+          "mean_kl": 0.4556337717897718
+        },
+        "cool": {
+          "states": 7,
+          "episodes": 7,
+          "base_top1": 1.0,
+          "checkpoint_top1": 1.0,
+          "top1_delta": 0.0,
+          "rescue_rate": 0.0,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.06251126586861708,
+          "mean_kl": 0.15631877496530153
+        },
+        "examine": {
+          "states": 2,
+          "episodes": 2,
+          "base_top1": 0.0,
+          "checkpoint_top1": 0.0,
+          "top1_delta": 0.0,
+          "rescue_rate": 0.0,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": -0.061102625395182214,
+          "mean_kl": 0.5364078232027093
+        },
+        "go": {
+          "states": 330,
+          "episodes": 34,
+          "base_top1": 0.14242424242424243,
+          "checkpoint_top1": 0.1696969696969697,
+          "top1_delta": 0.02727272727272727,
+          "rescue_rate": 0.05454545454545454,
+          "harm_rate": 0.02727272727272727,
+          "mean_verified_cosine": 0.024715433521930306,
+          "mean_kl": 0.33623092211392186
+        },
+        "heat": {
+          "states": 4,
+          "episodes": 4,
+          "base_top1": 0.0,
+          "checkpoint_top1": 1.0,
+          "top1_delta": 1.0,
+          "rescue_rate": 1.0,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.09401749206995572,
+          "mean_kl": 0.2892279134598554
+        },
+        "move": {
+          "states": 29,
+          "episodes": 28,
+          "base_top1": 0.9655172413793104,
+          "checkpoint_top1": 1.0,
+          "top1_delta": 0.034482758620689655,
+          "rescue_rate": 0.034482758620689655,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.043298716222567854,
+          "mean_kl": 0.20734948469072811
+        },
+        "open": {
+          "states": 55,
+          "episodes": 19,
+          "base_top1": 0.8,
+          "checkpoint_top1": 0.8909090909090909,
+          "top1_delta": 0.09090909090909091,
+          "rescue_rate": 0.10909090909090909,
+          "harm_rate": 0.01818181818181818,
+          "mean_verified_cosine": -0.020111320584295413,
+          "mean_kl": 0.3542984364366805
+        },
+        "take": {
+          "states": 35,
+          "episodes": 34,
+          "base_top1": 0.8571428571428571,
+          "checkpoint_top1": 0.9428571428571428,
+          "top1_delta": 0.08571428571428572,
+          "rescue_rate": 0.08571428571428572,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.08559218129856651,
+          "mean_kl": 0.19721921687156077
+        },
+        "use": {
+          "states": 6,
+          "episodes": 6,
+          "base_top1": 0.0,
+          "checkpoint_top1": 0.0,
+          "top1_delta": 0.0,
+          "rescue_rate": 0.0,
+          "harm_rate": 0.0,
+          "mean_verified_cosine": 0.11891266821743142,
+          "mean_kl": 0.2880713348005633
+        }
+      }
+    }
+  }
+}

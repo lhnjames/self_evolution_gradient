@@ -1,0 +1,87 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.42s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.37s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.53s/it]
+[1/5] valid_unseen/last_four_blocks/go gradient=1/12
+[1/5] valid_unseen/last_four_blocks/go gradient=2/12
+[1/5] valid_unseen/last_four_blocks/go gradient=3/12
+[1/5] valid_unseen/last_four_blocks/go gradient=4/12
+[1/5] valid_unseen/last_four_blocks/go gradient=5/12
+[1/5] valid_unseen/last_four_blocks/go gradient=6/12
+[1/5] valid_unseen/last_four_blocks/go gradient=7/12
+[1/5] valid_unseen/last_four_blocks/go gradient=8/12
+[1/5] valid_unseen/last_four_blocks/go gradient=9/12
+[1/5] valid_unseen/last_four_blocks/go gradient=10/12
+[1/5] valid_unseen/last_four_blocks/go gradient=11/12
+[1/5] valid_unseen/last_four_blocks/go gradient=12/12
+[1/5] valid_unseen/last_four_blocks/go step=0.0006 source_dV=0.00146086 holdout_dV=0.000251355 top_flips=0
+[1/5] valid_unseen/last_four_blocks/go step=0.0018 source_dV=0.00432945 holdout_dV=0.00075138 top_flips=0
+[1/5] valid_unseen/last_four_blocks/go step=0.006 source_dV=0.0137688 holdout_dV=0.00248026 top_flips=1
+[1/5] valid_unseen/last_four_blocks/go step=0.018 source_dV=0.035004 holdout_dV=0.00736219 top_flips=1
+[1/5] valid_unseen/last_four_blocks/go complete
+[2/5] valid_unseen/last_four_blocks/open gradient=1/12
+[2/5] valid_unseen/last_four_blocks/open gradient=2/12
+[2/5] valid_unseen/last_four_blocks/open gradient=3/12
+[2/5] valid_unseen/last_four_blocks/open gradient=4/12
+[2/5] valid_unseen/last_four_blocks/open gradient=5/12
+[2/5] valid_unseen/last_four_blocks/open gradient=6/12
+[2/5] valid_unseen/last_four_blocks/open gradient=7/12
+[2/5] valid_unseen/last_four_blocks/open gradient=8/12
+[2/5] valid_unseen/last_four_blocks/open gradient=9/12
+[2/5] valid_unseen/last_four_blocks/open gradient=10/12
+[2/5] valid_unseen/last_four_blocks/open gradient=11/12
+[2/5] valid_unseen/last_four_blocks/open gradient=12/12
+[2/5] valid_unseen/last_four_blocks/open step=0.0006 source_dV=0.000203231 holdout_dV=0.000100936 top_flips=0
+[2/5] valid_unseen/last_four_blocks/open step=0.0018 source_dV=0.000602149 holdout_dV=0.000302586 top_flips=0
+[2/5] valid_unseen/last_four_blocks/open step=0.006 source_dV=0.00191805 holdout_dV=0.0010064 top_flips=2
+[2/5] valid_unseen/last_four_blocks/open step=0.018 source_dV=0.0050005 holdout_dV=0.00294825 top_flips=2
+[2/5] valid_unseen/last_four_blocks/open complete
+[3/5] valid_unseen/last_four_blocks/close gradient=1/12
+[3/5] valid_unseen/last_four_blocks/close gradient=2/12
+[3/5] valid_unseen/last_four_blocks/close gradient=3/12
+[3/5] valid_unseen/last_four_blocks/close gradient=4/12
+[3/5] valid_unseen/last_four_blocks/close gradient=5/12
+[3/5] valid_unseen/last_four_blocks/close gradient=6/12
+[3/5] valid_unseen/last_four_blocks/close gradient=7/12
+[3/5] valid_unseen/last_four_blocks/close gradient=8/12
+[3/5] valid_unseen/last_four_blocks/close gradient=9/12
+[3/5] valid_unseen/last_four_blocks/close gradient=10/12
+[3/5] valid_unseen/last_four_blocks/close gradient=11/12
+[3/5] valid_unseen/last_four_blocks/close gradient=12/12
+[3/5] valid_unseen/last_four_blocks/close step=0.0006 source_dV=0.0025261 holdout_dV=0.00209635 top_flips=1
+[3/5] valid_unseen/last_four_blocks/close step=0.0018 source_dV=0.00748382 holdout_dV=0.00620268 top_flips=1
+[3/5] valid_unseen/last_four_blocks/close step=0.006 source_dV=0.0238129 holdout_dV=0.0195514 top_flips=5
+[3/5] valid_unseen/last_four_blocks/close step=0.018 source_dV=0.0615717 holdout_dV=0.0485672 top_flips=12
+[3/5] valid_unseen/last_four_blocks/close complete
+[4/5] valid_unseen/last_four_blocks/take gradient=1/12
+[4/5] valid_unseen/last_four_blocks/take gradient=2/12
+[4/5] valid_unseen/last_four_blocks/take gradient=3/12
+[4/5] valid_unseen/last_four_blocks/take gradient=4/12
+[4/5] valid_unseen/last_four_blocks/take gradient=5/12
+[4/5] valid_unseen/last_four_blocks/take gradient=6/12
+[4/5] valid_unseen/last_four_blocks/take gradient=7/12
+[4/5] valid_unseen/last_four_blocks/take gradient=8/12
+[4/5] valid_unseen/last_four_blocks/take gradient=9/12
+[4/5] valid_unseen/last_four_blocks/take gradient=10/12
+[4/5] valid_unseen/last_four_blocks/take gradient=11/12
+[4/5] valid_unseen/last_four_blocks/take gradient=12/12
+[4/5] valid_unseen/last_four_blocks/take step=0.0006 source_dV=0.00052828 holdout_dV=0.00010131 top_flips=0
+[4/5] valid_unseen/last_four_blocks/take step=0.0018 source_dV=0.00157206 holdout_dV=0.000300317 top_flips=0
+[4/5] valid_unseen/last_four_blocks/take step=0.006 source_dV=0.00509333 holdout_dV=0.000958096 top_flips=1
+[4/5] valid_unseen/last_four_blocks/take step=0.018 source_dV=0.0139997 holdout_dV=0.00252003 top_flips=1
+[4/5] valid_unseen/last_four_blocks/take complete
+[5/5] valid_unseen/last_four_blocks/move gradient=1/12
+[5/5] valid_unseen/last_four_blocks/move gradient=2/12
+[5/5] valid_unseen/last_four_blocks/move gradient=3/12
+[5/5] valid_unseen/last_four_blocks/move gradient=4/12
+[5/5] valid_unseen/last_four_blocks/move gradient=5/12
+[5/5] valid_unseen/last_four_blocks/move gradient=6/12
+[5/5] valid_unseen/last_four_blocks/move gradient=7/12
+[5/5] valid_unseen/last_four_blocks/move gradient=8/12
+[5/5] valid_unseen/last_four_blocks/move gradient=9/12
+[5/5] valid_unseen/last_four_blocks/move gradient=10/12
+[5/5] valid_unseen/last_four_blocks/move gradient=11/12
+[5/5] valid_unseen/last_four_blocks/move gradient=12/12
+[5/5] valid_unseen/last_four_blocks/move step=0.0006 source_dV=0.000948031 holdout_dV=-0.000753904 top_flips=0
+[5/5] valid_unseen/last_four_blocks/move step=0.0018 source_dV=0.00282894 holdout_dV=-0.00229099 top_flips=0
+[5/5] valid_unseen/last_four_blocks/move step=0.006 source_dV=0.00920109 holdout_dV=-0.00795445 top_flips=2
+[5/5] valid_unseen/last_four_blocks/move step=0.018 source_dV=0.0247811 holdout_dV=-0.0255574 top_flips=3
+[5/5] valid_unseen/last_four_blocks/move complete
+{"output": "/data/user/agent_self_evolution_gradient/outputs/multisource_dose_response_v2/valid_unseen_last_four_blocks.json", "verbs": 5}

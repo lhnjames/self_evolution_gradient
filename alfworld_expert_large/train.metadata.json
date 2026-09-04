@@ -1,0 +1,63 @@
+{
+  "split": "train",
+  "seed": 810,
+  "requested_episodes": 60,
+  "selected_episodes": 60,
+  "successful_episodes": 47,
+  "skipped_episodes": [
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_two_obj_and_place-SoapBar-None-Cart-430/trial_T20190909_145901_138802/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_two_obj_and_place-RemoteControl-None-ArmChair-217/trial_T20190909_115806_934559/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_two_obj_and_place-Book-None-Desk-309/trial_T20190909_061318_337264/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_two_obj_and_place-RemoteControl-None-CoffeeTable-227/trial_T20190909_011214_257663/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_clean_then_place_in_recep-Kettle-None-Cabinet-11/trial_T20190908_063509_181238/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_two_obj_and_place-Pencil-None-Drawer-312/trial_T20190908_014605_844197/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_two_obj_and_place-Box-None-CoffeeTable-213/trial_T20190906_200855_584466/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_two_obj_and_place-TissueBox-None-Drawer-427/trial_T20190909_060953_266728/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_two_obj_and_place-Pot-None-Shelf-1/trial_T20190908_170636_981445/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_two_obj_and_place-CreditCard-None-DiningTable-329/trial_T20190918_154254_505630/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_two_obj_and_place-ToiletPaper-None-Cabinet-414/trial_T20190909_090552_106177/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_two_obj_and_place-SaltShaker-None-Drawer-12/trial_T20190907_175527_049563/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    },
+    {
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/train/pick_heat_then_place_in_recep-Plate-None-Fridge-1/trial_T20190908_010540_689076/game.tw-pddl",
+      "reason": "environment_done_without_win"
+    }
+  ],
+  "decisions": 694,
+  "nontrivial_decisions": 598
+}

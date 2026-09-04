@@ -1,0 +1,139 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.67s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.75s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.89s/it]
+route=close scored=25/56
+route=close scored=50/56
+route=close scored=56/56
+route=go scored=25/238
+route=go scored=50/238
+route=go scored=75/238
+route=go scored=100/238
+route=go scored=125/238
+route=go scored=150/238
+route=go scored=175/238
+route=go scored=200/238
+route=go scored=225/238
+route=go scored=238/238
+route=open scored=25/62
+route=open scored=50/62
+route=open scored=62/62
+{
+  "decision_file": "/data/user/agent_self_evolution_gradient/data/alfworld_expert_large/valid_seen.jsonl",
+  "base_model": "/data/user/agent_self_evolution_gradient/model",
+  "delta_manifest": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260921/deltas/manifest.json",
+  "aggregate": "mean12",
+  "route_mode": "oracle_skill",
+  "condition_name": "mean12_oracle_skill_seed_20260921",
+  "evaluated_decisions": 444,
+  "edited_decisions": 356,
+  "route_counts": {
+    "close": 56,
+    "go": 238,
+    "open": 62,
+    "base": 88
+  },
+  "top1_accuracy": 0.2882882882882883,
+  "mean_expert_probability": 0.17892348640684141,
+  "mean_nll": 3.60433951786558
+}
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.34it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.86it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.76it/s]
+route=close scored=25/48
+route=close scored=48/48
+route=go scored=25/330
+route=go scored=50/330
+route=go scored=75/330
+route=go scored=100/330
+route=go scored=125/330
+route=go scored=150/330
+route=go scored=175/330
+route=go scored=200/330
+route=go scored=225/330
+route=go scored=250/330
+route=go scored=275/330
+route=go scored=300/330
+route=go scored=325/330
+route=go scored=330/330
+route=open scored=25/55
+route=open scored=50/55
+route=open scored=55/55
+{
+  "decision_file": "/data/user/agent_self_evolution_gradient/data/alfworld_expert_large/valid_unseen.jsonl",
+  "base_model": "/data/user/agent_self_evolution_gradient/model",
+  "delta_manifest": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260921/deltas/manifest.json",
+  "aggregate": "mean12",
+  "route_mode": "oracle_skill",
+  "condition_name": "mean12_oracle_skill_seed_20260921",
+  "evaluated_decisions": 527,
+  "edited_decisions": 433,
+  "route_counts": {
+    "close": 48,
+    "go": 330,
+    "open": 55,
+    "base": 94
+  },
+  "top1_accuracy": 0.2409867172675522,
+  "mean_expert_probability": 0.1483931563292006,
+  "mean_nll": 3.448744824155008
+}
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.15it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.55it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.47it/s]
+route=go scored=25/195
+route=go scored=50/195
+route=go scored=75/195
+route=go scored=100/195
+route=go scored=125/195
+route=go scored=150/195
+route=go scored=175/195
+route=go scored=195/195
+route=open scored=25/61
+route=open scored=50/61
+route=open scored=61/61
+{
+  "decision_file": "/data/user/agent_self_evolution_gradient/data/alfworld_expert_large/valid_seen.jsonl",
+  "base_model": "/data/user/agent_self_evolution_gradient/model",
+  "delta_manifest": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260921/deltas/manifest.json",
+  "aggregate": "mean12",
+  "route_mode": "base_predicted_skill",
+  "condition_name": "mean12_base_predicted_skill_seed_20260921",
+  "evaluated_decisions": 444,
+  "edited_decisions": 256,
+  "route_counts": {
+    "close": 0,
+    "go": 195,
+    "open": 61,
+    "base": 188
+  },
+  "top1_accuracy": 0.26576576576576577,
+  "mean_expert_probability": 0.17358842504078129,
+  "mean_nll": 3.3630086116312947
+}
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.21it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.65it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.56it/s]
+route=go scored=25/269
+route=go scored=50/269
+route=go scored=75/269
+route=go scored=100/269
+route=go scored=125/269
+route=go scored=150/269
+route=go scored=175/269
+route=go scored=200/269
+route=go scored=225/269
+route=go scored=250/269
+route=go scored=269/269
+route=open scored=25/49
+route=open scored=49/49
+{
+  "decision_file": "/data/user/agent_self_evolution_gradient/data/alfworld_expert_large/valid_unseen.jsonl",
+  "base_model": "/data/user/agent_self_evolution_gradient/model",
+  "delta_manifest": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260921/deltas/manifest.json",
+  "aggregate": "mean12",
+  "route_mode": "base_predicted_skill",
+  "condition_name": "mean12_base_predicted_skill_seed_20260921",
+  "evaluated_decisions": 527,
+  "edited_decisions": 318,
+  "route_counts": {
+    "close": 0,
+    "go": 269,
+    "open": 49,
+    "base": 209
+  },
+  "top1_accuracy": 0.21631878557874762,
+  "mean_expert_probability": 0.14129692870909447,
+  "mean_nll": 3.3376833364283427
+}

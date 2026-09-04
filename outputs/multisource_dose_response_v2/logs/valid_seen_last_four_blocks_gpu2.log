@@ -1,0 +1,87 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.11s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.43s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.69s/it]
+[1/5] valid_seen/last_four_blocks/go gradient=1/12
+[1/5] valid_seen/last_four_blocks/go gradient=2/12
+[1/5] valid_seen/last_four_blocks/go gradient=3/12
+[1/5] valid_seen/last_four_blocks/go gradient=4/12
+[1/5] valid_seen/last_four_blocks/go gradient=5/12
+[1/5] valid_seen/last_four_blocks/go gradient=6/12
+[1/5] valid_seen/last_four_blocks/go gradient=7/12
+[1/5] valid_seen/last_four_blocks/go gradient=8/12
+[1/5] valid_seen/last_four_blocks/go gradient=9/12
+[1/5] valid_seen/last_four_blocks/go gradient=10/12
+[1/5] valid_seen/last_four_blocks/go gradient=11/12
+[1/5] valid_seen/last_four_blocks/go gradient=12/12
+[1/5] valid_seen/last_four_blocks/go step=0.0006 source_dV=0.000731187 holdout_dV=0.000357893 top_flips=0
+[1/5] valid_seen/last_four_blocks/go step=0.0018 source_dV=0.00218909 holdout_dV=0.00106747 top_flips=1
+[1/5] valid_seen/last_four_blocks/go step=0.006 source_dV=0.00724033 holdout_dV=0.00347467 top_flips=2
+[1/5] valid_seen/last_four_blocks/go step=0.018 source_dV=0.0212602 holdout_dV=0.00953211 top_flips=6
+[1/5] valid_seen/last_four_blocks/go complete
+[2/5] valid_seen/last_four_blocks/open gradient=1/12
+[2/5] valid_seen/last_four_blocks/open gradient=2/12
+[2/5] valid_seen/last_four_blocks/open gradient=3/12
+[2/5] valid_seen/last_four_blocks/open gradient=4/12
+[2/5] valid_seen/last_four_blocks/open gradient=5/12
+[2/5] valid_seen/last_four_blocks/open gradient=6/12
+[2/5] valid_seen/last_four_blocks/open gradient=7/12
+[2/5] valid_seen/last_four_blocks/open gradient=8/12
+[2/5] valid_seen/last_four_blocks/open gradient=9/12
+[2/5] valid_seen/last_four_blocks/open gradient=10/12
+[2/5] valid_seen/last_four_blocks/open gradient=11/12
+[2/5] valid_seen/last_four_blocks/open gradient=12/12
+[2/5] valid_seen/last_four_blocks/open step=0.0006 source_dV=0.000560973 holdout_dV=1.11718e-05 top_flips=0
+[2/5] valid_seen/last_four_blocks/open step=0.0018 source_dV=0.00169093 holdout_dV=3.09426e-05 top_flips=0
+[2/5] valid_seen/last_four_blocks/open step=0.006 source_dV=0.00563576 holdout_dV=7.84763e-05 top_flips=0
+[2/5] valid_seen/last_four_blocks/open step=0.018 source_dV=0.0148681 holdout_dV=-2.17894e-05 top_flips=0
+[2/5] valid_seen/last_four_blocks/open complete
+[3/5] valid_seen/last_four_blocks/close gradient=1/12
+[3/5] valid_seen/last_four_blocks/close gradient=2/12
+[3/5] valid_seen/last_four_blocks/close gradient=3/12
+[3/5] valid_seen/last_four_blocks/close gradient=4/12
+[3/5] valid_seen/last_four_blocks/close gradient=5/12
+[3/5] valid_seen/last_four_blocks/close gradient=6/12
+[3/5] valid_seen/last_four_blocks/close gradient=7/12
+[3/5] valid_seen/last_four_blocks/close gradient=8/12
+[3/5] valid_seen/last_four_blocks/close gradient=9/12
+[3/5] valid_seen/last_four_blocks/close gradient=10/12
+[3/5] valid_seen/last_four_blocks/close gradient=11/12
+[3/5] valid_seen/last_four_blocks/close gradient=12/12
+[3/5] valid_seen/last_four_blocks/close step=0.0006 source_dV=0.00225165 holdout_dV=0.000818697 top_flips=0
+[3/5] valid_seen/last_four_blocks/close step=0.0018 source_dV=0.00669817 holdout_dV=0.00243192 top_flips=0
+[3/5] valid_seen/last_four_blocks/close step=0.006 source_dV=0.0214964 holdout_dV=0.00781903 top_flips=0
+[3/5] valid_seen/last_four_blocks/close step=0.018 source_dV=0.0555559 holdout_dV=0.0209009 top_flips=6
+[3/5] valid_seen/last_four_blocks/close complete
+[4/5] valid_seen/last_four_blocks/take gradient=1/12
+[4/5] valid_seen/last_four_blocks/take gradient=2/12
+[4/5] valid_seen/last_four_blocks/take gradient=3/12
+[4/5] valid_seen/last_four_blocks/take gradient=4/12
+[4/5] valid_seen/last_four_blocks/take gradient=5/12
+[4/5] valid_seen/last_four_blocks/take gradient=6/12
+[4/5] valid_seen/last_four_blocks/take gradient=7/12
+[4/5] valid_seen/last_four_blocks/take gradient=8/12
+[4/5] valid_seen/last_four_blocks/take gradient=9/12
+[4/5] valid_seen/last_four_blocks/take gradient=10/12
+[4/5] valid_seen/last_four_blocks/take gradient=11/12
+[4/5] valid_seen/last_four_blocks/take gradient=12/12
+[4/5] valid_seen/last_four_blocks/take step=0.0006 source_dV=0.000676866 holdout_dV=0.000158836 top_flips=0
+[4/5] valid_seen/last_four_blocks/take step=0.0018 source_dV=0.00200527 holdout_dV=0.000474762 top_flips=0
+[4/5] valid_seen/last_four_blocks/take step=0.006 source_dV=0.00638842 holdout_dV=0.00155999 top_flips=0
+[4/5] valid_seen/last_four_blocks/take step=0.018 source_dV=0.0168161 holdout_dV=0.00448259 top_flips=0
+[4/5] valid_seen/last_four_blocks/take complete
+[5/5] valid_seen/last_four_blocks/move gradient=1/12
+[5/5] valid_seen/last_four_blocks/move gradient=2/12
+[5/5] valid_seen/last_four_blocks/move gradient=3/12
+[5/5] valid_seen/last_four_blocks/move gradient=4/12
+[5/5] valid_seen/last_four_blocks/move gradient=5/12
+[5/5] valid_seen/last_four_blocks/move gradient=6/12
+[5/5] valid_seen/last_four_blocks/move gradient=7/12
+[5/5] valid_seen/last_four_blocks/move gradient=8/12
+[5/5] valid_seen/last_four_blocks/move gradient=9/12
+[5/5] valid_seen/last_four_blocks/move gradient=10/12
+[5/5] valid_seen/last_four_blocks/move gradient=11/12
+[5/5] valid_seen/last_four_blocks/move gradient=12/12
+[5/5] valid_seen/last_four_blocks/move step=0.0006 source_dV=0.0013337 holdout_dV=0.000105931 top_flips=0
+[5/5] valid_seen/last_four_blocks/move step=0.0018 source_dV=0.00400148 holdout_dV=0.000303243 top_flips=0
+[5/5] valid_seen/last_four_blocks/move step=0.006 source_dV=0.0133894 holdout_dV=0.000833878 top_flips=1
+[5/5] valid_seen/last_four_blocks/move step=0.018 source_dV=0.0400919 holdout_dV=0.000887157 top_flips=1
+[5/5] valid_seen/last_four_blocks/move complete
+{"output": "/data/user/agent_self_evolution_gradient/outputs/multisource_dose_response_v2/valid_seen_last_four_blocks.json", "verbs": 5}

@@ -1,0 +1,22 @@
+name: coevokg
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip=24.3
+  - pytorch=2.6.0
+  - torchvision=0.21.0
+  - torchaudio=2.6.0
+  - pytorch-cuda=12.4
+  - faiss-cpu=1.10.0
+  - openjdk=17
+  - pip:
+      - -r requirements.txt
+# Notes:
+# - Install the vendored veRL after creating the environment:
+#     pip install -e ./verl
+# - Replace faiss-cpu with a CUDA-matched FAISS GPU package if GPU indexing is required.
+# - Install flash-attn / flashinfer-python from wheels matching the local CUDA and PyTorch build.

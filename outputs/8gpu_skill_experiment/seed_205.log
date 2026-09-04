@@ -1,0 +1,9 @@
+Encoding skill version 0.1.0
+Encoding skill version 0.2.0
+plain                     strict=0.050 tool=0.225 choice=0.225 p(correct)=0.226 KL=0.0000
+skill_v0.1.0              strict=0.050 tool=0.225 choice=0.200 p(correct)=0.225 KL=0.0897
+skill_v0.2.0              strict=0.075 tool=0.425 choice=0.225 p(correct)=0.251 KL=0.1350
+verifier_gated_skill      strict=0.125 tool=0.550 choice=0.225 p(correct)=0.287 KL=0.0821
+skill_verifier_projection strict=1.000 tool=1.000 choice=1.000 p(correct)=0.597 KL=0.3500
+FO internalized           strict=0.150 tool=0.525 choice=0.225 p(correct)=0.312 KL=0.0875
+ZO internalized           strict=0.075 tool=0.475 choice=0.200 p(correct)=0.234 KL=0.0292

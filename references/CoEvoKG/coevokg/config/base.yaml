@@ -1,0 +1,281 @@
+# ============================================================================
+# CoEvoKG training base configuration
+# ============================================================================
+# This file contains shared training, reward, data, rollout, and self-play
+# settings. The release package keeps a single entry config, train_example.yaml,
+# and model/hardware differences should be passed as Hydra overrides.
+#
+# The following COEVOKG_* judge/API variables must be exported by the launch script, not managed in yaml:
+#   COEVOKG_BASE_URL, COEVOKG_API_KEY, COEVOKG_MODEL, COEVOKG_MODEL_SLOT_TOTALS
+#   COEVOKG_PROVIDER_MAX_ATTEMPTS, COEVOKG_PROVIDER_COOLDOWN_*
+#   COEVOKG_SEARCH_CHAT_TEMPLATE is tied to the model tokenizer (3B/7B=qwen2p5, 8B=llama3p1).
+#   COEVOKG_POOL_FATAL_AFTER_S, COEVOKG_POOL_FATAL_AFTER_COUNT
+# ============================================================================
+
+
+# ────────────────────────────────────────────────────────────────────────────
+# Ray initialization policy.
+# ────────────────────────────────────────────────────────────────────────────
+ray_init:
+  mode: auto
+  address: null
+  num_cpus: null
+
+
+# ---------------------------------------------------------------------------
+# Reward function configuration.
+# ---------------------------------------------------------------------------
+custom_reward_functions:
+  coevokg_score:
+    labels:
+      - unknown
+    integration: sum
+
+coevokg:
+  task_type: coevokg_deep_search
+  diff_val_reward_fn_config:
+    reward_model:
+      reward_manager: naive_with_prompt
+    data:
+      reward_fn_key: data_source
+    custom_reward_function:
+      path: "${oc.env:COEVOKG_ROOT}/coevokg/reward/score/search_eval_score.py"
+      name: compute_score
+
+# ────────────────────────────────────────────────────────────────────────────
+# Shared API concurrency settings.
+# ────────────────────────────────────────────────────────────────────────────
+api:
+  quality_check_max_workers: 40  # Match the total slots in COEVOKG_MODEL_SLOT_TOTALS.
+  judge_timeout: 120.0           # Per-call judge API timeout in seconds.
+  judge_max_retries: 1
+  judge_max_chars: 2000          # Truncate long inputs to avoid exceeding context limits.
+  judge_chain_max_tokens: 192    # Maximum output tokens for the chain judge.
+
+
+# ────────────────────────────────────────────────────────────────────────────
+# Data paths are passed by launch scripts; response length can be overridden by train_example.yaml or CLI.
+# ────────────────────────────────────────────────────────────────────────────
+data:
+  train_batch_size: 128
+  val_batch_size: 128
+  train_size: 20096
+  val_size: 512
+  max_prompt_length: 4096
+  return_raw_chat: true
+  filter_overlong_prompts: true
+  truncation: left
+  shuffle: true
+  validation_shuffle: false
+  custom_cls:
+    name: null
+
+
+# ────────────────────────────────────────────────────────────────────────────
+# Model paths are injected from environment variables.
+# ────────────────────────────────────────────────────────────────────────────
+actor_rollout_ref:
+  model:
+    path: "${oc.env:MODEL_PATH}"
+    use_remove_padding: true
+    use_fused_kernels: false
+    use_liger: true
+    enable_gradient_checkpointing: true
+    enable_activation_offload: true
+
+  # ── Actor ────────────────────────────────────────────────────────────────
+  actor:
+    strategy: fsdp
+    optim:
+      lr: 3e-6
+      lr_warmup_steps: 5
+      lr_warmup_steps_ratio: 0.05
+    use_dynamic_bsz: false
+    use_kl_loss: true
+    kl_loss_coef: 0.1
+    kl_loss_type: low_var_kl
+    entropy_coeff: 0.02          # Override from train_example.yaml or CLI when needed.
+    clip_ratio_high: 0.2
+    ulysses_sequence_parallel_size: 1
+    fsdp_config:
+      param_offload: false       # Override from CLI when CPU offload is needed.
+      optimizer_offload: false
+      fsdp_size: -1
+      model_dtype: bf16
+
+  # Rollout settings for the SGLang inference side.
+  rollout:
+    name: sglang_async
+    tensor_model_parallel_size: 4
+    n: 8
+    temperature: 0.6
+    top_p: 0.95
+    dtype: bfloat16
+    free_cache_engine: true
+    repetition_penalty: 1.05
+    log_prob_micro_batch_size_per_gpu: 8   # Lower this from CLI for tighter memory budgets.
+    max_num_batched_tokens: 16384          # Lower this from CLI for tighter memory budgets.
+    multi_turn:
+      enable: true
+      format: coevokg
+      max_assistant_turns: 8
+      force_final_answer: true   # Plan B: append one forced-answer turn during training if early stop has no <answer>.
+      use_inference_chat_template: false
+      tokenization_sanity_check_mode: disable
+      tool_config_path: null     # Passed by the training launch scripts.
+    val_kwargs:
+      n: 1
+      temperature: 0.0
+      top_k: -1
+      top_p: 1.0
+      do_sample: false
+      frequency_penalty: 0
+      repetition_penalty: 1.05
+
+  # ── Reference Model ──────────────────────────────────────────────────────
+  ref:
+    strategy: fsdp
+    log_prob_micro_batch_size_per_gpu: 8   # Lower this from CLI for tighter memory budgets.
+    fsdp_config:
+      param_offload: true
+      model_dtype: bf16
+
+  hybrid_engine: true
+
+
+# ────────────────────────────────────────────────────────────────────────────
+# Training algorithm.
+# ────────────────────────────────────────────────────────────────────────────
+algorithm:
+  adv_estimator: grpo
+  use_kl_in_reward: false
+
+critic:
+  enable: false
+  kl_ctrl:
+    kl_coef: 0.01
+  kl_penalty: low_var_kl
+  gamma: 1.0
+
+reward_model:
+  reward_manager: coevokg
+  enable: false
+  strategy: fsdp
+  model:
+    type: default
+    use_remove_padding: true
+  max_length: 12288
+  micro_batch_size_per_gpu: 1
+  launch_reward_fn_async: true
+
+
+# ────────────────────────────────────────────────────────────────────────────
+# Trainer settings; project_name and experiment_name are set by the entry config or CLI.
+# ────────────────────────────────────────────────────────────────────────────
+trainer:
+  critic_warmup: 0
+  logger:
+    - console
+    - swanlab
+  n_gpus_per_node: 8
+  nnodes: 1
+  save_freq: 24
+  test_freq: 12
+  total_epochs: 2
+  val_before_train: false
+  default_local_dir: "${oc.env:SAVE_CHECKPOINT_DIR}"
+  rollout_data_dir: "${oc.env:ROLLOUT_DATA_DIR}"
+  validation_data_dir: "${oc.env:VAL_DATA_DIR}"
+
+
+# ────────────────────────────────────────────────────────────────────────────
+# Self-play settings.
+# ────────────────────────────────────────────────────────────────────────────
+self_play:
+  enable: true
+  lang: en
+  save_freq: 2
+  use_rag_filter: false
+  noisy_RAG_materials: 0
+  use_search_terms_filter: false
+  combine_update: false
+  update_order: solver_then_proposer
+  proposer_adv_weight: 1.0
+  solver_adv_weight: 1.0
+  advantage_reweighting:
+    enable: true
+    proposer_enable: true
+    solver_enable: true
+    proposer_alpha: 0.1
+    solver_alpha: 0.1
+    min_token_prob: 1.0e-6
+    max_token_prob: 1.0
+  adaptive_kl:
+    enable: true
+    target_kl_loss: 0.10
+    init_kl_coef: 0.10
+    min_kl_coef: 0.04
+    max_kl_coef: 0.25
+    tolerance: 0.20
+    up_factor: 1.20
+    down_factor: 0.95
+  mini_epochs: 1
+  answer_pattern: answer
+  validate_config: true
+
+  proposer:
+    enable: true
+    n: 4
+    warm_up_steps: -1
+    temperature: 0.6
+    left: 0.0
+    right: 1.0
+    format_penalty: -0.2
+    format_bonus: 0.2
+    adv_estimator: reinforce_plus_plus
+    selection_top_k: 2
+    min_quality_score: 0.45
+    mode: walk
+    use_search: true
+    walk:
+      source: file
+      chain_data_path: ${oc.env:COEVOKG_CHAIN_DATA_LOCAL,examples/data/example_chain_pool.jsonl}
+      min_hops: 2
+      max_hops: 3
+      generate_n: 32
+    # reward_type and curriculum can be overridden from the entry config or CLI.
+    reward_type: bell_curriculum
+    curriculum:
+      start_target_acc: 0.45
+      end_target_acc: 0.45
+      sigma: 0.3
+
+  solver:
+    enable: true
+    temperature: 0.6
+    update_steps: 1
+    # format_coef_* can be overridden from the entry config or CLI.
+    format_coef_start: 0.0
+    format_coef_end: 0.0
+    format_anneal_steps: 100
+    process_consistency_beta: 0.2
+
+  dynamic_sampling:
+    enable: false
+  reward_dynamic_sampling:
+    enable: false
+
+  feedback_pool:
+    enable: true
+    prefer_for_fallback: false
+
+  extraction_failure:
+    strategy: dummy
+
+  kg_writer:
+    enable: true            # Set true to enable co-evolutionary write-back.
+    save_path: ~             # null -> automatically use {rollout_data_dir}/kg_cot_chains.jsonl.
+    max_size: 50000          # Maximum number of new chains in the memory pool; writing stops at the limit.
+    enrich_nodes: true       # Mode 1: enrich original chain node text with retrieved evidence; entity order is unchanged.
+    discover_new_chains: true  # Mode 2: discover new chains from retrieved documents in correct trajectories.
+    min_path_support: 0.4    # Write-back gate: write only when trajectory global_score >= this value; 0.0 disables the gate.

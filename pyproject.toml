@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distribution-repair-self-evolution"
+version = "0.1.0"
+description = "Minimal probability-distribution repair and zeroth-order self-evolution prototype"
+requires-python = ">=3.10"
+dependencies = [
+  "torch>=2.6",
+  "transformers>=4.55,<5",
+  "pyyaml>=6",
+  "numpy>=1.26",
+  "matplotlib>=3.5",
+  "alfworld==0.4.2",
+]
+
+[project.scripts]
+self-evolve = "self_evolve.runner:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

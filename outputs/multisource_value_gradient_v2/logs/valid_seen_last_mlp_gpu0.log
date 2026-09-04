@@ -1,0 +1,67 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.83s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.40s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.62s/it]
+[1/5] valid_seen/last_mlp/go single=1/12
+[1/5] valid_seen/last_mlp/go single=2/12
+[1/5] valid_seen/last_mlp/go single=3/12
+[1/5] valid_seen/last_mlp/go single=4/12
+[1/5] valid_seen/last_mlp/go single=5/12
+[1/5] valid_seen/last_mlp/go single=6/12
+[1/5] valid_seen/last_mlp/go single=7/12
+[1/5] valid_seen/last_mlp/go single=8/12
+[1/5] valid_seen/last_mlp/go single=9/12
+[1/5] valid_seen/last_mlp/go single=10/12
+[1/5] valid_seen/last_mlp/go single=11/12
+[1/5] valid_seen/last_mlp/go single=12/12
+[1/5] valid_seen/last_mlp/go complete
+[2/5] valid_seen/last_mlp/open single=1/12
+[2/5] valid_seen/last_mlp/open single=2/12
+[2/5] valid_seen/last_mlp/open single=3/12
+[2/5] valid_seen/last_mlp/open single=4/12
+[2/5] valid_seen/last_mlp/open single=5/12
+[2/5] valid_seen/last_mlp/open single=6/12
+[2/5] valid_seen/last_mlp/open single=7/12
+[2/5] valid_seen/last_mlp/open single=8/12
+[2/5] valid_seen/last_mlp/open single=9/12
+[2/5] valid_seen/last_mlp/open single=10/12
+[2/5] valid_seen/last_mlp/open single=11/12
+[2/5] valid_seen/last_mlp/open single=12/12
+[2/5] valid_seen/last_mlp/open complete
+[3/5] valid_seen/last_mlp/close single=1/12
+[3/5] valid_seen/last_mlp/close single=2/12
+[3/5] valid_seen/last_mlp/close single=3/12
+[3/5] valid_seen/last_mlp/close single=4/12
+[3/5] valid_seen/last_mlp/close single=5/12
+[3/5] valid_seen/last_mlp/close single=6/12
+[3/5] valid_seen/last_mlp/close single=7/12
+[3/5] valid_seen/last_mlp/close single=8/12
+[3/5] valid_seen/last_mlp/close single=9/12
+[3/5] valid_seen/last_mlp/close single=10/12
+[3/5] valid_seen/last_mlp/close single=11/12
+[3/5] valid_seen/last_mlp/close single=12/12
+[3/5] valid_seen/last_mlp/close complete
+[4/5] valid_seen/last_mlp/take single=1/12
+[4/5] valid_seen/last_mlp/take single=2/12
+[4/5] valid_seen/last_mlp/take single=3/12
+[4/5] valid_seen/last_mlp/take single=4/12
+[4/5] valid_seen/last_mlp/take single=5/12
+[4/5] valid_seen/last_mlp/take single=6/12
+[4/5] valid_seen/last_mlp/take single=7/12
+[4/5] valid_seen/last_mlp/take single=8/12
+[4/5] valid_seen/last_mlp/take single=9/12
+[4/5] valid_seen/last_mlp/take single=10/12
+[4/5] valid_seen/last_mlp/take single=11/12
+[4/5] valid_seen/last_mlp/take single=12/12
+[4/5] valid_seen/last_mlp/take complete
+[5/5] valid_seen/last_mlp/move single=1/12
+[5/5] valid_seen/last_mlp/move single=2/12
+[5/5] valid_seen/last_mlp/move single=3/12
+[5/5] valid_seen/last_mlp/move single=4/12
+[5/5] valid_seen/last_mlp/move single=5/12
+[5/5] valid_seen/last_mlp/move single=6/12
+[5/5] valid_seen/last_mlp/move single=7/12
+[5/5] valid_seen/last_mlp/move single=8/12
+[5/5] valid_seen/last_mlp/move single=9/12
+[5/5] valid_seen/last_mlp/move single=10/12
+[5/5] valid_seen/last_mlp/move single=11/12
+[5/5] valid_seen/last_mlp/move single=12/12
+[5/5] valid_seen/last_mlp/move complete
+{"output": "/data/user/agent_self_evolution_gradient/outputs/multisource_value_gradient_v2/valid_seen_last_mlp.json", "verbs": 5}

@@ -1,0 +1,13 @@
+seed: 910
+train_trace: /data/hanning/agent_self_evolution_gradient/outputs/alfworld_large_3b/train_merged/trace.jsonl
+eval_trace: /data/hanning/agent_self_evolution_gradient/outputs/alfworld_large_3b/valid_seen_merged/trace.jsonl
+additional_eval_traces:
+  valid_unseen: /data/hanning/agent_self_evolution_gradient/outputs/alfworld_large_3b/valid_unseen_merged/trace.jsonl
+output_dir: /data/hanning/agent_self_evolution_gradient/outputs/logic_repair_head_large_3b
+dev_fraction: 0.2
+epochs: 300
+learning_rate: 0.01
+weight_decay: 0.001
+patience: 40
+kl_budget: 0.05
+constrained_kl_lambdas: [1.0, 3.0, 10.0]

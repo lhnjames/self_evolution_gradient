@@ -1,0 +1,46 @@
+Initializing AlfredTWEnv...
+  0%|          | 0/494 [00:00<?, ?it/s] 22%|██▏       | 111/494 [00:00<00:00, 1108.68it/s]100%|██████████| 494/494 [00:00<00:00, 3100.67it/s]
+Overall we have 140 games in split=train
+Training with 140 games
+[1/13 shard=30] game=1/13 index=190 actions=14 wins=14 elapsed=13.2s
+[2/13 shard=30] game=2/13 index=318 actions=22 wins=20 elapsed=43.1s
+[3/13 shard=30] game=3/13 index=62 actions=22 wins=20 elapsed=69.8s
+[4/13 shard=30] game=4/13 index=254 actions=21 wins=21 elapsed=88.8s
+[5/13 shard=30] game=5/13 index=30 actions=21 wins=19 elapsed=126.2s
+[6/13 shard=30] game=6/13 index=222 actions=19 wins=19 elapsed=144.0s
+[7/13 shard=30] game=7/13 index=158 actions=26 wins=26 elapsed=222.3s
+[8/13 shard=30] game=8/13 index=286 actions=45 wins=45 elapsed=413.0s
+[9/13 shard=30] game=9/13 index=414 actions=32 wins=32 elapsed=508.1s
+[10/13 shard=30] game=10/13 index=382 actions=31 wins=31 elapsed=631.1s
+[11/13 shard=30] game=11/13 index=126 actions=25 wins=25 elapsed=700.6s
+[12/13 shard=30] game=12/13 index=94 actions=57 wins=57 elapsed=1049.0s
+[13/13 shard=30] game=13/13 index=350 actions=19 wins=1 elapsed=1091.2s
+{
+  "split": "valid_seen",
+  "expert_type": "handcoded",
+  "gamma": 0.95,
+  "max_steps": 50,
+  "seed": 20260902,
+  "shard_index": 30,
+  "num_shards": 32,
+  "states": 13,
+  "candidate_actions": 354,
+  "successful_candidates": 330,
+  "wall_seconds": 1091.1816990100779
+}
+Initializing AlfredTWEnv...
+  0%|          | 0/341 [00:00<?, ?it/s]  7%|▋         | 23/341 [00:00<00:01, 229.86it/s]100%|██████████| 341/341 [00:00<00:00, 1866.49it/s]
+Overall we have 134 games in split=train
+Training with 134 games
+[1/16 shard=30] game=1/16 index=446 actions=23 wins=22 elapsed=32.0s
+[2/16 shard=30] game=2/16 index=30 actions=21 wins=21 elapsed=61.3s
+[3/16 shard=30] game=3/16 index=158 actions=21 wins=21 elapsed=89.9s
+[4/16 shard=30] game=4/16 index=382 actions=22 wins=22 elapsed=134.4s
+[5/16 shard=30] game=5/16 index=190 actions=22 wins=22 elapsed=180.4s
+[6/16 shard=30] game=6/16 index=62 actions=33 wins=33 elapsed=279.4s
+[7/16 shard=30] game=7/16 index=286 actions=31 wins=29 elapsed=406.8s
+[8/16 shard=30] game=8/16 index=510 actions=34 wins=34 elapsed=510.2s
+[9/16 shard=30] game=9/16 index=222 actions=30 wins=28 elapsed=599.3s
+[10/16 shard=30] game=10/16 index=318 actions=30 wins=28 elapsed=717.7s
+[11/16 shard=30] game=11/16 index=414 actions=30 wins=28 elapsed=803.5s
+[12/16 shard=30] game=12/16 index=478 actions=29 wins=29 elapsed=915.3s

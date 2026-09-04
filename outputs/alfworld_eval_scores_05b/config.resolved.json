@@ -1,0 +1,33 @@
+{
+  "seed": 510,
+  "output_dir": "/data/hanning/agent_self_evolution_gradient/outputs/alfworld_eval_scores_05b",
+  "data": {
+    "alfworld_data": "/data/hanning/agent_self_evolution_gradient/alfworld_data",
+    "alfworld_config": "/data/hanning/agent_self_evolution_gradient/references/SkillRL/agent_system/environments/env_package/alfworld/configs/config_tw.yaml",
+    "split": "valid_seen",
+    "episodes": 10,
+    "max_steps": 50,
+    "decision_file": null
+  },
+  "model": {
+    "cache_root": "/data/hanning/agent_self_evolution_gradient/model_cache",
+    "path": "/data/hanning/agent_self_evolution_gradient/model_cache/hub/models--Qwen--Qwen2.5-0.5B-Instruct/snapshots/7ae557604adf67be50417f59c2c2f167def9a775",
+    "device": "cuda:2",
+    "batch_size": 16,
+    "max_length": 1536,
+    "length_penalty": 1.0
+  },
+  "skills": {
+    "path": "/data/hanning/agent_self_evolution_gradient/references/SkillRL/memory_data/alfworld/claude_style_skills.json",
+    "general_top_k": 3,
+    "task_top_k": 3,
+    "mistakes_top_k": 2
+  },
+  "evaluation": {
+    "include_trivial": false,
+    "max_decisions": 80,
+    "history_window": 3,
+    "temperature": 1.0,
+    "kl_budget": 0.05
+  }
+}

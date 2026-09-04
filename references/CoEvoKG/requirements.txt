@@ -1,0 +1,83 @@
+# CoEvoKG frozen Python dependency set
+#
+# Tested target: Python 3.10, PyTorch 2.6.0, CUDA 12.x-class runtime.
+# Install the vendored veRL separately with:
+#
+#   pip install -e ./verl
+#
+# Optional CUDA packages are listed at the bottom because their wheels depend
+# on the local CUDA, PyTorch, and driver stack.
+
+# Core model and training stack
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+transformers==4.55.0
+tokenizers==0.21.4
+accelerate==1.3.0
+peft==0.18.1
+datasets==3.2.0
+huggingface_hub==0.36.2
+safetensors==0.7.0
+sentencepiece==0.2.1
+
+# Distributed RL and rollout runtime
+ray==2.43.0
+tensordict==0.9.1
+torchdata==0.11.0
+codetiming==1.4.0
+hydra-core==1.3.2
+omegaconf==2.3.0
+PyYAML==6.0.1
+
+# SGLang serving and OpenAI-compatible API clients
+sglang==0.4.6.post5
+fastapi==0.115.7
+uvicorn==0.34.0
+uvloop==0.21.0
+httpx==0.28.1
+requests==2.32.3
+pydantic==2.10.6
+pydantic_core==2.27.2
+openai==1.60.1
+outlines==0.1.11
+outlines_core==0.1.26
+lm-format-enforcer==0.10.12
+interegular==0.3.3
+lark==1.2.2
+
+# Retrieval, preprocessing, and data utilities
+numpy==1.26.4
+pandas==2.2.1
+pyarrow==20.0.0
+scipy==1.15.3
+scikit-learn==1.4.2
+networkx==3.4.2
+joblib==1.5.3
+tqdm==4.66.4
+pymongo==4.16.0
+
+# Logging and experiment tracking
+swanlab==0.7.13
+tensorboardX==2.6.4
+rich==13.9.4
+loguru==0.7.3
+
+# Common runtime helpers
+einops==0.8.0
+liger_kernel==0.5.5
+protobuf==4.25.9
+psutil==7.2.2
+setproctitle==1.3.7
+ninja==1.13.0
+packaging==25.0
+regex==2026.2.28
+
+# Optional retrieval backends. Install only when needed.
+# faiss-cpu==1.10.0
+# pyserini  # BM25 retrieval only; also requires a compatible Java runtime.
+
+# Optional CUDA acceleration packages. Install matching wheels manually.
+# flash-attn==2.7.4.post1
+# flashinfer-python==0.2.5+cu124torch2.6
+# faiss-gpu  # Prefer conda packages matched to the local CUDA stack.

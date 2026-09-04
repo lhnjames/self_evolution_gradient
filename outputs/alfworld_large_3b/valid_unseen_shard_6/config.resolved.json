@@ -1,0 +1,34 @@
+{
+  "seed": 410,
+  "output_dir": "outputs/alfworld_large_3b/valid_unseen_shard_6",
+  "data": {
+    "alfworld_data": "/data/hanning/agent_self_evolution_gradient/alfworld_data",
+    "alfworld_config": "/data/hanning/agent_self_evolution_gradient/references/SkillRL/agent_system/environments/env_package/alfworld/configs/config_tw.yaml",
+    "split": "train",
+    "episodes": 16,
+    "max_steps": 50,
+    "decision_file": "data/alfworld_expert_large/valid_unseen.jsonl"
+  },
+  "model": {
+    "cache_root": "/data/hanning/agent_self_evolution_gradient/model_cache",
+    "path": "/data/hanning/agent_self_evolution_gradient/model_cache/hub/models--Qwen--Qwen2.5-3B-Instruct/snapshots/aa8e72537993ba99e69dfaafa59ed015b17504d1",
+    "device": "cuda:6",
+    "batch_size": 4,
+    "max_length": 1536,
+    "length_penalty": 1.0
+  },
+  "skills": {
+    "path": "/data/hanning/agent_self_evolution_gradient/references/SkillRL/memory_data/alfworld/claude_style_skills.json",
+    "general_top_k": 3,
+    "task_top_k": 3,
+    "mistakes_top_k": 2
+  },
+  "evaluation": {
+    "include_trivial": false,
+    "max_decisions": 176,
+    "history_window": 3,
+    "temperature": 1.0,
+    "kl_budget": 0.05,
+    "decision_offset": 176
+  }
+}

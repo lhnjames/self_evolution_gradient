@@ -1,0 +1,50 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.85s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.66s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.84s/it]
+[1/8] split=valid_seen source=425 objective=value_expectation group=all_rmsnorm step=0.002915 source_dV=0.000427592 source_KL=0.000106916
+[1/8] split=valid_seen source=425 objective=value_expectation group=last_attention step=0.007419 source_dV=0.000366345 source_KL=9.95431e-05
+[1/8] split=valid_seen source=425 objective=value_expectation group=last_mlp step=0.001323 source_dV=0.000326902 source_KL=0.000104104
+[1/8] split=valid_seen source=425 objective=value_expectation group=last_four_blocks step=0.0007061 source_dV=0.000407224 source_KL=0.000100333
+[1/8] split=valid_seen source=425 objective=value_expectation group=tied_embedding_output step=0.0006368 source_dV=0.000424498 source_KL=0.000103692
+[1/8] split=valid_seen source=425 objective=value_optimal_set group=all_rmsnorm step=0.003188 source_dV=0.000192907 source_KL=0.000114585
+[1/8] split=valid_seen source=425 objective=value_optimal_set group=last_attention step=0.007705 source_dV=6.90183e-05 source_KL=0.000100068
+Traceback (most recent call last):
+  File "/data/user/agent_self_evolution_gradient/scripts/probe_value_gradient_writeback.py", line 469, in <module>
+    main()
+  File "/data/user/agent_self_evolution_gradient/scripts/probe_value_gradient_writeback.py", line 378, in main
+    updated_scores = [
+  File "/data/user/agent_self_evolution_gradient/scripts/probe_value_gradient_writeback.py", line 379, in <listcomp>
+    score_actions(
+  File "/data/user/agent_self_evolution_gradient/scripts/probe_value_gradient_writeback.py", line 199, in score_actions
+    logits = model(
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 449, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/transformers/utils/generic.py", line 1072, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 384, in forward
+    hidden_states = decoder_layer(
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 248, in forward
+    hidden_states = self.post_attention_layernorm(hidden_states)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/data/user/agent_self_evolution_gradient/.venv/lib/python3.10/site-packages/transformers/models/qwen2/modeling_qwen2.py", line 199, in forward
+    variance = hidden_states.pow(2).mean(-1, keepdim=True)
+KeyboardInterrupt

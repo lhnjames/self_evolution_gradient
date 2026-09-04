@@ -1,0 +1,40 @@
+Initializing AlfredTWEnv...
+  0%|          | 0/494 [00:00<?, ?it/s] 22%|██▏       | 107/494 [00:00<00:00, 1064.80it/s]100%|██████████| 494/494 [00:00<00:00, 3090.77it/s]
+Overall we have 140 games in split=train
+Training with 140 games
+[1/14 shard=16] game=1/14 index=272 actions=18 wins=18 elapsed=23.4s
+[2/14 shard=16] game=2/14 index=48 actions=21 wins=21 elapsed=58.2s
+[3/14 shard=16] game=3/14 index=176 actions=38 wins=26 elapsed=189.5s
+[4/14 shard=16] game=4/14 index=16 actions=26 wins=26 elapsed=269.5s
+[5/14 shard=16] game=5/14 index=80 actions=45 wins=45 elapsed=466.1s
+[6/14 shard=16] game=6/14 index=144 actions=35 wins=33 elapsed=580.3s
+[7/14 shard=16] game=7/14 index=208 actions=40 wins=36 elapsed=724.4s
+[8/14 shard=16] game=8/14 index=432 actions=41 wins=40 elapsed=857.9s
+[9/14 shard=16] game=9/14 index=240 actions=41 wins=39 elapsed=1027.7s
+[10/14 shard=16] game=10/14 index=400 actions=30 wins=30 elapsed=1114.0s
+[11/14 shard=16] game=11/14 index=304 actions=44 wins=40 elapsed=1289.9s
+[12/14 shard=16] game=12/14 index=368 actions=31 wins=30 elapsed=1409.4s
+[13/14 shard=16] game=13/14 index=112 actions=24 wins=24 elapsed=1472.9s
+[14/14 shard=16] game=14/14 index=336 actions=20 wins=0 elapsed=1517.5s
+{
+  "split": "valid_seen",
+  "expert_type": "planner",
+  "gamma": 0.95,
+  "max_steps": 50,
+  "seed": 20260902,
+  "shard_index": 16,
+  "num_shards": 32,
+  "states": 14,
+  "candidate_actions": 454,
+  "successful_candidates": 408,
+  "wall_seconds": 1517.509350964101
+}
+Initializing AlfredTWEnv...
+  0%|          | 0/341 [00:00<?, ?it/s] 21%|██        | 70/341 [00:00<00:00, 699.04it/s]100%|██████████| 341/341 [00:00<00:00, 2008.03it/s]
+Overall we have 134 games in split=train
+Training with 134 games
+[1/16 shard=16] game=1/16 index=208 actions=25 wins=22 elapsed=59.1s
+[2/16 shard=16] game=2/16 index=368 actions=28 wins=28 elapsed=127.0s
+[3/16 shard=16] game=3/16 index=48 actions=30 wins=30 elapsed=215.6s
+[4/16 shard=16] game=4/16 index=272 actions=29 wins=29 elapsed=332.3s
+Terminated

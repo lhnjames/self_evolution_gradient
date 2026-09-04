@@ -1,0 +1,7 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.31it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.76it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.67it/s]
+[1/1] valid_seen/last_mlp/open gradient=1/2
+[1/1] valid_seen/last_mlp/open gradient=2/2
+[1/1] valid_seen/last_mlp/open step=0.00125 source_dV=0.00060073 holdout_dV=0.000242808 top_flips=0
+[1/1] valid_seen/last_mlp/open step=0.0375 source_dV=0.0154266 holdout_dV=0.00725556 top_flips=1
+[1/1] valid_seen/last_mlp/open complete
+{"output": "/data/user/agent_self_evolution_gradient/outputs/multisource_dose_smoke/smoke.json", "verbs": 1}

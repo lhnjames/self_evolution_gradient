@@ -1,0 +1,1436 @@
+{
+  "policy": "constrained_skill",
+  "split": "valid_seen",
+  "episodes": 5,
+  "success_rate": 0.4,
+  "mean_steps": 34.2,
+  "by_task_type": {
+    "pick_and_place_simple": {
+      "episodes": 3,
+      "success_rate": 0.3333333333333333
+    },
+    "pick_clean_then_place_in_recep": {
+      "episodes": 1,
+      "success_rate": 1.0
+    },
+    "pick_cool_then_place_in_recep": {
+      "episodes": 1,
+      "success_rate": 0.0
+    }
+  },
+  "trajectories": [
+    {
+      "episode_id": "pick_clean_then_place_in_recep-Spatula-None-DiningTable-4",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_seen/pick_clean_then_place_in_recep-Spatula-None-DiningTable-4/trial_T20190909_002804_564168/game.tw-pddl",
+      "task_type": "pick_clean_then_place_in_recep",
+      "goal": "clean some spatula and put it in diningtable.",
+      "won": true,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 3, a countertop 2, a countertop 1, a diningtable 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: clean some spatula and put it in diningtable.",
+          "action": "go to countertop 1",
+          "selected_index": 3,
+          "confidence": 0.15938526391983032,
+          "alpha": 0.06213929504156113
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at countertop 1. On the countertop 1, you see a potato 1.",
+          "action": "go to countertop 2",
+          "selected_index": 4,
+          "confidence": 0.1651601940393448,
+          "alpha": 0.07086250931024551
+        },
+        {
+          "step": 2,
+          "observation": "You arrive at countertop 2. On the countertop 2, you see a butterknife 1, a dishsponge 1, a egg 3, a fork 1, a houseplant 1, a ladle 1, a potato 2, and a spatula 1.",
+          "action": "take spatula 1 from countertop 2",
+          "selected_index": 31,
+          "confidence": 0.3008647859096527,
+          "alpha": 0.09594312310218811
+        },
+        {
+          "step": 3,
+          "observation": "You pick up the spatula 1 from the countertop 2.",
+          "action": "go to sinkbasin 1",
+          "selected_index": 17,
+          "confidence": 0.28194940090179443,
+          "alpha": 0.10036259889602661
+        },
+        {
+          "step": 4,
+          "observation": "You arrive at sinkbasin 1. On the sinkbasin 1, you see a cup 2, a fork 2, and a knife 1.",
+          "action": "clean spatula 1 with sinkbasin 1",
+          "selected_index": 0,
+          "confidence": 0.6865028738975525,
+          "alpha": 0.2964078485965729
+        },
+        {
+          "step": 5,
+          "observation": "You clean the spatula 1 using the sinkbasin 1.",
+          "action": "go to diningtable 1",
+          "selected_index": 9,
+          "confidence": 0.46397584676742554,
+          "alpha": 0.22774355113506317
+        },
+        {
+          "step": 6,
+          "observation": "You arrive at diningtable 1. On the diningtable 1, you see a bread 2, a bread 1, a lettuce 3, a lettuce 2, a lettuce 1, a pan 1, a soapbottle 3, a soapbottle 2, a spatula 2, and a spoon 2.",
+          "action": "move spatula 1 to diningtable 1",
+          "selected_index": 26,
+          "confidence": 0.6914889812469482,
+          "alpha": 0.2714560925960541
+        }
+      ]
+    },
+    {
+      "episode_id": "pick_and_place_simple-Watch-None-SideTable-222",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_seen/pick_and_place_simple-Watch-None-SideTable-222/trial_T20190909_051813_197569/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "goal": "put some watch on sidetable.",
+      "won": true,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a armchair 1, a coffeetable 1, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a sidetable 3, a sidetable 2, a sidetable 1, a sofa 2, a sofa 1, and a tvstand 1.\n\nYour task is to: put some watch on sidetable.",
+          "action": "go to sidetable 1",
+          "selected_index": 10,
+          "confidence": 0.418376624584198,
+          "alpha": 0.2095823436975479
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at sidetable 1. On the sidetable 1, you see a newspaper 1.",
+          "action": "take newspaper 1 from sidetable 1",
+          "selected_index": 19,
+          "confidence": 0.4432816207408905,
+          "alpha": 0.15089347958564758
+        },
+        {
+          "step": 2,
+          "observation": "You pick up the newspaper 1 from the sidetable 1.",
+          "action": "move newspaper 1 to sidetable 1",
+          "selected_index": 20,
+          "confidence": 0.2615621089935303,
+          "alpha": 0.08128436654806137
+        },
+        {
+          "step": 3,
+          "observation": "You move the newspaper 1 to the sidetable 1.",
+          "action": "take newspaper 1 from sidetable 1",
+          "selected_index": 19,
+          "confidence": 0.2685920298099518,
+          "alpha": 0.11891612410545349
+        },
+        {
+          "step": 4,
+          "observation": "You pick up the newspaper 1 from the sidetable 1.",
+          "action": "go to sidetable 2",
+          "selected_index": 12,
+          "confidence": 0.195983424782753,
+          "alpha": 0.09676913917064667
+        },
+        {
+          "step": 5,
+          "observation": "You arrive at sidetable 2. On the sidetable 2, you see a creditcard 1, and a remotecontrol 2.",
+          "action": "move newspaper 1 to sidetable 2",
+          "selected_index": 20,
+          "confidence": 0.35456976294517517,
+          "alpha": 0.09640547633171082
+        },
+        {
+          "step": 6,
+          "observation": "You move the newspaper 1 to the sidetable 2.",
+          "action": "take creditcard 1 from sidetable 2",
+          "selected_index": 19,
+          "confidence": 0.22023320198059082,
+          "alpha": 0.11550537496805191
+        },
+        {
+          "step": 7,
+          "observation": "You pick up the creditcard 1 from the sidetable 2.",
+          "action": "move creditcard 1 to sidetable 2",
+          "selected_index": 20,
+          "confidence": 0.2797899544239044,
+          "alpha": 0.09592331945896149
+        },
+        {
+          "step": 8,
+          "observation": "You move the creditcard 1 to the sidetable 2.",
+          "action": "take newspaper 1 from sidetable 2",
+          "selected_index": 20,
+          "confidence": 0.16252712905406952,
+          "alpha": 0.06658738851547241
+        },
+        {
+          "step": 9,
+          "observation": "You pick up the newspaper 1 from the sidetable 2.",
+          "action": "go to coffeetable 1",
+          "selected_index": 3,
+          "confidence": 0.18021637201309204,
+          "alpha": 0.073996901512146
+        },
+        {
+          "step": 10,
+          "observation": "You arrive at coffeetable 1. On the coffeetable 1, you see a laptop 1, a watch 2, and a watch 1.",
+          "action": "move newspaper 1 to coffeetable 1",
+          "selected_index": 20,
+          "confidence": 0.17214080691337585,
+          "alpha": 0.05789101868867874
+        },
+        {
+          "step": 11,
+          "observation": "You move the newspaper 1 to the coffeetable 1.",
+          "action": "take watch 1 from coffeetable 1",
+          "selected_index": 21,
+          "confidence": 0.28155380487442017,
+          "alpha": 0.09739458560943604
+        },
+        {
+          "step": 12,
+          "observation": "You pick up the watch 1 from the coffeetable 1.",
+          "action": "go to sidetable 1",
+          "selected_index": 11,
+          "confidence": 0.6588190793991089,
+          "alpha": 0.2923145294189453
+        },
+        {
+          "step": 13,
+          "observation": "You arrive at sidetable 1. On the sidetable 1, you see nothing.",
+          "action": "move watch 1 to sidetable 1",
+          "selected_index": 20,
+          "confidence": 0.6283539533615112,
+          "alpha": 0.34915319085121155
+        }
+      ]
+    },
+    {
+      "episode_id": "pick_and_place_simple-Candle-None-Toilet-429",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_seen/pick_and_place_simple-Candle-None-Toilet-429/trial_T20190908_052232_887934/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "goal": "put some candle on toilet.",
+      "won": false,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bathtubbasin 1, a garbagecan 1, a handtowelholder 1, a shelf 3, a shelf 2, a shelf 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, and a towelholder 1.\n\nYour task is to: put some candle on toilet.",
+          "action": "go to toilet 1",
+          "selected_index": 7,
+          "confidence": 0.5571216344833374,
+          "alpha": 0.3498741388320923
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at toilet 1. On the toilet 1, you see a soapbottle 2.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.28885796666145325,
+          "alpha": 0.09142492711544037
+        },
+        {
+          "step": 2,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.5131101608276367,
+          "alpha": 0.30427679419517517
+        },
+        {
+          "step": 3,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3242332637310028,
+          "alpha": 0.13885293900966644
+        },
+        {
+          "step": 4,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 5,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 6,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 7,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 8,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 9,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 10,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 11,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 12,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 13,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 14,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 15,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 16,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 17,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 18,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 19,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 20,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 21,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 22,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 23,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 24,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 25,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 26,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 27,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 28,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 29,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 30,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 31,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 32,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 33,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 34,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 35,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 36,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 37,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 38,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 39,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 40,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 41,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 42,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 43,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 44,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 45,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 46,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 47,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        },
+        {
+          "step": 48,
+          "observation": "You pick up the soapbottle 2 from the toilet 1.",
+          "action": "move soapbottle 2 to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.17504043877124786,
+          "alpha": 0.06093067303299904
+        },
+        {
+          "step": 49,
+          "observation": "You move the soapbottle 2 to the toilet 1.",
+          "action": "take soapbottle 2 from toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3123420178890228,
+          "alpha": 0.10263315588235855
+        }
+      ]
+    },
+    {
+      "episode_id": "pick_and_place_simple-TissueBox-None-Toilet-426",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_seen/pick_and_place_simple-TissueBox-None-Toilet-426/trial_T20190910_155319_795672/game.tw-pddl",
+      "task_type": "pick_and_place_simple",
+      "goal": "put some tissuebox on toilet.",
+      "won": false,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a bathtubbasin 1, a countertop 1, a drawer 8, a drawer 7, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a garbagecan 1, a handtowelholder 1, a sinkbasin 1, a toilet 1, a toiletpaperhanger 1, a towelholder 2, and a towelholder 1.\n\nYour task is to: put some tissuebox on toilet.",
+          "action": "go to toilet 1",
+          "selected_index": 13,
+          "confidence": 0.3558238744735718,
+          "alpha": 0.1272531896829605
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at toilet 1. On the toilet 1, you see a spraybottle 1, and a toiletpaper 1.",
+          "action": "go to drawer 1",
+          "selected_index": 3,
+          "confidence": 0.13420352339744568,
+          "alpha": 0.08679255098104477
+        },
+        {
+          "step": 2,
+          "observation": "You arrive at drawer 1. The drawer 1 is closed.",
+          "action": "open drawer 1",
+          "selected_index": 20,
+          "confidence": 0.6916088461875916,
+          "alpha": 0.2042185217142105
+        },
+        {
+          "step": 3,
+          "observation": "You open the drawer 1. The drawer 1 is open. In it, you see a candle 1, and a soapbar 1.",
+          "action": "go to toiletpaperhanger 1",
+          "selected_index": 15,
+          "confidence": 0.1609417200088501,
+          "alpha": 0.06345534324645996
+        },
+        {
+          "step": 4,
+          "observation": "You arrive at toiletpaperhanger 1. On the toiletpaperhanger 1, you see nothing.",
+          "action": "go to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.36132973432540894,
+          "alpha": 0.08814021944999695
+        },
+        {
+          "step": 5,
+          "observation": "You arrive at toilet 1. On the toilet 1, you see a spraybottle 1, and a toiletpaper 1.",
+          "action": "go to toiletpaperhanger 1",
+          "selected_index": 14,
+          "confidence": 0.3705196678638458,
+          "alpha": 0.13508935272693634
+        },
+        {
+          "step": 6,
+          "observation": "You arrive at toiletpaperhanger 1. On the toiletpaperhanger 1, you see nothing.",
+          "action": "go to toilet 1",
+          "selected_index": 14,
+          "confidence": 0.2679184079170227,
+          "alpha": 0.10179231315851212
+        },
+        {
+          "step": 7,
+          "observation": "You arrive at toilet 1. On the toilet 1, you see a spraybottle 1, and a toiletpaper 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.38102665543556213,
+          "alpha": 0.18364949524402618
+        },
+        {
+          "step": 8,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.47334548830986023,
+          "alpha": 0.16694745421409607
+        },
+        {
+          "step": 9,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.24251210689544678,
+          "alpha": 0.10241509974002838
+        },
+        {
+          "step": 10,
+          "observation": "You pick up the spraybottle 1 from the toilet 1.",
+          "action": "move spraybottle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.21120469272136688,
+          "alpha": 0.07350146025419235
+        },
+        {
+          "step": 11,
+          "observation": "You move the spraybottle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.25832170248031616,
+          "alpha": 0.07229458540678024
+        },
+        {
+          "step": 12,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.4669118821620941,
+          "alpha": 0.15023382008075714
+        },
+        {
+          "step": 13,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.13152676820755005,
+          "alpha": 0.06786556541919708
+        },
+        {
+          "step": 14,
+          "observation": "You pick up the spraybottle 1 from the toilet 1.",
+          "action": "move spraybottle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.21120469272136688,
+          "alpha": 0.07350146025419235
+        },
+        {
+          "step": 15,
+          "observation": "You move the spraybottle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.25832170248031616,
+          "alpha": 0.07229458540678024
+        },
+        {
+          "step": 16,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.4669118821620941,
+          "alpha": 0.15023382008075714
+        },
+        {
+          "step": 17,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.13152676820755005,
+          "alpha": 0.06786556541919708
+        },
+        {
+          "step": 18,
+          "observation": "You pick up the spraybottle 1 from the toilet 1.",
+          "action": "move spraybottle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.21120469272136688,
+          "alpha": 0.07350146025419235
+        },
+        {
+          "step": 19,
+          "observation": "You move the spraybottle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.25832170248031616,
+          "alpha": 0.07229458540678024
+        },
+        {
+          "step": 20,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.4669118821620941,
+          "alpha": 0.15023382008075714
+        },
+        {
+          "step": 21,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.13152676820755005,
+          "alpha": 0.06786556541919708
+        },
+        {
+          "step": 22,
+          "observation": "You pick up the spraybottle 1 from the toilet 1.",
+          "action": "move spraybottle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.21120469272136688,
+          "alpha": 0.07350146025419235
+        },
+        {
+          "step": 23,
+          "observation": "You move the spraybottle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.25832170248031616,
+          "alpha": 0.07229458540678024
+        },
+        {
+          "step": 24,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.4669118821620941,
+          "alpha": 0.15023382008075714
+        },
+        {
+          "step": 25,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.13152676820755005,
+          "alpha": 0.06786556541919708
+        },
+        {
+          "step": 26,
+          "observation": "You pick up the spraybottle 1 from the toilet 1.",
+          "action": "move spraybottle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.21120469272136688,
+          "alpha": 0.07350146025419235
+        },
+        {
+          "step": 27,
+          "observation": "You move the spraybottle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.25832170248031616,
+          "alpha": 0.07229458540678024
+        },
+        {
+          "step": 28,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.4669118821620941,
+          "alpha": 0.15023382008075714
+        },
+        {
+          "step": 29,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.13152676820755005,
+          "alpha": 0.06786556541919708
+        },
+        {
+          "step": 30,
+          "observation": "You pick up the spraybottle 1 from the toilet 1.",
+          "action": "move spraybottle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.21120469272136688,
+          "alpha": 0.07350146025419235
+        },
+        {
+          "step": 31,
+          "observation": "You move the spraybottle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.25832170248031616,
+          "alpha": 0.07229458540678024
+        },
+        {
+          "step": 32,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.4669118821620941,
+          "alpha": 0.15023382008075714
+        },
+        {
+          "step": 33,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.13152676820755005,
+          "alpha": 0.06786556541919708
+        },
+        {
+          "step": 34,
+          "observation": "You pick up the spraybottle 1 from the toilet 1.",
+          "action": "move spraybottle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.21120469272136688,
+          "alpha": 0.07350146025419235
+        },
+        {
+          "step": 35,
+          "observation": "You move the spraybottle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.25832170248031616,
+          "alpha": 0.07229458540678024
+        },
+        {
+          "step": 36,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.4669118821620941,
+          "alpha": 0.15023382008075714
+        },
+        {
+          "step": 37,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.13152676820755005,
+          "alpha": 0.06786556541919708
+        },
+        {
+          "step": 38,
+          "observation": "You pick up the spraybottle 1 from the toilet 1.",
+          "action": "move spraybottle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.21120469272136688,
+          "alpha": 0.07350146025419235
+        },
+        {
+          "step": 39,
+          "observation": "You move the spraybottle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.25832170248031616,
+          "alpha": 0.07229458540678024
+        },
+        {
+          "step": 40,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.4669118821620941,
+          "alpha": 0.15023382008075714
+        },
+        {
+          "step": 41,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.13152676820755005,
+          "alpha": 0.06786556541919708
+        },
+        {
+          "step": 42,
+          "observation": "You pick up the spraybottle 1 from the toilet 1.",
+          "action": "move spraybottle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.21120469272136688,
+          "alpha": 0.07350146025419235
+        },
+        {
+          "step": 43,
+          "observation": "You move the spraybottle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.25832170248031616,
+          "alpha": 0.07229458540678024
+        },
+        {
+          "step": 44,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.4669118821620941,
+          "alpha": 0.15023382008075714
+        },
+        {
+          "step": 45,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.13152676820755005,
+          "alpha": 0.06786556541919708
+        },
+        {
+          "step": 46,
+          "observation": "You pick up the spraybottle 1 from the toilet 1.",
+          "action": "move spraybottle 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.21120469272136688,
+          "alpha": 0.07350146025419235
+        },
+        {
+          "step": 47,
+          "observation": "You move the spraybottle 1 to the toilet 1.",
+          "action": "take toiletpaper 1 from toilet 1",
+          "selected_index": 21,
+          "confidence": 0.25832170248031616,
+          "alpha": 0.07229458540678024
+        },
+        {
+          "step": 48,
+          "observation": "You pick up the toiletpaper 1 from the toilet 1.",
+          "action": "move toiletpaper 1 to toilet 1",
+          "selected_index": 21,
+          "confidence": 0.4669118821620941,
+          "alpha": 0.15023382008075714
+        },
+        {
+          "step": 49,
+          "observation": "You move the toiletpaper 1 to the toilet 1.",
+          "action": "take spraybottle 1 from toilet 1",
+          "selected_index": 20,
+          "confidence": 0.13152676820755005,
+          "alpha": 0.06786556541919708
+        }
+      ]
+    },
+    {
+      "episode_id": "pick_cool_then_place_in_recep-Cup-None-Microwave-17",
+      "gamefile": "/data/hanning/agent_self_evolution_gradient/alfworld_data/json_2.1.1/valid_seen/pick_cool_then_place_in_recep-Cup-None-Microwave-17/trial_T20190906_192817_654400/game.tw-pddl",
+      "task_type": "pick_cool_then_place_in_recep",
+      "goal": "put a cool cup in microwave.",
+      "won": false,
+      "steps": [
+        {
+          "step": 0,
+          "observation": "-= Welcome to TextWorld, ALFRED! =-\n\nYou are in the middle of a room. Looking quickly around you, you see a cabinet 20, a cabinet 19, a cabinet 18, a cabinet 17, a cabinet 16, a cabinet 15, a cabinet 14, a cabinet 13, a cabinet 12, a cabinet 11, a cabinet 10, a cabinet 9, a cabinet 8, a cabinet 7, a cabinet 6, a cabinet 5, a cabinet 4, a cabinet 3, a cabinet 2, a cabinet 1, a coffeemachine 1, a countertop 2, a countertop 1, a diningtable 2, a diningtable 1, a drawer 6, a drawer 5, a drawer 4, a drawer 3, a drawer 2, a drawer 1, a fridge 1, a garbagecan 1, a microwave 1, a sinkbasin 1, a stoveburner 4, a stoveburner 3, a stoveburner 2, a stoveburner 1, and a toaster 1.\n\nYour task is to: put a cool cup in microwave.",
+          "action": "go to microwave 1",
+          "selected_index": 33,
+          "confidence": 0.14277096092700958,
+          "alpha": 0.0899849534034729
+        },
+        {
+          "step": 1,
+          "observation": "You arrive at microwave 1. The microwave 1 is closed.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.34154799580574036,
+          "alpha": 0.19164714217185974
+        },
+        {
+          "step": 2,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.47298887372016907,
+          "alpha": 0.21276110410690308
+        },
+        {
+          "step": 3,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.5030931830406189,
+          "alpha": 0.23300445079803467
+        },
+        {
+          "step": 4,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 5,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        },
+        {
+          "step": 6,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.398195743560791,
+          "alpha": 0.15068520605564117
+        },
+        {
+          "step": 7,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4518669545650482,
+          "alpha": 0.1962207406759262
+        },
+        {
+          "step": 8,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 9,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        },
+        {
+          "step": 10,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.398195743560791,
+          "alpha": 0.15068520605564117
+        },
+        {
+          "step": 11,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4518669545650482,
+          "alpha": 0.1962207406759262
+        },
+        {
+          "step": 12,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 13,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        },
+        {
+          "step": 14,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.398195743560791,
+          "alpha": 0.15068520605564117
+        },
+        {
+          "step": 15,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4518669545650482,
+          "alpha": 0.1962207406759262
+        },
+        {
+          "step": 16,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 17,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        },
+        {
+          "step": 18,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.398195743560791,
+          "alpha": 0.15068520605564117
+        },
+        {
+          "step": 19,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4518669545650482,
+          "alpha": 0.1962207406759262
+        },
+        {
+          "step": 20,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 21,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        },
+        {
+          "step": 22,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.398195743560791,
+          "alpha": 0.15068520605564117
+        },
+        {
+          "step": 23,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4518669545650482,
+          "alpha": 0.1962207406759262
+        },
+        {
+          "step": 24,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 25,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        },
+        {
+          "step": 26,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.398195743560791,
+          "alpha": 0.15068520605564117
+        },
+        {
+          "step": 27,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4518669545650482,
+          "alpha": 0.1962207406759262
+        },
+        {
+          "step": 28,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 29,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        },
+        {
+          "step": 30,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.398195743560791,
+          "alpha": 0.15068520605564117
+        },
+        {
+          "step": 31,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4518669545650482,
+          "alpha": 0.1962207406759262
+        },
+        {
+          "step": 32,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 33,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        },
+        {
+          "step": 34,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.398195743560791,
+          "alpha": 0.15068520605564117
+        },
+        {
+          "step": 35,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4518669545650482,
+          "alpha": 0.1962207406759262
+        },
+        {
+          "step": 36,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 37,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        },
+        {
+          "step": 38,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.398195743560791,
+          "alpha": 0.15068520605564117
+        },
+        {
+          "step": 39,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4518669545650482,
+          "alpha": 0.1962207406759262
+        },
+        {
+          "step": 40,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 41,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        },
+        {
+          "step": 42,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.398195743560791,
+          "alpha": 0.15068520605564117
+        },
+        {
+          "step": 43,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4518669545650482,
+          "alpha": 0.1962207406759262
+        },
+        {
+          "step": 44,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 45,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        },
+        {
+          "step": 46,
+          "observation": "You open the microwave 1. The microwave 1 is open. In it, you see a cup 1.",
+          "action": "take cup 1 from microwave 1",
+          "selected_index": 44,
+          "confidence": 0.398195743560791,
+          "alpha": 0.15068520605564117
+        },
+        {
+          "step": 47,
+          "observation": "You pick up the cup 1 from the microwave 1.",
+          "action": "move cup 1 to microwave 1",
+          "selected_index": 46,
+          "confidence": 0.4518669545650482,
+          "alpha": 0.1962207406759262
+        },
+        {
+          "step": 48,
+          "observation": "You move the cup 1 to the microwave 1.",
+          "action": "close microwave 1",
+          "selected_index": 0,
+          "confidence": 0.7511232495307922,
+          "alpha": 0.17914217710494995
+        },
+        {
+          "step": 49,
+          "observation": "You close the microwave 1.",
+          "action": "open microwave 1",
+          "selected_index": 43,
+          "confidence": 0.14763806760311127,
+          "alpha": 0.12703995406627655
+        }
+      ]
+    }
+  ]
+}

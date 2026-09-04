@@ -1,0 +1,40 @@
+Initializing AlfredTWEnv...
+  0%|          | 0/494 [00:00<?, ?it/s] 22%|██▏       | 111/494 [00:00<00:00, 1107.41it/s]100%|██████████| 494/494 [00:00<00:00, 3069.85it/s]
+Overall we have 140 games in split=train
+Training with 140 games
+[1/14 shard=21] game=1/14 index=277 actions=20 wins=19 elapsed=28.8s
+[2/14 shard=21] game=2/14 index=181 actions=12 wins=12 elapsed=40.7s
+[3/14 shard=21] game=3/14 index=53 actions=22 wins=22 elapsed=79.7s
+[4/14 shard=21] game=4/14 index=21 actions=26 wins=26 elapsed=159.2s
+[5/14 shard=21] game=5/14 index=149 actions=34 wins=33 elapsed=266.8s
+[6/14 shard=21] game=6/14 index=213 actions=38 wins=38 elapsed=389.5s
+[7/14 shard=21] game=7/14 index=437 actions=42 wins=42 elapsed=524.7s
+[8/14 shard=21] game=8/14 index=245 actions=43 wins=40 elapsed=707.8s
+[9/14 shard=21] game=9/14 index=405 actions=30 wins=30 elapsed=794.8s
+[10/14 shard=21] game=10/14 index=309 actions=42 wins=42 elapsed=955.5s
+[11/14 shard=21] game=11/14 index=373 actions=32 wins=30 elapsed=1084.9s
+[12/14 shard=21] game=12/14 index=117 actions=24 wins=24 elapsed=1151.0s
+[13/14 shard=21] game=13/14 index=85 actions=55 wins=55 elapsed=1479.4s
+[14/14 shard=21] game=14/14 index=341 actions=18 wins=18 elapsed=1511.6s
+{
+  "split": "valid_seen",
+  "expert_type": "planner",
+  "gamma": 0.95,
+  "max_steps": 50,
+  "seed": 20260902,
+  "shard_index": 21,
+  "num_shards": 32,
+  "states": 14,
+  "candidate_actions": 438,
+  "successful_candidates": 431,
+  "wall_seconds": 1511.6225552060641
+}
+Initializing AlfredTWEnv...
+  0%|          | 0/341 [00:00<?, ?it/s] 17%|█▋        | 59/341 [00:00<00:00, 588.65it/s]100%|██████████| 341/341 [00:00<00:00, 1983.54it/s]
+Overall we have 134 games in split=train
+Training with 134 games
+[1/16 shard=21] game=1/16 index=373 actions=21 wins=21 elapsed=40.9s
+[2/16 shard=21] game=2/16 index=181 actions=23 wins=23 elapsed=67.9s
+[3/16 shard=21] game=3/16 index=53 actions=31 wins=30 elapsed=161.4s
+[4/16 shard=21] game=4/16 index=277 actions=39 wins=29 elapsed=331.1s
+Terminated

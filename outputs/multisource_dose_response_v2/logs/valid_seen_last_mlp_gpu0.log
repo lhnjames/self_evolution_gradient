@@ -1,0 +1,87 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.48s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.44s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.60s/it]
+[1/5] valid_seen/last_mlp/go gradient=1/12
+[1/5] valid_seen/last_mlp/go gradient=2/12
+[1/5] valid_seen/last_mlp/go gradient=3/12
+[1/5] valid_seen/last_mlp/go gradient=4/12
+[1/5] valid_seen/last_mlp/go gradient=5/12
+[1/5] valid_seen/last_mlp/go gradient=6/12
+[1/5] valid_seen/last_mlp/go gradient=7/12
+[1/5] valid_seen/last_mlp/go gradient=8/12
+[1/5] valid_seen/last_mlp/go gradient=9/12
+[1/5] valid_seen/last_mlp/go gradient=10/12
+[1/5] valid_seen/last_mlp/go gradient=11/12
+[1/5] valid_seen/last_mlp/go gradient=12/12
+[1/5] valid_seen/last_mlp/go step=0.00125 source_dV=0.000574128 holdout_dV=0.000316208 top_flips=0
+[1/5] valid_seen/last_mlp/go step=0.00375 source_dV=0.00170996 holdout_dV=0.000940642 top_flips=1
+[1/5] valid_seen/last_mlp/go step=0.0125 source_dV=0.00557175 holdout_dV=0.00303606 top_flips=2
+[1/5] valid_seen/last_mlp/go step=0.0375 source_dV=0.0159976 holdout_dV=0.00810041 top_flips=6
+[1/5] valid_seen/last_mlp/go complete
+[2/5] valid_seen/last_mlp/open gradient=1/12
+[2/5] valid_seen/last_mlp/open gradient=2/12
+[2/5] valid_seen/last_mlp/open gradient=3/12
+[2/5] valid_seen/last_mlp/open gradient=4/12
+[2/5] valid_seen/last_mlp/open gradient=5/12
+[2/5] valid_seen/last_mlp/open gradient=6/12
+[2/5] valid_seen/last_mlp/open gradient=7/12
+[2/5] valid_seen/last_mlp/open gradient=8/12
+[2/5] valid_seen/last_mlp/open gradient=9/12
+[2/5] valid_seen/last_mlp/open gradient=10/12
+[2/5] valid_seen/last_mlp/open gradient=11/12
+[2/5] valid_seen/last_mlp/open gradient=12/12
+[2/5] valid_seen/last_mlp/open step=0.00125 source_dV=0.000607894 holdout_dV=2.60445e-05 top_flips=0
+[2/5] valid_seen/last_mlp/open step=0.00375 source_dV=0.00181658 holdout_dV=6.97997e-05 top_flips=0
+[2/5] valid_seen/last_mlp/open step=0.0125 source_dV=0.00580188 holdout_dV=0.000138207 top_flips=0
+[2/5] valid_seen/last_mlp/open step=0.0375 source_dV=0.0143276 holdout_dV=-0.000293349 top_flips=0
+[2/5] valid_seen/last_mlp/open complete
+[3/5] valid_seen/last_mlp/close gradient=1/12
+[3/5] valid_seen/last_mlp/close gradient=2/12
+[3/5] valid_seen/last_mlp/close gradient=3/12
+[3/5] valid_seen/last_mlp/close gradient=4/12
+[3/5] valid_seen/last_mlp/close gradient=5/12
+[3/5] valid_seen/last_mlp/close gradient=6/12
+[3/5] valid_seen/last_mlp/close gradient=7/12
+[3/5] valid_seen/last_mlp/close gradient=8/12
+[3/5] valid_seen/last_mlp/close gradient=9/12
+[3/5] valid_seen/last_mlp/close gradient=10/12
+[3/5] valid_seen/last_mlp/close gradient=11/12
+[3/5] valid_seen/last_mlp/close gradient=12/12
+[3/5] valid_seen/last_mlp/close step=0.00125 source_dV=0.00243418 holdout_dV=0.00101706 top_flips=0
+[3/5] valid_seen/last_mlp/close step=0.00375 source_dV=0.00722279 holdout_dV=0.00300731 top_flips=0
+[3/5] valid_seen/last_mlp/close step=0.0125 source_dV=0.0229656 holdout_dV=0.00951123 top_flips=1
+[3/5] valid_seen/last_mlp/close step=0.0375 source_dV=0.0583431 holdout_dV=0.0246179 top_flips=7
+[3/5] valid_seen/last_mlp/close complete
+[4/5] valid_seen/last_mlp/take gradient=1/12
+[4/5] valid_seen/last_mlp/take gradient=2/12
+[4/5] valid_seen/last_mlp/take gradient=3/12
+[4/5] valid_seen/last_mlp/take gradient=4/12
+[4/5] valid_seen/last_mlp/take gradient=5/12
+[4/5] valid_seen/last_mlp/take gradient=6/12
+[4/5] valid_seen/last_mlp/take gradient=7/12
+[4/5] valid_seen/last_mlp/take gradient=8/12
+[4/5] valid_seen/last_mlp/take gradient=9/12
+[4/5] valid_seen/last_mlp/take gradient=10/12
+[4/5] valid_seen/last_mlp/take gradient=11/12
+[4/5] valid_seen/last_mlp/take gradient=12/12
+[4/5] valid_seen/last_mlp/take step=0.00125 source_dV=0.000542168 holdout_dV=0.00021813 top_flips=0
+[4/5] valid_seen/last_mlp/take step=0.00375 source_dV=0.00161463 holdout_dV=0.000652191 top_flips=0
+[4/5] valid_seen/last_mlp/take step=0.0125 source_dV=0.00523592 holdout_dV=0.00214684 top_flips=0
+[4/5] valid_seen/last_mlp/take step=0.0375 source_dV=0.0143472 holdout_dV=0.00615164 top_flips=2
+[4/5] valid_seen/last_mlp/take complete
+[5/5] valid_seen/last_mlp/move gradient=1/12
+[5/5] valid_seen/last_mlp/move gradient=2/12
+[5/5] valid_seen/last_mlp/move gradient=3/12
+[5/5] valid_seen/last_mlp/move gradient=4/12
+[5/5] valid_seen/last_mlp/move gradient=5/12
+[5/5] valid_seen/last_mlp/move gradient=6/12
+[5/5] valid_seen/last_mlp/move gradient=7/12
+[5/5] valid_seen/last_mlp/move gradient=8/12
+[5/5] valid_seen/last_mlp/move gradient=9/12
+[5/5] valid_seen/last_mlp/move gradient=10/12
+[5/5] valid_seen/last_mlp/move gradient=11/12
+[5/5] valid_seen/last_mlp/move gradient=12/12
+[5/5] valid_seen/last_mlp/move step=0.00125 source_dV=0.00143173 holdout_dV=7.39429e-05 top_flips=0
+[5/5] valid_seen/last_mlp/move step=0.00375 source_dV=0.00429763 holdout_dV=0.000202298 top_flips=0
+[5/5] valid_seen/last_mlp/move step=0.0125 source_dV=0.0145182 holdout_dV=0.000444906 top_flips=1
+[5/5] valid_seen/last_mlp/move step=0.0375 source_dV=0.0441838 holdout_dV=-0.000483221 top_flips=1
+[5/5] valid_seen/last_mlp/move complete
+{"output": "/data/user/agent_self_evolution_gradient/outputs/multisource_dose_response_v2/valid_seen_last_mlp.json", "verbs": 5}

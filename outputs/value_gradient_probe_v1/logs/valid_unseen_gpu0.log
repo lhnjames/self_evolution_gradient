@@ -1,0 +1,52 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 103.99it/s]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00, 36.98it/s]
+[1/32] split=valid_unseen global=103 candidates=32 errors=(4.77e-07,2.38e-07)
+[2/32] split=valid_unseen global=310 candidates=34 errors=(2.38e-07,4.77e-07)
+[3/32] split=valid_unseen global=249 candidates=33 errors=(4.77e-07,1.19e-07)
+[4/32] split=valid_unseen global=245 candidates=31 errors=(4.77e-07,4.77e-07)
+[5/32] split=valid_unseen global=457 candidates=17 errors=(1.19e-07,2.38e-07)
+[6/32] split=valid_unseen global=341 candidates=29 errors=(2.38e-07,1.19e-07)
+[7/32] split=valid_unseen global=106 candidates=30 errors=(2.38e-07,2.38e-07)
+[8/32] split=valid_unseen global=18 candidates=31 errors=(2.38e-07,2.38e-07)
+[9/32] split=valid_unseen global=34 candidates=22 errors=(9.54e-07,4.77e-07)
+[10/32] split=valid_unseen global=155 candidates=21 errors=(4.77e-07,4.77e-07)
+[11/32] split=valid_unseen global=459 candidates=16 errors=(1.19e-07,2.38e-07)
+[12/32] split=valid_unseen global=219 candidates=30 errors=(4.77e-07,4.77e-07)
+[13/32] split=valid_unseen global=476 candidates=29 errors=(4.77e-07,2.38e-07)
+[14/32] split=valid_unseen global=240 candidates=29 errors=(2.38e-07,2.38e-07)
+[15/32] split=valid_unseen global=110 candidates=30 errors=(4.77e-07,2.38e-07)
+[16/32] split=valid_unseen global=118 candidates=30 errors=(4.77e-07,2.38e-07)
+[17/32] split=valid_unseen global=246 candidates=31 errors=(2.38e-07,4.77e-07)
+[18/32] split=valid_unseen global=98 candidates=30 errors=(2.38e-07,2.38e-07)
+[19/32] split=valid_unseen global=370 candidates=30 errors=(4.77e-07,4.77e-07)
+[20/32] split=valid_unseen global=211 candidates=24 errors=(4.77e-07,4.77e-07)
+[21/32] split=valid_unseen global=449 candidates=21 errors=(4.77e-07,4.77e-07)
+[22/32] split=valid_unseen global=84 candidates=31 errors=(4.77e-07,4.77e-07)
+[23/32] split=valid_unseen global=371 candidates=30 errors=(4.77e-07,4.77e-07)
+[24/32] split=valid_unseen global=507 candidates=29 errors=(1.19e-07,2.38e-07)
+[25/32] split=valid_unseen global=493 candidates=31 errors=(2.38e-07,2.38e-07)
+[26/32] split=valid_unseen global=488 candidates=29 errors=(2.38e-07,1.19e-07)
+[27/32] split=valid_unseen global=299 candidates=29 errors=(4.77e-07,2.38e-07)
+[28/32] split=valid_unseen global=372 candidates=31 errors=(4.77e-07,4.77e-07)
+[29/32] split=valid_unseen global=260 candidates=31 errors=(2.38e-07,4.77e-07)
+[30/32] split=valid_unseen global=465 candidates=18 errors=(4.77e-07,4.77e-07)
+[31/32] split=valid_unseen global=42 candidates=30 errors=(2.38e-07,2.38e-07)
+[32/32] split=valid_unseen global=190 candidates=22 errors=(4.77e-07,2.38e-07)
+{
+  "split": "valid_unseen",
+  "states": 32,
+  "objectives": [
+    "value_expectation",
+    "value_optimal_set",
+    "expert_nll_control"
+  ],
+  "groups": {
+    "all_rmsnorm": 149504,
+    "last_attention": 9439744,
+    "last_block": 77076992,
+    "last_four_blocks": 308307968,
+    "last_mlp": 67633152,
+    "selected_union": 619606016,
+    "tied_embedding_output": 311164928
+  }
+}

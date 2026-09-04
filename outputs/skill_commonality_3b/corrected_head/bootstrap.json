@@ -1,0 +1,86 @@
+{
+  "valid_seen": {
+    "evolved_skill_minus_plain": {
+      "observed": -0.02027027027027027,
+      "ci95": [
+        -0.06219308135581087,
+        0.022785729292504844
+      ],
+      "probability_positive": 0.1659,
+      "episodes": 33,
+      "decisions": 444
+    },
+    "constrained_stage_minus_plain": {
+      "observed": 0.02702702702702703,
+      "ci95": [
+        0.006302190687595794,
+        0.04838709677419355
+      ],
+      "probability_positive": 0.9938,
+      "episodes": 33,
+      "decisions": 444
+    },
+    "constrained_skill_minus_plain": {
+      "observed": 0.038288288288288286,
+      "ci95": [
+        0.018433179723502304,
+        0.057208380295319744
+      ],
+      "probability_positive": 1.0,
+      "episodes": 33,
+      "decisions": 444
+    },
+    "constrained_skill_minus_constrained_stage": {
+      "observed": 0.01126126126126126,
+      "ci95": [
+        0.0,
+        0.022222222222222223
+      ],
+      "probability_positive": 0.9714,
+      "episodes": 33,
+      "decisions": 444
+    }
+  },
+  "valid_unseen": {
+    "evolved_skill_minus_plain": {
+      "observed": -0.013282732447817837,
+      "ci95": [
+        -0.050002319109461964,
+        0.02727584059775836
+      ],
+      "probability_positive": 0.2338,
+      "episodes": 34,
+      "decisions": 527
+    },
+    "constrained_stage_minus_plain": {
+      "observed": 0.03984819734345351,
+      "ci95": [
+        0.019645402365268308,
+        0.059245960502693
+      ],
+      "probability_positive": 1.0,
+      "episodes": 34,
+      "decisions": 527
+    },
+    "constrained_skill_minus_plain": {
+      "observed": 0.03225806451612903,
+      "ci95": [
+        0.013972055888223553,
+        0.0506108202443281
+      ],
+      "probability_positive": 0.9998,
+      "episodes": 34,
+      "decisions": 527
+    },
+    "constrained_skill_minus_constrained_stage": {
+      "observed": -0.007590132827324478,
+      "ci95": [
+        -0.01915725499619528,
+        0.005661725067385425
+      ],
+      "probability_positive": 0.09,
+      "episodes": 34,
+      "decisions": 527
+    }
+  }
+}

@@ -1,0 +1,1375 @@
+{
+  "parameter_subspace": "all_qwen_rmsnorm_scale_parameters",
+  "splits": {
+    "valid_seen": {
+      "states": 64,
+      "episodes": 22,
+      "parameter_count": 149504,
+      "mean_plain_score_max_abs_error": 4.293397068977356e-07,
+      "max_plain_score_abs_error": 9.5367431640625e-07,
+      "conditions": {
+        "evolved_skill": {
+          "mean_cosine_with_verified": -0.11301795886174659,
+          "positive_alignment_rate": 0.46875,
+          "mean_gradient_norm": 2.858435947448015,
+          "unit_gradient_concentration": 0.3435969054698944,
+          "episode_bootstrap": {
+            "observed": -0.11301795886174659,
+            "ci95": [
+              -0.2768723450442588,
+              0.06828140292028073
+            ],
+            "probability_positive": 0.112
+          },
+          "pairwise_commonality": {
+            "different_task__different_stage": {
+              "pairs": 1445,
+              "mean_cosine": 0.09498802760821787,
+              "median_cosine": 0.10150901973247528,
+              "positive_rate": 0.7162629757785467
+            },
+            "different_task__same_stage": {
+              "pairs": 250,
+              "mean_cosine": 0.13146320021990687,
+              "median_cosine": 0.1448110193014145,
+              "positive_rate": 0.732
+            },
+            "same_task__different_stage": {
+              "pairs": 200,
+              "mean_cosine": 0.11107173767988571,
+              "median_cosine": 0.11725462973117828,
+              "positive_rate": 0.72
+            },
+            "same_task__same_stage": {
+              "pairs": 23,
+              "mean_cosine": 0.1591927918969937,
+              "median_cosine": 0.14485760033130646,
+              "positive_rate": 0.7391304347826086
+            }
+          }
+        },
+        "mismatched_skill": {
+          "mean_cosine_with_verified": -0.24722809123340994,
+          "positive_alignment_rate": 0.375,
+          "mean_gradient_norm": 3.105977691244334,
+          "unit_gradient_concentration": 0.39369991421699524,
+          "episode_bootstrap": {
+            "observed": -0.24722809123340994,
+            "ci95": [
+              -0.43048600575122214,
+              -0.0455365440657863
+            ],
+            "probability_positive": 0.0079
+          },
+          "pairwise_commonality": {
+            "different_task__different_stage": {
+              "pairs": 1445,
+              "mean_cosine": 0.1312030812205735,
+              "median_cosine": 0.14025041460990906,
+              "positive_rate": 0.8013840830449827
+            },
+            "different_task__same_stage": {
+              "pairs": 250,
+              "mean_cosine": 0.15490789969777688,
+              "median_cosine": 0.1660386025905609,
+              "positive_rate": 0.8
+            },
+            "same_task__different_stage": {
+              "pairs": 200,
+              "mean_cosine": 0.15669465909013525,
+              "median_cosine": 0.17709296941757202,
+              "positive_rate": 0.815
+            },
+            "same_task__same_stage": {
+              "pairs": 23,
+              "mean_cosine": 0.2806169103588099,
+              "median_cosine": 0.25280436873435974,
+              "positive_rate": 0.9565217391304348
+            }
+          }
+        },
+        "reformatted_skill": {
+          "mean_cosine_with_verified": -0.1816780795561499,
+          "positive_alignment_rate": 0.40625,
+          "mean_gradient_norm": 2.8275461504235864,
+          "unit_gradient_concentration": 0.3606443703174591,
+          "episode_bootstrap": {
+            "observed": -0.1816780795561499,
+            "ci95": [
+              -0.36195341366572126,
+              0.012933972938933289
+            ],
+            "probability_positive": 0.0332
+          },
+          "pairwise_commonality": {
+            "different_task__different_stage": {
+              "pairs": 1445,
+              "mean_cosine": 0.10691066263847473,
+              "median_cosine": 0.11861970275640488,
+              "positive_rate": 0.7529411764705882
+            },
+            "different_task__same_stage": {
+              "pairs": 250,
+              "mean_cosine": 0.13904435935011134,
+              "median_cosine": 0.15356575697660446,
+              "positive_rate": 0.74
+            },
+            "same_task__different_stage": {
+              "pairs": 200,
+              "mean_cosine": 0.1240201483524288,
+              "median_cosine": 0.13678916543722153,
+              "positive_rate": 0.775
+            },
+            "same_task__same_stage": {
+              "pairs": 23,
+              "mean_cosine": 0.2217392146627864,
+              "median_cosine": 0.1787748485803604,
+              "positive_rate": 0.8260869565217391
+            }
+          }
+        },
+        "anti_skill": {
+          "mean_cosine_with_verified": -0.29988663946278393,
+          "positive_alignment_rate": 0.359375,
+          "mean_gradient_norm": 4.172460410743952,
+          "unit_gradient_concentration": 0.40823930501937866,
+          "episode_bootstrap": {
+            "observed": -0.29988663946278393,
+            "ci95": [
+              -0.49457988678379705,
+              -0.10352812998600207
+            ],
+            "probability_positive": 0.0018
+          },
+          "pairwise_commonality": {
+            "different_task__different_stage": {
+              "pairs": 1445,
+              "mean_cosine": 0.14435106396232913,
+              "median_cosine": 0.15430469810962677,
+              "positive_rate": 0.8352941176470589
+            },
+            "different_task__same_stage": {
+              "pairs": 250,
+              "mean_cosine": 0.17703894178476184,
+              "median_cosine": 0.18588043749332428,
+              "positive_rate": 0.852
+            },
+            "same_task__different_stage": {
+              "pairs": 200,
+              "mean_cosine": 0.15802549498272128,
+              "median_cosine": 0.173348531126976,
+              "positive_rate": 0.85
+            },
+            "same_task__same_stage": {
+              "pairs": 23,
+              "mean_cosine": 0.25628742178821046,
+              "median_cosine": 0.2740054428577423,
+              "positive_rate": 0.8695652173913043
+            }
+          }
+        },
+        "length_matched_placebo": {
+          "mean_cosine_with_verified": -0.28999250842025504,
+          "positive_alignment_rate": 0.34375,
+          "mean_gradient_norm": 1.9416077774949372,
+          "unit_gradient_concentration": 0.3344613015651703,
+          "episode_bootstrap": {
+            "observed": -0.28999250842025504,
+            "ci95": [
+              -0.42687917531095204,
+              -0.137464299876228
+            ],
+            "probability_positive": 0.0001
+          },
+          "pairwise_commonality": {
+            "different_task__different_stage": {
+              "pairs": 1445,
+              "mean_cosine": 0.091061354025628,
+              "median_cosine": 0.09235730022192001,
+              "positive_rate": 0.7474048442906575
+            },
+            "different_task__same_stage": {
+              "pairs": 250,
+              "mean_cosine": 0.11986872862745077,
+              "median_cosine": 0.10958077013492584,
+              "positive_rate": 0.74
+            },
+            "same_task__different_stage": {
+              "pairs": 200,
+              "mean_cosine": 0.0827063501489465,
+              "median_cosine": 0.07723759487271309,
+              "positive_rate": 0.69
+            },
+            "same_task__same_stage": {
+              "pairs": 23,
+              "mean_cosine": 0.19916069409405085,
+              "median_cosine": 0.15395760536193848,
+              "positive_rate": 0.8695652173913043
+            }
+          }
+        }
+      },
+      "cross_condition": {
+        "evolved_vs_mismatched_skill": {
+          "mean_cosine": 0.6809936761856079,
+          "median_cosine": 0.8788514137268066,
+          "negative_rate": 0.09375
+        },
+        "evolved_vs_reformatted_skill": {
+          "mean_cosine": 0.8469096422195435,
+          "median_cosine": 0.949821412563324,
+          "negative_rate": 0.046875
+        },
+        "evolved_vs_anti_skill": {
+          "mean_cosine": 0.7388309836387634,
+          "median_cosine": 0.9235990047454834,
+          "negative_rate": 0.109375
+        },
+        "evolved_vs_length_matched_placebo": {
+          "mean_cosine": 0.46200114488601685,
+          "median_cosine": 0.7996456623077393,
+          "negative_rate": 0.25
+        }
+      },
+      "paired_alignment_contrasts": {
+        "evolved_skill_minus_mismatched_skill": {
+          "observed": 0.13421013237166335,
+          "ci95": [
+            0.029240186944055807,
+            0.2554373204570691
+          ],
+          "probability_positive": 0.9941
+        },
+        "evolved_skill_minus_reformatted_skill": {
+          "observed": 0.0686601206944033,
+          "ci95": [
+            -0.0184969428187595,
+            0.16645457771460512
+          ],
+          "probability_positive": 0.938
+        },
+        "evolved_skill_minus_anti_skill": {
+          "observed": 0.18686868060103734,
+          "ci95": [
+            0.08912654249829939,
+            0.30033767755565727
+          ],
+          "probability_positive": 1.0
+        },
+        "evolved_skill_minus_length_matched_placebo": {
+          "observed": 0.17697454955850844,
+          "ci95": [
+            0.000995503529168398,
+            0.33047589076545514
+          ],
+          "probability_positive": 0.9761
+        }
+      },
+      "by_task_type": {
+        "look_at_obj_in_light": {
+          "states": 10,
+          "episodes": 3,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": 0.4882307380437851,
+              "positive_alignment_rate": 1.0
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": 0.42756950184702874,
+              "positive_alignment_rate": 0.8
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": 0.43915836960077287,
+              "positive_alignment_rate": 0.9
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": 0.3432570446282625,
+              "positive_alignment_rate": 0.8
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": 0.07419563122093678,
+              "positive_alignment_rate": 0.7
+            }
+          }
+        },
+        "pick_and_place_simple": {
+          "states": 10,
+          "episodes": 5,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.24293707609176635,
+              "positive_alignment_rate": 0.4
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.41255601644515993,
+              "positive_alignment_rate": 0.3
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.24263007789850236,
+              "positive_alignment_rate": 0.3
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.4133429914712906,
+              "positive_alignment_rate": 0.3
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.04438030570745468,
+              "positive_alignment_rate": 0.5
+            }
+          }
+        },
+        "pick_clean_then_place_in_recep": {
+          "states": 13,
+          "episodes": 4,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.25088223356467027,
+              "positive_alignment_rate": 0.38461538461538464
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.3420440537425188,
+              "positive_alignment_rate": 0.38461538461538464
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.4499193400216217,
+              "positive_alignment_rate": 0.3076923076923077
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.3830051445044004,
+              "positive_alignment_rate": 0.3076923076923077
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.42795823629085833,
+              "positive_alignment_rate": 0.23076923076923078
+            }
+          }
+        },
+        "pick_cool_then_place_in_recep": {
+          "states": 12,
+          "episodes": 5,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.21981119758371884,
+              "positive_alignment_rate": 0.3333333333333333
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.4181288070976734,
+              "positive_alignment_rate": 0.25
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.11583761839816968,
+              "positive_alignment_rate": 0.4166666666666667
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.5697849703331789,
+              "positive_alignment_rate": 0.16666666666666666
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.49087150891621906,
+              "positive_alignment_rate": 0.25
+            }
+          }
+        },
+        "pick_heat_then_place_in_recep": {
+          "states": 12,
+          "episodes": 4,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.1896496837337812,
+              "positive_alignment_rate": 0.3333333333333333
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.3882207839439313,
+              "positive_alignment_rate": 0.25
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.3924549340736121,
+              "positive_alignment_rate": 0.16666666666666666
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.3962841782098015,
+              "positive_alignment_rate": 0.25
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.4695181840409835,
+              "positive_alignment_rate": 0.16666666666666666
+            }
+          }
+        },
+        "pick_two_obj_and_place": {
+          "states": 7,
+          "episodes": 1,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.21586948207446507,
+              "positive_alignment_rate": 0.42857142857142855
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.2642807002578463,
+              "positive_alignment_rate": 0.2857142857142857
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.23488827981054783,
+              "positive_alignment_rate": 0.42857142857142855
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.2742841137307031,
+              "positive_alignment_rate": 0.42857142857142855
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.25279148668050766,
+              "positive_alignment_rate": 0.2857142857142857
+            }
+          }
+        }
+      },
+      "by_action_verb": {
+        "clean": {
+          "states": 2,
+          "episodes": 2,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.050300419330596924,
+              "positive_alignment_rate": 0.5
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.9039211571216583,
+              "positive_alignment_rate": 0.0
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.8381151556968689,
+              "positive_alignment_rate": 0.0
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.9146519303321838,
+              "positive_alignment_rate": 0.0
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.7011126130819321,
+              "positive_alignment_rate": 0.0
+            }
+          }
+        },
+        "close": {
+          "states": 10,
+          "episodes": 8,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": 0.29880297631025315,
+              "positive_alignment_rate": 0.8
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": 0.28170228824019433,
+              "positive_alignment_rate": 0.9
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": 0.24857375575229526,
+              "positive_alignment_rate": 0.7
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": 0.37180772982537746,
+              "positive_alignment_rate": 0.9
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": 0.07715408354997635,
+              "positive_alignment_rate": 0.6
+            }
+          }
+        },
+        "cool": {
+          "states": 2,
+          "episodes": 2,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.8974319398403168,
+              "positive_alignment_rate": 0.0
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.7232277691364288,
+              "positive_alignment_rate": 0.0
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.744526207447052,
+              "positive_alignment_rate": 0.0
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.9064878821372986,
+              "positive_alignment_rate": 0.0
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.35221515595912933,
+              "positive_alignment_rate": 0.5
+            }
+          }
+        },
+        "examine": {
+          "states": 1,
+          "episodes": 1,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": 0.7104870676994324,
+              "positive_alignment_rate": 1.0
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.2041843682527542,
+              "positive_alignment_rate": 0.0
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": 0.45138296484947205,
+              "positive_alignment_rate": 1.0
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": 0.68234783411026,
+              "positive_alignment_rate": 1.0
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": 0.5990883708000183,
+              "positive_alignment_rate": 1.0
+            }
+          }
+        },
+        "go": {
+          "states": 12,
+          "episodes": 10,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": 0.23025074321776628,
+              "positive_alignment_rate": 0.5833333333333334
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": 0.14194245263934135,
+              "positive_alignment_rate": 0.5
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": 0.1988042489004632,
+              "positive_alignment_rate": 0.5833333333333334
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": 0.19637769336501756,
+              "positive_alignment_rate": 0.5833333333333334
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.027826997141043346,
+              "positive_alignment_rate": 0.4166666666666667
+            }
+          }
+        },
+        "heat": {
+          "states": 2,
+          "episodes": 2,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.18536615371704102,
+              "positive_alignment_rate": 0.5
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.5570951551198959,
+              "positive_alignment_rate": 0.0
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.19360755383968353,
+              "positive_alignment_rate": 0.5
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.46695392578840256,
+              "positive_alignment_rate": 0.0
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.3674199543893337,
+              "positive_alignment_rate": 0.5
+            }
+          }
+        },
+        "move": {
+          "states": 10,
+          "episodes": 9,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.49181435704231263,
+              "positive_alignment_rate": 0.3
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.8427086994051933,
+              "positive_alignment_rate": 0.0
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.5544575110077858,
+              "positive_alignment_rate": 0.2
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.8473037526011467,
+              "positive_alignment_rate": 0.1
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.7118535749614239,
+              "positive_alignment_rate": 0.1
+            }
+          }
+        },
+        "open": {
+          "states": 11,
+          "episodes": 9,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.4144053918690505,
+              "positive_alignment_rate": 0.2727272727272727
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.48929947343739594,
+              "positive_alignment_rate": 0.18181818181818182
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.4420471603304825,
+              "positive_alignment_rate": 0.2727272727272727
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.610828700390729,
+              "positive_alignment_rate": 0.18181818181818182
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.6905203857882456,
+              "positive_alignment_rate": 0.18181818181818182
+            }
+          }
+        },
+        "take": {
+          "states": 12,
+          "episodes": 11,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.20110762740174928,
+              "positive_alignment_rate": 0.3333333333333333
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.15084794846673807,
+              "positive_alignment_rate": 0.5
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.257620124767224,
+              "positive_alignment_rate": 0.3333333333333333
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.4933328628540039,
+              "positive_alignment_rate": 0.16666666666666666
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.19434652912120023,
+              "positive_alignment_rate": 0.3333333333333333
+            }
+          }
+        },
+        "use": {
+          "states": 2,
+          "episodes": 2,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": 0.23070815950632095,
+              "positive_alignment_rate": 1.0
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.07535051926970482,
+              "positive_alignment_rate": 0.5
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": 0.05043230205774307,
+              "positive_alignment_rate": 0.5
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.130683658644557,
+              "positive_alignment_rate": 0.5
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": 0.145844005048275,
+              "positive_alignment_rate": 0.5
+            }
+          }
+        }
+      }
+    },
+    "valid_unseen": {
+      "states": 64,
+      "episodes": 27,
+      "parameter_count": 149504,
+      "mean_plain_score_max_abs_error": 3.986060619354248e-07,
+      "max_plain_score_abs_error": 9.5367431640625e-07,
+      "conditions": {
+        "evolved_skill": {
+          "mean_cosine_with_verified": -0.09942966653034091,
+          "positive_alignment_rate": 0.46875,
+          "mean_gradient_norm": 2.945902067469433,
+          "unit_gradient_concentration": 0.3183470070362091,
+          "episode_bootstrap": {
+            "observed": -0.09942966653034091,
+            "ci95": [
+              -0.26947966517698496,
+              0.06448033026995838
+            ],
+            "probability_positive": 0.1071
+          },
+          "pairwise_commonality": {
+            "different_task__different_stage": {
+              "pairs": 1459,
+              "mean_cosine": 0.08359336853532023,
+              "median_cosine": 0.08299537748098373,
+              "positive_rate": 0.7183002056202878
+            },
+            "different_task__same_stage": {
+              "pairs": 242,
+              "mean_cosine": 0.09381463357236829,
+              "median_cosine": 0.10046149417757988,
+              "positive_rate": 0.6818181818181818
+            },
+            "same_task__different_stage": {
+              "pairs": 203,
+              "mean_cosine": 0.08375031415090937,
+              "median_cosine": 0.09370727092027664,
+              "positive_rate": 0.6847290640394089
+            },
+            "same_task__same_stage": {
+              "pairs": 24,
+              "mean_cosine": 0.1499974474621316,
+              "median_cosine": 0.1350424699485302,
+              "positive_rate": 0.7916666666666666
+            }
+          }
+        },
+        "mismatched_skill": {
+          "mean_cosine_with_verified": -0.12493754235765664,
+          "positive_alignment_rate": 0.46875,
+          "mean_gradient_norm": 3.050733553711325,
+          "unit_gradient_concentration": 0.3092590570449829,
+          "episode_bootstrap": {
+            "observed": -0.12493754235765664,
+            "ci95": [
+              -0.3045635380884466,
+              0.03707062274389864
+            ],
+            "probability_positive": 0.0622
+          },
+          "pairwise_commonality": {
+            "different_task__different_stage": {
+              "pairs": 1459,
+              "mean_cosine": 0.07582909728144349,
+              "median_cosine": 0.06930205971002579,
+              "positive_rate": 0.7025359835503769
+            },
+            "different_task__same_stage": {
+              "pairs": 242,
+              "mean_cosine": 0.09120281325453077,
+              "median_cosine": 0.08779129758477211,
+              "positive_rate": 0.6900826446280992
+            },
+            "same_task__different_stage": {
+              "pairs": 203,
+              "mean_cosine": 0.08074500869101962,
+              "median_cosine": 0.06968633830547333,
+              "positive_rate": 0.6650246305418719
+            },
+            "same_task__same_stage": {
+              "pairs": 24,
+              "mean_cosine": 0.18337663153458075,
+              "median_cosine": 0.1602698415517807,
+              "positive_rate": 0.7916666666666666
+            }
+          }
+        },
+        "reformatted_skill": {
+          "mean_cosine_with_verified": -0.13174641513614915,
+          "positive_alignment_rate": 0.5,
+          "mean_gradient_norm": 3.238786271540448,
+          "unit_gradient_concentration": 0.30828574299812317,
+          "episode_bootstrap": {
+            "observed": -0.13174641513614915,
+            "ci95": [
+              -0.329665498174288,
+              0.07225039073717639
+            ],
+            "probability_positive": 0.0932
+          },
+          "pairwise_commonality": {
+            "different_task__different_stage": {
+              "pairs": 1459,
+              "mean_cosine": 0.07573694802065938,
+              "median_cosine": 0.07174357026815414,
+              "positive_rate": 0.7059629883481837
+            },
+            "different_task__same_stage": {
+              "pairs": 242,
+              "mean_cosine": 0.09190463191230228,
+              "median_cosine": 0.08390851318836212,
+              "positive_rate": 0.6859504132231405
+            },
+            "same_task__different_stage": {
+              "pairs": 203,
+              "mean_cosine": 0.07489633128239677,
+              "median_cosine": 0.07379026710987091,
+              "positive_rate": 0.6403940886699507
+            },
+            "same_task__same_stage": {
+              "pairs": 24,
+              "mean_cosine": 0.14479772932827473,
+              "median_cosine": 0.13637302070856094,
+              "positive_rate": 0.7083333333333334
+            }
+          }
+        },
+        "anti_skill": {
+          "mean_cosine_with_verified": -0.1901405425160192,
+          "positive_alignment_rate": 0.4375,
+          "mean_gradient_norm": 3.4534223680384457,
+          "unit_gradient_concentration": 0.3826539218425751,
+          "episode_bootstrap": {
+            "observed": -0.1901405425160192,
+            "ci95": [
+              -0.37537823960743844,
+              -0.012113572619205327
+            ],
+            "probability_positive": 0.019
+          },
+          "pairwise_commonality": {
+            "different_task__different_stage": {
+              "pairs": 1459,
+              "mean_cosine": 0.1257002238769422,
+              "median_cosine": 0.12491835653781891,
+              "positive_rate": 0.8286497601096642
+            },
+            "different_task__same_stage": {
+              "pairs": 242,
+              "mean_cosine": 0.1414921366423705,
+              "median_cosine": 0.1588054522871971,
+              "positive_rate": 0.7851239669421488
+            },
+            "same_task__different_stage": {
+              "pairs": 203,
+              "mean_cosine": 0.14119373285441011,
+              "median_cosine": 0.14059920608997345,
+              "positive_rate": 0.8571428571428571
+            },
+            "same_task__same_stage": {
+              "pairs": 24,
+              "mean_cosine": 0.25863130602131906,
+              "median_cosine": 0.22940780967473984,
+              "positive_rate": 0.9166666666666666
+            }
+          }
+        },
+        "length_matched_placebo": {
+          "mean_cosine_with_verified": -0.2573568745574448,
+          "positive_alignment_rate": 0.421875,
+          "mean_gradient_norm": 1.6021100808866322,
+          "unit_gradient_concentration": 0.32365334033966064,
+          "episode_bootstrap": {
+            "observed": -0.2573568745574448,
+            "ci95": [
+              -0.46795473290834444,
+              -0.08381620116448493
+            ],
+            "probability_positive": 0.0014
+          },
+          "pairwise_commonality": {
+            "different_task__different_stage": {
+              "pairs": 1459,
+              "mean_cosine": 0.08648111714972113,
+              "median_cosine": 0.08565284311771393,
+              "positive_rate": 0.7340644276901988
+            },
+            "different_task__same_stage": {
+              "pairs": 242,
+              "mean_cosine": 0.08762247375423703,
+              "median_cosine": 0.0800897590816021,
+              "positive_rate": 0.6446280991735537
+            },
+            "same_task__different_stage": {
+              "pairs": 203,
+              "mean_cosine": 0.09955901746495324,
+              "median_cosine": 0.09821851551532745,
+              "positive_rate": 0.7438423645320197
+            },
+            "same_task__same_stage": {
+              "pairs": 24,
+              "mean_cosine": 0.16087471703455472,
+              "median_cosine": 0.1314731389284134,
+              "positive_rate": 0.7916666666666666
+            }
+          }
+        }
+      },
+      "cross_condition": {
+        "evolved_vs_mismatched_skill": {
+          "mean_cosine": 0.6794424057006836,
+          "median_cosine": 0.9209539294242859,
+          "negative_rate": 0.125
+        },
+        "evolved_vs_reformatted_skill": {
+          "mean_cosine": 0.7792925834655762,
+          "median_cosine": 0.9544417858123779,
+          "negative_rate": 0.09375
+        },
+        "evolved_vs_anti_skill": {
+          "mean_cosine": 0.771012008190155,
+          "median_cosine": 0.9487007856369019,
+          "negative_rate": 0.078125
+        },
+        "evolved_vs_length_matched_placebo": {
+          "mean_cosine": 0.564973771572113,
+          "median_cosine": 0.756463885307312,
+          "negative_rate": 0.15625
+        }
+      },
+      "paired_alignment_contrasts": {
+        "evolved_skill_minus_mismatched_skill": {
+          "observed": 0.02550787582731573,
+          "ci95": [
+            -0.08831603516560643,
+            0.14008609820298795
+          ],
+          "probability_positive": 0.6863
+        },
+        "evolved_skill_minus_reformatted_skill": {
+          "observed": 0.03231674860580824,
+          "ci95": [
+            -0.09802850562778818,
+            0.15708514749417662
+          ],
+          "probability_positive": 0.6935
+        },
+        "evolved_skill_minus_anti_skill": {
+          "observed": 0.09071087598567829,
+          "ci95": [
+            0.005667685292240593,
+            0.1981440467126118
+          ],
+          "probability_positive": 0.9827
+        },
+        "evolved_skill_minus_length_matched_placebo": {
+          "observed": 0.15792720802710392,
+          "ci95": [
+            -0.008645133453110852,
+            0.3399910186789113
+          ],
+          "probability_positive": 0.9686
+        }
+      },
+      "by_task_type": {
+        "look_at_obj_in_light": {
+          "states": 10,
+          "episodes": 4,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": 0.3993615359067917,
+              "positive_alignment_rate": 0.8
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": 0.434218530356884,
+              "positive_alignment_rate": 0.8
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": 0.32102027237415315,
+              "positive_alignment_rate": 0.8
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": 0.43128469586372375,
+              "positive_alignment_rate": 0.8
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": 0.24622908234596252,
+              "positive_alignment_rate": 0.8
+            }
+          }
+        },
+        "pick_and_place_simple": {
+          "states": 9,
+          "episodes": 4,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.2534824800160196,
+              "positive_alignment_rate": 0.3333333333333333
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.10347783234384325,
+              "positive_alignment_rate": 0.4444444444444444
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.1921528811670012,
+              "positive_alignment_rate": 0.5555555555555556
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.32232550407449406,
+              "positive_alignment_rate": 0.3333333333333333
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.6437048994832568,
+              "positive_alignment_rate": 0.2222222222222222
+            }
+          }
+        },
+        "pick_clean_then_place_in_recep": {
+          "states": 12,
+          "episodes": 8,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.2683800595502059,
+              "positive_alignment_rate": 0.4166666666666667
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.5787867270410061,
+              "positive_alignment_rate": 0.16666666666666666
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.36869847774505615,
+              "positive_alignment_rate": 0.3333333333333333
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.6207427804668745,
+              "positive_alignment_rate": 0.16666666666666666
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.547595888376236,
+              "positive_alignment_rate": 0.25
+            }
+          }
+        },
+        "pick_cool_then_place_in_recep": {
+          "states": 12,
+          "episodes": 6,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.03201547016700109,
+              "positive_alignment_rate": 0.5
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.05293440062087029,
+              "positive_alignment_rate": 0.5
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.014594136116405329,
+              "positive_alignment_rate": 0.5833333333333334
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.2056847388545672,
+              "positive_alignment_rate": 0.4166666666666667
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.33503693419819075,
+              "positive_alignment_rate": 0.3333333333333333
+            }
+          }
+        },
+        "pick_heat_then_place_in_recep": {
+          "states": 12,
+          "episodes": 4,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.2806386339167754,
+              "positive_alignment_rate": 0.3333333333333333
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.22779118021329245,
+              "positive_alignment_rate": 0.4166666666666667
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.2285664826631546,
+              "positive_alignment_rate": 0.3333333333333333
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.234276053806146,
+              "positive_alignment_rate": 0.4166666666666667
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.36191241691509884,
+              "positive_alignment_rate": 0.25
+            }
+          }
+        },
+        "pick_two_obj_and_place": {
+          "states": 9,
+          "episodes": 1,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.12259574813975228,
+              "positive_alignment_rate": 0.4444444444444444
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.12141553654024999,
+              "positive_alignment_rate": 0.5555555555555556
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.2855875781840748,
+              "positive_alignment_rate": 0.4444444444444444
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.0947188072734409,
+              "positive_alignment_rate": 0.5555555555555556
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": 0.1994173526763916,
+              "positive_alignment_rate": 0.7777777777777778
+            }
+          }
+        }
+      },
+      "by_action_verb": {
+        "clean": {
+          "states": 2,
+          "episodes": 2,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": 0.023807525634765625,
+              "positive_alignment_rate": 0.5
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.9126551747322083,
+              "positive_alignment_rate": 0.0
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.9025176763534546,
+              "positive_alignment_rate": 0.0
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.9338158667087555,
+              "positive_alignment_rate": 0.0
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.8975037336349487,
+              "positive_alignment_rate": 0.0
+            }
+          }
+        },
+        "close": {
+          "states": 10,
+          "episodes": 10,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": 0.33431963473558424,
+              "positive_alignment_rate": 0.9
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": 0.41121098487637936,
+              "positive_alignment_rate": 1.0
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": 0.34920299500226976,
+              "positive_alignment_rate": 0.9
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": 0.5233416497707367,
+              "positive_alignment_rate": 1.0
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": 0.11671654880046844,
+              "positive_alignment_rate": 0.6
+            }
+          }
+        },
+        "cool": {
+          "states": 2,
+          "episodes": 2,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.6175799369812012,
+              "positive_alignment_rate": 0.0
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.051858335733413696,
+              "positive_alignment_rate": 0.5
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": 0.17084817588329315,
+              "positive_alignment_rate": 0.5
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.6282882243394852,
+              "positive_alignment_rate": 0.0
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.7850285768508911,
+              "positive_alignment_rate": 0.0
+            }
+          }
+        },
+        "examine": {
+          "states": 2,
+          "episodes": 2,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": 0.3607018180191517,
+              "positive_alignment_rate": 0.5
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": 0.2537781596183777,
+              "positive_alignment_rate": 0.5
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": 0.4306872710585594,
+              "positive_alignment_rate": 1.0
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": 0.30470903404057026,
+              "positive_alignment_rate": 0.5
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.14307482540607452,
+              "positive_alignment_rate": 0.5
+            }
+          }
+        },
+        "go": {
+          "states": 12,
+          "episodes": 10,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": 0.3061029190818469,
+              "positive_alignment_rate": 0.75
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": 0.3133790089438359,
+              "positive_alignment_rate": 0.6666666666666666
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": 0.13140308166233203,
+              "positive_alignment_rate": 0.5833333333333334
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": 0.2810629606246948,
+              "positive_alignment_rate": 0.75
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": 0.06539860041812062,
+              "positive_alignment_rate": 0.75
+            }
+          }
+        },
+        "heat": {
+          "states": 2,
+          "episodes": 2,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.7222543954849243,
+              "positive_alignment_rate": 0.0
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.7486087083816528,
+              "positive_alignment_rate": 0.0
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.726858913898468,
+              "positive_alignment_rate": 0.0
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.6811438798904419,
+              "positive_alignment_rate": 0.0
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.6798848807811737,
+              "positive_alignment_rate": 0.0
+            }
+          }
+        },
+        "move": {
+          "states": 10,
+          "episodes": 9,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.68405601978302,
+              "positive_alignment_rate": 0.1
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.7659339785575867,
+              "positive_alignment_rate": 0.1
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.8509059250354767,
+              "positive_alignment_rate": 0.0
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.8404676884412765,
+              "positive_alignment_rate": 0.0
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.4396538347005844,
+              "positive_alignment_rate": 0.3
+            }
+          }
+        },
+        "open": {
+          "states": 11,
+          "episodes": 9,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.24737777425484223,
+              "positive_alignment_rate": 0.2727272727272727
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.2565648685294119,
+              "positive_alignment_rate": 0.36363636363636365
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.24886239497837695,
+              "positive_alignment_rate": 0.5454545454545454
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.4970275339755145,
+              "positive_alignment_rate": 0.18181818181818182
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.5136849108067426,
+              "positive_alignment_rate": 0.2727272727272727
+            }
+          }
+        },
+        "take": {
+          "states": 11,
+          "episodes": 11,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": -0.3159698518839749,
+              "positive_alignment_rate": 0.36363636363636365
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": -0.24503622542728076,
+              "positive_alignment_rate": 0.36363636363636365
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": -0.15633615038611673,
+              "positive_alignment_rate": 0.45454545454545453
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": -0.4303780590946024,
+              "positive_alignment_rate": 0.36363636363636365
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": -0.4069280217994343,
+              "positive_alignment_rate": 0.2727272727272727
+            }
+          }
+        },
+        "use": {
+          "states": 2,
+          "episodes": 2,
+          "conditions": {
+            "evolved_skill": {
+              "mean_cosine_with_verified": 0.7840520143508911,
+              "positive_alignment_rate": 1.0
+            },
+            "mismatched_skill": {
+              "mean_cosine_with_verified": 0.11348963528871536,
+              "positive_alignment_rate": 0.5
+            },
+            "reformatted_skill": {
+              "mean_cosine_with_verified": 0.7606440186500549,
+              "positive_alignment_rate": 1.0
+            },
+            "anti_skill": {
+              "mean_cosine_with_verified": 0.8540247678756714,
+              "positive_alignment_rate": 1.0
+            },
+            "length_matched_placebo": {
+              "mean_cosine_with_verified": 0.5557379871606827,
+              "positive_alignment_rate": 1.0
+            }
+          }
+        }
+      }
+    }
+  }
+}

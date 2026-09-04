@@ -1,0 +1,14 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.17s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.72s/it]
+[1/5] valid_seen/last_mlp/go gradient=1/12
+[1/5] valid_seen/last_mlp/go gradient=2/12
+[1/5] valid_seen/last_mlp/go gradient=3/12
+[1/5] valid_seen/last_mlp/go gradient=4/12
+[1/5] valid_seen/last_mlp/go gradient=5/12
+[1/5] valid_seen/last_mlp/go gradient=6/12
+[1/5] valid_seen/last_mlp/go gradient=7/12
+[1/5] valid_seen/last_mlp/go gradient=8/12
+[1/5] valid_seen/last_mlp/go gradient=9/12
+[1/5] valid_seen/last_mlp/go gradient=10/12
+[1/5] valid_seen/last_mlp/go gradient=11/12
+[1/5] valid_seen/last_mlp/go gradient=12/12
+[1/5] valid_seen/last_mlp/go step=0.00125 source_dV=0.000574128 holdout_dV=0.000316208 top_flips=0

@@ -1,0 +1,37 @@
+{
+  "experiment": {
+    "seed": 7,
+    "device": "cuda:0"
+  },
+  "model": {
+    "cache_root": "/data/hanning/agent_self_evolution_gradient/model_cache",
+    "path": null,
+    "batch_size": 32
+  },
+  "benchmark": {
+    "train_tasks": 30,
+    "eval_tasks": 20
+  },
+  "head": {
+    "rank": 8,
+    "base_temperature": 2.5
+  },
+  "repair": {
+    "beta": 4.0,
+    "top_k": 0
+  },
+  "zero_order": {
+    "steps": 12,
+    "directions": 4,
+    "sigma": 0.08,
+    "learning_rate": 0.03,
+    "two_sided": true,
+    "objective": "repair_kl",
+    "outcome_weight": 0.25
+  },
+  "first_order_baseline": {
+    "steps": 12,
+    "learning_rate": 0.03,
+    "answer_nll_weight": 0.25
+  }
+}

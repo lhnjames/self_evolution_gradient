@@ -1,0 +1,40 @@
+Initializing AlfredTWEnv...
+  0%|          | 0/494 [00:00<?, ?it/s] 15%|█▌        | 75/494 [00:00<00:00, 748.19it/s]100%|██████████| 494/494 [00:00<00:00, 2995.66it/s]
+Overall we have 140 games in split=train
+Training with 140 games
+[1/14 shard=19] game=1/14 index=275 actions=20 wins=20 elapsed=28.3s
+[2/14 shard=19] game=2/14 index=51 actions=20 wins=20 elapsed=62.7s
+[3/14 shard=19] game=3/14 index=179 actions=28 wins=27 elapsed=153.8s
+[4/14 shard=19] game=4/14 index=19 actions=27 wins=27 elapsed=237.7s
+[5/14 shard=19] game=5/14 index=83 actions=46 wins=46 elapsed=436.7s
+[6/14 shard=19] game=6/14 index=147 actions=34 wins=34 elapsed=545.1s
+[7/14 shard=19] game=7/14 index=211 actions=37 wins=36 elapsed=672.6s
+[8/14 shard=19] game=8/14 index=435 actions=41 wins=41 elapsed=804.0s
+[9/14 shard=19] game=9/14 index=243 actions=40 wins=40 elapsed=968.3s
+[10/14 shard=19] game=10/14 index=403 actions=33 wins=31 elapsed=1068.2s
+[11/14 shard=19] game=11/14 index=307 actions=54 wins=42 elapsed=1312.4s
+[12/14 shard=19] game=12/14 index=371 actions=31 wins=31 elapsed=1436.9s
+[13/14 shard=19] game=13/14 index=115 actions=24 wins=24 elapsed=1501.5s
+[14/14 shard=19] game=14/14 index=339 actions=18 wins=1 elapsed=1542.3s
+{
+  "split": "valid_seen",
+  "expert_type": "planner",
+  "gamma": 0.95,
+  "max_steps": 50,
+  "seed": 20260902,
+  "shard_index": 19,
+  "num_shards": 32,
+  "states": 14,
+  "candidate_actions": 453,
+  "successful_candidates": 420,
+  "wall_seconds": 1542.335309593007
+}
+Initializing AlfredTWEnv...
+  0%|          | 0/341 [00:00<?, ?it/s] 10%|█         | 35/341 [00:00<00:00, 348.15it/s]100%|██████████| 341/341 [00:00<00:00, 1918.40it/s]
+Overall we have 134 games in split=train
+Training with 134 games
+[1/16 shard=19] game=1/16 index=211 actions=24 wins=24 elapsed=57.0s
+[2/16 shard=19] game=2/16 index=179 actions=23 wins=23 elapsed=84.9s
+[3/16 shard=19] game=3/16 index=371 actions=30 wins=30 elapsed=159.5s
+[4/16 shard=19] game=4/16 index=51 actions=31 wins=30 elapsed=253.1s
+Terminated

@@ -1,0 +1,2345 @@
+{
+  "comparison_label": "mean12_oracle_skill_seed_20260938",
+  "splits": {
+    "valid_seen": {
+      "states": 444,
+      "episodes": 33,
+      "candidate_actions": 12680,
+      "candidate_success_rate": 0.9409305993690852,
+      "states_with_binary_value_variation": 141,
+      "states_with_discounted_value_variation": 432,
+      "expert_action_value_optimal_rate": 0.40765765765765766,
+      "base_top_value_optimal_rate": 0.3130630630630631,
+      "seed_top_value_optimal_rate": 0.5292792792792793,
+      "base_expected_discounted_value": 0.5954424736046026,
+      "comparison_expected_discounted_value": 0.6615391530800716,
+      "relative_expected_discounted_value_gain": 0.11100430756197595,
+      "relative_top_value_optimal_rate_gain": 0.6906474820143885,
+      "required_relative_improvement": 0.3,
+      "meets_required_relative_expected_value_improvement": false,
+      "practical_threshold": 0.8,
+      "meets_practical_threshold": false,
+      "gap_to_practical_threshold": -0.27072072072072073,
+      "descriptive": {
+        "success_expected_value_delta": {
+          "count": 444,
+          "mean": 0.04920006965487834,
+          "std": 0.13145187352138277,
+          "p10": -1.6653345369377348e-16,
+          "p25": -4.0164608292904413e-17,
+          "median": 0.0,
+          "p75": 3.3306690738754696e-16,
+          "p90": 0.22523543194537632
+        },
+        "discounted_expected_value_delta": {
+          "count": 444,
+          "mean": 0.06609667947546906,
+          "std": 0.1070642030569244,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.031102535690418695,
+          "p75": 0.11694732277120512,
+          "p90": 0.2012870978033958
+        },
+        "discounted_top_value_delta": {
+          "count": 444,
+          "mean": 0.12421122006114574,
+          "std": 0.2738076941380299,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.2049808452235401,
+          "p90": 0.5500181322749763
+        },
+        "discounted_added_minus_removed_value": {
+          "count": 356,
+          "mean": 0.17934963596837,
+          "std": 0.2071880077801091,
+          "p10": 0.004276480934919197,
+          "p25": 0.04669900286451564,
+          "median": 0.12262726392966486,
+          "p75": 0.31530574606385586,
+          "p90": 0.47063855791263737
+        },
+        "discounted_probability_on_value_optimal_delta": {
+          "count": 444,
+          "mean": 0.11277503632859645,
+          "std": 0.19693067496909633,
+          "p10": -0.011035824720822358,
+          "p25": 0.0,
+          "median": 0.06018846860233076,
+          "p75": 0.21628186790068366,
+          "p90": 0.3309478737906387
+        },
+        "delta_logit_value_spearman": {
+          "count": 347,
+          "mean": 0.30944746327018335,
+          "std": 0.20673039497912088,
+          "p10": 0.028661859058482224,
+          "p25": 0.18967867404811262,
+          "median": 0.3259307058448941,
+          "p75": 0.44220690677585084,
+          "p90": 0.548774815616896
+        },
+        "delta_probability_value_spearman": {
+          "count": 347,
+          "mean": 0.29838360917901735,
+          "std": 0.24759612323595553,
+          "p10": -0.026853925119492004,
+          "p25": 0.14080879690343912,
+          "median": 0.31934722455025494,
+          "p75": 0.484248401672753,
+          "p90": 0.5991684328508478
+        },
+        "discounted_base_expected_value": {
+          "count": 444,
+          "mean": 0.5954424736046026,
+          "std": 0.22930173481099167,
+          "p10": 0.29850265785010116,
+          "p25": 0.4258424592848576,
+          "median": 0.6051785000275711,
+          "p75": 0.7760449478021288,
+          "p90": 0.9001514825251565
+        },
+        "discounted_seed_expected_value": {
+          "count": 444,
+          "mean": 0.6615391530800716,
+          "std": 0.2145053733937021,
+          "p10": 0.4088215778033449,
+          "p25": 0.5588849566164751,
+          "median": 0.679176745363703,
+          "p75": 0.8189910496051298,
+          "p90": 0.9202567308602031
+        },
+        "discounted_base_top_value": {
+          "count": 444,
+          "mean": 0.5964754861858304,
+          "std": 0.3072007387331905,
+          "p10": 0.0,
+          "p25": 0.3972143184582182,
+          "median": 0.6634204312890623,
+          "p75": 0.8145062499999999,
+          "p90": 0.95
+        },
+        "discounted_seed_top_value": {
+          "count": 444,
+          "mean": 0.7206867062469761,
+          "std": 0.23240718942822652,
+          "p10": 0.3584859224085419,
+          "p25": 0.6302494097246091,
+          "median": 0.7737809374999998,
+          "p75": 0.8573749999999999,
+          "p90": 0.95
+        }
+      },
+      "episode_cluster_bootstrap": {
+        "success_expected_value_delta": {
+          "observed": 0.049200069654878345,
+          "ci95": [
+            0.03481177578220495,
+            0.06376006389319502
+          ],
+          "probability_positive": 1.0,
+          "clusters": 33
+        },
+        "discounted_expected_value_delta": {
+          "observed": 0.06609667947546907,
+          "ci95": [
+            0.04334940172725541,
+            0.08559375475461956
+          ],
+          "probability_positive": 1.0,
+          "clusters": 33
+        },
+        "discounted_top_value_delta": {
+          "observed": 0.12421122006114577,
+          "ci95": [
+            0.06550184344154972,
+            0.17082307980119818
+          ],
+          "probability_positive": 0.9998,
+          "clusters": 33
+        },
+        "discounted_added_minus_removed_value": {
+          "observed": 0.17934963596837003,
+          "ci95": [
+            0.13189224283505513,
+            0.2161277128095094
+          ],
+          "probability_positive": 1.0,
+          "clusters": 33
+        },
+        "discounted_probability_on_value_optimal_delta": {
+          "observed": 0.11277503632859645,
+          "ci95": [
+            0.05733968637981452,
+            0.17177115040754468
+          ],
+          "probability_positive": 1.0,
+          "clusters": 33
+        },
+        "delta_logit_value_spearman": {
+          "observed": 0.3094474632701834,
+          "ci95": [
+            0.26341244049914986,
+            0.3534654666696392
+          ],
+          "probability_positive": 1.0,
+          "clusters": 33
+        },
+        "delta_probability_value_spearman": {
+          "observed": 0.29838360917901735,
+          "ci95": [
+            0.2519535060815722,
+            0.3343101825666574
+          ],
+          "probability_positive": 1.0,
+          "clusters": 33
+        },
+        "discounted_base_expected_value": {
+          "observed": 0.5954424736046026,
+          "ci95": [
+            0.5413190968070684,
+            0.6520814324383926
+          ],
+          "probability_positive": 1.0,
+          "clusters": 33
+        },
+        "discounted_seed_expected_value": {
+          "observed": 0.6615391530800717,
+          "ci95": [
+            0.5926503193555623,
+            0.7227460831866737
+          ],
+          "probability_positive": 1.0,
+          "clusters": 33
+        },
+        "discounted_base_top_value": {
+          "observed": 0.5964754861858304,
+          "ci95": [
+            0.5508610679288304,
+            0.6511911865237855
+          ],
+          "probability_positive": 1.0,
+          "clusters": 33
+        },
+        "discounted_seed_top_value": {
+          "observed": 0.7206867062469761,
+          "ci95": [
+            0.6429182720244465,
+            0.7798503093794893
+          ],
+          "probability_positive": 1.0,
+          "clusters": 33
+        }
+      },
+      "by_expert_transition": {
+        "changed_nonexpert": {
+          "states": 183,
+          "episodes": 27,
+          "expected_discounted_value_delta": {
+            "count": 183,
+            "mean": 0.1114972867499239,
+            "std": 0.13637702905213506,
+            "p10": 0.005967352809473205,
+            "p25": 0.034206681106091784,
+            "median": 0.1027151365605629,
+            "p75": 0.1823719526509149,
+            "p90": 0.27350374413602163
+          },
+          "expected_success_delta": {
+            "count": 183,
+            "mean": 0.09914275416356169,
+            "std": 0.17625820835477155,
+            "p10": -1.6809470482215262e-16,
+            "p25": -4.683753385137379e-17,
+            "median": 1.7789047145055914e-16,
+            "p75": 0.19920889142078774,
+            "p90": 0.33392633855277354
+          },
+          "top_discounted_value_delta": {
+            "count": 183,
+            "mean": 0.24904334618643287,
+            "std": 0.3570239096650527,
+            "p10": 0.0,
+            "p25": 0.01705048668455625,
+            "median": 0.19473180296236314,
+            "p75": 0.4817919131612274,
+            "p90": 0.7350918906249998
+          },
+          "delta_logit_value_spearman": {
+            "count": 182,
+            "mean": 0.3094845234296854,
+            "std": 0.22225451385540898,
+            "p10": 0.02058618429728494,
+            "p25": 0.17956829589083934,
+            "median": 0.32764159402333126,
+            "p75": 0.4398020254618379,
+            "p90": 0.5918665358353279
+          },
+          "base_top_value_optimal_rate": 0.060109289617486336,
+          "seed_top_value_optimal_rate": 0.47540983606557374
+        },
+        "harmed_from_expert": {
+          "states": 77,
+          "episodes": 21,
+          "expected_discounted_value_delta": {
+            "count": 77,
+            "mean": 0.04447401285339567,
+            "std": 0.0774537035255924,
+            "p10": -0.012993318779184788,
+            "p25": 0.003820033714153764,
+            "median": 0.037908580798231006,
+            "p75": 0.0788327474483309,
+            "p90": 0.11925502636569674
+          },
+          "expected_success_delta": {
+            "count": 77,
+            "mean": -0.00214890864571046,
+            "std": 0.06330782160054665,
+            "p10": -2.4043267377038545e-16,
+            "p25": -1.6653345369377348e-16,
+            "median": 0.0,
+            "p75": 1.1102230246251565e-16,
+            "p90": 2.706168622523825e-16
+          },
+          "top_discounted_value_delta": {
+            "count": 77,
+            "mean": 0.089577759934447,
+            "std": 0.2057521267584526,
+            "p10": -0.04607500000000004,
+            "p25": -0.017028081314405807,
+            "median": 0.031512470486230404,
+            "p75": 0.1750439982616211,
+            "p90": 0.39205797746165233
+          },
+          "delta_logit_value_spearman": {
+            "count": 71,
+            "mean": 0.2926194190428782,
+            "std": 0.20538275722191607,
+            "p10": 0.059541313952808365,
+            "p25": 0.15471080227619682,
+            "median": 0.3180513206439107,
+            "p75": 0.4438970332940406,
+            "p90": 0.5277731502466848
+          },
+          "base_top_value_optimal_rate": 0.2727272727272727,
+          "seed_top_value_optimal_rate": 0.37662337662337664
+        },
+        "rescued_to_expert": {
+          "states": 19,
+          "episodes": 14,
+          "expected_discounted_value_delta": {
+            "count": 19,
+            "mean": 0.0576227923817844,
+            "std": 0.07536416500792378,
+            "p10": 0.009928193579969607,
+            "p25": 0.015158131195380174,
+            "median": 0.021408398777121623,
+            "p75": 0.055879468354947365,
+            "p90": 0.17966930461808442
+          },
+          "expected_success_delta": {
+            "count": 19,
+            "mean": 0.03837527095067408,
+            "std": 0.11696339524135861,
+            "p10": -1.3322676295501878e-16,
+            "p25": -9.812029660993815e-17,
+            "median": 0.0,
+            "p75": 1.825525407922468e-16,
+            "p90": 0.051892329144529195
+          },
+          "top_discounted_value_delta": {
+            "count": 19,
+            "mean": 0.1409137810567937,
+            "std": 0.25193097031204675,
+            "p10": -0.0220721012421875,
+            "p25": 0.03970717968750004,
+            "median": 0.04286875000000001,
+            "p75": 0.14053077170019546,
+            "p90": 0.40819491997834234
+          },
+          "delta_logit_value_spearman": {
+            "count": 17,
+            "mean": 0.35135248641883404,
+            "std": 0.16283127371276662,
+            "p10": 0.19239963866174353,
+            "p25": 0.29114543047889074,
+            "median": 0.3867288844747839,
+            "p75": 0.4382364412102376,
+            "p90": 0.5220681705611884
+          },
+          "base_top_value_optimal_rate": 0.21052631578947367,
+          "seed_top_value_optimal_rate": 0.8421052631578947
+        },
+        "stable_expert": {
+          "states": 105,
+          "episodes": 32,
+          "expected_discounted_value_delta": {
+            "count": 105,
+            "mean": 0.015493639886313422,
+            "std": 0.04287875096881867,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.007840626466948457,
+            "p90": 0.03282620913276208
+          },
+          "expected_success_delta": {
+            "count": 105,
+            "mean": 0.010055095481468384,
+            "std": 0.04550617686066546,
+            "p10": -1.3160859121258416e-17,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 1.167267192994384e-16
+          },
+          "top_discounted_value_delta": {
+            "count": 105,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 30,
+            "mean": 0.3024073275938503,
+            "std": 0.15167379880390514,
+            "p10": 0.07582969614184651,
+            "p25": 0.22016248281877598,
+            "median": 0.30619415411242823,
+            "p75": 0.40453146547949503,
+            "p90": 0.4879006929114684
+          },
+          "base_top_value_optimal_rate": 0.8952380952380953,
+          "seed_top_value_optimal_rate": 0.8952380952380953
+        },
+        "stable_nonexpert": {
+          "states": 60,
+          "episodes": 26,
+          "expected_discounted_value_delta": {
+            "count": 60,
+            "mean": 0.046612632980731865,
+            "std": 0.06010909163690105,
+            "p10": 0.0,
+            "p25": 0.004740234745457277,
+            "median": 0.014896861594118082,
+            "p75": 0.07082975818629386,
+            "p90": 0.14497072719496343
+          },
+          "expected_success_delta": {
+            "count": 60,
+            "mean": 0.03470429511561525,
+            "std": 0.07807148360836307,
+            "p10": -1.3066020018527905e-16,
+            "p25": -5.255331217944581e-17,
+            "median": 0.0,
+            "p75": 2.671474153004283e-16,
+            "p90": 0.1890148888013738
+          },
+          "top_discounted_value_delta": {
+            "count": 60,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 47,
+            "mean": 0.3240616093951243,
+            "std": 0.18693115305269942,
+            "p10": 0.0324069773277239,
+            "p25": 0.2404493668705905,
+            "median": 0.3334776883800173,
+            "p75": 0.44601471263832204,
+            "p90": 0.5231364997953041
+          },
+          "base_top_value_optimal_rate": 0.15,
+          "seed_top_value_optimal_rate": 0.15
+        }
+      },
+      "by_task_type": {
+        "look_at_obj_in_light": {
+          "states": 52,
+          "episodes": 3,
+          "expected_discounted_value_delta": {
+            "count": 52,
+            "mean": 0.12754484789076048,
+            "std": 0.12319843131819508,
+            "p10": 0.0,
+            "p25": 0.01728017437284186,
+            "median": 0.09495013854468987,
+            "p75": 0.2129170594467066,
+            "p90": 0.33035164355203717
+          },
+          "expected_success_delta": {
+            "count": 52,
+            "mean": 0.029113775068515115,
+            "std": 0.0618219184039081,
+            "p10": -2.7755575615628914e-16,
+            "p25": -7.979727989493313e-17,
+            "median": 0.0,
+            "p75": 0.0007507945224241742,
+            "p90": 0.12699593157399494
+          },
+          "top_discounted_value_delta": {
+            "count": 52,
+            "mean": 0.16455896107876147,
+            "std": 0.19232318450700034,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.045184375,
+            "p75": 0.3777544530932285,
+            "p90": 0.4621085869502015
+          },
+          "delta_logit_value_spearman": {
+            "count": 46,
+            "mean": 0.32628882957414784,
+            "std": 0.2301789407692163,
+            "p10": 0.04103182030703603,
+            "p25": 0.1550132576925756,
+            "median": 0.3049545221518625,
+            "p75": 0.4580984611727728,
+            "p90": 0.6352014264701245
+          },
+          "base_top_value_optimal_rate": 0.019230769230769232,
+          "seed_top_value_optimal_rate": 0.5384615384615384
+        },
+        "pick_and_place_simple": {
+          "states": 85,
+          "episodes": 10,
+          "expected_discounted_value_delta": {
+            "count": 85,
+            "mean": 0.07452885967510746,
+            "std": 0.10610230092103069,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.03175487301394409,
+            "p75": 0.11440119831999467,
+            "p90": 0.19246294713453976
+          },
+          "expected_success_delta": {
+            "count": 85,
+            "mean": 0.04592530928652411,
+            "std": 0.15283665675253327,
+            "p10": -1.7550763145056783e-16,
+            "p25": -1.3877787807814457e-17,
+            "median": 0.0,
+            "p75": 1.1102230246251565e-16,
+            "p90": 0.04734169850227398
+          },
+          "top_discounted_value_delta": {
+            "count": 85,
+            "mean": 0.15356036668639517,
+            "std": 0.2654300457646994,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.19395456871093764,
+            "p90": 0.607030910257545
+          },
+          "delta_logit_value_spearman": {
+            "count": 65,
+            "mean": 0.29216219263116194,
+            "std": 0.1794972871586404,
+            "p10": 0.04604346292374741,
+            "p25": 0.17990620248113873,
+            "median": 0.3244191939621926,
+            "p75": 0.41045542184191075,
+            "p90": 0.49927608929641737
+          },
+          "base_top_value_optimal_rate": 0.35294117647058826,
+          "seed_top_value_optimal_rate": 0.6823529411764706
+        },
+        "pick_clean_then_place_in_recep": {
+          "states": 80,
+          "episodes": 6,
+          "expected_discounted_value_delta": {
+            "count": 80,
+            "mean": 0.06527729908115248,
+            "std": 0.07610197752233604,
+            "p10": 0.0,
+            "p25": 0.0021581393358943357,
+            "median": 0.03947124745693259,
+            "p75": 0.09858644380231685,
+            "p90": 0.1474068515785619
+          },
+          "expected_success_delta": {
+            "count": 80,
+            "mean": 0.04680766831418271,
+            "std": 0.10198429901500201,
+            "p10": -1.1102230246251565e-16,
+            "p25": -2.7755575615628914e-17,
+            "median": 0.0,
+            "p75": 2.914335439641036e-16,
+            "p90": 0.19206915308958178
+          },
+          "top_discounted_value_delta": {
+            "count": 80,
+            "mean": 0.16188098978806612,
+            "std": 0.2701678153962141,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.008962148060213532,
+            "p75": 0.21209084637699585,
+            "p90": 0.7737809374999998
+          },
+          "delta_logit_value_spearman": {
+            "count": 61,
+            "mean": 0.280663936600676,
+            "std": 0.20201623320618486,
+            "p10": 0.02334621463637723,
+            "p25": 0.13717852990622806,
+            "median": 0.2628367900591406,
+            "p75": 0.4284255004055045,
+            "p90": 0.5391483482493303
+          },
+          "base_top_value_optimal_rate": 0.3625,
+          "seed_top_value_optimal_rate": 0.6625
+        },
+        "pick_cool_then_place_in_recep": {
+          "states": 92,
+          "episodes": 7,
+          "expected_discounted_value_delta": {
+            "count": 92,
+            "mean": 0.05424293694854196,
+            "std": 0.09287842479201454,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.024255699416901755,
+            "p75": 0.08291199020147311,
+            "p90": 0.17181478883133017
+          },
+          "expected_success_delta": {
+            "count": 92,
+            "mean": 0.06356710204611386,
+            "std": 0.13664007294184832,
+            "p10": -1.6653345369377348e-16,
+            "p25": -7.632783294297951e-17,
+            "median": 0.0,
+            "p75": 0.12941537975467923,
+            "p90": 0.2541249926303029
+          },
+          "top_discounted_value_delta": {
+            "count": 92,
+            "mean": 0.10989838421905308,
+            "std": 0.26876337445218595,
+            "p10": -0.04428795945312508,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.06898377961083987,
+            "p90": 0.6302494097246091
+          },
+          "delta_logit_value_spearman": {
+            "count": 71,
+            "mean": 0.3033780986736429,
+            "std": 0.1543791379105784,
+            "p10": 0.15443518015137184,
+            "p25": 0.25850094520360306,
+            "median": 0.31732769200228683,
+            "p75": 0.398054454137569,
+            "p90": 0.4534172809097869
+          },
+          "base_top_value_optimal_rate": 0.391304347826087,
+          "seed_top_value_optimal_rate": 0.358695652173913
+        },
+        "pick_heat_then_place_in_recep": {
+          "states": 111,
+          "episodes": 6,
+          "expected_discounted_value_delta": {
+            "count": 111,
+            "mean": 0.07075617487144066,
+            "std": 0.08147148854768263,
+            "p10": 0.0,
+            "p25": 0.006046558170033179,
+            "median": 0.028051018317517093,
+            "p75": 0.1201475237591301,
+            "p90": 0.19922569136740387
+          },
+          "expected_success_delta": {
+            "count": 111,
+            "mean": 0.06824821902875987,
+            "std": 0.12017123791103158,
+            "p10": -1.1796119636642288e-16,
+            "p25": -3.4531839193663316e-17,
+            "median": 2.7755575615628914e-17,
+            "p75": 0.11387022276793134,
+            "p90": 0.25489849606480497
+          },
+          "top_discounted_value_delta": {
+            "count": 111,
+            "mean": 0.14202772457457835,
+            "std": 0.21685927235085664,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.022006333432588288,
+            "p75": 0.27481302642510613,
+            "p90": 0.4817919131612274
+          },
+          "delta_logit_value_spearman": {
+            "count": 93,
+            "mean": 0.3783108129576809,
+            "std": 0.19552670098755345,
+            "p10": 0.08932817347171297,
+            "p25": 0.2620460112164144,
+            "median": 0.4036096518043608,
+            "p75": 0.5277731502466848,
+            "p90": 0.6128104975265972
+          },
+          "base_top_value_optimal_rate": 0.2072072072072072,
+          "seed_top_value_optimal_rate": 0.44144144144144143
+        },
+        "pick_two_obj_and_place": {
+          "states": 24,
+          "episodes": 1,
+          "expected_discounted_value_delta": {
+            "count": 24,
+            "mean": -0.07028454217014125,
+            "std": 0.16899279667395817,
+            "p10": -0.29880211443036436,
+            "p25": -0.06875753525720486,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.047715753835024334
+          },
+          "expected_success_delta": {
+            "count": 24,
+            "mean": -0.03087815965503286,
+            "std": 0.21405318123420392,
+            "p10": -0.29880211443036436,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 9.34019674060683e-18,
+            "p90": 0.13361012323472232
+          },
+          "top_discounted_value_delta": {
+            "count": 24,
+            "mean": -0.22025514151111847,
+            "std": 0.4328668304309034,
+            "p10": -1.0,
+            "p25": -0.21084649391530697,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 11,
+            "mean": -0.04225542456517265,
+            "std": 0.2475580159310792,
+            "p10": -0.17213259316477408,
+            "p25": -0.17213259316477408,
+            "median": -0.17213259316477408,
+            "p75": 0.059541313952808365,
+            "p90": 0.39735970711951313
+          },
+          "base_top_value_optimal_rate": 0.8333333333333334,
+          "seed_top_value_optimal_rate": 0.5833333333333334
+        }
+      },
+      "by_action_verb": {
+        "clean": {
+          "states": 6,
+          "episodes": 6,
+          "expected_discounted_value_delta": {
+            "count": 6,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 6,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 6,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 1.0,
+          "seed_top_value_optimal_rate": 1.0
+        },
+        "close": {
+          "states": 56,
+          "episodes": 18,
+          "expected_discounted_value_delta": {
+            "count": 56,
+            "mean": 0.14726987254036236,
+            "std": 0.10767786474512811,
+            "p10": 0.01717141663262733,
+            "p25": 0.060571634709620605,
+            "median": 0.1379013404790144,
+            "p75": 0.1971495333836621,
+            "p90": 0.2979359093169688
+          },
+          "expected_success_delta": {
+            "count": 56,
+            "mean": 0.1517646528442324,
+            "std": 0.16740110991048135,
+            "p10": -7.155734338404329e-17,
+            "p25": 9.868293824515182e-17,
+            "median": 0.11160028379632153,
+            "p75": 0.25200193748373617,
+            "p90": 0.39864985559827215
+          },
+          "top_discounted_value_delta": {
+            "count": 56,
+            "mean": 0.3077166287440889,
+            "std": 0.2945698212409277,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.24602945529949216,
+            "p75": 0.5547136222753472,
+            "p90": 0.7737809374999998
+          },
+          "delta_logit_value_spearman": {
+            "count": 56,
+            "mean": 0.20806921312382606,
+            "std": 0.1696236372355269,
+            "p10": 0.005195442029620391,
+            "p25": 0.07779325002792253,
+            "median": 0.19583826375639943,
+            "p75": 0.3337723659759689,
+            "p90": 0.41121985013739715
+          },
+          "base_top_value_optimal_rate": 0.017857142857142856,
+          "seed_top_value_optimal_rate": 0.5535714285714286
+        },
+        "cool": {
+          "states": 7,
+          "episodes": 7,
+          "expected_discounted_value_delta": {
+            "count": 7,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 7,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 7,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 1.0,
+          "seed_top_value_optimal_rate": 1.0
+        },
+        "examine": {
+          "states": 1,
+          "episodes": 1,
+          "expected_discounted_value_delta": {
+            "count": 1,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 1,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 1,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 1.0,
+          "seed_top_value_optimal_rate": 1.0
+        },
+        "go": {
+          "states": 238,
+          "episodes": 33,
+          "expected_discounted_value_delta": {
+            "count": 238,
+            "mean": 0.07407755686089357,
+            "std": 0.11591859909661024,
+            "p10": 0.0,
+            "p25": 0.012843084245991909,
+            "median": 0.04667171313913207,
+            "p75": 0.12314787281674673,
+            "p90": 0.21291724001809834
+          },
+          "expected_success_delta": {
+            "count": 238,
+            "mean": 0.05818267372453697,
+            "std": 0.1424668641832255,
+            "p10": -1.7892437640959e-16,
+            "p25": -5.811323644522304e-17,
+            "median": 5.898059818321144e-17,
+            "p75": 0.1084559908043511,
+            "p90": 0.2349129083791867
+          },
+          "top_discounted_value_delta": {
+            "count": 238,
+            "mean": 0.1297042394680183,
+            "std": 0.30773009121070904,
+            "p10": -0.01757996095811367,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.2622995860397118,
+            "p90": 0.6139964600976645
+          },
+          "delta_logit_value_spearman": {
+            "count": 230,
+            "mean": 0.32678586892246875,
+            "std": 0.21429636367243904,
+            "p10": 0.04875657628323103,
+            "p25": 0.2248138024176454,
+            "median": 0.33900429687004874,
+            "p75": 0.46428485947267195,
+            "p90": 0.585096019620221
+          },
+          "base_top_value_optimal_rate": 0.23529411764705882,
+          "seed_top_value_optimal_rate": 0.4327731092436975
+        },
+        "heat": {
+          "states": 6,
+          "episodes": 6,
+          "expected_discounted_value_delta": {
+            "count": 6,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 6,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 6,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 0.3333333333333333,
+          "seed_top_value_optimal_rate": 0.3333333333333333
+        },
+        "move": {
+          "states": 31,
+          "episodes": 30,
+          "expected_discounted_value_delta": {
+            "count": 31,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 31,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 31,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 0.967741935483871,
+          "seed_top_value_optimal_rate": 0.967741935483871
+        },
+        "open": {
+          "states": 62,
+          "episodes": 21,
+          "expected_discounted_value_delta": {
+            "count": 62,
+            "mean": 0.055957327289601684,
+            "std": 0.08680307083491001,
+            "p10": 0.0017294384224575037,
+            "p25": 0.027658467692700976,
+            "median": 0.044247326021216477,
+            "p75": 0.08053549126344373,
+            "p90": 0.12905942182360877
+          },
+          "expected_success_delta": {
+            "count": 62,
+            "mean": -0.008088160950819835,
+            "std": 0.0631705564448212,
+            "p10": -2.482389294122811e-16,
+            "p25": -1.6653345369377348e-16,
+            "median": -4.163336342344337e-17,
+            "p75": 1.0408340855860843e-16,
+            "p90": 1.528291382335567e-16
+          },
+          "top_discounted_value_delta": {
+            "count": 62,
+            "mean": 0.11367808877566744,
+            "std": 0.2060447646900979,
+            "p10": -0.033079135078125044,
+            "p25": 0.022096288611712978,
+            "median": 0.03675459453125007,
+            "p75": 0.24657435197125624,
+            "p90": 0.3807365788553644
+          },
+          "delta_logit_value_spearman": {
+            "count": 61,
+            "mean": 0.33714170438773067,
+            "std": 0.1794760314682661,
+            "p10": 0.128473700557646,
+            "p25": 0.22859133269488155,
+            "median": 0.3641547086958536,
+            "p75": 0.45777614820892404,
+            "p90": 0.531236456965261
+          },
+          "base_top_value_optimal_rate": 0.0967741935483871,
+          "seed_top_value_optimal_rate": 0.4032258064516129
+        },
+        "take": {
+          "states": 34,
+          "episodes": 33,
+          "expected_discounted_value_delta": {
+            "count": 34,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 34,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 34,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 0.8823529411764706,
+          "seed_top_value_optimal_rate": 0.8823529411764706
+        },
+        "use": {
+          "states": 3,
+          "episodes": 3,
+          "expected_discounted_value_delta": {
+            "count": 3,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 3,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 3,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 0.0,
+          "seed_top_value_optimal_rate": 0.0
+        }
+      }
+    },
+    "valid_unseen": {
+      "states": 527,
+      "episodes": 34,
+      "candidate_actions": 14980,
+      "candidate_success_rate": 0.9283711615487317,
+      "states_with_binary_value_variation": 207,
+      "states_with_discounted_value_variation": 513,
+      "expert_action_value_optimal_rate": 0.36622390891840606,
+      "base_top_value_optimal_rate": 0.3187855787476281,
+      "seed_top_value_optimal_rate": 0.3738140417457306,
+      "base_expected_discounted_value": 0.569995599316029,
+      "comparison_expected_discounted_value": 0.6193648939223185,
+      "relative_expected_discounted_value_gain": 0.08661346625400386,
+      "relative_top_value_optimal_rate_gain": 0.1726190476190477,
+      "required_relative_improvement": 0.3,
+      "meets_required_relative_expected_value_improvement": false,
+      "practical_threshold": 0.8,
+      "meets_practical_threshold": false,
+      "gap_to_practical_threshold": -0.42618595825426947,
+      "descriptive": {
+        "success_expected_value_delta": {
+          "count": 527,
+          "mean": 0.06213777963065261,
+          "std": 0.11498392323178744,
+          "p10": -1.68962066560141e-16,
+          "p25": 0.0,
+          "median": 5.551115123125783e-17,
+          "p75": 0.10838088384440384,
+          "p90": 0.23566154550774507
+        },
+        "discounted_expected_value_delta": {
+          "count": 527,
+          "mean": 0.04936929460628949,
+          "std": 0.07973355929749963,
+          "p10": 0.0,
+          "p25": 0.0,
+          "median": 0.022294448418062576,
+          "p75": 0.08107469110131416,
+          "p90": 0.16337473892169632
+        },
+        "discounted_top_value_delta": {
+          "count": 527,
+          "mean": 0.08331156313941024,
+          "std": 0.23312089550913492,
+          "p10": -0.029038741553061406,
+          "p25": 0.0,
+          "median": 0.0,
+          "p75": 0.05011670950543565,
+          "p90": 0.5114933391323566
+        },
+        "discounted_added_minus_removed_value": {
+          "count": 433,
+          "mean": 0.15173075300854602,
+          "std": 0.19103801722423414,
+          "p10": -0.007672682914445269,
+          "p25": 0.03578776713514431,
+          "median": 0.08016909600347999,
+          "p75": 0.26794081911065515,
+          "p90": 0.42909112761889
+        },
+        "discounted_probability_on_value_optimal_delta": {
+          "count": 527,
+          "mean": 0.04613583210035164,
+          "std": 0.15071801673230653,
+          "p10": -0.04304635144862954,
+          "p25": 0.0,
+          "median": 0.023381301489723692,
+          "p75": 0.07678306110151441,
+          "p90": 0.22995819406984
+        },
+        "delta_logit_value_spearman": {
+          "count": 423,
+          "mean": 0.30180410915961353,
+          "std": 0.17173461228080564,
+          "p10": 0.07653550668825194,
+          "p25": 0.21507220286757414,
+          "median": 0.31953209551958467,
+          "p75": 0.40744198827372125,
+          "p90": 0.5054967143419415
+        },
+        "delta_probability_value_spearman": {
+          "count": 423,
+          "mean": 0.26119190116966295,
+          "std": 0.22615949505469476,
+          "p10": -0.02415887640483794,
+          "p25": 0.1039263448760693,
+          "median": 0.2693212376338094,
+          "p75": 0.4323938565287999,
+          "p90": 0.5378100515561695
+        },
+        "discounted_base_expected_value": {
+          "count": 527,
+          "mean": 0.569995599316029,
+          "std": 0.22943774383673984,
+          "p10": 0.2778905480608312,
+          "p25": 0.40418869744766,
+          "median": 0.5806712517961489,
+          "p75": 0.744005640160603,
+          "p90": 0.884801393035802
+        },
+        "discounted_seed_expected_value": {
+          "count": 527,
+          "mean": 0.6193648939223185,
+          "std": 0.21951915138583059,
+          "p10": 0.34944555878571243,
+          "p25": 0.49822286804369076,
+          "median": 0.6357304255365156,
+          "p75": 0.7845734934358313,
+          "p90": 0.891349608451356
+        },
+        "discounted_base_top_value": {
+          "count": 527,
+          "mean": 0.5749407111454756,
+          "std": 0.31094271603759305,
+          "p10": 0.0,
+          "p25": 0.37735360253530725,
+          "median": 0.6634204312890623,
+          "p75": 0.8145062499999999,
+          "p90": 0.95
+        },
+        "discounted_seed_top_value": {
+          "count": 527,
+          "mean": 0.6582522742848859,
+          "std": 0.2380603279899098,
+          "p10": 0.3337503937623525,
+          "p25": 0.5133420832795048,
+          "median": 0.7350918906249998,
+          "p75": 0.8145062499999999,
+          "p90": 0.9025
+        }
+      },
+      "episode_cluster_bootstrap": {
+        "success_expected_value_delta": {
+          "observed": 0.062137779630652624,
+          "ci95": [
+            0.04861411351530948,
+            0.0740245006748972
+          ],
+          "probability_positive": 1.0,
+          "clusters": 34
+        },
+        "discounted_expected_value_delta": {
+          "observed": 0.04936929460628949,
+          "ci95": [
+            0.03668568586625849,
+            0.06111186876022865
+          ],
+          "probability_positive": 1.0,
+          "clusters": 34
+        },
+        "discounted_top_value_delta": {
+          "observed": 0.08331156313941028,
+          "ci95": [
+            0.03530008892961482,
+            0.12720385731391795
+          ],
+          "probability_positive": 0.9995,
+          "clusters": 34
+        },
+        "discounted_added_minus_removed_value": {
+          "observed": 0.15173075300854602,
+          "ci95": [
+            0.11388333517543868,
+            0.19027089104733796
+          ],
+          "probability_positive": 1.0,
+          "clusters": 34
+        },
+        "discounted_probability_on_value_optimal_delta": {
+          "observed": 0.04613583210035166,
+          "ci95": [
+            0.007766205562553605,
+            0.08381064579848943
+          ],
+          "probability_positive": 0.9895,
+          "clusters": 34
+        },
+        "delta_logit_value_spearman": {
+          "observed": 0.3018041091596135,
+          "ci95": [
+            0.2673117846447258,
+            0.3331390022538024
+          ],
+          "probability_positive": 1.0,
+          "clusters": 34
+        },
+        "delta_probability_value_spearman": {
+          "observed": 0.26119190116966295,
+          "ci95": [
+            0.21716746903029463,
+            0.3009844217801516
+          ],
+          "probability_positive": 1.0,
+          "clusters": 34
+        },
+        "discounted_base_expected_value": {
+          "observed": 0.5699955993160291,
+          "ci95": [
+            0.5190593486691388,
+            0.6223748642622933
+          ],
+          "probability_positive": 1.0,
+          "clusters": 34
+        },
+        "discounted_seed_expected_value": {
+          "observed": 0.6193648939223184,
+          "ci95": [
+            0.5618339573137278,
+            0.6752184503113533
+          ],
+          "probability_positive": 1.0,
+          "clusters": 34
+        },
+        "discounted_base_top_value": {
+          "observed": 0.5749407111454756,
+          "ci95": [
+            0.5157453627362443,
+            0.6344028734079457
+          ],
+          "probability_positive": 1.0,
+          "clusters": 34
+        },
+        "discounted_seed_top_value": {
+          "observed": 0.658252274284886,
+          "ci95": [
+            0.5923238852259447,
+            0.7214761870092321
+          ],
+          "probability_positive": 1.0,
+          "clusters": 34
+        }
+      },
+      "by_expert_transition": {
+        "changed_nonexpert": {
+          "states": 221,
+          "episodes": 31,
+          "expected_discounted_value_delta": {
+            "count": 221,
+            "mean": 0.07936925876955808,
+            "std": 0.09616287095184008,
+            "p10": -0.003828196449153685,
+            "p25": 0.018029216144499653,
+            "median": 0.06253161270127991,
+            "p75": 0.13728923399560855,
+            "p90": 0.20838093034291094
+          },
+          "expected_success_delta": {
+            "count": 221,
+            "mean": 0.11092053393897756,
+            "std": 0.13562451289870855,
+            "p10": -1.6653345369377348e-16,
+            "p25": 0.0,
+            "median": 0.0652331729592398,
+            "p75": 0.20521530725840662,
+            "p90": 0.32223652127866637
+          },
+          "top_discounted_value_delta": {
+            "count": 221,
+            "mean": 0.17908835854968091,
+            "std": 0.3152891428805402,
+            "p10": -0.031512470486230404,
+            "p25": 0.0,
+            "median": 0.04072531250000011,
+            "p75": 0.4181203352191771,
+            "p90": 0.6634204312890623
+          },
+          "delta_logit_value_spearman": {
+            "count": 214,
+            "mean": 0.31298599760148904,
+            "std": 0.18420906358778788,
+            "p10": 0.06373953431921565,
+            "p25": 0.20903687122832573,
+            "median": 0.32546479629376085,
+            "p75": 0.44885783690410475,
+            "p90": 0.5454553989056635
+          },
+          "base_top_value_optimal_rate": 0.12217194570135746,
+          "seed_top_value_optimal_rate": 0.248868778280543
+        },
+        "harmed_from_expert": {
+          "states": 66,
+          "episodes": 23,
+          "expected_discounted_value_delta": {
+            "count": 66,
+            "mean": 0.023987161207678527,
+            "std": 0.05510026407046698,
+            "p10": -0.02674300617935786,
+            "p25": 0.0009808399693138916,
+            "median": 0.02442036776508762,
+            "p75": 0.03887608467387878,
+            "p90": 0.09628840695162334
+          },
+          "expected_success_delta": {
+            "count": 66,
+            "mean": 0.00988414166734534,
+            "std": 0.0918625041218125,
+            "p10": -1.4224732503009818e-16,
+            "p25": -8.413408858487514e-17,
+            "median": 5.551115123125783e-17,
+            "p75": 2.220446049250313e-16,
+            "p90": 0.1016279500868241
+          },
+          "top_discounted_value_delta": {
+            "count": 66,
+            "mean": 0.01760583561010501,
+            "std": 0.14560196077306148,
+            "p10": -0.09262500000000007,
+            "p25": -0.044560937500000064,
+            "median": 0.018867680126765374,
+            "p75": 0.04534333186024221,
+            "p90": 0.09290207380859378
+          },
+          "delta_logit_value_spearman": {
+            "count": 65,
+            "mean": 0.23855163983365932,
+            "std": 0.20693905961741796,
+            "p10": -0.00541537502693689,
+            "p25": 0.13294878508582328,
+            "median": 0.28351448994917966,
+            "p75": 0.36840878330903776,
+            "p90": 0.4705120276644809
+          },
+          "base_top_value_optimal_rate": 0.2878787878787879,
+          "seed_top_value_optimal_rate": 0.15151515151515152
+        },
+        "rescued_to_expert": {
+          "states": 24,
+          "episodes": 14,
+          "expected_discounted_value_delta": {
+            "count": 24,
+            "mean": 0.06327877763131647,
+            "std": 0.07748048372691427,
+            "p10": 0.006300089212300684,
+            "p25": 0.021494224997959097,
+            "median": 0.02734519108709232,
+            "p75": 0.08411502145488256,
+            "p90": 0.17370444432384033
+          },
+          "expected_success_delta": {
+            "count": 24,
+            "mean": 0.06717427414560803,
+            "std": 0.11296546971046754,
+            "p10": -3.060052211623088e-16,
+            "p25": -1.5449880957918438e-16,
+            "median": 5.551115123125783e-17,
+            "p75": 0.10175235461145012,
+            "p90": 0.2278796301671447
+          },
+          "top_discounted_value_delta": {
+            "count": 24,
+            "mean": 0.13186172436344915,
+            "std": 0.24185075986918908,
+            "p10": 0.006271805028287669,
+            "p25": 0.03774600135742184,
+            "median": 0.045184375,
+            "p75": 0.10622198722802742,
+            "p90": 0.5390585400781245
+          },
+          "delta_logit_value_spearman": {
+            "count": 24,
+            "mean": 0.3365130344740305,
+            "std": 0.07536391004026656,
+            "p10": 0.24454324802257302,
+            "p25": 0.2709544255488898,
+            "median": 0.3333561874346269,
+            "p75": 0.38118601203254715,
+            "p90": 0.44050309621297207
+          },
+          "base_top_value_optimal_rate": 0.08333333333333333,
+          "seed_top_value_optimal_rate": 0.5
+        },
+        "stable_expert": {
+          "states": 101,
+          "episodes": 33,
+          "expected_discounted_value_delta": {
+            "count": 101,
+            "mean": 0.010258529968851174,
+            "std": 0.03691216236900754,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.019212417926237086
+          },
+          "expected_success_delta": {
+            "count": 101,
+            "mean": 0.006957674508627071,
+            "std": 0.03775236514476603,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 2.220446049250313e-16
+          },
+          "top_discounted_value_delta": {
+            "count": 101,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 25,
+            "mean": 0.2612970587114829,
+            "std": 0.1281200339161263,
+            "p10": 0.06656332322527836,
+            "p25": 0.23108619111690087,
+            "median": 0.2904418450860885,
+            "p75": 0.3439759818854913,
+            "p90": 0.3827591414670282
+          },
+          "base_top_value_optimal_rate": 0.9603960396039604,
+          "seed_top_value_optimal_rate": 0.9603960396039604
+        },
+        "stable_nonexpert": {
+          "states": 115,
+          "episodes": 30,
+          "expected_discounted_value_delta": {
+            "count": 115,
+            "mean": 0.03773093251939026,
+            "std": 0.0596011179559416,
+            "p10": 0.0,
+            "p25": 0.0017023593343253195,
+            "median": 0.012362020869879739,
+            "p75": 0.05120329143287032,
+            "p90": 0.12253158065288695
+          },
+          "expected_success_delta": {
+            "count": 115,
+            "mean": 0.04579052878199272,
+            "std": 0.08599149024285901,
+            "p10": -1.8222472845374754e-16,
+            "p25": -1.2676695088607859e-17,
+            "median": 5.130447759381237e-17,
+            "p75": 0.06896291189938289,
+            "p90": 0.16593271229725645
+          },
+          "top_discounted_value_delta": {
+            "count": 115,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 95,
+            "mean": 0.3217846189836442,
+            "std": 0.12518980076750627,
+            "p10": 0.15261925147843597,
+            "p25": 0.2463382771581531,
+            "median": 0.32164984108407957,
+            "p75": 0.3897819906874831,
+            "p90": 0.48088164874760664
+          },
+          "base_top_value_optimal_rate": 0.2,
+          "seed_top_value_optimal_rate": 0.2
+        }
+      },
+      "by_task_type": {
+        "look_at_obj_in_light": {
+          "states": 93,
+          "episodes": 6,
+          "expected_discounted_value_delta": {
+            "count": 93,
+            "mean": 0.04924049619707405,
+            "std": 0.0662843071428145,
+            "p10": 0.0,
+            "p25": 0.01041821313745182,
+            "median": 0.031087600077250827,
+            "p75": 0.058546086662529036,
+            "p90": 0.1541040754216544
+          },
+          "expected_success_delta": {
+            "count": 93,
+            "mean": 0.03591375221032195,
+            "std": 0.07515851464836949,
+            "p10": -2.164934898019055e-16,
+            "p25": -5.551115123125783e-17,
+            "median": 0.0,
+            "p75": 5.357052860418228e-16,
+            "p90": 0.1521464204065865
+          },
+          "top_discounted_value_delta": {
+            "count": 93,
+            "mean": 0.03564415736194028,
+            "std": 0.08704596270330489,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.038689046874999966,
+            "p90": 0.08503808292554792
+          },
+          "delta_logit_value_spearman": {
+            "count": 81,
+            "mean": 0.28515552402859107,
+            "std": 0.15736313787810802,
+            "p10": 0.06437993786051396,
+            "p25": 0.20469691362177642,
+            "median": 0.2952390978823629,
+            "p75": 0.38037993470085196,
+            "p90": 0.4593323449105938
+          },
+          "base_top_value_optimal_rate": 0.07526881720430108,
+          "seed_top_value_optimal_rate": 0.20430107526881722
+        },
+        "pick_and_place_simple": {
+          "states": 42,
+          "episodes": 5,
+          "expected_discounted_value_delta": {
+            "count": 42,
+            "mean": 0.03012311351563696,
+            "std": 0.07014343123701133,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.007682554580915239,
+            "p75": 0.036393755223756916,
+            "p90": 0.07724857759208462
+          },
+          "expected_success_delta": {
+            "count": 42,
+            "mean": 0.03762391064667442,
+            "std": 0.08903699294946403,
+            "p10": -1.8976632335731763e-16,
+            "p25": -1.6163929732453813e-17,
+            "median": 0.0,
+            "p75": 2.1316858423638553e-16,
+            "p90": 0.12974759687543821
+          },
+          "top_discounted_value_delta": {
+            "count": 42,
+            "mean": 0.054192724747449364,
+            "std": 0.1697398703212092,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.14759413223046883
+          },
+          "delta_logit_value_spearman": {
+            "count": 31,
+            "mean": 0.3068006865999628,
+            "std": 0.18896219673206974,
+            "p10": 0.10688226850054772,
+            "p25": 0.2463382771581531,
+            "median": 0.3069376758931019,
+            "p75": 0.40012083382037167,
+            "p90": 0.5210395435023106
+          },
+          "base_top_value_optimal_rate": 0.38095238095238093,
+          "seed_top_value_optimal_rate": 0.40476190476190477
+        },
+        "pick_clean_then_place_in_recep": {
+          "states": 184,
+          "episodes": 11,
+          "expected_discounted_value_delta": {
+            "count": 184,
+            "mean": 0.045983969922957516,
+            "std": 0.08639004715391393,
+            "p10": -0.011123267831462755,
+            "p25": 0.0,
+            "median": 0.021781028571286158,
+            "p75": 0.08628656346880598,
+            "p90": 0.16528001690366192
+          },
+          "expected_success_delta": {
+            "count": 184,
+            "mean": 0.08567339570907899,
+            "std": 0.12354436606656483,
+            "p10": -1.0696893084905962e-16,
+            "p25": 0.0,
+            "median": 1.4695005195325406e-16,
+            "p75": 0.14101739067149513,
+            "p90": 0.2862603745372747
+          },
+          "top_discounted_value_delta": {
+            "count": 184,
+            "mean": 0.06309249778048336,
+            "std": 0.27017836318116495,
+            "p10": -0.09402173730882182,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.038698884168669054,
+            "p90": 0.5987369392383787
+          },
+          "delta_logit_value_spearman": {
+            "count": 151,
+            "mean": 0.2977203202123526,
+            "std": 0.15475489973665046,
+            "p10": 0.12958993508876335,
+            "p25": 0.20851429999940108,
+            "median": 0.2904418450860885,
+            "p75": 0.3948572200372136,
+            "p90": 0.5002380774680231
+          },
+          "base_top_value_optimal_rate": 0.3858695652173913,
+          "seed_top_value_optimal_rate": 0.28804347826086957
+        },
+        "pick_cool_then_place_in_recep": {
+          "states": 119,
+          "episodes": 7,
+          "expected_discounted_value_delta": {
+            "count": 119,
+            "mean": 0.0708567770203272,
+            "std": 0.07536902868832551,
+            "p10": 0.0,
+            "p25": 0.00844979792181877,
+            "median": 0.04295391448581316,
+            "p75": 0.12690948667637975,
+            "p90": 0.17060128833473182
+          },
+          "expected_success_delta": {
+            "count": 119,
+            "mean": 0.05924796703761645,
+            "std": 0.10682855805822132,
+            "p10": -1.7874453477127564e-16,
+            "p25": 0.0,
+            "median": 3.4135427774348304e-17,
+            "p75": 0.0949197246337938,
+            "p90": 0.22234362371950775
+          },
+          "top_discounted_value_delta": {
+            "count": 119,
+            "mean": 0.1708932998828394,
+            "std": 0.2697854910824719,
+            "p10": -0.0297353766519959,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.3661136106613021,
+            "p90": 0.5987369392383787
+          },
+          "delta_logit_value_spearman": {
+            "count": 98,
+            "mean": 0.35055628213176104,
+            "std": 0.16957149911149694,
+            "p10": 0.15634507372406029,
+            "p25": 0.2730714620676963,
+            "median": 0.34600593122954726,
+            "p75": 0.48244759944502996,
+            "p90": 0.5572509240698481
+          },
+          "base_top_value_optimal_rate": 0.3865546218487395,
+          "seed_top_value_optimal_rate": 0.6386554621848739
+        },
+        "pick_heat_then_place_in_recep": {
+          "states": 68,
+          "episodes": 4,
+          "expected_discounted_value_delta": {
+            "count": 68,
+            "mean": 0.0527789238766611,
+            "std": 0.08642325717753269,
+            "p10": -0.005455782977122314,
+            "p25": 0.0,
+            "median": 0.02480204554779549,
+            "p75": 0.08438250631380667,
+            "p90": 0.16305436337615
+          },
+          "expected_success_delta": {
+            "count": 68,
+            "mean": 0.0864905207683286,
+            "std": 0.12808816071427215,
+            "p10": -1.3496148643099559e-16,
+            "p25": 0.0,
+            "median": 1.214306433183765e-16,
+            "p75": 0.14203332636927365,
+            "p90": 0.3034084319009461
+          },
+          "top_discounted_value_delta": {
+            "count": 68,
+            "mean": 0.0945809591547103,
+            "std": 0.21755420750339322,
+            "p10": -0.04286875000000001,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.1435315277753907,
+            "p90": 0.44012666865176536
+          },
+          "delta_logit_value_spearman": {
+            "count": 56,
+            "mean": 0.3010281963737626,
+            "std": 0.14338519843519268,
+            "p10": 0.04785260621880549,
+            "p25": 0.2401664198055242,
+            "median": 0.3236325649786291,
+            "p75": 0.40964480870026265,
+            "p90": 0.4517977981411159
+          },
+          "base_top_value_optimal_rate": 0.19117647058823528,
+          "seed_top_value_optimal_rate": 0.2647058823529412
+        },
+        "pick_two_obj_and_place": {
+          "states": 21,
+          "episodes": 1,
+          "expected_discounted_value_delta": {
+            "count": 21,
+            "mean": -0.01470916244410254,
+            "std": 0.029590105704917262,
+            "p10": -0.061434699154497514,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 21,
+            "mean": -0.04139722083617051,
+            "std": 0.13267116204209115,
+            "p10": -0.061434699154497514,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 21,
+            "mean": -0.002982609512916243,
+            "std": 0.026016793531962904,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 6,
+            "mean": -0.18552392571779222,
+            "std": 0.12484341667145389,
+            "p10": -0.2879903543238563,
+            "p25": -0.2041241452319315,
+            "median": -0.2041241452319315,
+            "p75": -0.18881483433953666,
+            "p90": -0.0644572775975888
+          },
+          "base_top_value_optimal_rate": 0.7142857142857143,
+          "seed_top_value_optimal_rate": 0.6666666666666666
+        }
+      },
+      "by_action_verb": {
+        "clean": {
+          "states": 11,
+          "episodes": 11,
+          "expected_discounted_value_delta": {
+            "count": 11,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 11,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 11,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 1.0,
+          "seed_top_value_optimal_rate": 1.0
+        },
+        "close": {
+          "states": 48,
+          "episodes": 18,
+          "expected_discounted_value_delta": {
+            "count": 48,
+            "mean": 0.12139317351955951,
+            "std": 0.09867671833923329,
+            "p10": 0.009578842945495322,
+            "p25": 0.039749533249995445,
+            "median": 0.10974812386670567,
+            "p75": 0.1860637434174873,
+            "p90": 0.28873322999930207
+          },
+          "expected_success_delta": {
+            "count": 48,
+            "mean": 0.18918724109702034,
+            "std": 0.15464226461664693,
+            "p10": -9.002537213961824e-17,
+            "p25": 0.0708814082810079,
+            "median": 0.16345127712277954,
+            "p75": 0.30869202081274927,
+            "p90": 0.4232916436852778
+          },
+          "top_discounted_value_delta": {
+            "count": 48,
+            "mean": 0.23400908838483173,
+            "std": 0.3198532822707008,
+            "p10": -0.02936174437554523,
+            "p25": 0.0,
+            "median": 0.03234174602534179,
+            "p75": 0.5762843040169394,
+            "p90": 0.7093636744531249
+          },
+          "delta_logit_value_spearman": {
+            "count": 48,
+            "mean": 0.1982009349116305,
+            "std": 0.17333109592338353,
+            "p10": -0.045133900495715244,
+            "p25": 0.0979713656326818,
+            "median": 0.2120846627469948,
+            "p75": 0.32493963275796767,
+            "p90": 0.397105082352445
+          },
+          "base_top_value_optimal_rate": 0.20833333333333334,
+          "seed_top_value_optimal_rate": 0.22916666666666666
+        },
+        "cool": {
+          "states": 7,
+          "episodes": 7,
+          "expected_discounted_value_delta": {
+            "count": 7,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 7,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 7,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 1.0,
+          "seed_top_value_optimal_rate": 1.0
+        },
+        "examine": {
+          "states": 2,
+          "episodes": 2,
+          "expected_discounted_value_delta": {
+            "count": 2,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 2,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 2,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 0.5,
+          "seed_top_value_optimal_rate": 0.5
+        },
+        "go": {
+          "states": 330,
+          "episodes": 34,
+          "expected_discounted_value_delta": {
+            "count": 330,
+            "mean": 0.058757023154553854,
+            "std": 0.08142153124387397,
+            "p10": -0.0018985239608583706,
+            "p25": 0.008828838889107554,
+            "median": 0.03577555240120135,
+            "p75": 0.10670246880693057,
+            "p90": 0.16970719548096022
+          },
+          "expected_success_delta": {
+            "count": 330,
+            "mean": 0.07360014806893964,
+            "std": 0.10956552274162198,
+            "p10": -1.9498291869979313e-16,
+            "p25": -3.2676287791249663e-17,
+            "median": 1.8735013540549517e-16,
+            "p75": 0.1296139569732524,
+            "p90": 0.24465343205600878
+          },
+          "top_discounted_value_delta": {
+            "count": 330,
+            "mean": 0.09564744841863518,
+            "std": 0.2517949172283815,
+            "p10": -0.035100637777343735,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.11616895390625015,
+            "p90": 0.5363946557864646
+          },
+          "delta_logit_value_spearman": {
+            "count": 321,
+            "mean": 0.3199810529361546,
+            "std": 0.15816750583150513,
+            "p10": 0.12590265500792944,
+            "p25": 0.23701779951614468,
+            "median": 0.325633276471725,
+            "p75": 0.43535246524138316,
+            "p90": 0.5205322028088757
+          },
+          "base_top_value_optimal_rate": 0.21515151515151515,
+          "seed_top_value_optimal_rate": 0.296969696969697
+        },
+        "heat": {
+          "states": 4,
+          "episodes": 4,
+          "expected_discounted_value_delta": {
+            "count": 4,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 4,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 4,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 0.0,
+          "seed_top_value_optimal_rate": 0.0
+        },
+        "move": {
+          "states": 29,
+          "episodes": 28,
+          "expected_discounted_value_delta": {
+            "count": 29,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 29,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 29,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 0.9655172413793104,
+          "seed_top_value_optimal_rate": 0.9655172413793104
+        },
+        "open": {
+          "states": 55,
+          "episodes": 19,
+          "expected_discounted_value_delta": {
+            "count": 55,
+            "mean": 0.014562332501326058,
+            "std": 0.04699022640287682,
+            "p10": -0.04333296171050972,
+            "p25": 0.00710037103058821,
+            "median": 0.025330432009991515,
+            "p75": 0.03606774905203786,
+            "p90": 0.05218821573911027
+          },
+          "expected_success_delta": {
+            "count": 55,
+            "mean": -0.011316846728238855,
+            "std": 0.08316149994441153,
+            "p10": -2.220446049250313e-16,
+            "p25": -1.1102230246251565e-16,
+            "median": 2.7755575615628914e-17,
+            "p75": 1.3877787807814457e-16,
+            "p90": 2.220446049250313e-16
+          },
+          "top_discounted_value_delta": {
+            "count": 55,
+            "mean": 0.02016544643359409,
+            "std": 0.12023094502316325,
+            "p10": -0.09262500000000007,
+            "p25": 0.0,
+            "median": 0.029936846961919006,
+            "p75": 0.055458008996954855,
+            "p90": 0.0841110497996835
+          },
+          "delta_logit_value_spearman": {
+            "count": 54,
+            "mean": 0.2858439871528266,
+            "std": 0.20940289111508836,
+            "p10": 0.019464502441409525,
+            "p25": 0.2657423263679902,
+            "median": 0.32506622494768805,
+            "p75": 0.38858812091174283,
+            "p90": 0.5132107160478901
+          },
+          "base_top_value_optimal_rate": 0.16363636363636364,
+          "seed_top_value_optimal_rate": 0.18181818181818182
+        },
+        "take": {
+          "states": 35,
+          "episodes": 34,
+          "expected_discounted_value_delta": {
+            "count": 35,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 35,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 35,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 0.8857142857142857,
+          "seed_top_value_optimal_rate": 0.8857142857142857
+        },
+        "use": {
+          "states": 6,
+          "episodes": 6,
+          "expected_discounted_value_delta": {
+            "count": 6,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "expected_success_delta": {
+            "count": 6,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "top_discounted_value_delta": {
+            "count": 6,
+            "mean": 0.0,
+            "std": 0.0,
+            "p10": 0.0,
+            "p25": 0.0,
+            "median": 0.0,
+            "p75": 0.0,
+            "p90": 0.0
+          },
+          "delta_logit_value_spearman": {
+            "count": 0,
+            "mean": NaN,
+            "median": NaN
+          },
+          "base_top_value_optimal_rate": 0.0,
+          "seed_top_value_optimal_rate": 0.0
+        }
+      }
+    }
+  }
+}

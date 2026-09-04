@@ -1,0 +1,9 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.81s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.59s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.77s/it]
+Traceback (most recent call last):
+  File "/data/user/agent_self_evolution_gradient/scripts/probe_value_gradient_writeback.py", line 469, in <module>
+    main()
+  File "/data/user/agent_self_evolution_gradient/scripts/probe_value_gradient_writeback.py", line 291, in main
+    controls = select_controls(
+  File "/data/user/agent_self_evolution_gradient/scripts/probe_value_gradient_writeback.py", line 124, in select_controls
+    raise ValueError(f"Only {len(candidates)} controls available for {bucket}")
+ValueError: Only 0 controls available for different_task_same_verb

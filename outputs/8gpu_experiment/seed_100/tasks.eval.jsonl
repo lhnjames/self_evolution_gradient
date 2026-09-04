@@ -1,0 +1,40 @@
+{"task_id": "eval-0000", "split": "eval", "operation": "add", "a": 26, "b": 4, "question": "What is the sum obtained from 26 together with 4?", "options": [30, 26, 4, 104], "answer_index": 0}
+{"task_id": "eval-0001", "split": "eval", "operation": "subtract", "a": 29, "b": 3, "question": "Starting at 29, take away 3. What remains?", "options": [29, 27, 25, 26], "answer_index": 3}
+{"task_id": "eval-0002", "split": "eval", "operation": "multiply", "a": 10, "b": 2, "question": "Find the product of the pair 10, 2.", "options": [10, 20, 21, 8], "answer_index": 1}
+{"task_id": "eval-0003", "split": "eval", "operation": "maximum", "a": 25, "b": 6, "question": "Select the greatest value among 25 and 6.", "options": [24, 31, 26, 25], "answer_index": 3}
+{"task_id": "eval-0004", "split": "eval", "operation": "minimum", "a": 6, "b": 5, "question": "Select the least value among 6 and 5.", "options": [3, 6, 5, 1], "answer_index": 2}
+{"task_id": "eval-0005", "split": "eval", "operation": "add", "a": 6, "b": 11, "question": "What is the sum obtained from 6 together with 11?", "options": [-5, 6, 17, 16], "answer_index": 2}
+{"task_id": "eval-0006", "split": "eval", "operation": "subtract", "a": 12, "b": 9, "question": "Starting at 12, take away 9. What remains?", "options": [3, 9, 2, 4], "answer_index": 0}
+{"task_id": "eval-0007", "split": "eval", "operation": "multiply", "a": 23, "b": 4, "question": "Find the product of the pair 23, 4.", "options": [4, 19, 23, 92], "answer_index": 3}
+{"task_id": "eval-0008", "split": "eval", "operation": "maximum", "a": 11, "b": 8, "question": "Select the greatest value among 11 and 8.", "options": [19, 12, 11, 3], "answer_index": 2}
+{"task_id": "eval-0009", "split": "eval", "operation": "minimum", "a": 21, "b": 8, "question": "Select the least value among 21 and 8.", "options": [7, 168, 8, 13], "answer_index": 2}
+{"task_id": "eval-0010", "split": "eval", "operation": "add", "a": 18, "b": 10, "question": "What is the sum obtained from 18 together with 10?", "options": [29, 180, 28, 8], "answer_index": 2}
+{"task_id": "eval-0011", "split": "eval", "operation": "subtract", "a": 18, "b": 13, "question": "Starting at 18, take away 13. What remains?", "options": [18, 13, 6, 5], "answer_index": 3}
+{"task_id": "eval-0012", "split": "eval", "operation": "multiply", "a": 18, "b": 12, "question": "Find the product of the pair 18, 12.", "options": [18, 30, 216, 6], "answer_index": 2}
+{"task_id": "eval-0013", "split": "eval", "operation": "maximum", "a": 11, "b": 10, "question": "Select the greatest value among 11 and 10.", "options": [9, 11, 10, 13], "answer_index": 1}
+{"task_id": "eval-0014", "split": "eval", "operation": "minimum", "a": 28, "b": 13, "question": "Select the least value among 28 and 13.", "options": [14, 13, 41, 28], "answer_index": 1}
+{"task_id": "eval-0015", "split": "eval", "operation": "add", "a": 16, "b": 11, "question": "What is the sum obtained from 16 together with 11?", "options": [16, 176, 5, 27], "answer_index": 3}
+{"task_id": "eval-0016", "split": "eval", "operation": "subtract", "a": 18, "b": 3, "question": "Starting at 18, take away 3. What remains?", "options": [15, 54, 18, 3], "answer_index": 0}
+{"task_id": "eval-0017", "split": "eval", "operation": "multiply", "a": 16, "b": 4, "question": "Find the product of the pair 16, 4.", "options": [20, 64, 63, 16], "answer_index": 1}
+{"task_id": "eval-0018", "split": "eval", "operation": "maximum", "a": 15, "b": 3, "question": "Select the greatest value among 15 and 3.", "options": [3, 15, 14, 45], "answer_index": 1}
+{"task_id": "eval-0019", "split": "eval", "operation": "minimum", "a": 12, "b": 5, "question": "Select the least value among 12 and 5.", "options": [5, 12, 7, 17], "answer_index": 0}
+{"task_id": "eval-0020", "split": "eval", "operation": "add", "a": 22, "b": 2, "question": "What is the sum obtained from 22 together with 2?", "options": [24, 23, 44, 20], "answer_index": 0}
+{"task_id": "eval-0021", "split": "eval", "operation": "subtract", "a": 21, "b": 3, "question": "Starting at 21, take away 3. What remains?", "options": [21, 24, 18, 3], "answer_index": 2}
+{"task_id": "eval-0022", "split": "eval", "operation": "multiply", "a": 11, "b": 11, "question": "Find the product of the pair 11, 11.", "options": [0, 120, 121, 123], "answer_index": 2}
+{"task_id": "eval-0023", "split": "eval", "operation": "maximum", "a": 9, "b": 12, "question": "Select the greatest value among 9 and 12.", "options": [-3, 108, 12, 9], "answer_index": 2}
+{"task_id": "eval-0024", "split": "eval", "operation": "minimum", "a": 20, "b": 10, "question": "Select the least value among 20 and 10.", "options": [10, 9, 20, 30], "answer_index": 0}
+{"task_id": "eval-0025", "split": "eval", "operation": "add", "a": 14, "b": 3, "question": "What is the sum obtained from 14 together with 3?", "options": [16, 17, 11, 18], "answer_index": 1}
+{"task_id": "eval-0026", "split": "eval", "operation": "subtract", "a": 12, "b": 5, "question": "Starting at 12, take away 5. What remains?", "options": [7, 8, 6, 5], "answer_index": 0}
+{"task_id": "eval-0027", "split": "eval", "operation": "multiply", "a": 27, "b": 5, "question": "Find the product of the pair 27, 5.", "options": [135, 22, 32, 27], "answer_index": 0}
+{"task_id": "eval-0028", "split": "eval", "operation": "maximum", "a": 28, "b": 7, "question": "Select the greatest value among 28 and 7.", "options": [28, 7, 29, 21], "answer_index": 0}
+{"task_id": "eval-0029", "split": "eval", "operation": "minimum", "a": 22, "b": 7, "question": "Select the least value among 22 and 7.", "options": [6, 29, 22, 7], "answer_index": 3}
+{"task_id": "eval-0030", "split": "eval", "operation": "add", "a": 8, "b": 4, "question": "What is the sum obtained from 8 together with 4?", "options": [8, 14, 32, 12], "answer_index": 3}
+{"task_id": "eval-0031", "split": "eval", "operation": "subtract", "a": 27, "b": 6, "question": "Starting at 27, take away 6. What remains?", "options": [27, 33, 162, 21], "answer_index": 3}
+{"task_id": "eval-0032", "split": "eval", "operation": "multiply", "a": 28, "b": 2, "question": "Find the product of the pair 28, 2.", "options": [55, 30, 2, 56], "answer_index": 3}
+{"task_id": "eval-0033", "split": "eval", "operation": "maximum", "a": 10, "b": 3, "question": "Select the greatest value among 10 and 3.", "options": [9, 3, 10, 30], "answer_index": 2}
+{"task_id": "eval-0034", "split": "eval", "operation": "minimum", "a": 13, "b": 5, "question": "Select the least value among 13 and 5.", "options": [13, 18, 8, 5], "answer_index": 3}
+{"task_id": "eval-0035", "split": "eval", "operation": "add", "a": 29, "b": 2, "question": "What is the sum obtained from 29 together with 2?", "options": [2, 32, 31, 27], "answer_index": 2}
+{"task_id": "eval-0036", "split": "eval", "operation": "subtract", "a": 20, "b": 6, "question": "Starting at 20, take away 6. What remains?", "options": [13, 6, 20, 14], "answer_index": 3}
+{"task_id": "eval-0037", "split": "eval", "operation": "multiply", "a": 25, "b": 11, "question": "Find the product of the pair 25, 11.", "options": [275, 14, 11, 276], "answer_index": 0}
+{"task_id": "eval-0038", "split": "eval", "operation": "maximum", "a": 26, "b": 6, "question": "Select the greatest value among 26 and 6.", "options": [26, 20, 32, 6], "answer_index": 0}
+{"task_id": "eval-0039", "split": "eval", "operation": "minimum", "a": 27, "b": 3, "question": "Select the least value among 27 and 3.", "options": [24, 3, 27, 81], "answer_index": 1}

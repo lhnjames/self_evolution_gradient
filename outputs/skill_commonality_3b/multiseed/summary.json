@@ -1,0 +1,319 @@
+{
+  "seeds": [
+    {
+      "seed": 910,
+      "train_decisions": 485,
+      "dev_decisions": 113,
+      "selected_skill_kl_lambda": 3.0,
+      "selected_stage_kl_lambda": 3.0,
+      "valid_seen": {
+        "plain": {
+          "top1": 0.41216216216216217,
+          "nll": 2.349925525583745,
+          "kl": 0.0
+        },
+        "stage": {
+          "top1": 0.4391891891891892,
+          "nll": 2.071462342916967,
+          "kl": 0.02821524360731453
+        },
+        "skill": {
+          "top1": 0.45045045045045046,
+          "nll": 2.027983954433828,
+          "kl": 0.03432066628797534
+        },
+        "stage_minus_plain_top1": 0.02702702702702703,
+        "skill_minus_plain_top1": 0.038288288288288286,
+        "skill_minus_stage_top1": 0.011261261261261257,
+        "skill_minus_stage_nll": -0.04347838848313934
+      },
+      "valid_unseen": {
+        "plain": {
+          "top1": 0.31688804554079697,
+          "nll": 2.5786684621881166,
+          "kl": 0.0
+        },
+        "stage": {
+          "top1": 0.3567362428842505,
+          "nll": 2.361592416917016,
+          "kl": 0.023334832945271958
+        },
+        "skill": {
+          "top1": 0.349146110056926,
+          "nll": 2.3017061488856196,
+          "kl": 0.03166408728400821
+        },
+        "stage_minus_plain_top1": 0.03984819734345352,
+        "skill_minus_plain_top1": 0.032258064516129004,
+        "skill_minus_stage_top1": -0.007590132827324514,
+        "skill_minus_stage_nll": -0.059886268031396295
+      }
+    },
+    {
+      "seed": 911,
+      "train_decisions": 469,
+      "dev_decisions": 129,
+      "selected_skill_kl_lambda": 3.0,
+      "selected_stage_kl_lambda": 3.0,
+      "valid_seen": {
+        "plain": {
+          "top1": 0.41216216216216217,
+          "nll": 2.349925525583745,
+          "kl": 0.0
+        },
+        "stage": {
+          "top1": 0.4391891891891892,
+          "nll": 2.0815948012049525,
+          "kl": 0.025845342272405432
+        },
+        "skill": {
+          "top1": 0.4617117117117117,
+          "nll": 2.02740356545776,
+          "kl": 0.0336846134750312
+        },
+        "stage_minus_plain_top1": 0.02702702702702703,
+        "skill_minus_plain_top1": 0.04954954954954954,
+        "skill_minus_stage_top1": 0.022522522522522515,
+        "skill_minus_stage_nll": -0.054191235747192756
+      },
+      "valid_unseen": {
+        "plain": {
+          "top1": 0.31688804554079697,
+          "nll": 2.5786684621881166,
+          "kl": 0.0
+        },
+        "stage": {
+          "top1": 0.349146110056926,
+          "nll": 2.3677729561782326,
+          "kl": 0.02152970241060146
+        },
+        "skill": {
+          "top1": 0.34724857685009486,
+          "nll": 2.321120861991155,
+          "kl": 0.027209018132882633
+        },
+        "stage_minus_plain_top1": 0.032258064516129004,
+        "skill_minus_plain_top1": 0.03036053130929789,
+        "skill_minus_stage_top1": -0.0018975332068311146,
+        "skill_minus_stage_nll": -0.04665209418707761
+      }
+    },
+    {
+      "seed": 912,
+      "train_decisions": 474,
+      "dev_decisions": 124,
+      "selected_skill_kl_lambda": 3.0,
+      "selected_stage_kl_lambda": 3.0,
+      "valid_seen": {
+        "plain": {
+          "top1": 0.41216216216216217,
+          "nll": 2.349925525583745,
+          "kl": 0.0
+        },
+        "stage": {
+          "top1": 0.44819819819819817,
+          "nll": 2.070678712195564,
+          "kl": 0.028298836028314015
+        },
+        "skill": {
+          "top1": 0.4617117117117117,
+          "nll": 2.0177181666803894,
+          "kl": 0.036042664151364485
+        },
+        "stage_minus_plain_top1": 0.036036036036036,
+        "skill_minus_plain_top1": 0.04954954954954954,
+        "skill_minus_stage_top1": 0.013513513513513542,
+        "skill_minus_stage_nll": -0.052960545515174484
+      },
+      "valid_unseen": {
+        "plain": {
+          "top1": 0.31688804554079697,
+          "nll": 2.5786684621881166,
+          "kl": 0.0
+        },
+        "stage": {
+          "top1": 0.3586337760910816,
+          "nll": 2.361522110434293,
+          "kl": 0.02342808710931857
+        },
+        "skill": {
+          "top1": 0.3548387096774194,
+          "nll": 2.314256137910693,
+          "kl": 0.02950159121321097
+        },
+        "stage_minus_plain_top1": 0.04174573055028463,
+        "skill_minus_plain_top1": 0.0379506641366224,
+        "skill_minus_stage_top1": -0.003795066413662229,
+        "skill_minus_stage_nll": -0.04726597252360021
+      }
+    },
+    {
+      "seed": 913,
+      "train_decisions": 487,
+      "dev_decisions": 111,
+      "selected_skill_kl_lambda": 3.0,
+      "selected_stage_kl_lambda": 3.0,
+      "valid_seen": {
+        "plain": {
+          "top1": 0.41216216216216217,
+          "nll": 2.349925525583745,
+          "kl": 0.0
+        },
+        "stage": {
+          "top1": 0.44819819819819817,
+          "nll": 2.068287438642489,
+          "kl": 0.029106350060746907
+        },
+        "skill": {
+          "top1": 0.4572072072072072,
+          "nll": 2.0194063741346104,
+          "kl": 0.03633476181707223
+        },
+        "stage_minus_plain_top1": 0.036036036036036,
+        "skill_minus_plain_top1": 0.04504504504504503,
+        "skill_minus_stage_top1": 0.009009009009009028,
+        "skill_minus_stage_nll": -0.04888106450787877
+      },
+      "valid_unseen": {
+        "plain": {
+          "top1": 0.31688804554079697,
+          "nll": 2.5786684621881166,
+          "kl": 0.0
+        },
+        "stage": {
+          "top1": 0.3586337760910816,
+          "nll": 2.358777254479791,
+          "kl": 0.02371221332271487
+        },
+        "skill": {
+          "top1": 0.3548387096774194,
+          "nll": 2.308372123871778,
+          "kl": 0.030164249617989886
+        },
+        "stage_minus_plain_top1": 0.04174573055028463,
+        "skill_minus_plain_top1": 0.0379506641366224,
+        "skill_minus_stage_top1": -0.003795066413662229,
+        "skill_minus_stage_nll": -0.05040513060801288
+      }
+    },
+    {
+      "seed": 914,
+      "train_decisions": 486,
+      "dev_decisions": 112,
+      "selected_skill_kl_lambda": 3.0,
+      "selected_stage_kl_lambda": 3.0,
+      "valid_seen": {
+        "plain": {
+          "top1": 0.41216216216216217,
+          "nll": 2.349925525583745,
+          "kl": 0.0
+        },
+        "stage": {
+          "top1": 0.4391891891891892,
+          "nll": 2.0844299857804005,
+          "kl": 0.025057132936978574
+        },
+        "skill": {
+          "top1": 0.4594594594594595,
+          "nll": 2.017236032285006,
+          "kl": 0.036840509862150275
+        },
+        "stage_minus_plain_top1": 0.02702702702702703,
+        "skill_minus_plain_top1": 0.047297297297297314,
+        "skill_minus_stage_top1": 0.020270270270270285,
+        "skill_minus_stage_nll": -0.0671939534953947
+      },
+      "valid_unseen": {
+        "plain": {
+          "top1": 0.31688804554079697,
+          "nll": 2.5786684621881166,
+          "kl": 0.0
+        },
+        "stage": {
+          "top1": 0.3510436432637571,
+          "nll": 2.37196560413009,
+          "kl": 0.02099085387638675
+        },
+        "skill": {
+          "top1": 0.349146110056926,
+          "nll": 2.315152079619182,
+          "kl": 0.030187389519674424
+        },
+        "stage_minus_plain_top1": 0.03415559772296012,
+        "skill_minus_plain_top1": 0.032258064516129004,
+        "skill_minus_stage_top1": -0.0018975332068311146,
+        "skill_minus_stage_nll": -0.05681352451090804
+      }
+    }
+  ],
+  "aggregate": {
+    "valid_seen": {
+      "stage_minus_plain_top1": {
+        "mean": 0.030630630630630616,
+        "sample_std": 0.0049344374550014765,
+        "min": 0.02702702702702703,
+        "max": 0.036036036036036,
+        "positive_seeds": 5,
+        "total_seeds": 5
+      },
+      "skill_minus_plain_top1": {
+        "mean": 0.04594594594594594,
+        "sample_std": 0.004670369674172911,
+        "min": 0.038288288288288286,
+        "max": 0.04954954954954954,
+        "positive_seeds": 5,
+        "total_seeds": 5
+      },
+      "skill_minus_stage_top1": {
+        "mean": 0.015315315315315325,
+        "sample_std": 0.00582981040790305,
+        "min": 0.009009009009009028,
+        "max": 0.022522522522522515,
+        "positive_seeds": 5,
+        "total_seeds": 5
+      },
+      "skill_minus_stage_nll": {
+        "mean": -0.05334103754975601,
+        "sample_std": 0.008802472628553605,
+        "min": -0.0671939534953947,
+        "max": -0.04347838848313934,
+        "positive_seeds": 0,
+        "total_seeds": 5
+      }
+    },
+    "valid_unseen": {
+      "stage_minus_plain_top1": {
+        "mean": 0.03795066413662238,
+        "sample_std": 0.004450109829054505,
+        "min": 0.032258064516129004,
+        "max": 0.04174573055028463,
+        "positive_seeds": 5,
+        "total_seeds": 5
+      },
+      "skill_minus_plain_top1": {
+        "mean": 0.03415559772296014,
+        "sample_std": 0.0035499595699942724,
+        "min": 0.03036053130929789,
+        "max": 0.0379506641366224,
+        "positive_seeds": 5,
+        "total_seeds": 5
+      },
+      "skill_minus_stage_top1": {
+        "mean": -0.0037950664136622405,
+        "sample_std": 0.002323994063361666,
+        "min": -0.007590132827324514,
+        "max": -0.0018975332068311146,
+        "positive_seeds": 0,
+        "total_seeds": 5
+      },
+      "skill_minus_stage_nll": {
+        "mean": -0.05220459797219901,
+        "sample_std": 0.005888732060844903,
+        "min": -0.059886268031396295,
+        "max": -0.04665209418707761,
+        "positive_seeds": 0,
+        "total_seeds": 5
+      }
+    }
+  }
+}

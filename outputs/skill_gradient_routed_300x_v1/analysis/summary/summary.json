@@ -1,0 +1,235 @@
+{
+  "required_relative_improvement": 0.3,
+  "rows": [
+    {
+      "route_mode": "oracle_skill",
+      "seed": 20260904,
+      "split": "valid_seen",
+      "base_expected_value": 0.5954424736046026,
+      "expected_value": 0.6548930454885542,
+      "relative_expected_value_gain": 0.09984267921644632,
+      "base_top_optimal_rate": 0.3130630630630631,
+      "top_optimal_rate": 0.46846846846846846,
+      "relative_top_optimal_gain": 0.4964028776978416
+    },
+    {
+      "route_mode": "oracle_skill",
+      "seed": 20260904,
+      "split": "valid_unseen",
+      "base_expected_value": 0.569995599316029,
+      "expected_value": 0.6181322656101922,
+      "relative_expected_value_gain": 0.0844509437475048,
+      "base_top_optimal_rate": 0.3187855787476281,
+      "top_optimal_rate": 0.38519924098671726,
+      "relative_top_optimal_gain": 0.20833333333333331
+    },
+    {
+      "route_mode": "oracle_skill",
+      "seed": 20260921,
+      "split": "valid_seen",
+      "base_expected_value": 0.5954424736046026,
+      "expected_value": 0.6569481228856695,
+      "relative_expected_value_gain": 0.1032940242047784,
+      "base_top_optimal_rate": 0.3130630630630631,
+      "top_optimal_rate": 0.5225225225225225,
+      "relative_top_optimal_gain": 0.6690647482014387
+    },
+    {
+      "route_mode": "oracle_skill",
+      "seed": 20260921,
+      "split": "valid_unseen",
+      "base_expected_value": 0.569995599316029,
+      "expected_value": 0.6011247991655763,
+      "relative_expected_value_gain": 0.05461305295497205,
+      "base_top_optimal_rate": 0.3187855787476281,
+      "top_optimal_rate": 0.27893738140417457,
+      "relative_top_optimal_gain": -0.12500000000000003
+    },
+    {
+      "route_mode": "oracle_skill",
+      "seed": 20260938,
+      "split": "valid_seen",
+      "base_expected_value": 0.5954424736046026,
+      "expected_value": 0.6615391530800716,
+      "relative_expected_value_gain": 0.11100430756197595,
+      "base_top_optimal_rate": 0.3130630630630631,
+      "top_optimal_rate": 0.5292792792792793,
+      "relative_top_optimal_gain": 0.6906474820143885
+    },
+    {
+      "route_mode": "oracle_skill",
+      "seed": 20260938,
+      "split": "valid_unseen",
+      "base_expected_value": 0.569995599316029,
+      "expected_value": 0.6193648939223185,
+      "relative_expected_value_gain": 0.08661346625400386,
+      "base_top_optimal_rate": 0.3187855787476281,
+      "top_optimal_rate": 0.3738140417457306,
+      "relative_top_optimal_gain": 0.1726190476190477
+    },
+    {
+      "route_mode": "oracle_skill",
+      "seed": 20260955,
+      "split": "valid_seen",
+      "base_expected_value": 0.5954424736046026,
+      "expected_value": 0.6520341430185681,
+      "relative_expected_value_gain": 0.0950413716229868,
+      "base_top_optimal_rate": 0.3130630630630631,
+      "top_optimal_rate": 0.44594594594594594,
+      "relative_top_optimal_gain": 0.4244604316546762
+    },
+    {
+      "route_mode": "oracle_skill",
+      "seed": 20260955,
+      "split": "valid_unseen",
+      "base_expected_value": 0.569995599316029,
+      "expected_value": 0.6168018007725671,
+      "relative_expected_value_gain": 0.08211677688863499,
+      "base_top_optimal_rate": 0.3187855787476281,
+      "top_optimal_rate": 0.3510436432637571,
+      "relative_top_optimal_gain": 0.1011904761904761
+    },
+    {
+      "route_mode": "base_predicted_skill",
+      "seed": 20260904,
+      "split": "valid_seen",
+      "base_expected_value": 0.5954424736046026,
+      "expected_value": 0.6197604370072735,
+      "relative_expected_value_gain": 0.040840155818006,
+      "base_top_optimal_rate": 0.3130630630630631,
+      "top_optimal_rate": 0.3310810810810811,
+      "relative_top_optimal_gain": 0.057553956834532315
+    },
+    {
+      "route_mode": "base_predicted_skill",
+      "seed": 20260904,
+      "split": "valid_unseen",
+      "base_expected_value": 0.569995599316029,
+      "expected_value": 0.5929152820951094,
+      "relative_expected_value_gain": 0.04021028023125631,
+      "base_top_optimal_rate": 0.3187855787476281,
+      "top_optimal_rate": 0.3567362428842505,
+      "relative_top_optimal_gain": 0.11904761904761908
+    },
+    {
+      "route_mode": "base_predicted_skill",
+      "seed": 20260921,
+      "split": "valid_seen",
+      "base_expected_value": 0.5954424736046026,
+      "expected_value": 0.6266013773062559,
+      "relative_expected_value_gain": 0.052328990763840025,
+      "base_top_optimal_rate": 0.3130630630630631,
+      "top_optimal_rate": 0.44144144144144143,
+      "relative_top_optimal_gain": 0.410071942446043
+    },
+    {
+      "route_mode": "base_predicted_skill",
+      "seed": 20260921,
+      "split": "valid_unseen",
+      "base_expected_value": 0.569995599316029,
+      "expected_value": 0.5781400055777548,
+      "relative_expected_value_gain": 0.01428854235278098,
+      "base_top_optimal_rate": 0.3187855787476281,
+      "top_optimal_rate": 0.22580645161290322,
+      "relative_top_optimal_gain": -0.2916666666666667
+    },
+    {
+      "route_mode": "base_predicted_skill",
+      "seed": 20260938,
+      "split": "valid_seen",
+      "base_expected_value": 0.5954424736046026,
+      "expected_value": 0.6287513389686618,
+      "relative_expected_value_gain": 0.05593968660384412,
+      "base_top_optimal_rate": 0.3130630630630631,
+      "top_optimal_rate": 0.4189189189189189,
+      "relative_top_optimal_gain": 0.3381294964028776
+    },
+    {
+      "route_mode": "base_predicted_skill",
+      "seed": 20260938,
+      "split": "valid_unseen",
+      "base_expected_value": 0.569995599316029,
+      "expected_value": 0.5911109488271615,
+      "relative_expected_value_gain": 0.03704475883054208,
+      "base_top_optimal_rate": 0.3187855787476281,
+      "top_optimal_rate": 0.31688804554079697,
+      "relative_top_optimal_gain": -0.0059523809523809364
+    },
+    {
+      "route_mode": "base_predicted_skill",
+      "seed": 20260955,
+      "split": "valid_seen",
+      "base_expected_value": 0.5954424736046026,
+      "expected_value": 0.6230477334996771,
+      "relative_expected_value_gain": 0.04636091834020821,
+      "base_top_optimal_rate": 0.3130630630630631,
+      "top_optimal_rate": 0.3536036036036036,
+      "relative_top_optimal_gain": 0.12949640287769776
+    },
+    {
+      "route_mode": "base_predicted_skill",
+      "seed": 20260955,
+      "split": "valid_unseen",
+      "base_expected_value": 0.569995599316029,
+      "expected_value": 0.5896239595430313,
+      "relative_expected_value_gain": 0.03443598555945964,
+      "base_top_optimal_rate": 0.3187855787476281,
+      "top_optimal_rate": 0.3092979127134725,
+      "relative_top_optimal_gain": -0.029761904761904684
+    }
+  ],
+  "summary": [
+    {
+      "route_mode": "base_predicted_skill",
+      "split": "valid_seen",
+      "seeds": 4,
+      "relative_expected_value_gain_mean": 0.04886743788147459,
+      "relative_expected_value_gain_std": 0.0057601854980049196,
+      "relative_top_optimal_gain_mean": 0.23381294964028765,
+      "relative_top_optimal_gain_std": 0.1448260585553769,
+      "all_seeds_expected_value_meet_30pct": false,
+      "all_seeds_top_optimal_meet_30pct": false,
+      "seed_relative_expected_value_gain": 0.04957291342451856,
+      "seed_relative_top_optimal_gain": 0.38848920863309344
+    },
+    {
+      "route_mode": "base_predicted_skill",
+      "split": "valid_unseen",
+      "seeds": 4,
+      "relative_expected_value_gain_mean": 0.03149489174350975,
+      "relative_expected_value_gain_std": 0.010142331011238504,
+      "relative_top_optimal_gain_mean": -0.05208333333333331,
+      "relative_top_optimal_gain_std": 0.14942580718785328,
+      "all_seeds_expected_value_meet_30pct": false,
+      "all_seeds_top_optimal_meet_30pct": false,
+      "seed_relative_expected_value_gain": 0.04633915887818015,
+      "seed_relative_top_optimal_gain": 0.1904761904761905
+    },
+    {
+      "route_mode": "oracle_skill",
+      "split": "valid_seen",
+      "seeds": 4,
+      "relative_expected_value_gain_mean": 0.10229559565154688,
+      "relative_expected_value_gain_std": 0.005819774222615555,
+      "relative_top_optimal_gain_mean": 0.5701438848920862,
+      "relative_top_optimal_gain_std": 0.1128803113993756,
+      "all_seeds_expected_value_meet_30pct": false,
+      "all_seeds_top_optimal_meet_30pct": true,
+      "seed_relative_expected_value_gain": 0.04957291342451856,
+      "seed_relative_top_optimal_gain": 0.38848920863309344
+    },
+    {
+      "route_mode": "oracle_skill",
+      "split": "valid_unseen",
+      "seeds": 4,
+      "relative_expected_value_gain_mean": 0.07694855996127893,
+      "relative_expected_value_gain_std": 0.012993089659122384,
+      "relative_top_optimal_gain_mean": 0.08928571428571427,
+      "relative_top_optimal_gain_std": 0.12959250629212646,
+      "all_seeds_expected_value_meet_30pct": false,
+      "all_seeds_top_optimal_meet_30pct": false,
+      "seed_relative_expected_value_gain": 0.04633915887818015,
+      "seed_relative_top_optimal_gain": 0.1904761904761905
+    }
+  ]
+}

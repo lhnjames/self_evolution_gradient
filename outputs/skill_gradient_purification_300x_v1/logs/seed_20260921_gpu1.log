@@ -1,0 +1,44 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.11s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.47s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.72s/it]
+[1/3] go single=1/12
+[1/3] go single=2/12
+[1/3] go single=3/12
+[1/3] go single=4/12
+[1/3] go single=5/12
+[1/3] go single=6/12
+[1/3] go single=7/12
+[1/3] go single=8/12
+[1/3] go single=9/12
+[1/3] go single=10/12
+[1/3] go single=11/12
+[1/3] go single=12/12
+[1/3] go mean12 holdout=+0.136514
+[1/3] go purified12 holdout=+0.079563
+[2/3] open single=1/12
+[2/3] open single=2/12
+[2/3] open single=3/12
+[2/3] open single=4/12
+[2/3] open single=5/12
+[2/3] open single=6/12
+[2/3] open single=7/12
+[2/3] open single=8/12
+[2/3] open single=9/12
+[2/3] open single=10/12
+[2/3] open single=11/12
+[2/3] open single=12/12
+[2/3] open mean12 holdout=+0.028305
+[2/3] open purified12 holdout=+0.027392
+[3/3] close single=1/12
+[3/3] close single=2/12
+[3/3] close single=3/12
+[3/3] close single=4/12
+[3/3] close single=5/12
+[3/3] close single=6/12
+[3/3] close single=7/12
+[3/3] close single=8/12
+[3/3] close single=9/12
+[3/3] close single=10/12
+[3/3] close single=11/12
+[3/3] close single=12/12
+[3/3] close mean12 holdout=+0.147997
+[3/3] close purified12 holdout=+0.129116
+{"output": "/data/user/agent_self_evolution_gradient/outputs/skill_gradient_purification_300x_v1/seed_20260921/results.json", "verbs": 3}

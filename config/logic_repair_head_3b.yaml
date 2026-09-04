@@ -1,0 +1,11 @@
+seed: 611
+train_trace: /data/hanning/agent_self_evolution_gradient/outputs/alfworld_train_scores_3b/trace.jsonl
+eval_trace: /data/hanning/agent_self_evolution_gradient/outputs/alfworld_eval_scores_3b/trace.jsonl
+output_dir: /data/hanning/agent_self_evolution_gradient/outputs/logic_repair_head_3b
+dev_fraction: 0.25
+epochs: 500
+learning_rate: 0.01
+weight_decay: 0.001
+patience: 50
+kl_budget: 0.05
+constrained_kl_lambdas: [0.1, 0.3, 1.0, 3.0, 10.0]

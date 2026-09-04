@@ -1,0 +1,25 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.01s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.59s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.80s/it]
+cached historical_source 171
+cached historical_source 403
+cached historical_source 65
+cached historical_source 270
+cached historical_source 12
+cached historical_source 109
+cached historical_source 421
+cached historical_source 189
+cached historical_source 226
+cached transfer_validation 33
+cached transfer_validation 304
+cached transfer_validation 383
+cached unseen_family 238
+cached unseen_family 432
+cached unseen_family 130
+cached unseen_family 285
+cached unseen_family 146
+cached harm_validation 205
+cached harm_validation 396
+cached harm_validation 345
+cached protection_test 216
+cached protection_test 321
+cached protection_test 314
+wrote outputs/output_gradient_self_evolution/unseen_family_seed_20260921.json

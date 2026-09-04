@@ -1,0 +1,2 @@
+[console_scripts]
+self-evolve = self_evolve.runner:main

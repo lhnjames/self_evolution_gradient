@@ -1,0 +1,13 @@
+seed: 913
+train_trace: /data/hanning/agent_self_evolution_gradient/outputs/skill_commonality_3b/enriched_traces/train.jsonl
+eval_trace: /data/hanning/agent_self_evolution_gradient/outputs/skill_commonality_3b/enriched_traces/valid_seen.jsonl
+additional_eval_traces:
+  valid_unseen: /data/hanning/agent_self_evolution_gradient/outputs/skill_commonality_3b/enriched_traces/valid_unseen.jsonl
+output_dir: /data/hanning/agent_self_evolution_gradient/outputs/skill_commonality_3b/multiseed/seed913
+dev_fraction: 0.2
+epochs: 300
+learning_rate: 0.01
+weight_decay: 0.001
+patience: 40
+kl_budget: 0.05
+constrained_kl_lambdas: [1.0, 3.0, 10.0]

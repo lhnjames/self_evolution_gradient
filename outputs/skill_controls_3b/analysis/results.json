@@ -1,0 +1,1013 @@
+{
+  "bootstrap_samples": 10000,
+  "splits": {
+    "valid_seen": {
+      "conditions": {
+        "plain": {
+          "decisions": 444,
+          "episodes": 33,
+          "correct": 0.41216216216216217,
+          "gold_probability": 0.22908317220180463,
+          "nll": 2.3499255259778473,
+          "margin": -0.6458236052554521,
+          "kl_from_plain": 0.0,
+          "gold_logp_gain": 0.0,
+          "margin_gain": 0.0,
+          "gradient_cosine": 0.0,
+          "first_order_gain": 0.0
+        },
+        "evolved_skill": {
+          "decisions": 444,
+          "episodes": 33,
+          "correct": 0.3918918918918919,
+          "gold_probability": 0.18401847133970256,
+          "nll": 2.2542377392414332,
+          "margin": -0.4988756672029674,
+          "kl_from_plain": 0.22429254778609542,
+          "gold_logp_gain": 0.09568778673641369,
+          "margin_gain": 0.14694793805248466,
+          "gradient_cosine": 0.01910364071347371,
+          "first_order_gain": 0.3254386869523897,
+          "positive_gradient_rate": 0.5315315315315315
+        },
+        "mismatched_skill": {
+          "decisions": 444,
+          "episodes": 33,
+          "correct": 0.3310810810810811,
+          "gold_probability": 0.1620552831959584,
+          "nll": 2.4214618886305375,
+          "margin": -0.678706218417274,
+          "kl_from_plain": 0.2167131282783749,
+          "gold_logp_gain": -0.0715363626526905,
+          "margin_gain": -0.032882613161822026,
+          "gradient_cosine": 0.002051864960510475,
+          "first_order_gain": 0.12913924999128637,
+          "positive_gradient_rate": 0.48423423423423423,
+          "direction_cosine_with_evolved": 0.8390900257744367
+        },
+        "reformatted_skill": {
+          "decisions": 444,
+          "episodes": 33,
+          "correct": 0.3716216216216216,
+          "gold_probability": 0.1743499498757128,
+          "nll": 2.327881499338616,
+          "margin": -0.5767324161714075,
+          "kl_from_plain": 0.22379568079760379,
+          "gold_logp_gain": 0.02204402663923117,
+          "margin_gain": 0.06909118908404452,
+          "gradient_cosine": 0.007904930182367133,
+          "first_order_gain": 0.23216093148767172,
+          "positive_gradient_rate": 0.49099099099099097,
+          "direction_cosine_with_evolved": 0.9149259363334058
+        },
+        "anti_skill": {
+          "decisions": 444,
+          "episodes": 33,
+          "correct": 0.38063063063063063,
+          "gold_probability": 0.14809224900086623,
+          "nll": 2.305220797148011,
+          "margin": -0.43784245747405076,
+          "kl_from_plain": 0.2788007363652808,
+          "gold_logp_gain": 0.04470472882983616,
+          "margin_gain": 0.20798114778140125,
+          "gradient_cosine": 0.010175680703954764,
+          "first_order_gain": 0.2947924803062207,
+          "positive_gradient_rate": 0.48873873873873874,
+          "direction_cosine_with_evolved": 0.8550359666179433
+        },
+        "task_only_skill": {
+          "decisions": 444,
+          "episodes": 33,
+          "correct": 0.40540540540540543,
+          "gold_probability": 0.19446821128568917,
+          "nll": 2.2211155676323147,
+          "margin": -0.49059093119314623,
+          "kl_from_plain": 0.23656336233494937,
+          "gold_logp_gain": 0.12880995834553235,
+          "margin_gain": 0.1552326740623058,
+          "gradient_cosine": 0.025212610429439446,
+          "first_order_gain": 0.3863468249388898,
+          "positive_gradient_rate": 0.5585585585585585,
+          "direction_cosine_with_evolved": 0.8561021257451988
+        },
+        "general_only_skill": {
+          "decisions": 444,
+          "episodes": 33,
+          "correct": 0.36261261261261263,
+          "gold_probability": 0.17213100518831545,
+          "nll": 2.332071155691779,
+          "margin": -0.5686323132004555,
+          "kl_from_plain": 0.18056762868068202,
+          "gold_logp_gain": 0.017854370286068115,
+          "margin_gain": 0.07719129205499659,
+          "gradient_cosine": 0.01401256759185945,
+          "first_order_gain": 0.18126489730485476,
+          "positive_gradient_rate": 0.5022522522522522,
+          "direction_cosine_with_evolved": 0.8736542022050957
+        },
+        "length_matched_placebo": {
+          "decisions": 444,
+          "episodes": 33,
+          "correct": 0.3963963963963964,
+          "gold_probability": 0.18502950825919198,
+          "nll": 2.425679327764224,
+          "margin": -0.7090705211902956,
+          "kl_from_plain": 0.07376823161197059,
+          "gold_logp_gain": -0.07575380178637658,
+          "margin_gain": -0.06324691593484351,
+          "gradient_cosine": -0.017487727886174913,
+          "first_order_gain": -0.010006848920308292,
+          "positive_gradient_rate": 0.41216216216216217,
+          "direction_cosine_with_evolved": 0.7103496755105674
+        }
+      },
+      "reformatted_top1_agreement_with_evolved": 0.8220720720720721,
+      "reformatted_effect_correlation": 0.9536626774837126,
+      "anti_effect_correlation": 0.9055871353187497,
+      "placebo_length_exact_rate": 1.0,
+      "prompt_truncation": {
+        "evolved_skill_rate": 0.0,
+        "evolved_skill_mean_overflow_tokens": 0.0,
+        "reformatted_skill_rate": 0.0,
+        "anti_skill_rate": 0.0,
+        "task_only_skill_rate": 0.0,
+        "general_only_skill_rate": 0.0,
+        "length_matched_placebo_rate": 0.0
+      },
+      "bootstrap_contrasts": {
+        "evolved_skill_minus_plain__correct": {
+          "observed": -0.02027027027027027,
+          "ci95": [
+            -0.06288098454281854,
+            0.023750860387748016
+          ],
+          "probability_positive": 0.1736
+        },
+        "evolved_skill_minus_plain__gold_logp_gain": {
+          "observed": 0.09568778673641369,
+          "ci95": [
+            -0.06974115287505353,
+            0.3024092708873384
+          ],
+          "probability_positive": 0.8324
+        },
+        "evolved_skill_minus_plain__margin_gain": {
+          "observed": 0.14694793805248466,
+          "ci95": [
+            -0.09134563770993155,
+            0.43735806507821334
+          ],
+          "probability_positive": 0.8581
+        },
+        "evolved_skill_minus_plain__gradient_cosine": {
+          "observed": 0.01910364071347371,
+          "ci95": [
+            -0.011789474563302874,
+            0.05774343039377537
+          ],
+          "probability_positive": 0.8508
+        },
+        "mismatched_skill_minus_plain__correct": {
+          "observed": -0.08108108108108109,
+          "ci95": [
+            -0.11136419891989198,
+            -0.05194805194805195
+          ],
+          "probability_positive": 0.0
+        },
+        "mismatched_skill_minus_plain__gold_logp_gain": {
+          "observed": -0.07153636265269049,
+          "ci95": [
+            -0.1920361049504149,
+            0.06507976349569485
+          ],
+          "probability_positive": 0.138
+        },
+        "mismatched_skill_minus_plain__margin_gain": {
+          "observed": -0.032882613161822026,
+          "ci95": [
+            -0.19302791754829443,
+            0.14903322808744365
+          ],
+          "probability_positive": 0.3324
+        },
+        "mismatched_skill_minus_plain__gradient_cosine": {
+          "observed": 0.002051864960510477,
+          "ci95": [
+            -0.02814781675377399,
+            0.041740090754551214
+          ],
+          "probability_positive": 0.5045
+        },
+        "reformatted_skill_minus_plain__correct": {
+          "observed": -0.04054054054054054,
+          "ci95": [
+            -0.07623318385650224,
+            -0.006787330316742082
+          ],
+          "probability_positive": 0.0077
+        },
+        "reformatted_skill_minus_plain__gold_logp_gain": {
+          "observed": 0.022044026639231152,
+          "ci95": [
+            -0.1239174850267039,
+            0.21223587006050326
+          ],
+          "probability_positive": 0.5636
+        },
+        "reformatted_skill_minus_plain__margin_gain": {
+          "observed": 0.06909118908404452,
+          "ci95": [
+            -0.1443338235124783,
+            0.3403836424532924
+          ],
+          "probability_positive": 0.6898
+        },
+        "reformatted_skill_minus_plain__gradient_cosine": {
+          "observed": 0.007904930182367138,
+          "ci95": [
+            -0.019382992536390916,
+            0.04453958595627918
+          ],
+          "probability_positive": 0.6497
+        },
+        "anti_skill_minus_plain__correct": {
+          "observed": -0.03153153153153153,
+          "ci95": [
+            -0.07272727272727272,
+            0.009203874119518271
+          ],
+          "probability_positive": 0.0574
+        },
+        "anti_skill_minus_plain__gold_logp_gain": {
+          "observed": 0.044704728829836136,
+          "ci95": [
+            -0.14602988057205712,
+            0.2867705966857163
+          ],
+          "probability_positive": 0.6077
+        },
+        "anti_skill_minus_plain__margin_gain": {
+          "observed": 0.20798114778140125,
+          "ci95": [
+            -0.05930582161026344,
+            0.5328278757243619
+          ],
+          "probability_positive": 0.92
+        },
+        "anti_skill_minus_plain__gradient_cosine": {
+          "observed": 0.010175680703954764,
+          "ci95": [
+            -0.016518827250540612,
+            0.04490525975987733
+          ],
+          "probability_positive": 0.7062
+        },
+        "task_only_skill_minus_plain__correct": {
+          "observed": -0.006756756756756757,
+          "ci95": [
+            -0.043593155893536115,
+            0.029411764705882353
+          ],
+          "probability_positive": 0.3459
+        },
+        "task_only_skill_minus_plain__gold_logp_gain": {
+          "observed": 0.12880995834553235,
+          "ci95": [
+            -0.03549416341123754,
+            0.3383346896694016
+          ],
+          "probability_positive": 0.9229
+        },
+        "task_only_skill_minus_plain__margin_gain": {
+          "observed": 0.1552326740623058,
+          "ci95": [
+            -0.08326526171623662,
+            0.45009913958597175
+          ],
+          "probability_positive": 0.8703
+        },
+        "task_only_skill_minus_plain__gradient_cosine": {
+          "observed": 0.025212610429439446,
+          "ci95": [
+            -0.0059869351889384435,
+            0.061879096476800906
+          ],
+          "probability_positive": 0.935
+        },
+        "general_only_skill_minus_plain__correct": {
+          "observed": -0.04954954954954955,
+          "ci95": [
+            -0.07783054174669529,
+            -0.020930232558139535
+          ],
+          "probability_positive": 0.0002
+        },
+        "general_only_skill_minus_plain__gold_logp_gain": {
+          "observed": 0.01785437028606811,
+          "ci95": [
+            -0.11145934383092242,
+            0.17278594445611947
+          ],
+          "probability_positive": 0.5565
+        },
+        "general_only_skill_minus_plain__margin_gain": {
+          "observed": 0.07719129205499659,
+          "ci95": [
+            -0.09390197665314318,
+            0.2778790817472283
+          ],
+          "probability_positive": 0.776
+        },
+        "general_only_skill_minus_plain__gradient_cosine": {
+          "observed": 0.014012567591859456,
+          "ci95": [
+            -0.01642668701366814,
+            0.05281534250598264
+          ],
+          "probability_positive": 0.7682
+        },
+        "length_matched_placebo_minus_plain__correct": {
+          "observed": -0.015765765765765764,
+          "ci95": [
+            -0.03761094804170683,
+            0.006350732600732579
+          ],
+          "probability_positive": 0.0675
+        },
+        "length_matched_placebo_minus_plain__gold_logp_gain": {
+          "observed": -0.07575380178637658,
+          "ci95": [
+            -0.1303147409218448,
+            -0.00878644652181239
+          ],
+          "probability_positive": 0.0141
+        },
+        "length_matched_placebo_minus_plain__margin_gain": {
+          "observed": -0.06324691593484351,
+          "ci95": [
+            -0.14463910679933356,
+            0.028590397885064317
+          ],
+          "probability_positive": 0.0787
+        },
+        "length_matched_placebo_minus_plain__gradient_cosine": {
+          "observed": -0.017487727886174913,
+          "ci95": [
+            -0.03188239319606266,
+            -1.0589160564503858e-05
+          ],
+          "probability_positive": 0.0249
+        },
+        "evolved_skill_minus_mismatched_skill__correct": {
+          "observed": 0.060810810810810814,
+          "ci95": [
+            0.027521361241156343,
+            0.09780493361103879
+          ],
+          "probability_positive": 1.0
+        },
+        "evolved_skill_minus_mismatched_skill__gold_logp_gain": {
+          "observed": 0.16722414938910418,
+          "ci95": [
+            0.0908143150185699,
+            0.25461191092784924
+          ],
+          "probability_positive": 1.0
+        },
+        "evolved_skill_minus_mismatched_skill__margin_gain": {
+          "observed": 0.1798305512143067,
+          "ci95": [
+            0.06536221443045183,
+            0.3149037605737858
+          ],
+          "probability_positive": 0.9996
+        },
+        "evolved_skill_minus_reformatted_skill__correct": {
+          "observed": 0.02027027027027027,
+          "ci95": [
+            -0.0023700924114060783,
+            0.04439756503709992
+          ],
+          "probability_positive": 0.9495
+        },
+        "evolved_skill_minus_reformatted_skill__gold_logp_gain": {
+          "observed": 0.07364376009718251,
+          "ci95": [
+            0.04448226790448984,
+            0.10570848071526384
+          ],
+          "probability_positive": 1.0
+        },
+        "evolved_skill_minus_reformatted_skill__margin_gain": {
+          "observed": 0.07785674896844015,
+          "ci95": [
+            0.041813675385281815,
+            0.11640823716206937
+          ],
+          "probability_positive": 1.0
+        },
+        "evolved_skill_minus_anti_skill__correct": {
+          "observed": 0.01126126126126126,
+          "ci95": [
+            -0.027989821882951654,
+            0.046840155195917346
+          ],
+          "probability_positive": 0.7133
+        },
+        "evolved_skill_minus_anti_skill__gold_logp_gain": {
+          "observed": 0.05098305790657755,
+          "ci95": [
+            -0.00028612816662280184,
+            0.10478785336835274
+          ],
+          "probability_positive": 0.9742
+        },
+        "evolved_skill_minus_anti_skill__margin_gain": {
+          "observed": -0.06103320972891661,
+          "ci95": [
+            -0.1219586376358215,
+            0.008425631834461666
+          ],
+          "probability_positive": 0.0453
+        },
+        "evolved_skill_minus_task_only_skill__correct": {
+          "observed": -0.013513513513513514,
+          "ci95": [
+            -0.05523448754887837,
+            0.024775240116149202
+          ],
+          "probability_positive": 0.2354
+        },
+        "evolved_skill_minus_task_only_skill__gold_logp_gain": {
+          "observed": -0.03312217160911865,
+          "ci95": [
+            -0.07301873913557949,
+            0.0018262530170852782
+          ],
+          "probability_positive": 0.0325
+        },
+        "evolved_skill_minus_task_only_skill__margin_gain": {
+          "observed": -0.008284736009821153,
+          "ci95": [
+            -0.07433816560988286,
+            0.051929589977184366
+          ],
+          "probability_positive": 0.4042
+        },
+        "evolved_skill_minus_general_only_skill__correct": {
+          "observed": 0.02927927927927928,
+          "ci95": [
+            0.005951939381093684,
+            0.05370918684418098
+          ],
+          "probability_positive": 0.9919
+        },
+        "evolved_skill_minus_general_only_skill__gold_logp_gain": {
+          "observed": 0.0778334164503456,
+          "ci95": [
+            0.006566888817319302,
+            0.1515777088568818
+          ],
+          "probability_positive": 0.9845
+        },
+        "evolved_skill_minus_general_only_skill__margin_gain": {
+          "observed": 0.06975664599748808,
+          "ci95": [
+            -0.016962695539549363,
+            0.16657368156539812
+          ],
+          "probability_positive": 0.9361
+        },
+        "evolved_skill_minus_length_matched_placebo__correct": {
+          "observed": -0.0045045045045045045,
+          "ci95": [
+            -0.048676682444947515,
+            0.04143646408839779
+          ],
+          "probability_positive": 0.395
+        },
+        "evolved_skill_minus_length_matched_placebo__gold_logp_gain": {
+          "observed": 0.17144158852279026,
+          "ci95": [
+            0.05015169001370511,
+            0.32603685085409156
+          ],
+          "probability_positive": 0.9995
+        },
+        "evolved_skill_minus_length_matched_placebo__margin_gain": {
+          "observed": 0.21019485398732818,
+          "ci95": [
+            0.02859173911233821,
+            0.4362248423279204
+          ],
+          "probability_positive": 0.9933
+        }
+      }
+    },
+    "valid_unseen": {
+      "conditions": {
+        "plain": {
+          "decisions": 527,
+          "episodes": 34,
+          "correct": 0.31688804554079697,
+          "gold_probability": 0.17699650125325123,
+          "nll": 2.578668459106171,
+          "margin": -0.9702466568753345,
+          "kl_from_plain": 0.0,
+          "gold_logp_gain": 0.0,
+          "margin_gain": 0.0,
+          "gradient_cosine": 0.0,
+          "first_order_gain": 0.0
+        },
+        "evolved_skill": {
+          "decisions": 527,
+          "episodes": 34,
+          "correct": 0.3036053130929791,
+          "gold_probability": 0.15494058516125173,
+          "nll": 2.4313875006637193,
+          "margin": -0.6906200102338321,
+          "kl_from_plain": 0.20540533206518374,
+          "gold_logp_gain": 0.14728095844245168,
+          "margin_gain": 0.2796266466415024,
+          "gradient_cosine": 0.02833480660072016,
+          "first_order_gain": 0.3502372037421065,
+          "positive_gradient_rate": 0.5559772296015181
+        },
+        "mismatched_skill": {
+          "decisions": 527,
+          "episodes": 34,
+          "correct": 0.2637571157495256,
+          "gold_probability": 0.14001516710324433,
+          "nll": 2.5751510986392927,
+          "margin": -0.877606078858486,
+          "kl_from_plain": 0.1773070140847601,
+          "gold_logp_gain": 0.0035173604668781435,
+          "margin_gain": 0.09264057801684848,
+          "gradient_cosine": 0.015369108699142684,
+          "first_order_gain": 0.15316203445718493,
+          "positive_gradient_rate": 0.5256166982922201,
+          "direction_cosine_with_evolved": 0.8472337955370869
+        },
+        "reformatted_skill": {
+          "decisions": 527,
+          "episodes": 34,
+          "correct": 0.3225806451612903,
+          "gold_probability": 0.15252563196710156,
+          "nll": 2.4910294717126367,
+          "margin": -0.7945322342675387,
+          "kl_from_plain": 0.23392139539985646,
+          "gold_logp_gain": 0.08763898739353457,
+          "margin_gain": 0.17571442260779577,
+          "gradient_cosine": 0.027896882507243752,
+          "first_order_gain": 0.32335508795222334,
+          "positive_gradient_rate": 0.5426944971537002,
+          "direction_cosine_with_evolved": 0.9220782912132278
+        },
+        "anti_skill": {
+          "decisions": 527,
+          "episodes": 34,
+          "correct": 0.31499051233396586,
+          "gold_probability": 0.13096317360428647,
+          "nll": 2.483666558467861,
+          "margin": -0.7012025386485512,
+          "kl_from_plain": 0.2318267222298456,
+          "gold_logp_gain": 0.09500190063830961,
+          "margin_gain": 0.26904411822678326,
+          "gradient_cosine": 0.015212684484647377,
+          "first_order_gain": 0.2906413633295508,
+          "positive_gradient_rate": 0.5275142314990512,
+          "direction_cosine_with_evolved": 0.8753039484956303
+        },
+        "task_only_skill": {
+          "decisions": 527,
+          "episodes": 34,
+          "correct": 0.3301707779886148,
+          "gold_probability": 0.1677796607341588,
+          "nll": 2.368052596708647,
+          "margin": -0.6846726373841999,
+          "kl_from_plain": 0.2629651183145889,
+          "gold_logp_gain": 0.21061586239752358,
+          "margin_gain": 0.2855740194911346,
+          "gradient_cosine": 0.04181009435458229,
+          "first_order_gain": 0.49785664422571496,
+          "positive_gradient_rate": 0.6053130929791272,
+          "direction_cosine_with_evolved": 0.8705447657608394
+        },
+        "general_only_skill": {
+          "decisions": 527,
+          "episodes": 34,
+          "correct": 0.2998102466793169,
+          "gold_probability": 0.14863669683136285,
+          "nll": 2.4955414473623367,
+          "margin": -0.7670523325581385,
+          "kl_from_plain": 0.14934463315064328,
+          "gold_logp_gain": 0.08312701174383479,
+          "margin_gain": 0.203194324317196,
+          "gradient_cosine": 0.02673277720075366,
+          "first_order_gain": 0.21152815260541133,
+          "positive_gradient_rate": 0.5502846299810247,
+          "direction_cosine_with_evolved": 0.8537316352980031
+        },
+        "length_matched_placebo": {
+          "decisions": 527,
+          "episodes": 34,
+          "correct": 0.29601518026565465,
+          "gold_probability": 0.1486039807783441,
+          "nll": 2.61861177503769,
+          "margin": -0.9897923354249821,
+          "kl_from_plain": 0.06563455758409394,
+          "gold_logp_gain": -0.0399433159315192,
+          "margin_gain": -0.01954567854964749,
+          "gradient_cosine": -0.00950891615887675,
+          "first_order_gain": 0.018508918498925896,
+          "positive_gradient_rate": 0.44022770398481975,
+          "direction_cosine_with_evolved": 0.7182198351899304
+        }
+      },
+      "reformatted_top1_agreement_with_evolved": 0.7760910815939279,
+      "reformatted_effect_correlation": 0.9271068115103995,
+      "anti_effect_correlation": 0.9125130089928594,
+      "placebo_length_exact_rate": 1.0,
+      "prompt_truncation": {
+        "evolved_skill_rate": 0.0,
+        "evolved_skill_mean_overflow_tokens": 0.0,
+        "reformatted_skill_rate": 0.0,
+        "anti_skill_rate": 0.0,
+        "task_only_skill_rate": 0.0,
+        "general_only_skill_rate": 0.0,
+        "length_matched_placebo_rate": 0.0
+      },
+      "bootstrap_contrasts": {
+        "evolved_skill_minus_plain__correct": {
+          "observed": -0.013282732447817837,
+          "ci95": [
+            -0.04956941080079795,
+            0.027075899559385233
+          ],
+          "probability_positive": 0.2317
+        },
+        "evolved_skill_minus_plain__gold_logp_gain": {
+          "observed": 0.14728095844245168,
+          "ci95": [
+            0.017878008283899082,
+            0.3035002073598999
+          ],
+          "probability_positive": 0.9916
+        },
+        "evolved_skill_minus_plain__margin_gain": {
+          "observed": 0.2796266466415024,
+          "ci95": [
+            0.09253192847618774,
+            0.4976483433426991
+          ],
+          "probability_positive": 0.9997
+        },
+        "evolved_skill_minus_plain__gradient_cosine": {
+          "observed": 0.028334806600720165,
+          "ci95": [
+            0.006699642391537695,
+            0.05576090918015994
+          ],
+          "probability_positive": 0.998
+        },
+        "mismatched_skill_minus_plain__correct": {
+          "observed": -0.05313092979127135,
+          "ci95": [
+            -0.08844926812022816,
+            -0.01855660539754796
+          ],
+          "probability_positive": 0.0008
+        },
+        "mismatched_skill_minus_plain__gold_logp_gain": {
+          "observed": 0.0035173604668781292,
+          "ci95": [
+            -0.08215721122953654,
+            0.10205668903253731
+          ],
+          "probability_positive": 0.5117
+        },
+        "mismatched_skill_minus_plain__margin_gain": {
+          "observed": 0.09264057801684848,
+          "ci95": [
+            -0.03230764912517244,
+            0.23402822430689169
+          ],
+          "probability_positive": 0.9235
+        },
+        "mismatched_skill_minus_plain__gradient_cosine": {
+          "observed": 0.01536910869914268,
+          "ci95": [
+            -0.0015444334981554312,
+            0.03402482012476639
+          ],
+          "probability_positive": 0.959
+        },
+        "reformatted_skill_minus_plain__correct": {
+          "observed": 0.0056925996204933585,
+          "ci95": [
+            -0.023217261904761904,
+            0.03768962738219397
+          ],
+          "probability_positive": 0.6203
+        },
+        "reformatted_skill_minus_plain__gold_logp_gain": {
+          "observed": 0.08763898739353458,
+          "ci95": [
+            -0.017021752606949256,
+            0.21848694006368888
+          ],
+          "probability_positive": 0.94
+        },
+        "reformatted_skill_minus_plain__margin_gain": {
+          "observed": 0.17571442260779577,
+          "ci95": [
+            0.0019323793656439224,
+            0.3772963379654345
+          ],
+          "probability_positive": 0.977
+        },
+        "reformatted_skill_minus_plain__gradient_cosine": {
+          "observed": 0.027896882507243755,
+          "ci95": [
+            0.006423848674336322,
+            0.0566340105862665
+          ],
+          "probability_positive": 0.9982
+        },
+        "anti_skill_minus_plain__correct": {
+          "observed": -0.0018975332068311196,
+          "ci95": [
+            -0.03754283074100555,
+            0.037453737561775585
+          ],
+          "probability_positive": 0.436
+        },
+        "anti_skill_minus_plain__gold_logp_gain": {
+          "observed": 0.09500190063830963,
+          "ci95": [
+            -0.03261099578419163,
+            0.2526827350454097
+          ],
+          "probability_positive": 0.9093
+        },
+        "anti_skill_minus_plain__margin_gain": {
+          "observed": 0.26904411822678326,
+          "ci95": [
+            0.08314153541105432,
+            0.503226714988325
+          ],
+          "probability_positive": 0.9994
+        },
+        "anti_skill_minus_plain__gradient_cosine": {
+          "observed": 0.01521268448464738,
+          "ci95": [
+            -0.00014703548199794208,
+            0.034788163933297034
+          ],
+          "probability_positive": 0.9737
+        },
+        "task_only_skill_minus_plain__correct": {
+          "observed": 0.013282732447817837,
+          "ci95": [
+            -0.018148895198049752,
+            0.04797071266167207
+          ],
+          "probability_positive": 0.7781
+        },
+        "task_only_skill_minus_plain__gold_logp_gain": {
+          "observed": 0.21061586239752358,
+          "ci95": [
+            0.05908547059669441,
+            0.3997751909879802
+          ],
+          "probability_positive": 0.9992
+        },
+        "task_only_skill_minus_plain__margin_gain": {
+          "observed": 0.2855740194911346,
+          "ci95": [
+            0.05571250744807275,
+            0.5671766035581228
+          ],
+          "probability_positive": 0.9949
+        },
+        "task_only_skill_minus_plain__gradient_cosine": {
+          "observed": 0.041810094354582286,
+          "ci95": [
+            0.01603710919304945,
+            0.07656749885723785
+          ],
+          "probability_positive": 1.0
+        },
+        "general_only_skill_minus_plain__correct": {
+          "observed": -0.017077798861480076,
+          "ci95": [
+            -0.04600062761506276,
+            0.011647448502689764
+          ],
+          "probability_positive": 0.1044
+        },
+        "general_only_skill_minus_plain__gold_logp_gain": {
+          "observed": 0.08312701174383481,
+          "ci95": [
+            -0.026124201801441413,
+            0.20666975133771712
+          ],
+          "probability_positive": 0.9222
+        },
+        "general_only_skill_minus_plain__margin_gain": {
+          "observed": 0.203194324317196,
+          "ci95": [
+            0.06038430394797607,
+            0.3723682961434478
+          ],
+          "probability_positive": 0.9995
+        },
+        "general_only_skill_minus_plain__gradient_cosine": {
+          "observed": 0.026732777200753663,
+          "ci95": [
+            0.005744018299982948,
+            0.050267387135625924
+          ],
+          "probability_positive": 0.996
+        },
+        "length_matched_placebo_minus_plain__correct": {
+          "observed": -0.020872865275142316,
+          "ci95": [
+            -0.04152837188073833,
+            0.0
+          ],
+          "probability_positive": 0.0179
+        },
+        "length_matched_placebo_minus_plain__gold_logp_gain": {
+          "observed": -0.03994331593151921,
+          "ci95": [
+            -0.09472885207588534,
+            0.02142496057876964
+          ],
+          "probability_positive": 0.0991
+        },
+        "length_matched_placebo_minus_plain__margin_gain": {
+          "observed": -0.01954567854964749,
+          "ci95": [
+            -0.09878443513320204,
+            0.0606011250471508
+          ],
+          "probability_positive": 0.3165
+        },
+        "length_matched_placebo_minus_plain__gradient_cosine": {
+          "observed": -0.009508916158876753,
+          "ci95": [
+            -0.01954210742893723,
+            0.0012853650329664851
+          ],
+          "probability_positive": 0.0417
+        },
+        "evolved_skill_minus_mismatched_skill__correct": {
+          "observed": 0.03984819734345351,
+          "ci95": [
+            0.006185248822705868,
+            0.07400555204160515
+          ],
+          "probability_positive": 0.9882
+        },
+        "evolved_skill_minus_mismatched_skill__gold_logp_gain": {
+          "observed": 0.14376359797557353,
+          "ci95": [
+            0.08116912190001324,
+            0.21437956819608298
+          ],
+          "probability_positive": 1.0
+        },
+        "evolved_skill_minus_mismatched_skill__margin_gain": {
+          "observed": 0.1869860686246539,
+          "ci95": [
+            0.09914067349410169,
+            0.2899082552111425
+          ],
+          "probability_positive": 1.0
+        },
+        "evolved_skill_minus_reformatted_skill__correct": {
+          "observed": -0.018975332068311195,
+          "ci95": [
+            -0.043290654731332694,
+            0.00390625
+          ],
+          "probability_positive": 0.0459
+        },
+        "evolved_skill_minus_reformatted_skill__gold_logp_gain": {
+          "observed": 0.059641971048917115,
+          "ci95": [
+            0.027907861432533786,
+            0.09408017362914178
+          ],
+          "probability_positive": 1.0
+        },
+        "evolved_skill_minus_reformatted_skill__margin_gain": {
+          "observed": 0.10391222403370662,
+          "ci95": [
+            0.04968711382486978,
+            0.15540326233406263
+          ],
+          "probability_positive": 1.0
+        },
+        "evolved_skill_minus_anti_skill__correct": {
+          "observed": -0.011385199240986717,
+          "ci95": [
+            -0.04291044776119403,
+            0.014185027020898671
+          ],
+          "probability_positive": 0.2046
+        },
+        "evolved_skill_minus_anti_skill__gold_logp_gain": {
+          "observed": 0.05227905780414207,
+          "ci95": [
+            0.026759725987739357,
+            0.0823971953698922
+          ],
+          "probability_positive": 1.0
+        },
+        "evolved_skill_minus_anti_skill__margin_gain": {
+          "observed": 0.010582528414719116,
+          "ci95": [
+            -0.04040400605821635,
+            0.0680634175844098
+          ],
+          "probability_positive": 0.6473
+        },
+        "evolved_skill_minus_task_only_skill__correct": {
+          "observed": -0.026565464895635674,
+          "ci95": [
+            -0.05961538461538462,
+            0.0018552875695732839
+          ],
+          "probability_positive": 0.0298
+        },
+        "evolved_skill_minus_task_only_skill__gold_logp_gain": {
+          "observed": -0.06333490395507192,
+          "ci95": [
+            -0.10758016080805309,
+            -0.025775232145222527
+          ],
+          "probability_positive": 0.0
+        },
+        "evolved_skill_minus_task_only_skill__margin_gain": {
+          "observed": -0.005947372849632236,
+          "ci95": [
+            -0.08393376488500723,
+            0.06371510643510278
+          ],
+          "probability_positive": 0.4494
+        },
+        "evolved_skill_minus_general_only_skill__correct": {
+          "observed": 0.003795066413662239,
+          "ci95": [
+            -0.02014717990942775,
+            0.03007518796992481
+          ],
+          "probability_positive": 0.5867
+        },
+        "evolved_skill_minus_general_only_skill__gold_logp_gain": {
+          "observed": 0.06415394669861686,
+          "ci95": [
+            0.017431942991826613,
+            0.1127860243068376
+          ],
+          "probability_positive": 0.9961
+        },
+        "evolved_skill_minus_general_only_skill__margin_gain": {
+          "observed": 0.07643232232430638,
+          "ci95": [
+            0.0028669872150542002,
+            0.1512245449237467
+          ],
+          "probability_positive": 0.9796
+        },
+        "evolved_skill_minus_length_matched_placebo__correct": {
+          "observed": 0.007590132827324478,
+          "ci95": [
+            -0.026144119619678857,
+            0.044363047834574246
+          ],
+          "probability_positive": 0.6324
+        },
+        "evolved_skill_minus_length_matched_placebo__gold_logp_gain": {
+          "observed": 0.1872242743739709,
+          "ci95": [
+            0.10408760462139237,
+            0.2924170616203708
+          ],
+          "probability_positive": 1.0
+        },
+        "evolved_skill_minus_length_matched_placebo__margin_gain": {
+          "observed": 0.29917232519114983,
+          "ci95": [
+            0.1649478522205095,
+            0.4551247452243089
+          ],
+          "probability_positive": 1.0
+        }
+      }
+    }
+  }
+}

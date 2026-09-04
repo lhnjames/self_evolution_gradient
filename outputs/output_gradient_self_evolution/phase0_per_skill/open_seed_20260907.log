@@ -1,0 +1,32 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:04<00:04,  4.99s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.56s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:07<00:00,  3.78s/it]
+cache source state=64
+cache source state=87
+cache source state=145
+cache source state=269
+cache source state=5
+cache source state=35
+cache source state=299
+cache source state=280
+cache source state=197
+cache source state=167
+cache source state=423
+cache source state=402
+cache transfer_validation state=112
+cache transfer_validation state=133
+cache transfer_validation state=382
+cache final_holdout state=241
+cache final_holdout state=225
+cache final_holdout state=431
+cache protection state=358
+cache protection state=313
+cache protection state=216
+{"epoch": 1, "mean_training_loss": 3.2266929149627686, "validation_updated_expected_value": 0.6011114529226097, "validation_relative_expected_value_gain": 0.043460285741716384, "validation_top_value_optimal_rate": 0.3333333333333333, "source_relative_expected_value_gain": 0.06293519375255004, "parameter_delta_l2_norm": 0.09264536201953888}
+{"epoch": 2, "mean_training_loss": 1.847623735666275, "validation_updated_expected_value": 0.6180501695810362, "validation_relative_expected_value_gain": 0.07286394797201372, "validation_top_value_optimal_rate": 0.6666666666666666, "source_relative_expected_value_gain": 0.11601038994204532, "parameter_delta_l2_norm": 0.14306044578552246}
+{"epoch": 3, "mean_training_loss": 1.287956416606903, "validation_updated_expected_value": 0.6263062568494323, "validation_relative_expected_value_gain": 0.08719556507613546, "validation_top_value_optimal_rate": 0.6666666666666666, "source_relative_expected_value_gain": 0.15787913760477582, "parameter_delta_l2_norm": 0.17958964407444}
+{"epoch": 4, "mean_training_loss": 0.9691384583711624, "validation_updated_expected_value": 0.6268967615142926, "validation_relative_expected_value_gain": 0.08822061319879416, "validation_top_value_optimal_rate": 0.3333333333333333, "source_relative_expected_value_gain": 0.1876744207140811, "parameter_delta_l2_norm": 0.2072318196296692}
+{"epoch": 5, "mean_training_loss": 0.7962912619113922, "validation_updated_expected_value": 0.6258347989309189, "validation_relative_expected_value_gain": 0.08637716840115052, "validation_top_value_optimal_rate": 0.3333333333333333, "source_relative_expected_value_gain": 0.20937762408401353, "parameter_delta_l2_norm": 0.22945617139339447}
+{"epoch": 6, "mean_training_loss": 0.6794441491365433, "validation_updated_expected_value": 0.6246478960864154, "validation_relative_expected_value_gain": 0.08431684169259795, "validation_top_value_optimal_rate": 0.3333333333333333, "source_relative_expected_value_gain": 0.22344019805986565, "parameter_delta_l2_norm": 0.24602612853050232}
+{"epoch": 7, "mean_training_loss": 0.6061854511499405, "validation_updated_expected_value": 0.6233672963932514, "validation_relative_expected_value_gain": 0.0820938680406192, "validation_top_value_optimal_rate": 0.3333333333333333, "source_relative_expected_value_gain": 0.23373032431715116, "parameter_delta_l2_norm": 0.2600126564502716}
+{"epoch": 8, "mean_training_loss": 0.5457725152373314, "validation_updated_expected_value": 0.6227823171609378, "validation_relative_expected_value_gain": 0.08107841143280524, "validation_top_value_optimal_rate": 0.3333333333333333, "source_relative_expected_value_gain": 0.24424703012453156, "parameter_delta_l2_norm": 0.2729463577270508}
+{"epoch": 9, "mean_training_loss": 0.4944022800773382, "validation_updated_expected_value": 0.6220181156318874, "validation_relative_expected_value_gain": 0.0797518455489077, "validation_top_value_optimal_rate": 0.3333333333333333, "source_relative_expected_value_gain": 0.2515938898488905, "parameter_delta_l2_norm": 0.2837488353252411}
+wrote outputs/output_gradient_self_evolution/phase0_per_skill/open_seed_20260907.json

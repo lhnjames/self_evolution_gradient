@@ -1,0 +1,1890 @@
+{
+  "experiment": "sequential_output_gradient_evolution_v1",
+  "strength": "1200x",
+  "steps": [
+    {
+      "experience_count": 1,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.009224346461802702,
+            "relative_expected_value_gain": 0.019012387889972053,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 4.92427553925677
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.2337943912487755,
+            "relative_expected_value_gain": -0.4134196429051203,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.3333333333333333,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 8.555036626182543
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.186513635771128,
+            "relative_expected_value_gain": 0.3691490609932508,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 6.194663836137123
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.12017833160885927,
+            "relative_expected_value_gain": 0.23217668955283985,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 5.86764444272553
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.02053048064825362,
+          "sample_std": 0.18465198899668311,
+          "minimum": -0.2337943912487755,
+          "maximum": 0.186513635771128
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.0517296238827356,
+          "sample_std": 0.34193103616996284,
+          "minimum": -0.4134196429051203,
+          "maximum": 0.3691490609932508
+        },
+        "positive_transfer_rate": {
+          "mean": 0.75,
+          "sample_std": 0.3191423692521127,
+          "minimum": 0.3333333333333333,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.5833333333333333,
+          "sample_std": 0.16666666666666666,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_harm_rate": {
+          "mean": 0.08333333333333333,
+          "sample_std": 0.16666666666666669,
+          "minimum": 0.0,
+          "maximum": 0.3333333333333333
+        },
+        "mean_kl": {
+          "mean": 6.385405111075492,
+          "sample_std": 1.5434440796094295,
+          "minimum": 4.92427553925677,
+          "maximum": 8.555036626182543
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.005345431849010707,
+            "relative_expected_value_gain": 0.006179830274669224,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 1.413584323025572
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.18965632207475758,
+            "relative_expected_value_gain": -0.23476177984175656,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 7.522119288124908
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.028785970854547926,
+            "relative_expected_value_gain": 0.032240202595585965,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 2.472334948806953
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.019648494123548854,
+            "relative_expected_value_gain": -0.023664845252237447,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 1.387057041233539
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": -0.04379335337368695,
+          "sample_std": 0.09923265320294548,
+          "minimum": -0.18965632207475758,
+          "maximum": 0.028785970854547926
+        },
+        "relative_expected_value_gain": {
+          "mean": -0.0550016480559347,
+          "sample_std": 0.12199728683517821,
+          "minimum": -0.23476177984175656,
+          "maximum": 0.032240202595585965
+        },
+        "positive_transfer_rate": {
+          "mean": 0.49999999999999994,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.5,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "mean_kl": {
+          "mean": 3.198773900297743,
+          "sample_std": 2.926217621031635,
+          "minimum": 1.387057041233539,
+          "maximum": 7.522119288124908
+        }
+      }
+    },
+    {
+      "experience_count": 2,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.14231024018824712,
+            "relative_expected_value_gain": 0.29331698439319903,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 6.208729532863995
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.11278492687383013,
+            "relative_expected_value_gain": 0.19943807866478563,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 0.9265656374549566
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1833603109855072,
+            "relative_expected_value_gain": 0.36290797905408856,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.411399043107366
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.11679660091423849,
+            "relative_expected_value_gain": 0.2256434066629449,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 6.87953523083981
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.13881301974045573,
+          "sample_std": 0.03244932471992285,
+          "minimum": 0.11278492687383013,
+          "maximum": 0.1833603109855072
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.27032661219375453,
+          "sample_std": 0.07330675218103053,
+          "minimum": 0.19943807866478563,
+          "maximum": 0.36290797905408856
+        },
+        "positive_transfer_rate": {
+          "mean": 0.9166666666666666,
+          "sample_std": 0.16666666666666669,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.8333333333333333,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "mean_kl": {
+          "mean": 5.356557361066532,
+          "sample_std": 2.9940418618607976,
+          "minimum": 0.9265656374549566,
+          "maximum": 7.411399043107366
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.00517518904028158,
+            "relative_expected_value_gain": 0.005983013311485289,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 3.5332838924768257
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.05034004814232673,
+            "relative_expected_value_gain": 0.0623122876681855,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 1.8334570182486238
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.017602942477839556,
+            "relative_expected_value_gain": 0.019715243742572254,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 4.995177161206415
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.027051896756072447,
+            "relative_expected_value_gain": -0.032581578338092575,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 1.290960547109647
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.011516570726093855,
+          "sample_std": 0.032000240235542335,
+          "minimum": -0.027051896756072447,
+          "maximum": 0.05034004814232673
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.013857241596037616,
+          "sample_std": 0.03916109952046201,
+          "minimum": -0.032581578338092575,
+          "maximum": 0.0623122876681855
+        },
+        "positive_transfer_rate": {
+          "mean": 0.5833333333333334,
+          "sample_std": 0.16666666666666666,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.41666666666666663,
+          "sample_std": 0.3191423692521127,
+          "minimum": 0.0,
+          "maximum": 0.6666666666666666
+        },
+        "mean_kl": {
+          "mean": 2.9132196547603777,
+          "sample_std": 1.6848974925401685,
+          "minimum": 1.290960547109647,
+          "maximum": 4.995177161206415
+        }
+      }
+    },
+    {
+      "experience_count": 3,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.18109596017702478,
+            "relative_expected_value_gain": 0.37325859934359545,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.119906637092429
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.12652775686275897,
+            "relative_expected_value_gain": 0.22373958494208174,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 6.122283663792268
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.18237620428017376,
+            "relative_expected_value_gain": 0.360960228345734,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.478994681494628
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.13416959616699564,
+            "relative_expected_value_gain": 0.25920689911123757,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.270259102912821
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.1560423793717383,
+          "sample_std": 0.029836687888372026,
+          "minimum": 0.12652775686275897,
+          "maximum": 0.18237620428017376
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.30429132793566216,
+          "sample_std": 0.07413734511223209,
+          "minimum": 0.22373958494208174,
+          "maximum": 0.37325859934359545
+        },
+        "positive_transfer_rate": {
+          "mean": 1.0,
+          "sample_std": 0.0,
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.8333333333333333,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "mean_kl": {
+          "mean": 7.497861021323037,
+          "sample_std": 1.0477880999252616,
+          "minimum": 6.122283663792268,
+          "maximum": 8.478994681494628
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.009096566166779452,
+            "relative_expected_value_gain": 0.010516500178259561,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 1.3504864530997125
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.049284112225878474,
+            "relative_expected_value_gain": 0.061005221326118,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 4.312472664875667
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.014824415149020331,
+            "relative_expected_value_gain": 0.016603301315785864,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 4.656964467616411
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.027705466628176967,
+            "relative_expected_value_gain": -0.03336874450907874,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 1.4989129884133263
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.011374906728375322,
+          "sample_std": 0.03152498156065101,
+          "minimum": -0.027705466628176967,
+          "maximum": 0.049284112225878474
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.013689069577771173,
+          "sample_std": 0.03860834981418176,
+          "minimum": -0.03336874450907874,
+          "maximum": 0.061005221326118
+        },
+        "positive_transfer_rate": {
+          "mean": 0.6666666666666666,
+          "sample_std": 0.2721655269759087,
+          "minimum": 0.3333333333333333,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.41666666666666663,
+          "sample_std": 0.3191423692521127,
+          "minimum": 0.0,
+          "maximum": 0.6666666666666666
+        },
+        "mean_kl": {
+          "mean": 2.9547091435012796,
+          "sample_std": 1.7733271792519842,
+          "minimum": 1.3504864530997125,
+          "maximum": 4.656964467616411
+        }
+      }
+    },
+    {
+      "experience_count": 4,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.18054384775096577,
+            "relative_expected_value_gain": 0.3721206351911675,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.014878743051941
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.129738359308603,
+            "relative_expected_value_gain": 0.22941690726611802,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 5.918982964525296
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.18191189824878784,
+            "relative_expected_value_gain": 0.3600412706792289,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.634998859157939
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1623223933489777,
+            "relative_expected_value_gain": 0.313596265013229,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.297230679505148
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.16362912466433358,
+          "sample_std": 0.02429443825354263,
+          "minimum": 0.129738359308603,
+          "maximum": 0.18191189824878784
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.3187937695374359,
+          "sample_std": 0.06470535401247368,
+          "minimum": 0.22941690726611802,
+          "maximum": 0.3721206351911675
+        },
+        "positive_transfer_rate": {
+          "mean": 1.0,
+          "sample_std": 0.0,
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.8333333333333333,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "mean_kl": {
+          "mean": 7.466522811560081,
+          "sample_std": 1.167557265626026,
+          "minimum": 5.918982964525296,
+          "maximum": 8.634998859157939
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.007862623991775175,
+            "relative_expected_value_gain": 0.00908994505125071,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 1.969509103673987
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.05428334602958207,
+            "relative_expected_value_gain": 0.0671934095856157,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 5.726346867826812
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.012365915985865228,
+            "relative_expected_value_gain": 0.013849789492206836,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 4.308409651460182
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.02891759615233047,
+            "relative_expected_value_gain": -0.03482864558009171,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 1.9721461846474664
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.011398572463723,
+          "sample_std": 0.03404867075603765,
+          "minimum": -0.02891759615233047,
+          "maximum": 0.05428334602958207
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.013826124637245385,
+          "sample_std": 0.04178431015249057,
+          "minimum": -0.03482864558009171,
+          "maximum": 0.0671934095856157
+        },
+        "positive_transfer_rate": {
+          "mean": 0.5833333333333334,
+          "sample_std": 0.16666666666666666,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.5,
+          "sample_std": 0.19245008972987523,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "mean_kl": {
+          "mean": 3.4941029519021116,
+          "sample_std": 1.8517331615341026,
+          "minimum": 1.969509103673987,
+          "maximum": 5.726346867826812
+        }
+      }
+    },
+    {
+      "experience_count": 5,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.17904712815188406,
+            "relative_expected_value_gain": 0.3690357322445902,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.590820150170779
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.12890312201204623,
+            "relative_expected_value_gain": 0.22793995350756482,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 6.29940625440696
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.18239836668924836,
+            "relative_expected_value_gain": 0.36100409233704706,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 9.26314852375266
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1461306988693588,
+            "relative_expected_value_gain": 0.2823149685249045,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.664102105764219
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.15911982893063437,
+          "sample_std": 0.025953512615090726,
+          "minimum": 0.12890312201204623,
+          "maximum": 0.18239836668924836
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.31007368665352664,
+          "sample_std": 0.06729766116789643,
+          "minimum": 0.22793995350756482,
+          "maximum": 0.3690357322445902
+        },
+        "positive_transfer_rate": {
+          "mean": 1.0,
+          "sample_std": 0.0,
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.8333333333333333,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "mean_kl": {
+          "mean": 7.704369258523655,
+          "sample_std": 1.2135661888615128,
+          "minimum": 6.29940625440696,
+          "maximum": 9.26314852375266
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 6.480832366273503e-05,
+            "relative_expected_value_gain": 7.492461824120987e-05,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 2.641508839863999
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.05670445526250134,
+            "relative_expected_value_gain": 0.07019032477670223,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 5.871395535817691
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.013104272726828459,
+            "relative_expected_value_gain": 0.014676746867963025,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 3.951372981710593
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.02881143906430006,
+            "relative_expected_value_gain": -0.0347007889084877,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 1.798781758379177
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.010265524312173119,
+          "sample_std": 0.035570102022979624,
+          "minimum": -0.02881143906430006,
+          "maximum": 0.05670445526250134
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.012560301838604692,
+          "sample_std": 0.043647047347052846,
+          "minimum": -0.0347007889084877,
+          "maximum": 0.07019032477670223
+        },
+        "positive_transfer_rate": {
+          "mean": 0.5833333333333334,
+          "sample_std": 0.16666666666666666,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.5,
+          "sample_std": 0.19245008972987523,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "mean_kl": {
+          "mean": 3.565764778942865,
+          "sample_std": 1.7739884356041589,
+          "minimum": 1.798781758379177,
+          "maximum": 5.871395535817691
+        }
+      }
+    },
+    {
+      "experience_count": 6,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1822372835504874,
+            "relative_expected_value_gain": 0.3756109917622907,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.075394029257058
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1289037464906586,
+            "relative_expected_value_gain": 0.22794105777582188,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 6.299530707136
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.18225001203217328,
+            "relative_expected_value_gain": 0.36071046778714855,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.97986912928963
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.14610737639261429,
+            "relative_expected_value_gain": 0.28226991102268906,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.664373566018849
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.1598746046164834,
+          "sample_std": 0.0267673862012557,
+          "minimum": 0.1289037464906586,
+          "maximum": 0.18225001203217328
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.31163310708698755,
+          "sample_std": 0.06920576435970517,
+          "minimum": 0.22794105777582188,
+          "maximum": 0.3756109917622907
+        },
+        "positive_transfer_rate": {
+          "mean": 1.0,
+          "sample_std": 0.0,
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.8333333333333333,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "mean_kl": {
+          "mean": 7.754791857925384,
+          "sample_std": 1.114982893379085,
+          "minimum": 6.299530707136,
+          "maximum": 8.97986912928963
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.0008185028244978021,
+            "relative_expected_value_gain": 0.0009462675191846144,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 2.591998131840015
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.05671230798014437,
+            "relative_expected_value_gain": 0.07020004508525986,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 5.871219744795746
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.009522393497522486,
+            "relative_expected_value_gain": 0.010665052678135101,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 1.0,
+            "mean_kl": 3.8638258550103273
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.028771974882371043,
+            "relative_expected_value_gain": -0.03465325784821998,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 1.798177256640189
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.009570307354948404,
+          "sample_std": 0.035445240434550065,
+          "minimum": -0.028771974882371043,
+          "maximum": 0.05671230798014437
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.011789526858589897,
+          "sample_std": 0.043541404073652874,
+          "minimum": -0.03465325784821998,
+          "maximum": 0.07020004508525986
+        },
+        "positive_transfer_rate": {
+          "mean": 0.41666666666666663,
+          "sample_std": 0.16666666666666669,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.5833333333333333,
+          "sample_std": 0.3191423692521127,
+          "minimum": 0.3333333333333333,
+          "maximum": 1.0
+        },
+        "mean_kl": {
+          "mean": 3.5313052470715696,
+          "sample_std": 1.776869935148611,
+          "minimum": 1.798177256640189,
+          "maximum": 5.871219744795746
+        }
+      }
+    },
+    {
+      "experience_count": 7,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1822348589116093,
+            "relative_expected_value_gain": 0.3756059943161264,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.06994542055163
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1342437100141145,
+            "relative_expected_value_gain": 0.2373837385912243,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 6.424764480196369
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.19307824211484048,
+            "relative_expected_value_gain": 0.3821417746763697,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.18189406104284
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.13859296679111321,
+            "relative_expected_value_gain": 0.267752562330423,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.894896482640223
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.16203744445791937,
+          "sample_std": 0.0299644337907135,
+          "minimum": 0.1342437100141145,
+          "maximum": 0.19307824211484048
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.31572101747853587,
+          "sample_std": 0.07401718131699175,
+          "minimum": 0.2373837385912243,
+          "maximum": 0.3821417746763697
+        },
+        "positive_transfer_rate": {
+          "mean": 1.0,
+          "sample_std": 0.0,
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.8333333333333333,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "mean_kl": {
+          "mean": 7.642875111107766,
+          "sample_std": 0.820617401400931,
+          "minimum": 6.424764480196369,
+          "maximum": 8.18189406104284
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.0008064080082782477,
+            "relative_expected_value_gain": 0.0009322847552936117,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 2.582533192909041
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.05848905250598779,
+            "relative_expected_value_gain": 0.07239934802780393,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 6.731815127834487
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.010878498597739927,
+            "relative_expected_value_gain": 0.012183886397269857,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 1.0,
+            "mean_kl": 4.001180263808057
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.029794820232547425,
+            "relative_expected_value_gain": -0.03588518314370022,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 1.8901007723326482
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.010094784719864636,
+          "sample_std": 0.036606346841284276,
+          "minimum": -0.029794820232547425,
+          "maximum": 0.05848905250598779
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.012407584009166795,
+          "sample_std": 0.0449552949900839,
+          "minimum": -0.03588518314370022,
+          "maximum": 0.07239934802780393
+        },
+        "positive_transfer_rate": {
+          "mean": 0.41666666666666663,
+          "sample_std": 0.16666666666666669,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.5833333333333333,
+          "sample_std": 0.3191423692521127,
+          "minimum": 0.3333333333333333,
+          "maximum": 1.0
+        },
+        "mean_kl": {
+          "mean": 3.8014073392210586,
+          "sample_std": 2.1421131316329443,
+          "minimum": 1.8901007723326482,
+          "maximum": 6.731815127834487
+        }
+      }
+    },
+    {
+      "experience_count": 8,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1797282849096774,
+            "relative_expected_value_gain": 0.370439670891807,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.898957007685855
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.13701690275344958,
+            "relative_expected_value_gain": 0.24228758742129747,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 5.938286684305544
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1900889812989851,
+            "relative_expected_value_gain": 0.37622540926600895,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.492967593519074
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.13765146153169405,
+            "relative_expected_value_gain": 0.26593363564536976,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.061258071152398
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.16112140762345153,
+          "sample_std": 0.02779209558831482,
+          "minimum": 0.13701690275344958,
+          "maximum": 0.1900889812989851
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.3137215758061208,
+          "sample_std": 0.0695465633675285,
+          "minimum": 0.24228758742129747,
+          "maximum": 0.37622540926600895
+        },
+        "positive_transfer_rate": {
+          "mean": 1.0,
+          "sample_std": 0.0,
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.8333333333333333,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "mean_kl": {
+          "mean": 7.597867339165718,
+          "sample_std": 1.1344306023008903,
+          "minimum": 5.938286684305544,
+          "maximum": 8.492967593519074
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.0020311931345304846,
+            "relative_expected_value_gain": 0.0023482534584731217,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 2.857304559628417
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.05933184963721627,
+            "relative_expected_value_gain": 0.07344258535524052,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 6.7123037625271245
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.011817014666225756,
+            "relative_expected_value_gain": 0.01323502163047376,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 1.0,
+            "mean_kl": 3.911422535398159
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.030468656525105664,
+            "relative_expected_value_gain": -0.036696758396666834,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 2.5642927306346097
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.010677850228216712,
+          "sample_std": 0.03713178804835893,
+          "minimum": -0.030468656525105664,
+          "maximum": 0.05933184963721627
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.01308227551188014,
+          "sample_std": 0.045594450620203446,
+          "minimum": -0.036696758396666834,
+          "maximum": 0.07344258535524052
+        },
+        "positive_transfer_rate": {
+          "mean": 0.49999999999999994,
+          "sample_std": 0.19245008972987523,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.5833333333333333,
+          "sample_std": 0.3191423692521127,
+          "minimum": 0.3333333333333333,
+          "maximum": 1.0
+        },
+        "mean_kl": {
+          "mean": 4.011330897047078,
+          "sample_std": 1.8912898899337767,
+          "minimum": 2.5642927306346097,
+          "maximum": 6.7123037625271245
+        }
+      }
+    },
+    {
+      "experience_count": 9,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.17763451352123116,
+            "relative_expected_value_gain": 0.36612417884530757,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.6302460187430645
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.13690513710273966,
+            "relative_expected_value_gain": 0.242089951733124,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 5.891872062723287
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1935553880170322,
+            "relative_expected_value_gain": 0.38308614510281397,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.634891726974205
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.13618768684207805,
+            "relative_expected_value_gain": 0.26310571852306863,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.959984078371032
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.16107068137077027,
+          "sample_std": 0.029056001376006127,
+          "minimum": 0.13618768684207805,
+          "maximum": 0.1935553880170322
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.31360149855107855,
+          "sample_std": 0.07129860489669033,
+          "minimum": 0.242089951733124,
+          "maximum": 0.38308614510281397
+        },
+        "positive_transfer_rate": {
+          "mean": 1.0,
+          "sample_std": 0.0,
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.8333333333333333,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "mean_kl": {
+          "mean": 7.529248471702897,
+          "sample_std": 1.1689285949064347,
+          "minimum": 5.891872062723287,
+          "maximum": 8.634891726974205
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.0036434621926166866,
+            "relative_expected_value_gain": 0.004212190632775985,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 3.504033303332315
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.05899086037850876,
+            "relative_expected_value_gain": 0.07302049952965152,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 6.811801032820053
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.014346491723590149,
+            "relative_expected_value_gain": 0.016068028486569786,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 3.7749465380269736
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.031329332636249485,
+            "relative_expected_value_gain": -0.03773336541878489,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 2.536693612157036
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.011412870414616527,
+          "sample_std": 0.03723587378120832,
+          "minimum": -0.031329332636249485,
+          "maximum": 0.05899086037850876
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.013891838307553101,
+          "sample_std": 0.04567928640900108,
+          "minimum": -0.03773336541878489,
+          "maximum": 0.07302049952965152
+        },
+        "positive_transfer_rate": {
+          "mean": 0.49999999999999994,
+          "sample_std": 0.19245008972987523,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.5,
+          "sample_std": 0.19245008972987523,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "mean_kl": {
+          "mean": 4.156868621584095,
+          "sample_std": 1.8480342348983207,
+          "minimum": 2.536693612157036,
+          "maximum": 6.811801032820053
+        }
+      }
+    },
+    {
+      "experience_count": 10,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.17667186160228965,
+            "relative_expected_value_gain": 0.36414004785437715,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.513136104004182
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.137421561590781,
+            "relative_expected_value_gain": 0.24300314741028775,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 5.99650343809678
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.19098329791304913,
+            "relative_expected_value_gain": 0.3779954468128482,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.749791879114879
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.13419618884581286,
+            "relative_expected_value_gain": 0.2592582744303277,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.082575479474919
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.15981822748798316,
+          "sample_std": 0.02836315746968241,
+          "minimum": 0.13419618884581286,
+          "maximum": 0.19098329791304913
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.3110992291269602,
+          "sample_std": 0.0697925337959452,
+          "minimum": 0.24300314741028775,
+          "maximum": 0.3779954468128482
+        },
+        "positive_transfer_rate": {
+          "mean": 1.0,
+          "sample_std": 0.0,
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.8333333333333333,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "mean_kl": {
+          "mean": 7.585501725172691,
+          "sample_std": 1.1737129432190987,
+          "minimum": 5.99650343809678,
+          "maximum": 8.749791879114879
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.004113739734319499,
+            "relative_expected_value_gain": 0.00475587643250233,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 3.609080414732038
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.05892466228065074,
+            "relative_expected_value_gain": 0.07293855771455526,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 6.761697297960265
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.014699040315999223,
+            "relative_expected_value_gain": 0.016462881871973718,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 3.7152656366648764
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.03144913058504084,
+            "relative_expected_value_gain": -0.037877651281195336,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 2.405439662438853
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.011572077936482156,
+          "sample_std": 0.03723124283530665,
+          "minimum": -0.03144913058504084,
+          "maximum": 0.05892466228065074
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.014069916184458993,
+          "sample_std": 0.045667436766549295,
+          "minimum": -0.037877651281195336,
+          "maximum": 0.07293855771455526
+        },
+        "positive_transfer_rate": {
+          "mean": 0.49999999999999994,
+          "sample_std": 0.19245008972987523,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.5,
+          "sample_std": 0.19245008972987523,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "mean_kl": {
+          "mean": 4.122870752949008,
+          "sample_std": 1.8567980977813265,
+          "minimum": 2.405439662438853,
+          "maximum": 6.761697297960265
+        }
+      }
+    },
+    {
+      "experience_count": 11,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.17431341822313462,
+            "relative_expected_value_gain": 0.35927903786015053,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.469582310115171
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.13795274792804402,
+            "relative_expected_value_gain": 0.24394244652988759,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 6.205034451247322
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.19108390661515018,
+            "relative_expected_value_gain": 0.3781945722427654,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.759691007495062
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.13078403569084596,
+            "relative_expected_value_gain": 0.25266621733349665,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.05271622318872
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.1585335271142937,
+          "sample_std": 0.028879836767947184,
+          "minimum": 0.13078403569084596,
+          "maximum": 0.19108390661515018
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.30852056849157505,
+          "sample_std": 0.0700498189166111,
+          "minimum": 0.24394244652988759,
+          "maximum": 0.3781945722427654
+        },
+        "positive_transfer_rate": {
+          "mean": 1.0,
+          "sample_std": 0.0,
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.8333333333333333,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "mean_kl": {
+          "mean": 7.621755998011569,
+          "sample_std": 1.0818009018679624,
+          "minimum": 6.205034451247322,
+          "maximum": 8.759691007495062
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.004515422135288993,
+            "relative_expected_value_gain": 0.005220259691410123,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 3.7118949196541866
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.05982214963752752,
+            "relative_expected_value_gain": 0.07404949209829184,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 6.710427141128193
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.015138179046171651,
+            "relative_expected_value_gain": 0.016954715956704287,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 3.7158689947080386
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.032050969615276204,
+            "relative_expected_value_gain": -0.038602512302488914,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 2.438764878061694
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.01185619530092799,
+          "sample_std": 0.037829575177687425,
+          "minimum": -0.032050969615276204,
+          "maximum": 0.05982214963752752
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.014405488860979334,
+          "sample_std": 0.04639727830811444,
+          "minimum": -0.038602512302488914,
+          "maximum": 0.07404949209829184
+        },
+        "positive_transfer_rate": {
+          "mean": 0.49999999999999994,
+          "sample_std": 0.19245008972987523,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.5,
+          "sample_std": 0.19245008972987523,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "mean_kl": {
+          "mean": 4.144238983388028,
+          "sample_std": 1.813319775210843,
+          "minimum": 2.438764878061694,
+          "maximum": 6.710427141128193
+        }
+      }
+    },
+    {
+      "experience_count": 12,
+      "same_skill_holdout": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.16999168255156671,
+            "relative_expected_value_gain": 0.3503714675205039,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.3274431312195105
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1379724061089016,
+            "relative_expected_value_gain": 0.24397720817693522,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 1.0,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 6.205634159255563
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.1888454308170855,
+            "relative_expected_value_gain": 0.3737641656642046,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 8.819631693884848
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.13001931085890017,
+            "relative_expected_value_gain": 0.2511888188913391,
+            "positive_transfer_rate": 1.0,
+            "top_value_repair_rate": 0.6666666666666666,
+            "top_value_harm_rate": 0.0,
+            "mean_kl": 7.916720170752671
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.1567072075841135,
+          "sample_std": 0.02752319800740511,
+          "minimum": 0.13001931085890017,
+          "maximum": 0.1888454308170855
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.30482541506324573,
+          "sample_std": 0.06684904127721393,
+          "minimum": 0.24397720817693522,
+          "maximum": 0.3737641656642046
+        },
+        "positive_transfer_rate": {
+          "mean": 1.0,
+          "sample_std": 0.0,
+          "minimum": 1.0,
+          "maximum": 1.0
+        },
+        "top_value_repair_rate": {
+          "mean": 0.8333333333333333,
+          "sample_std": 0.19245008972987526,
+          "minimum": 0.6666666666666666,
+          "maximum": 1.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "mean_kl": {
+          "mean": 7.567357288778148,
+          "sample_std": 1.0957637052851519,
+          "minimum": 6.205634159255563,
+          "maximum": 8.819631693884848
+        }
+      },
+      "protection_test": {
+        "runs": 4,
+        "per_run": [
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.0045719084371389496,
+            "relative_expected_value_gain": 0.005285563256797654,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 3.7894889443675344
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.05987526287726985,
+            "relative_expected_value_gain": 0.07411523711832949,
+            "positive_transfer_rate": 0.6666666666666666,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.3333333333333333,
+            "mean_kl": 6.710259185460085
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": 0.013854278538450004,
+            "relative_expected_value_gain": 0.015516751168555349,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 3.734538184883951
+          },
+          {
+            "count": 3,
+            "absolute_expected_value_gain": -0.03212059887920815,
+            "relative_expected_value_gain": -0.03868637449292527,
+            "positive_transfer_rate": 0.3333333333333333,
+            "top_value_repair_rate": 0.0,
+            "top_value_harm_rate": 0.6666666666666666,
+            "mean_kl": 2.6706631714389264
+          }
+        ],
+        "absolute_expected_value_gain": {
+          "mean": 0.011545212743412664,
+          "sample_std": 0.0378437824413164,
+          "minimum": -0.03212059887920815,
+          "maximum": 0.05987526287726985
+        },
+        "relative_expected_value_gain": {
+          "mean": 0.014057794262689305,
+          "sample_std": 0.046432475604017844,
+          "minimum": -0.03868637449292527,
+          "maximum": 0.07411523711832949
+        },
+        "positive_transfer_rate": {
+          "mean": 0.49999999999999994,
+          "sample_std": 0.19245008972987523,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "top_value_repair_rate": {
+          "mean": 0.0,
+          "sample_std": 0.0,
+          "minimum": 0.0,
+          "maximum": 0.0
+        },
+        "top_value_harm_rate": {
+          "mean": 0.5,
+          "sample_std": 0.19245008972987523,
+          "minimum": 0.3333333333333333,
+          "maximum": 0.6666666666666666
+        },
+        "mean_kl": {
+          "mean": 4.226237371537624,
+          "sample_std": 1.7342330430526312,
+          "minimum": 2.6706631714389264,
+          "maximum": 6.710259185460085
+        }
+      }
+    }
+  ]
+}

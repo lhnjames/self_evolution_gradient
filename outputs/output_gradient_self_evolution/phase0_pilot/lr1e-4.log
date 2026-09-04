@@ -1,0 +1,67 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.60it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.14it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:00<00:00,  2.03it/s]
+cache source state=91
+cache source state=169
+cache source state=416
+cache source state=128
+cache source state=187
+cache source state=231
+cache source state=24
+cache source state=46
+cache source state=147
+cache source state=257
+cache source state=384
+cache source state=244
+cache source state=5
+cache source state=375
+cache source state=188
+cache source state=420
+cache source state=237
+cache source state=170
+cache source state=225
+cache source state=263
+cache source state=35
+cache source state=129
+cache source state=87
+cache source state=145
+cache source state=21
+cache source state=389
+cache source state=146
+cache source state=424
+cache source state=270
+cache source state=168
+cache source state=226
+cache source state=242
+cache source state=42
+cache source state=195
+cache source state=88
+cache source state=130
+cache transfer_validation state=102
+cache transfer_validation state=430
+cache transfer_validation state=66
+cache transfer_validation state=115
+cache transfer_validation state=67
+cache transfer_validation state=431
+cache transfer_validation state=109
+cache transfer_validation state=432
+cache transfer_validation state=65
+cache final_holdout state=279
+cache final_holdout state=298
+cache final_holdout state=405
+cache final_holdout state=280
+cache final_holdout state=402
+cache final_holdout state=303
+cache final_holdout state=285
+cache final_holdout state=300
+cache final_holdout state=403
+cache protection state=322
+cache protection state=216
+cache protection state=202
+cache protection state=57
+cache protection state=363
+cache protection state=222
+cache protection state=398
+cache protection state=317
+cache protection state=80
+{"epoch": 1, "mean_training_loss": 2.9566131830215454, "validation_updated_expected_value": 0.5681640164336591, "validation_relative_expected_value_gain": 0.033183744837939316, "validation_top_value_optimal_rate": 0.0, "source_relative_expected_value_gain": 0.03780532942868043, "parameter_delta_l2_norm": 0.02335144393146038}
+{"epoch": 2, "mean_training_loss": 2.557353973388672, "validation_updated_expected_value": 0.578703078886758, "validation_relative_expected_value_gain": 0.05234861219564717, "validation_top_value_optimal_rate": 0.0, "source_relative_expected_value_gain": 0.0690738118536673, "parameter_delta_l2_norm": 0.04346878081560135}
+wrote outputs/output_gradient_self_evolution/phase0_pilot/lr1e-4.json

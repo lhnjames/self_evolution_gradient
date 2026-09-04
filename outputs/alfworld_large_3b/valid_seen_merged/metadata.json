@@ -1,0 +1,7 @@
+{
+  "shards": [
+    "outputs/alfworld_large_3b/valid_seen_shard_3",
+    "outputs/alfworld_large_3b/valid_seen_shard_4"
+  ],
+  "decisions": 444
+}

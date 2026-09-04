@@ -1,0 +1,65 @@
+# ============================================================================
+# CoEvoKG training example configuration
+# ============================================================================
+# Usage:
+#   bash examples/train_covkg_example.sh
+#
+# This is the only Hydra entry config kept in the release package. It provides
+# a conservative 7B-scale example. For other models or hardware, pass Hydra
+# overrides after the launch script instead of adding new config files.
+# ============================================================================
+
+hydra:
+  searchpath:
+    - pkg://verl.trainer.config
+
+defaults:
+  - ppo_trainer
+  - base
+  - _self_
+
+data:
+  max_response_length: 4096
+
+actor_rollout_ref:
+  actor:
+    optim:
+      warmup_style: cosine
+      min_lr_ratio: 0.2
+    ppo_mini_batch_size: 32
+    ppo_micro_batch_size_per_gpu: 4
+    ppo_max_token_len_per_gpu: 10000
+    grad_clip: 2.5
+    kl_loss_coef: 0.01
+    entropy_coeff: 0.01
+    fsdp_config:
+      param_offload: false
+
+  rollout:
+    gpu_memory_utilization: 0.5
+
+trainer:
+  project_name: coevokg-example
+  experiment_name: coevokg_example
+
+api:
+  judge_max_workers: 16
+
+self_play:
+  adaptive_kl:
+    target_kl_loss: 0.20
+    init_kl_coef: 0.02
+    min_kl_coef: 0.01
+    max_kl_coef: 0.30
+
+  proposer:
+    reward_type: bell_curriculum
+    curriculum:
+      start_target_acc: 0.55
+      end_target_acc: 0.40
+      sigma: 0.20
+
+  solver:
+    format_coef_start: 0.0
+    format_coef_end: 0.0
+    format_anneal_steps: 0

@@ -1,0 +1,63 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.02it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.38it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.31it/s]
+cached source 171
+cached source 195
+cached source 407
+cached source 65
+cached source 238
+cached source 21
+cached source 264
+cached source 226
+cached source 421
+cached source 146
+cached source 389
+cached source 51
+cached transfer_validation 285
+cached transfer_validation 304
+cached transfer_validation 134
+cached same_skill_holdout 88
+cached same_skill_holdout 432
+cached same_skill_holdout 116
+cached harm_validation 209
+cached harm_validation 362
+cached harm_validation 251
+cached protection_test 323
+cached protection_test 319
+cached protection_test 440
+cached protection_test 79
+cached protection_test 220
+cached protection_test 60
+cached protection_test 396
+cached protection_test 293
+cached protection_test 205
+evaluating 541 unique directions/doses
+evaluated panel 1/30
+evaluated panel 2/30
+evaluated panel 3/30
+evaluated panel 4/30
+evaluated panel 5/30
+evaluated panel 6/30
+evaluated panel 7/30
+evaluated panel 8/30
+evaluated panel 9/30
+evaluated panel 10/30
+evaluated panel 11/30
+evaluated panel 12/30
+evaluated panel 13/30
+evaluated panel 14/30
+evaluated panel 15/30
+evaluated panel 16/30
+evaluated panel 17/30
+evaluated panel 18/30
+evaluated panel 19/30
+evaluated panel 20/30
+evaluated panel 21/30
+evaluated panel 22/30
+evaluated panel 23/30
+evaluated panel 24/30
+evaluated panel 25/30
+evaluated panel 26/30
+evaluated panel 27/30
+evaluated panel 28/30
+evaluated panel 29/30
+evaluated panel 30/30
+wrote outputs/output_gradient_self_evolution/repair_space/local_slice_seed_20260921.json and outputs/output_gradient_self_evolution/repair_space/local_slice_seed_20260921.npz

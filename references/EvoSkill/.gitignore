@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+treasury_bulletins_parsed/
+*.skill
+*.log
+# Claude Code config (ignore most, but track program state)
+.claude/*
+!.claude/program.yaml
+!.claude/skills/
+results/
+DABstep-data/
+
+# Virtual environments
+.venv
+.env
+.DS_Store
+.dataset/
+
+# Cache
+.cache/
+*.txt
+output.txt
+tests/
+scratch/

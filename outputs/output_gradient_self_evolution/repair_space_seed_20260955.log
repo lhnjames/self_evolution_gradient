@@ -1,0 +1,69 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:05<00:05,  5.35s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.04s/it]Loading checkpoint shards: 100%|██████████| 2/2 [00:06<00:00,  3.39s/it]
+cached source 165
+cached source 285
+cached source 264
+cached source 33
+cached source 304
+cached source 21
+cached source 146
+cached source 192
+cached source 424
+cached source 380
+cached source 238
+cached source 65
+cached transfer_validation 432
+cached transfer_validation 407
+cached transfer_validation 134
+cached same_skill_holdout 88
+cached same_skill_holdout 113
+cached same_skill_holdout 226
+cached harm_validation 314
+cached harm_validation 296
+cached harm_validation 397
+cached protection_test 216
+cached protection_test 439
+cached protection_test 325
+cached protection_test 323
+cached protection_test 218
+cached protection_test 98
+cached protection_test 252
+cached protection_test 58
+cached protection_test 355
+candidate search rank=1/6
+candidate search rank=2/6
+candidate search rank=3/6
+candidate search rank=4/6
+candidate search rank=5/6
+candidate search rank=6/6
+evaluating 1083 unique directions/doses
+evaluated panel 1/30
+evaluated panel 2/30
+evaluated panel 3/30
+evaluated panel 4/30
+evaluated panel 5/30
+evaluated panel 6/30
+evaluated panel 7/30
+evaluated panel 8/30
+evaluated panel 9/30
+evaluated panel 10/30
+evaluated panel 11/30
+evaluated panel 12/30
+evaluated panel 13/30
+evaluated panel 14/30
+evaluated panel 15/30
+evaluated panel 16/30
+evaluated panel 17/30
+evaluated panel 18/30
+evaluated panel 19/30
+evaluated panel 20/30
+evaluated panel 21/30
+evaluated panel 22/30
+evaluated panel 23/30
+evaluated panel 24/30
+evaluated panel 25/30
+evaluated panel 26/30
+evaluated panel 27/30
+evaluated panel 28/30
+evaluated panel 29/30
+evaluated panel 30/30
+wrote outputs/output_gradient_self_evolution/repair_space_seed_20260955.json and outputs/output_gradient_self_evolution/repair_space_seed_20260955.npz

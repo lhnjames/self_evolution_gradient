@@ -1,0 +1,7 @@
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|█████     | 1/2 [00:00<00:00,  1.19it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.59it/s]Loading checkpoint shards: 100%|██████████| 2/2 [00:01<00:00,  1.51it/s]
+{
+  "direct_vs_factorized_gradient": 0.0,
+  "writeback_vs_matrix_virtual_logits": 0.000110626220703125,
+  "matrix_vs_atom_factorized_logits": 4.57763671875e-05,
+  "writeback_vs_virtual_action_scores": 0.0001068115234375
+}
